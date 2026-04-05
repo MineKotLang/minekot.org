@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MineKot Docs</title>
     <meta name="description" content="MineKot docs browser." />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("minekot.theme");
+          var theme = stored === "light" || stored === "dark" ? stored : "dark";
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (error) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
     <link rel="stylesheet" href="styles.css" />
     <script defer src="app.js"></script>
   </head>
@@ -17,8 +28,8 @@
             <span>MineKot</span>
           </a>
           <nav class="nav" aria-label="Main">
-            <a href="index.html">Home</a>
-            <a href="docs.html" aria-current="page">Docs</a>
+            <a href="index.html" data-theme-nav>Home</a>
+            <a href="docs.html" aria-current="page" data-theme-nav>Docs</a>
             <button type="button" class="btn" data-theme-toggle>Light mode</button>
           </nav>
         </div>
@@ -162,3 +173,4 @@
     </div>
   </body>
 </html>
+

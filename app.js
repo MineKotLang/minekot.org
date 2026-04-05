@@ -2,22 +2,78 @@ const STORAGE_KEYS = {
   theme: "minekot.theme",
 };
 
-function ensureTheme() {
-  const stored = localStorage.getItem(STORAGE_KEYS.theme) || "dark";
-  document.documentElement.dataset.theme = stored;
+function getThemeFromQuery() {
+  const params = new URLSearchParams(window.location.search);
+  const theme = params.get("theme");
+  return theme === "light" || theme === "dark" ? theme : null;
 }
 
-function setTheme(theme) {
+function applyTheme(theme) {
   document.documentElement.dataset.theme = theme;
-  localStorage.setItem(STORAGE_KEYS.theme, theme);
+  if (document.body) {
+    document.body.dataset.theme = theme;
+  }
+}
+
+function ensureTheme() {
+  const queryTheme = getThemeFromQuery();
+  if (queryTheme) {
+    applyTheme(queryTheme);
+    localStorage.setItem(STORAGE_KEYS.theme, queryTheme);
+    return;
+  }
+
+  const stored = localStorage.getItem(STORAGE_KEYS.theme);
+  const theme = stored === "light" || stored === "dark" ? stored : "dark";
+  applyTheme(theme);
+  if (stored !== theme) {
+    localStorage.setItem(STORAGE_KEYS.theme, theme);
+  }
+}
+
+function updateThemeToggleLabels(theme) {
   document.querySelectorAll("[data-theme-toggle]").forEach((button) => {
     button.textContent = theme === "dark" ? "Light mode" : "Dark mode";
   });
 }
 
+function syncThemeNavigationLinks(theme) {
+  document.querySelectorAll("[data-theme-nav]").forEach((link) => {
+    const href = link.getAttribute("href") || "";
+    const [path, queryString = ""] = href.split("?");
+    const params = new URLSearchParams(queryString);
+    params.set("theme", theme);
+    link.setAttribute("href", `${path}?${params.toString()}`);
+  });
+}
+
+function setTheme(theme) {
+  applyTheme(theme);
+  localStorage.setItem(STORAGE_KEYS.theme, theme);
+  updateThemeToggleLabels(theme);
+  syncThemeNavigationLinks(theme);
+}
+
 function toggleTheme() {
   const nextTheme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
   setTheme(nextTheme);
+}
+
+function syncThemeFromStorage() {
+  const queryTheme = getThemeFromQuery();
+  if (queryTheme) {
+    applyTheme(queryTheme);
+    localStorage.setItem(STORAGE_KEYS.theme, queryTheme);
+    updateThemeToggleLabels(queryTheme);
+    syncThemeNavigationLinks(queryTheme);
+    return;
+  }
+
+  const stored = localStorage.getItem(STORAGE_KEYS.theme);
+  const theme = stored === "light" || stored === "dark" ? stored : "dark";
+  applyTheme(theme);
+  updateThemeToggleLabels(theme);
+  syncThemeNavigationLinks(theme);
 }
 
 function copyText(text) {
@@ -49,7 +105,12 @@ async function copyFromButton(button, selector) {
 }
 
 function getDocShareLink(docId) {
-  return `/docs/?id=${docId}`;
+  const params = new URLSearchParams({ id: docId });
+  const theme = document.documentElement.dataset.theme;
+  if (theme === "light" || theme === "dark") {
+    params.set("theme", theme);
+  }
+  return `docs.html?${params.toString()}`;
 }
 
 function getInitialDocId() {
@@ -220,10 +281,24 @@ function initDocs() {
 
 function boot() {
   ensureTheme();
+  const activeTheme = document.documentElement.dataset.theme;
+  updateThemeToggleLabels(activeTheme);
+  syncThemeNavigationLinks(activeTheme);
 
-  const toggleLabel = document.documentElement.dataset.theme === "dark" ? "Light mode" : "Dark mode";
-  document.querySelectorAll("[data-theme-toggle]").forEach((button) => {
-    button.textContent = toggleLabel;
+  // Keep theme synced if another tab/page changes it.
+  window.addEventListener("storage", (event) => {
+    if (event.key !== STORAGE_KEYS.theme || !event.newValue) return;
+    applyTheme(event.newValue);
+    updateThemeToggleLabels(event.newValue);
+    syncThemeNavigationLinks(event.newValue);
+  });
+
+  window.addEventListener("pageshow", syncThemeFromStorage);
+  window.addEventListener("focus", syncThemeFromStorage);
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") {
+      syncThemeFromStorage();
+    }
   });
 
   if (document.body.dataset.page === "home") {
