@@ -5,7 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MineKot Addons</title>
     <meta name="description" content="Browse MineKot addons." />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("minekot.theme");
+          var theme = stored === "light" || stored === "dark" ? stored : "dark";
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (error) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
     <link rel="stylesheet" href="../styles.css" />
+    <script defer src="../app.js"></script>
   </head>
   <body>
     <div class="shell">
@@ -16,9 +28,9 @@
             <span>MineKot</span>
           </a>
           <nav class="nav" aria-label="Main">
-            <a href="../index.html">Home</a>
-            <a href="../docs.html">Docs</a>
-            <a href="index.html" aria-current="page">Addons</a>
+            <a href="../index.html" data-theme-nav>Home</a>
+            <a href="../docs.html" data-theme-nav>Docs</a>
+            <a href="index.html" aria-current="page" data-theme-nav>Addons</a>
             <button type="button" class="btn" data-theme-toggle>Light mode</button>
           </nav>
         </div>
@@ -37,7 +49,7 @@
               <h2 class="card-title">PLACEHOLDER</h2>
               <p class="helper">PLACEHOLDER</p>
               <div class="search-row">
-                <a class="btn" href="0001.html">Open addon page</a>
+                <a class="btn" href="0001.html" data-theme-nav>Open addon page</a>
                 <a class="btn primary" href="https://example.com/download" target="_blank" rel="noopener noreferrer">Download</a>
               </div>
             </article>
@@ -46,7 +58,7 @@
               <h2 class="card-title">PLACEHOLDER</h2>
               <p class="helper">PLACEHOLDER</p>
               <div class="search-row">
-                <a class="btn" href="0002.html">Open addon page</a>
+                <a class="btn" href="0002.html" data-theme-nav>Open addon page</a>
                 <a class="btn primary" href="https://example.com/download" target="_blank" rel="noopener noreferrer">Download</a>
               </div>
             </article>
@@ -55,7 +67,7 @@
               <h2 class="card-title">PLACEHOLDER</h2>
               <p class="helper">PLACEHOLDER</p>
               <div class="search-row">
-                <a class="btn" href="0003.html">Open addon page</a>
+                <a class="btn" href="0003.html" data-theme-nav>Open addon page</a>
                 <a class="btn primary" href="https://example.com/download" target="_blank" rel="noopener noreferrer">Download</a>
               </div>
             </article>

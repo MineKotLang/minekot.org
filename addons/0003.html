@@ -5,7 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MineKot Addon</title>
     <meta name="description" content="Addon details and downloads." />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("minekot.theme");
+          var theme = stored === "light" || stored === "dark" ? stored : "dark";
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (error) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
     <link rel="stylesheet" href="../styles.css" />
+    <script defer src="../app.js"></script>
   </head>
   <body>
     <div class="shell">
@@ -16,9 +28,9 @@
             <span>MineKot</span>
           </a>
           <nav class="nav" aria-label="Main">
-            <a href="../index.html">Home</a>
-            <a href="../docs.html">Docs</a>
-            <a href="index.html">Addons</a>
+            <a href="../index.html" data-theme-nav>Home</a>
+            <a href="../docs.html" data-theme-nav>Docs</a>
+            <a href="index.html" data-theme-nav>Addons</a>
             <button type="button" class="btn" data-theme-toggle>Light mode</button>
           </nav>
         </div>
@@ -31,7 +43,7 @@
             <h1 class="workspace-title">PLACEHOLDER</h1>
             <p class="helper">PLACEHOLDER</p>
             <div class="search-row">
-              <a class="btn" href="index.html">Back to addons</a>
+              <a class="btn" href="index.html" data-theme-nav>Back to addons</a>
               <a class="btn primary" href="https://example.com/repository" target="_blank" rel="noopener noreferrer">Open source page</a>
               <a class="btn" href="https://example.com/download" target="_blank" rel="noopener noreferrer">Download addon</a>
             </div>

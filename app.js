@@ -2,6 +2,22 @@ const STORAGE_KEYS = {
   theme: "minekot.theme",
 };
 
+function readStoredTheme() {
+  try {
+    return localStorage.getItem(STORAGE_KEYS.theme);
+  } catch (error) {
+    return null;
+  }
+}
+
+function persistTheme(theme) {
+  try {
+    localStorage.setItem(STORAGE_KEYS.theme, theme);
+  } catch (error) {
+    // Ignore storage failures (private mode/restricted storage) and keep in-memory theme behavior.
+  }
+}
+
 function getThemeFromQuery() {
   const params = new URLSearchParams(window.location.search);
   const theme = params.get("theme");
@@ -19,15 +35,15 @@ function ensureTheme() {
   const queryTheme = getThemeFromQuery();
   if (queryTheme) {
     applyTheme(queryTheme);
-    localStorage.setItem(STORAGE_KEYS.theme, queryTheme);
+    persistTheme(queryTheme);
     return;
   }
 
-  const stored = localStorage.getItem(STORAGE_KEYS.theme);
+  const stored = readStoredTheme();
   const theme = stored === "light" || stored === "dark" ? stored : "dark";
   applyTheme(theme);
   if (stored !== theme) {
-    localStorage.setItem(STORAGE_KEYS.theme, theme);
+    persistTheme(theme);
   }
 }
 
@@ -49,7 +65,7 @@ function syncThemeNavigationLinks(theme) {
 
 function setTheme(theme) {
   applyTheme(theme);
-  localStorage.setItem(STORAGE_KEYS.theme, theme);
+  persistTheme(theme);
   updateThemeToggleLabels(theme);
   syncThemeNavigationLinks(theme);
 }
@@ -63,13 +79,13 @@ function syncThemeFromStorage() {
   const queryTheme = getThemeFromQuery();
   if (queryTheme) {
     applyTheme(queryTheme);
-    localStorage.setItem(STORAGE_KEYS.theme, queryTheme);
+    persistTheme(queryTheme);
     updateThemeToggleLabels(queryTheme);
     syncThemeNavigationLinks(queryTheme);
     return;
   }
 
-  const stored = localStorage.getItem(STORAGE_KEYS.theme);
+  const stored = readStoredTheme();
   const theme = stored === "light" || stored === "dark" ? stored : "dark";
   applyTheme(theme);
   updateThemeToggleLabels(theme);
@@ -105,12 +121,11 @@ async function copyFromButton(button, selector) {
 }
 
 function getDocShareLink(docId) {
-  const params = new URLSearchParams({ id: docId });
-  const theme = document.documentElement.dataset.theme;
-  if (theme === "light" || theme === "dark") {
-    params.set("theme", theme);
-  }
-  return `docs.html?${params.toString()}`;
+  const theme = document.documentElement.dataset.theme === "light" ? "light" : "dark";
+  const shareUrl = new URL("/docs.html", window.location.origin);
+  shareUrl.searchParams.set("id", String(docId));
+  shareUrl.searchParams.set("theme", theme);
+  return shareUrl.toString();
 }
 
 function getInitialDocId() {
