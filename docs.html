@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MineKot Docs</title>
+    <meta name="description" content="MineKot docs browser." />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body data-page="docs">
+    <div class="shell">
+      <header class="topbar">
+        <div class="container topbar-inner">
+          <a class="brand" href="index.html">
+            <span class="brand-mark"><img src="photos/icon.png" alt="MineKot icon" /></span>
+            <span>MineKot</span>
+          </a>
+          <nav class="nav" aria-label="Main">
+            <a href="index.html">Home</a>
+            <a href="docs.html" aria-current="page">Docs</a>
+            <button type="button" class="btn" data-theme-toggle>Light mode</button>
+          </nav>
+        </div>
+      </header>
+
+      <main class="page">
+        <div class="container docs-browser-shell">
+          <section class="panel docs-header fade-in">
+            <div class="search-row">
+              <input
+                class="search-input"
+                type="search"
+                placeholder="Search syntax, example, or descriptions"
+                aria-label="Search docs"
+                data-doc-search
+              />
+              <button type="button" class="btn" data-clear-search>Clear</button>
+            </div>
+            <div class="type-filter-row" role="tablist" aria-label="Syntax types">
+              <button type="button" class="type-chip is-active" data-type-filter="all">All</button>
+              <button type="button" class="type-chip" data-type-filter="Events">Events</button>
+              <button type="button" class="type-chip" data-type-filter="Conditions">Conditions</button>
+              <button type="button" class="type-chip" data-type-filter="Effects">Effects</button>
+              <button type="button" class="type-chip" data-type-filter="Expressions">Expressions</button>
+              <button type="button" class="type-chip" data-type-filter="Functions">Functions</button>
+            </div>
+          </section>
+
+          <section class="docs-list" data-doc-list>
+            <article id="doc-1" class="SyntaxItemCard panel fade-in" data-doc-card data-doc-id="1" data-syntax-type="Expressions" data-search-title="Placeholder Title 1" data-search-description="Placeholder description 1.">
+              <div class="syntax-card-head">
+                <div>
+                  <h3 class="syntaxtitle">Placeholder Title 1 <span class="syntaxtitletype">Expression</span></h3>
+                </div>
+                <button type="button" class="btn" data-copy-link>Copy link</button>
+              </div>
+              <pre class="code-block"><code id="doc-code-1" class="hljs">placeholder code 1</code></pre>
+              <div class="syntaxdescription"><p>Placeholder description 1.</p></div>
+              <div class="accordion-shell">
+                <button type="button" class="accordion-toggle" data-accordion-toggle aria-expanded="false">View example</button>
+                <div class="accordion-content">
+                  <pre class="code-block"><code>placeholder example 1</code></pre>
+                </div>
+              </div>
+            </article>
+
+            <article id="doc-2" class="SyntaxItemCard panel fade-in" data-doc-card data-doc-id="2" data-syntax-type="Effects" data-search-title="Placeholder Title 2" data-search-description="Placeholder description 2.">
+              <div class="syntax-card-head">
+                <div>
+                  <h3 class="syntaxtitle">Placeholder Title 2 <span class="syntaxtitletype">Effects</span></h3>
+                </div>
+                <button type="button" class="btn" data-copy-link>Copy link</button>
+              </div>
+              <pre class="code-block"><code id="doc-code-2" class="hljs">placeholder code 2</code></pre>
+              <div class="syntaxdescription"><p>Placeholder description 2.</p></div>
+              <div class="accordion-shell">
+                <button type="button" class="accordion-toggle" data-accordion-toggle aria-expanded="false">View example</button>
+                <div class="accordion-content">
+                  <pre class="code-block"><code>placeholder example 2</code></pre>
+                </div>
+              </div>
+            </article>
+
+            <article id="doc-3" class="SyntaxItemCard panel fade-in" data-doc-card data-doc-id="3" data-syntax-type="Conditions" data-search-title="Placeholder Title 3" data-search-description="Placeholder description 3.">
+              <div class="syntax-card-head">
+                <div>
+                  <h3 class="syntaxtitle">Placeholder Title 3 <span class="syntaxtitletype">Condition</span></h3>
+                </div>
+                <button type="button" class="btn" data-copy-link>Copy link</button>
+              </div>
+              <pre class="code-block"><code id="doc-code-3" class="hljs">placeholder code 3</code></pre>
+              <div class="syntaxdescription"><p>Placeholder description 3.</p></div>
+              <div class="accordion-shell">
+                <button type="button" class="accordion-toggle" data-accordion-toggle aria-expanded="false">View example</button>
+                <div class="accordion-content">
+                  <pre class="code-block"><code>placeholder example 3</code></pre>
+                </div>
+              </div>
+            </article>
+
+            <article id="doc-4" class="SyntaxItemCard panel fade-in" data-doc-card data-doc-id="4" data-syntax-type="Effects" data-search-title="Placeholder Title 4" data-search-description="Placeholder description 4.">
+              <div class="syntax-card-head">
+                <div>
+                  <h3 class="syntaxtitle">Placeholder Title 4 <span class="syntaxtitletype">Effects</span></h3>
+                </div>
+                <button type="button" class="btn" data-copy-link>Copy link</button>
+              </div>
+              <pre class="code-block"><code id="doc-code-4" class="hljs">placeholder code 4</code></pre>
+              <div class="syntaxdescription"><p>Placeholder description 4.</p></div>
+              <div class="accordion-shell">
+                <button type="button" class="accordion-toggle" data-accordion-toggle aria-expanded="false">View example</button>
+                <div class="accordion-content">
+                  <pre class="code-block"><code>placeholder example 4</code></pre>
+                </div>
+              </div>
+            </article>
+
+            <article id="doc-5" class="SyntaxItemCard panel fade-in" data-doc-card data-doc-id="5" data-syntax-type="Events" data-search-title="Placeholder Title 5" data-search-description="Placeholder description 5.">
+              <div class="syntax-card-head">
+                <div>
+                  <h3 class="syntaxtitle">Placeholder Title 5 <span class="syntaxtitletype">Event</span></h3>
+                </div>
+                <button type="button" class="btn" data-copy-link>Copy link</button>
+              </div>
+              <pre class="code-block"><code id="doc-code-5" class="hljs">placeholder code 5</code></pre>
+              <div class="syntaxdescription"><p>Placeholder description 5.</p></div>
+              <div class="accordion-shell">
+                <button type="button" class="accordion-toggle" data-accordion-toggle aria-expanded="false">View example</button>
+                <div class="accordion-content">
+                  <pre class="code-block"><code>placeholder example 5</code></pre>
+                </div>
+              </div>
+            </article>
+
+            <article id="doc-6" class="SyntaxItemCard panel fade-in" data-doc-card data-doc-id="6" data-syntax-type="Functions" data-search-title="Placeholder Title 6" data-search-description="Placeholder description 6.">
+              <div class="syntax-card-head">
+                <div>
+                  <h3 class="syntaxtitle">Placeholder Title 6 <span class="syntaxtitletype">Function</span></h3>
+                </div>
+                <button type="button" class="btn" data-copy-link>Copy link</button>
+              </div>
+              <pre class="code-block"><code id="doc-code-6" class="hljs">placeholder code 6</code></pre>
+              <div class="syntaxdescription"><p>Placeholder description 6.</p></div>
+              <div class="accordion-shell">
+                <button type="button" class="accordion-toggle" data-accordion-toggle aria-expanded="false">View example</button>
+                <div class="accordion-content">
+                  <pre class="code-block"><code>placeholder example 6</code></pre>
+                </div>
+              </div>
+            </article>
+
+            <div class="panel docs-empty-state" data-doc-empty-state hidden>
+              <strong>No matching docs.</strong>
+              <p>Try another search term.</p>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer container">Documentation written with ❤️</footer>
+    </div>
+  </body>
+</html>
