@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MineKot Addon</title>
+    <meta name="description" content="Addon details and downloads." />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("minekot.theme");
+          var theme = stored === "light" || stored === "dark" ? stored : "dark";
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (error) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body data-page="addon-detail">
+    <div class="shell">
+      <header class="topbar">
+        <div class="container topbar-inner">
+          <a class="brand" href="index.html">
+            <span class="brand-mark"><img src="photos/icon.png" alt="MineKot icon" /></span>
+            <span>MineKot</span>
+          </a>
+          <nav class="nav" aria-label="Main">
+            <a href="index.html" data-theme-nav>Home</a>
+            <a href="docs.html" data-theme-nav>Docs</a>
+            <a href="addons.html" data-theme-nav>Addons</a>
+            <button type="button" class="btn" data-theme-toggle>Light mode</button>
+            <a href="login.html" data-theme-nav>Login</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="page">
+        <section class="container addon-detail-shell" data-addon-detail>
+          <article class="panel addon-detail-header fade-in">
+            <div class="kicker">Addon</div>
+            <h1 class="workspace-title" data-addon-title>Loading addon...</h1>
+            <p class="helper" data-addon-description>Loading description...</p>
+            <div class="search-row">
+              <a class="btn" href="addons.html" data-theme-nav>Back to search</a>
+              <a class="btn primary" href="#" target="_blank" rel="noopener noreferrer" data-addon-repo-link>Open source page</a>
+              <a class="btn" href="#" target="_blank" rel="noopener noreferrer" data-addon-download-link hidden>Download addon</a>
+            </div>
+          </article>
+
+          <section class="addon-meta-grid">
+            <article class="panel addon-meta-card fade-in">
+              <h2 class="panel-title">Latest Versions</h2>
+              <ul class="addon-list" data-addon-versions>
+                <li>Loading versions...</li>
+              </ul>
+            </article>
+            # the plugins are stored in app.js prob not the best way but idk
+            <article class="panel addon-meta-card fade-in">
+              <h2 class="panel-title">Dependencies</h2>
+              <p class="helper">Plugin dependencies listed by the uploader. Falls back to placeholders when unavailable.</p>
+              <ul class="addon-list" data-addon-dependencies>
+                <li>Loading dependencies...</li>
+              </ul>
+            </article>
+          </section>
+        </section>
+      </main>
+
+      <footer class="footer container">Addon data is loaded from community submissions.</footer>
+    </div>
+  </body>
+</html>

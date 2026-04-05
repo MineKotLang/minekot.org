@@ -448,6 +448,181 @@ textarea {
   border: 1px solid var(--surface-border);
 }
 
+.addons-home {
+  padding-top: 0;
+}
+
+.addon-home-panel {
+  padding: 24px;
+  display: grid;
+  gap: 14px;
+}
+
+.addon-home-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.addon-placeholder-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.addon-placeholder-item {
+  min-height: 110px;
+  border-radius: var(--radius-md);
+  border: 1px dashed var(--surface-border);
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.addons-shell {
+  display: grid;
+  gap: 18px;
+}
+
+.addons-header {
+  padding: 24px;
+  display: grid;
+  gap: 12px;
+}
+
+.addons-results {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.addon-result-card {
+  padding: 18px;
+  display: grid;
+  gap: 12px;
+}
+
+.addon-detail-shell {
+  display: grid;
+  gap: 18px;
+}
+
+.addon-detail-header {
+  padding: 24px;
+  display: grid;
+  gap: 12px;
+}
+
+.addon-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.addon-meta-card {
+  padding: 20px;
+  display: grid;
+  gap: 12px;
+}
+
+.addon-list {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 10px;
+}
+
+.addon-list li {
+  color: var(--muted);
+}
+
+.account-panel,
+.upload-panel,
+.moderation-panel,
+.community-panel {
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+
+.auth-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.auth-form,
+.upload-form,
+.moderation-list,
+.community-list {
+  display: grid;
+  gap: 12px;
+}
+
+.auth-form {
+  padding: 14px;
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.text-input {
+  min-height: 120px;
+  border-radius: 18px;
+  border: 1px solid var(--surface-border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  padding: 14px 16px;
+  resize: vertical;
+  outline: none;
+}
+
+.text-input:focus {
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 14%, transparent);
+}
+
+.moderation-item,
+.community-addon-item {
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-md);
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  display: grid;
+  gap: 10px;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border-radius: 999px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+}
+
+.status-approved {
+  color: var(--success);
+  background: color-mix(in srgb, var(--success) 18%, transparent);
+  border: 1px solid color-mix(in srgb, var(--success) 35%, transparent);
+}
+
+.status-pending {
+  color: var(--warning);
+  background: color-mix(in srgb, var(--warning) 18%, transparent);
+  border: 1px solid color-mix(in srgb, var(--warning) 35%, transparent);
+}
+
+.status-rejected {
+  color: var(--danger);
+  background: color-mix(in srgb, var(--danger) 18%, transparent);
+  border: 1px solid color-mix(in srgb, var(--danger) 35%, transparent);
+}
+
 .helper,
 .small-muted,
 .doc-section p {
@@ -514,7 +689,11 @@ body[data-page="docs"] .fade-in {
 
 @media (max-width: 1080px) {
   .placeholder-grid,
-  .docs-layout {
+  .docs-layout,
+  .addons-results,
+  .addon-meta-grid,
+  .addon-placeholder-grid,
+  .auth-grid {
     grid-template-columns: 1fr;
   }
 

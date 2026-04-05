@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MineKot Login</title>
+    <meta name="description" content="Login and account access for addon creators." />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("minekot.theme");
+          var theme = stored === "light" || stored === "dark" ? stored : "dark";
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (error) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body data-page="login">
+    <div class="shell">
+      <header class="topbar">
+        <div class="container topbar-inner">
+          <a class="brand" href="index.html">
+            <span class="brand-mark"><img src="photos/icon.png" alt="MineKot icon" /></span>
+            <span>MineKot</span>
+          </a>
+          <nav class="nav" aria-label="Main">
+            <a href="index.html" data-theme-nav>Home</a>
+            <a href="docs.html" data-theme-nav>Docs</a>
+            <a href="addons.html" data-theme-nav>Addons</a>
+            <button type="button" class="btn" data-theme-toggle>Light mode</button>
+            <a href="login.html" aria-current="page" data-theme-nav>Login</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="page">
+        <section class="container addons-shell">
+          <article class="panel account-panel fade-in">
+            <div class="panel-header compact">
+              <h1 class="workspace-title">Account Access</h1>
+            </div>
+            <p class="helper" data-login-message>Sign in to upload and manage addons.</p>
+
+            <div class="auth-grid">
+              <form class="auth-form" data-login-form>
+                <h2 class="card-title">Login</h2>
+                <input class="search-input" type="text" placeholder="Username" required data-login-username />
+                <input class="search-input" type="password" placeholder="Password" required data-login-password />
+                <button type="submit" class="btn primary">Login</button>
+              </form>
+
+              <form class="auth-form" data-register-form>
+                <h2 class="card-title">Register</h2>
+                <input class="search-input" type="text" placeholder="Username" required data-register-username />
+                <input class="search-input" type="password" placeholder="Password" required data-register-password />
+                <button type="submit" class="btn">Create account</button>
+              </form>
+            </div>
+
+            <div class="search-row">
+              <button type="button" class="btn" data-logout-button hidden>Logout</button>
+              <a class="btn" href="addons.html" data-theme-nav>Go to addons</a>
+              <a class="btn primary" href="https://admin.minekot.local" target="_blank" rel="noopener noreferrer" data-admin-subdomain hidden>Open admin subdomain</a>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer container">Account and role access</footer>
+    </div>
+  </body>
+</html>
