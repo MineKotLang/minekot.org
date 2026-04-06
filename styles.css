@@ -739,4 +739,133 @@ body[data-page="docs"] .fade-in {
   .placeholder-block {
     min-height: 120px;
   }
+
+  .docs-header {
+    position: static;
+    top: auto;
+    padding: 14px;
+    gap: 12px;
+    box-shadow: none;
+  }
+
+  .docs-header .kicker {
+    display: none;
+  }
+
+  .search-row {
+    gap: 8px;
+  }
+
+  .search-input {
+    flex: 1 1 100%;
+    min-height: 42px;
+  }
+
+  .type-filter-row {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .type-chip {
+    flex: 0 0 auto;
+    padding: 6px 10px;
+    font-size: 0.82rem;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 430px) {
+  .type-filter-row {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .type-chip {
+    width: 100%;
+    text-align: center;
+    padding: 6px 8px;
+    font-size: 0.78rem;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 1024px) {
+  .hero,
+  .page {
+    padding: 20px 0 34px;
+  }
+
+  .topbar-inner {
+    min-height: 62px;
+    gap: 10px;
+  }
+
+  .nav {
+    gap: 8px;
+  }
+
+  .nav a,
+  .nav button,
+  .btn {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+
+  .docs-header {
+    top: 74px;
+    padding: 14px;
+    gap: 10px;
+  }
+
+  .search-input {
+    min-height: 40px;
+  }
+
+  .type-filter-row {
+    gap: 6px;
+  }
+
+  .type-chip {
+    padding: 6px 10px;
+    font-size: 0.82rem;
+  }
+
+  .SyntaxItemCard,
+  .addon-home-panel,
+  .addons-header,
+  .addon-detail-header,
+  .addon-meta-card,
+  .account-panel,
+  .upload-panel,
+  .moderation-panel,
+  .community-panel {
+    padding: 16px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 540px) {
+  body[data-page="docs"] .topbar,
+  body[data-page="addons"] .topbar {
+    position: static;
+  }
+
+  .docs-header {
+    position: static;
+    top: auto;
+  }
+
+  .topbar-inner {
+    min-height: 56px;
+  }
+
+  .brand {
+    gap: 8px;
+    font-size: 0.92rem;
+  }
+
+  .brand-mark {
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+  }
 }
