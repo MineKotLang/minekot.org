@@ -122,7 +122,7 @@ async function copyFromButton(button, selector) {
 
 function getDocShareLink(docId) {
   const theme = document.documentElement.dataset.theme === "light" ? "light" : "dark";
-  const shareUrl = new URL("/docs.html", window.location.origin);
+  const shareUrl = new URL("/docs/", window.location.origin);
   shareUrl.searchParams.set("id", String(docId));
   shareUrl.searchParams.set("theme", theme);
   return shareUrl.toString();
