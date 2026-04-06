@@ -1,10 +1,10 @@
 :root {
   color-scheme: dark;
-  --bg: #1e1e2e;
-  --bg-soft: rgba(24, 24, 37, 0.82);
-  --surface: rgba(49, 50, 68, 0.9);
-  --surface-solid: #313244;
-  --surface-border: rgba(147, 153, 178, 0.24);
+  --bg: #141420;
+  --bg-soft: rgba(18, 18, 28, 0.88);
+  --surface: rgba(34, 35, 48, 0.94);
+  --surface-solid: #232433;
+  --surface-border: rgba(133, 139, 166, 0.18);
   --text: #cdd6f4;
   --muted: #a6adc8;
   --accent: #cba6f7;
@@ -18,8 +18,8 @@
   --success: #a6e3a1;
   --warning: #f9e2af;
   --danger: #f38ba8;
-  --selection: rgba(147, 153, 178, 0.26);
-  --shadow: 0 24px 64px rgba(17, 17, 27, 0.52);
+  --selection: rgba(133, 139, 166, 0.22);
+  --shadow: none;
   --radius-lg: 28px;
   --radius-md: 18px;
   --container: 1200px;
@@ -46,7 +46,7 @@
   --warning: #f08c00;
   --danger: #d6336c;
   --selection: rgba(45, 67, 117, 0.22);
-  --shadow: 0 20px 50px rgba(52, 67, 92, 0.14);
+  --shadow: none;
 }
 
 * {
@@ -66,11 +66,7 @@ body {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   min-height: 100vh;
   color: var(--text);
-  background:
-    radial-gradient(circle at top left, rgba(203, 166, 247, 0.16), transparent 26%),
-    radial-gradient(circle at top right, rgba(137, 180, 250, 0.16), transparent 24%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 38%),
-    var(--bg);
+  background: var(--bg);
 }
 
 body::before {
@@ -78,10 +74,8 @@ body::before {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
-  background-size: 72px 72px;
-  mask-image: radial-gradient(circle at center, black 42%, transparent 100%);
-  opacity: 0.35;
+  background: none;
+  opacity: 0;
 }
 
 a {
@@ -110,12 +104,12 @@ textarea {
   top: 0;
   z-index: 20;
   backdrop-filter: blur(20px);
-  background: linear-gradient(180deg, rgba(17, 17, 27, 0.96), rgba(24, 24, 37, 0.82));
+  background: var(--surface-solid);
   border-bottom: 1px solid var(--surface-border);
 }
 
 :root[data-theme="light"] .topbar {
-  background: linear-gradient(180deg, rgba(238, 243, 255, 0.92), rgba(238, 243, 255, 0.72));
+  background: var(--surface-solid);
 }
 
 .topbar-inner {
@@ -142,7 +136,7 @@ textarea {
   display: grid;
   place-items: center;
   color: var(--on-accent);
-  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  background: var(--accent);
   overflow: hidden;
 }
 
@@ -169,22 +163,21 @@ textarea {
   margin-top: 0;
   padding: clamp(0.52rem, 1.2vw, 0.72rem) clamp(0.85rem, 2vw, 1rem);
   min-height: 40px;
-  background: color-mix(in srgb, var(--surface-solid) 86%, black 14%);
+  background: var(--surface-solid);
   color: var(--text);
   text-decoration: none;
   border: 1px solid color-mix(in srgb, var(--surface-border) 82%, transparent);
-  box-shadow: 0 8px 18px rgba(17, 17, 27, 0.28);
+  box-shadow: none;
   border-radius: 999px;
-  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 
 .nav a:hover,
 .nav button:hover,
 .btn:hover {
-  background: color-mix(in srgb, var(--surface-solid) 72%, var(--accent) 28%);
+  background: color-mix(in srgb, var(--surface-solid) 88%, var(--accent) 12%);
   border-color: color-mix(in srgb, var(--accent) 40%, transparent);
   transform: translateY(-1px);
-  box-shadow: 0 12px 22px rgba(17, 17, 27, 0.32);
 }
 
 .nav a:active,
@@ -192,12 +185,11 @@ textarea {
 .btn:active,
 .object-button:active {
   transform: translateY(3px);
-  box-shadow: 0 3px 8px rgba(17, 17, 27, 0.28);
 }
 
 .btn.primary {
   color: var(--on-accent);
-  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 85%, black 15%), color-mix(in srgb, var(--accent-strong) 80%, black 20%));
+  background: var(--accent);
   border-color: color-mix(in srgb, var(--accent) 45%, transparent);
 }
 
@@ -208,13 +200,13 @@ textarea {
   margin-top: 0;
   padding: clamp(0.52rem, 1.2vw, 0.72rem) clamp(0.85rem, 2vw, 1rem);
   min-height: 40px;
-  background: color-mix(in srgb, var(--surface-solid) 86%, black 14%);
+  background: var(--surface-solid);
   color: var(--text);
   text-decoration: none;
   border: 1px solid color-mix(in srgb, var(--surface-border) 82%, transparent);
-  box-shadow: 0 8px 18px rgba(17, 17, 27, 0.28);
+  box-shadow: none;
   border-radius: 999px;
-  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 
 .hero,
@@ -223,9 +215,9 @@ textarea {
 }
 
 .panel {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), var(--surface));
+  background: var(--surface);
   border: 1px solid var(--surface-border);
-  box-shadow: var(--shadow);
+  box-shadow: none;
   border-radius: var(--radius-lg);
 }
 
@@ -273,7 +265,7 @@ textarea {
   background: var(--surface-solid);
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.14);
+  box-shadow: none;
 }
 
 .search-row {
@@ -295,7 +287,8 @@ textarea {
 
 .search-input:focus {
   border-color: color-mix(in srgb, var(--accent) 45%, transparent);
-  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 14%, transparent);
+  outline: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  outline-offset: 2px;
 }
 
 .type-filter-row {
@@ -323,7 +316,7 @@ textarea {
 
 .SyntaxItemCard.is-target {
   outline: 2px solid color-mix(in srgb, var(--accent) 58%, transparent);
-  box-shadow: 0 0 0 6px color-mix(in srgb, var(--accent) 14%, transparent), var(--shadow);
+  box-shadow: none;
 }
 
 .docs-list {
@@ -390,25 +383,23 @@ textarea {
   border-radius: 12px;
   border: 1px solid color-mix(in srgb, var(--accent) 34%, var(--surface-border));
   color: color-mix(in srgb, var(--accent) 78%, var(--text));
-  background: linear-gradient(180deg, color-mix(in srgb, var(--surface-solid) 82%, black 18%), color-mix(in srgb, var(--surface) 88%, black 12%));
-  box-shadow: 0 8px 16px rgba(17, 17, 27, 0.26);
+  background: var(--surface-solid);
+  box-shadow: none;
   font-weight: 700;
   letter-spacing: 0.02em;
   cursor: pointer;
-  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.18s ease, box-shadow 0.18s ease, color 0.2s ease;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.18s ease, color 0.2s ease;
 }
 
 .accordion-toggle:hover {
   color: var(--text);
   border-color: color-mix(in srgb, var(--accent) 52%, transparent);
-  background: linear-gradient(180deg, color-mix(in srgb, var(--surface-solid) 66%, var(--accent) 34%), color-mix(in srgb, var(--surface) 72%, var(--accent) 28%));
+  background: color-mix(in srgb, var(--surface-solid) 88%, var(--accent) 12%);
   transform: translateY(-1px);
-  box-shadow: 0 12px 20px rgba(17, 17, 27, 0.3);
 }
 
 .accordion-toggle:active {
   transform: translateY(2px);
-  box-shadow: 0 4px 9px rgba(17, 17, 27, 0.25);
 }
 
 .accordion-toggle:focus-visible {
@@ -419,7 +410,7 @@ textarea {
 .accordion-shell.open .accordion-toggle {
   color: var(--on-accent);
   border-color: color-mix(in srgb, var(--accent) 65%, transparent);
-  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 84%, black 16%), color-mix(in srgb, var(--accent-strong) 82%, black 18%));
+  background: var(--accent);
 }
 
 .accordion-content {
@@ -657,7 +648,8 @@ textarea {
 
 .text-input:focus {
   border-color: color-mix(in srgb, var(--accent) 45%, transparent);
-  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 14%, transparent);
+  outline: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  outline-offset: 2px;
 }
 
 .moderation-item,
