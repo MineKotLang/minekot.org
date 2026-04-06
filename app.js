@@ -18,12 +18,6 @@ function persistTheme(theme) {
   }
 }
 
-function getThemeFromQuery() {
-  const params = new URLSearchParams(window.location.search);
-  const theme = params.get("theme");
-  return theme === "light" || theme === "dark" ? theme : null;
-}
-
 function applyTheme(theme) {
   document.documentElement.dataset.theme = theme;
   if (document.body) {
@@ -32,13 +26,6 @@ function applyTheme(theme) {
 }
 
 function ensureTheme() {
-  const queryTheme = getThemeFromQuery();
-  if (queryTheme) {
-    applyTheme(queryTheme);
-    persistTheme(queryTheme);
-    return;
-  }
-
   const stored = readStoredTheme();
   const theme = stored === "light" || stored === "dark" ? stored : "dark";
   applyTheme(theme);
@@ -53,21 +40,10 @@ function updateThemeToggleLabels(theme) {
   });
 }
 
-function syncThemeNavigationLinks(theme) {
-  document.querySelectorAll("[data-theme-nav]").forEach((link) => {
-    const href = link.getAttribute("href") || "";
-    const [path, queryString = ""] = href.split("?");
-    const params = new URLSearchParams(queryString);
-    params.set("theme", theme);
-    link.setAttribute("href", `${path}?${params.toString()}`);
-  });
-}
-
 function setTheme(theme) {
   applyTheme(theme);
   persistTheme(theme);
   updateThemeToggleLabels(theme);
-  syncThemeNavigationLinks(theme);
 }
 
 function toggleTheme() {
@@ -76,20 +52,10 @@ function toggleTheme() {
 }
 
 function syncThemeFromStorage() {
-  const queryTheme = getThemeFromQuery();
-  if (queryTheme) {
-    applyTheme(queryTheme);
-    persistTheme(queryTheme);
-    updateThemeToggleLabels(queryTheme);
-    syncThemeNavigationLinks(queryTheme);
-    return;
-  }
-
   const stored = readStoredTheme();
   const theme = stored === "light" || stored === "dark" ? stored : "dark";
   applyTheme(theme);
   updateThemeToggleLabels(theme);
-  syncThemeNavigationLinks(theme);
 }
 
 function copyText(text) {
@@ -121,10 +87,8 @@ async function copyFromButton(button, selector) {
 }
 
 function getDocShareLink(docId) {
-  const theme = document.documentElement.dataset.theme === "light" ? "light" : "dark";
   const shareUrl = new URL("/docs/", window.location.origin);
   shareUrl.searchParams.set("id", String(docId));
-  shareUrl.searchParams.set("theme", theme);
   return shareUrl.toString();
 }
 
@@ -298,13 +262,11 @@ function boot() {
   ensureTheme();
   const activeTheme = document.documentElement.dataset.theme;
   updateThemeToggleLabels(activeTheme);
-  syncThemeNavigationLinks(activeTheme);
 
   window.addEventListener("storage", (event) => {
     if (event.key !== STORAGE_KEYS.theme || !event.newValue) return;
     applyTheme(event.newValue);
     updateThemeToggleLabels(event.newValue);
-    syncThemeNavigationLinks(event.newValue);
   });
 
   window.addEventListener("pageshow", syncThemeFromStorage);
