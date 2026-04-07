@@ -1,1 +1,16 @@
+# General ignores
+.DS_Store
+out
+kotlin-js-store
+
+# IntelliJ ignores
+*.iml
+/*.ipr
+
 /.idea
+
+# Gradle ignores
+.gradle
+
+# Kotlin ignores
+.kotlin
