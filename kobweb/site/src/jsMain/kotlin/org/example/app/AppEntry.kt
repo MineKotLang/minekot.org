@@ -9,6 +9,7 @@ import com.varabyte.kobweb.silk.SilkApp
 import com.varabyte.kobweb.silk.components.layout.Surface
 import com.varabyte.kobweb.silk.style.common.SmoothColorStyle
 import com.varabyte.kobweb.silk.style.toModifier
+import com.varabyte.kobweb.silk.theme.colors.ColorMode
 import kotlinx.browser.document
 import kotlinx.browser.window
 import org.w3c.dom.HTMLLinkElement
@@ -42,7 +43,8 @@ private fun applyThemeAttribute(theme: String) {
 }
 
 private fun syncThemeFromStorage() {
-    applyThemeAttribute(readStoredTheme())
+    val theme = readStoredTheme()
+    applyThemeAttribute(theme)
 }
 
 private fun registerThemeSyncListeners() {

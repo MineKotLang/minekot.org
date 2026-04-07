@@ -31,7 +31,7 @@ fun AddonsPage() {
                             H2(attrs = { classes("card-title") }) { Text(addon.title) }
                             P(attrs = { classes("helper") }) { Text(addon.description) }
                             Div(attrs = { classes("search-row") }) {
-                                A("/addons/${addon.id}/", attrs = { classes("btn") }) { Text("Open addon page") }
+                                A("/addons/${addon.id}", attrs = { classes("btn") }) { Text("Open addon page") }
                                 A(
                                     addon.downloadUrl,
                                     attrs = {

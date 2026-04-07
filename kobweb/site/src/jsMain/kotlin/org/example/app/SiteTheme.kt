@@ -7,6 +7,9 @@ import com.varabyte.kobweb.silk.init.InitSilkContext
 import com.varabyte.kobweb.silk.theme.colors.ColorMode
 import com.varabyte.kobweb.silk.theme.colors.palette.background
 import com.varabyte.kobweb.silk.theme.colors.palette.color
+import com.varabyte.kobweb.silk.theme.colors.palette.border
+import com.varabyte.kobweb.silk.theme.colors.palette.link
+import kotlinx.browser.window
 
 /**
  * @property nearBackground A useful color to apply to a container that should differentiate itself from the background
@@ -33,11 +36,11 @@ object SitePalettes {
         )
     )
     val dark = SitePalette(
-        nearBackground = Color.rgb(0x13171F),
+        nearBackground = Color.rgb(0x232433),
         cobweb = Colors.LightGray.inverted(),
         brand = SitePalette.Brand(
-            primary = Color.rgb(0x3C83EF),
-            accent = Color.rgb(0xF3DB5B),
+            primary = Color.rgb(0xCBA6F7),
+            accent = Color.rgb(0xCBA6F7),
         )
     )
 }
@@ -51,8 +54,23 @@ fun ColorMode.toSitePalette(): SitePalette {
 
 @InitSilk
 fun initTheme(ctx: InitSilkContext) {
+    // Try to read the initial theme from localStorage to prevent flash of wrong theme
+    val storedTheme = try {
+        window.localStorage.getItem("minekot.theme") ?: "dark"
+    } catch (_: Throwable) {
+        "dark"
+    }
+
+    ctx.config.initialColorMode = if (storedTheme == "light") ColorMode.LIGHT else ColorMode.DARK
+
     ctx.theme.palettes.light.background = Color.rgb(0xFAFAFA)
     ctx.theme.palettes.light.color = Colors.Black
-    ctx.theme.palettes.dark.background = Color.rgb(0x06080B)
-    ctx.theme.palettes.dark.color = Colors.White
+
+    ctx.theme.palettes.dark.background = Color.rgb(0x141421)
+    ctx.theme.palettes.dark.color = Color.rgb(0xCDD6F4)
+    // Add border color for cards/panels to match --surface-border: rgba(133, 139, 166, 0.18)
+    ctx.theme.palettes.dark.border = Color.rgba(133, 139, 166, 0.18f)
+    // Match link color from styles.css --link: #89b4fa
+    ctx.theme.palettes.dark.link.default = Color.rgb(0x89B4FA)
+    ctx.theme.palettes.dark.link.visited = Color.rgb(0x89B4FA)
 }

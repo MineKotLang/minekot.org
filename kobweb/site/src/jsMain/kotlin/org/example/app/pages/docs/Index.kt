@@ -1,12 +1,14 @@
 package org.example.app.pages.docs
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import com.varabyte.kobweb.core.Page
+import com.varabyte.kobweb.core.rememberPageContext
 import kotlinx.browser.window
 import org.example.app.components.layouts.SiteScaffold
 import org.example.app.data.docsData
@@ -27,13 +29,24 @@ import org.w3c.dom.url.URLSearchParams
 @Page("/docs/")
 @Composable
 fun DocsPage() {
+    val ctx = rememberPageContext()
     var query by remember { mutableStateOf("") }
     var selectedType by remember { mutableStateOf("all") }
-    var focusedId by remember {
-        mutableStateOf(
-            URLSearchParams(window.location.search).get("id")?.takeIf { it.isNotBlank() }
-        )
+
+    // Use a nullable derived focusedId that defaults to null during static snapshotting
+    // to avoid potential crashes caused by immediately accessing route parameters.
+    var focusedId by remember { mutableStateOf<String?>(null) }
+    
+    // Safety check: only attempt to read params if route is valid.
+    // This is wrapped in a check that is normally true in browser but might be false/partial in export.
+    val initialId = ctx.route.path.takeIf { it.isNotEmpty() }?.let { ctx.route.params["id"] }
+    
+    LaunchedEffect(initialId) {
+        if (focusedId == null) {
+            focusedId = initialId?.takeIf { it.isNotBlank() }
+        }
     }
+
     var copiedLinkId by remember { mutableStateOf<String?>(null) }
     val expandedState = remember { mutableStateMapOf<String, Boolean>() }
 
@@ -157,5 +170,3 @@ fun DocsPage() {
         }
     }
 }
-
-
