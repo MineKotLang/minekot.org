@@ -1,0 +1,12 @@
+abi_version=2.3.0
+builtins_platform=JS
+compiler_version=2.3.10
+depends=kotlin androidx.compose.runtime\:runtime-annotation androidx.compose.runtime\:runtime org.jetbrains.compose.html\:html-core com.varabyte.kobweb\:kobweb-silk com.varabyte.kobweb\:kobweb-core com.varabyte.kobwebx\:kobwebx-markdown org.jetbrains.compose.html\:internal-html-core-runtime com.varabyte.kobweb\:silk-widgets-kobweb com.varabyte.kobweb\:silk-widgets com.varabyte.kobweb\:silk-foundation com.varabyte.kobweb\:kobweb-compose com.varabyte.kobweb\:compose-html-ext com.varabyte.kobweb\:kobweb-worker-interface com.varabyte.kobwebx\:kobwebx-frontmatter com.varabyte.kobweb\:browser-ext org.jetbrains.kotlinx\:kotlinx-coroutines-core com.varabyte.kobweb\:framework-annotations org.jetbrains.kotlin\:kotlin-dom-api-compat org.jetbrains.kotlinx\:atomicfu
+ir_signature_versions=1,2
+jsOutputName=app
+language_features=+AllowAnyAsAnActualTypeForExpectInterface +MultiPlatformProjects
+metadata_version=2.3.0
+serializedIrFileFingerprints=1csdd3uxlhiuz.1qz8wkt9lb47p 1mm8e89gp8eum.2xus3bnz731gv iw9xyz1xrmhg.1i8qkhxm0ftk 2rock2y0cyscy.3o6ekogo2sewe 1aj1ai12e6ht3.3n99xlan5mhlo 27y8rto5v2r69.2dyq05bsa9zou 4zg69d0bpqsk.88zzammx8utn 2xjdfe6rxdg1u.p1ss30dzllfs 19dwfb13vbve2.1kvrzkb14xz4o 109y8bg2vnvcl.1y0uvl7piaj0n 3h2m9v82ippb1.1c45z7estwwep phtmi9auvedk.isb0ctm2vm2e tldtcm7yg698.1vobodajvf9zs 3hyyynuc0lrx8.koxkfduvvoy9 3urmbpmbo0chr.3ic0096k62v6p 2roa0kq1ixrdh.1r242g90gzhvo 1uil84xef6oyw.oqbd4a95r8f3 2wyv2fc0pn6rd.2wjq8bokiiaxs 1o8opzg47njzd.2ydj0tdcwefk 15ygkpe6na5zr.2dlmj0cb5tvdi 3sgvu2h02bzh7.1xnq093meq4r8
+serializedKlibFingerprint=sic5y289n9fr.ddbaw333ej8a
+unique_name=org.example.app\:site
+wasm_targets=wasm-js

@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "unspecified",
+  "private": true,
+  "workspaces": [
+    "packages\\app",
+    "packages\\app-test",
+    "packages_imported/html-core-js/1.10.0"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": [],
+  "resolutions": {}
+}
