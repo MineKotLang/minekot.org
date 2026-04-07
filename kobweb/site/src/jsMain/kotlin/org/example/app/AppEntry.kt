@@ -74,9 +74,15 @@ private fun ensureThemeBootstrapped() {
 @Composable
 fun AppEntry(content: @Composable () -> Unit) {
     SilkApp {
+        val colorMode = ColorMode.current
+        LaunchedEffect(colorMode) {
+            val theme = colorMode.name.lowercase()
+            document.documentElement?.setAttribute("data-theme", theme)
+            document.body?.setAttribute("data-theme", theme)
+            window.localStorage.setItem("minekot.theme", theme)
+        }
         LaunchedEffect(Unit) {
             ensureStylesheetLoaded()
-            ensureThemeBootstrapped()
         }
         Surface(SmoothColorStyle.toModifier().minHeight(100.vh)) {
             content()

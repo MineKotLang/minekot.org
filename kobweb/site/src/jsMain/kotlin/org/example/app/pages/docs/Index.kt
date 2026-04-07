@@ -26,7 +26,7 @@ import org.jetbrains.compose.web.dom.Span
 import org.jetbrains.compose.web.dom.Text
 import org.w3c.dom.url.URLSearchParams
 
-@Page("/docs/")
+@Page("docs")
 @Composable
 fun DocsPage() {
     val ctx = rememberPageContext()
