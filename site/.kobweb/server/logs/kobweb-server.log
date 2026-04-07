@@ -1,0 +1,5 @@
+2026-04-07 21:38:12.300 [main] INFO  io.ktor.server.Application - Autoreload is disabled because the development mode is off.
+2026-04-07 21:38:12.392 [main] INFO  io.ktor.server.Application - Initializing server engine for Kobweb project "MineKot"
+2026-04-07 21:38:12.827 [main] INFO  io.ktor.server.Application - CORS: No hosts registered.
+2026-04-07 21:38:12.875 [main] INFO  io.ktor.server.Application - Application started in 1.057 seconds.
+2026-04-07 21:38:13.539 [DefaultDispatcher-worker-1] INFO  io.ktor.server.Application - Responding at http://127.0.0.1:8080
