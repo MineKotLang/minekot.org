@@ -21,12 +21,12 @@
   //endregion
   var com_varabyte_kobwebx_markdown_MarkdownContext$stable;
   function MarkdownContext(path, frontMatter) {
-    this.e3e_1 = path;
-    this.f3e_1 = frontMatter;
+    this.o3f_1 = path;
+    this.p3f_1 = frontMatter;
   }
   function get_markdown(_this__u8e3s4) {
     // Inline function 'com.varabyte.kobweb.core.data.get' call
-    return _this__u8e3s4.f30_1.b30(getKClass(MarkdownContext));
+    return _this__u8e3s4.p31_1.l31(getKClass(MarkdownContext));
   }
   //region block: init
   com_varabyte_kobwebx_markdown_MarkdownContext$stable = 8;

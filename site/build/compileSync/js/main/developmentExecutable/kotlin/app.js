@@ -59,7 +59,7 @@
   var androidx_compose_runtime_ProvidedValue$stableprop_getter = kotlin_androidx_compose_runtime_runtime.$_$.r;
   var CompositionLocalProvider = kotlin_androidx_compose_runtime_runtime.$_$.d;
   var AppGlobals_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.k;
-  var to = kotlin_kotlin.$_$.di;
+  var to = kotlin_kotlin.$_$.ei;
   var mapOf = kotlin_kotlin.$_$.e8;
   var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.l;
   var Router = kotlin_com_varabyte_kobweb_kobweb_core.$_$.g;
@@ -68,16 +68,16 @@
   var removePrefix = kotlin_kotlin.$_$.if;
   var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.h2;
   var charArrayOf = kotlin_kotlin.$_$.vb;
-  var trimStart = kotlin_kotlin.$_$.fg;
+  var trimStart = kotlin_kotlin.$_$.gg;
   var remove = kotlin_com_varabyte_kobweb_kobweb_core.$_$.i;
   var UpdateHistoryMode_REPLACE_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.j;
-  var ensureNotNull = kotlin_kotlin.$_$.th;
+  var ensureNotNull = kotlin_kotlin.$_$.uh;
   var composableLambdaInstance = kotlin_androidx_compose_runtime_runtime.$_$.a;
   var renderComposable = kotlin_org_jetbrains_compose_html_internal_html_core_runtime.$_$.e;
   var Unit_getInstance = kotlin_kotlin.$_$.p4;
   var rememberComposableLambda = kotlin_androidx_compose_runtime_runtime.$_$.b;
   var Companion_getInstance_0 = kotlin_androidx_compose_runtime_runtime.$_$.k1;
-  var THROW_CCE = kotlin_kotlin.$_$.bh;
+  var THROW_CCE = kotlin_kotlin.$_$.ch;
   var com_varabyte_kobweb_core_PageContext$stableprop_getter = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
   var DeferringHost = kotlin_com_varabyte_kobweb_silk_foundation.$_$.a;
   var protoOf = kotlin_kotlin.$_$.md;
@@ -92,19 +92,19 @@
   var Companion_getInstance_1 = kotlin_com_varabyte_kobwebx_kobwebx_frontmatter.$_$.a;
   var MarkdownContext = kotlin_com_varabyte_kobwebx_kobwebx_markdown.$_$.a;
   var getKClass = kotlin_kotlin.$_$.yd;
-  var H1 = kotlin_org_jetbrains_compose_html_html_core.$_$.g6;
-  var P = kotlin_org_jetbrains_compose_html_html_core.$_$.q6;
+  var H1 = kotlin_org_jetbrains_compose_html_html_core.$_$.m6;
+  var P = kotlin_org_jetbrains_compose_html_html_core.$_$.x6;
   var HorizontalDivider = kotlin_com_varabyte_kobweb_silk_widgets.$_$.d;
-  var H2 = kotlin_org_jetbrains_compose_html_html_core.$_$.h6;
-  var H3 = kotlin_org_jetbrains_compose_html_html_core.$_$.i6;
-  var H4 = kotlin_org_jetbrains_compose_html_html_core.$_$.j6;
-  var Ul = kotlin_org_jetbrains_compose_html_html_core.$_$.w6;
-  var Pre = kotlin_org_jetbrains_compose_html_html_core.$_$.p6;
-  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.v6;
-  var Code = kotlin_org_jetbrains_compose_html_html_core.$_$.b6;
+  var H2 = kotlin_org_jetbrains_compose_html_html_core.$_$.n6;
+  var H3 = kotlin_org_jetbrains_compose_html_html_core.$_$.o6;
+  var H4 = kotlin_org_jetbrains_compose_html_html_core.$_$.p6;
+  var Ul = kotlin_org_jetbrains_compose_html_html_core.$_$.d7;
+  var Pre = kotlin_org_jetbrains_compose_html_html_core.$_$.w6;
+  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.c7;
+  var Code = kotlin_org_jetbrains_compose_html_html_core.$_$.h6;
   var GenericTag = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.a3;
-  var Li = kotlin_org_jetbrains_compose_html_html_core.$_$.m6;
-  var Em = kotlin_org_jetbrains_compose_html_html_core.$_$.e6;
+  var Li = kotlin_org_jetbrains_compose_html_html_core.$_$.t6;
+  var Em = kotlin_org_jetbrains_compose_html_html_core.$_$.k6;
   var Link = kotlin_com_varabyte_kobweb_silk_widgets_kobweb.$_$.a;
   var SilkApp = kotlin_com_varabyte_kobweb_kobweb_silk.$_$.a;
   var CoroutineImpl = kotlin_kotlin.$_$.oa;
@@ -116,7 +116,7 @@
   var get_SmoothColorStyle = kotlin_com_varabyte_kobweb_silk_widgets.$_$.g;
   var com_varabyte_kobweb_silk_style_CssStyle$stableprop_getter = kotlin_com_varabyte_kobweb_silk_foundation.$_$.a1;
   var toModifier = kotlin_com_varabyte_kobweb_silk_foundation.$_$.g1;
-  var get_vh = kotlin_org_jetbrains_compose_html_html_core.$_$.v5;
+  var get_vh = kotlin_org_jetbrains_compose_html_html_core.$_$.z5;
   var minHeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y1;
   var Surface = kotlin_com_varabyte_kobweb_silk_widgets.$_$.e;
   var SuspendFunction1 = kotlin_kotlin.$_$.pa;
@@ -124,7 +124,7 @@
   var get_HorizontalDividerStyle = kotlin_com_varabyte_kobweb_silk_widgets.$_$.c;
   var modifyStyleBase = kotlin_com_varabyte_kobweb_silk_foundation.$_$.u1;
   var Companion_getInstance_3 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q3;
-  var get_cssRem = kotlin_org_jetbrains_compose_html_html_core.$_$.f4;
+  var get_cssRem = kotlin_org_jetbrains_compose_html_html_core.$_$.h4;
   var fontSize = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.f1;
   var Companion_getInstance_4 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.e4;
   var textAlign = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r2;
@@ -132,14 +132,14 @@
   var toPalette = kotlin_com_varabyte_kobweb_silk_foundation.$_$.m1;
   var get_color = kotlin_com_varabyte_kobweb_silk_widgets.$_$.l;
   var color = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.o5;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.r5;
   var padding = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i2;
-  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.m5;
+  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.p5;
   var borderRadius = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o;
   var ButtonVars_getInstance = kotlin_com_varabyte_kobweb_silk_widgets.$_$.n;
   var Colors_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l3;
   var setVariable = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o2;
-  var MediaFeature = kotlin_org_jetbrains_compose_html_html_core.$_$.s2;
+  var MediaFeature = kotlin_org_jetbrains_compose_html_html_core.$_$.u2;
   var Companion_getInstance_5 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.d4;
   var scrollBehavior = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n2;
   var fontFamily = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e1;
@@ -150,7 +150,7 @@
   var addVariantBase = kotlin_com_varabyte_kobweb_silk_foundation.$_$.v;
   var Companion_getInstance_7 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k3;
   var initMetadataForClass = kotlin_kotlin.$_$.kc;
-  var noWhenBranchMatchedException = kotlin_kotlin.$_$.wh;
+  var noWhenBranchMatchedException = kotlin_kotlin.$_$.xh;
   var ColorMode_DARK_getInstance = kotlin_com_varabyte_kobweb_silk_foundation.$_$.y1;
   var ColorMode_LIGHT_getInstance = kotlin_com_varabyte_kobweb_silk_foundation.$_$.z1;
   var set_background = kotlin_com_varabyte_kobweb_silk_widgets.$_$.j;
@@ -161,7 +161,7 @@
   var singleOrNull = kotlin_kotlin.$_$.w8;
   var IllegalArgumentException_init_$Create$ = kotlin_kotlin.$_$.m1;
   var toAttrs = kotlin_com_varabyte_kobweb_silk_foundation.$_$.d1;
-  var Div = kotlin_org_jetbrains_compose_html_html_core.$_$.c6;
+  var Div = kotlin_org_jetbrains_compose_html_html_core.$_$.i6;
   var fillMaxSize = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b1;
   var fontWeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.h1;
   var margin = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w1;
@@ -171,10 +171,10 @@
   var Companion_getInstance_9 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.c4;
   var overflowWrap = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e2;
   var Companion_getInstance_10 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.b4;
-  var Companion_getInstance_11 = kotlin_org_jetbrains_compose_html_html_core.$_$.i;
+  var Companion_getInstance_11 = kotlin_org_jetbrains_compose_html_html_core.$_$.j;
   var display = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a1;
   var backgroundColor = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l;
-  var Companion_getInstance_12 = kotlin_org_jetbrains_compose_html_html_core.$_$.l;
+  var Companion_getInstance_12 = kotlin_org_jetbrains_compose_html_html_core.$_$.m;
   var border = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q;
   var overflow = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.f2;
   var CssStyle = kotlin_com_varabyte_kobweb_silk_foundation.$_$.s;
@@ -193,22 +193,22 @@
   var _SvgId___init__impl__pmt7ru = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.j3;
   var Defs = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.t2;
   var Path = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.u2;
-  var get_fr = kotlin_org_jetbrains_compose_html_html_core.$_$.n4;
+  var get_fr = kotlin_org_jetbrains_compose_html_html_core.$_$.p4;
   var gridRow = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.j1;
   var TopStart_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.p3;
   var CenterHorizontally_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m3;
   var com_varabyte_kobweb_compose_ui_Alignment_CenterHorizontally$stableprop_getter = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c3;
   var Column = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b;
-  var Footer = kotlin_org_jetbrains_compose_html_html_core.$_$.f6;
-  var A = kotlin_org_jetbrains_compose_html_html_core.$_$.z5;
-  var Span = kotlin_org_jetbrains_compose_html_html_core.$_$.s6;
+  var Footer = kotlin_org_jetbrains_compose_html_html_core.$_$.l6;
+  var A = kotlin_org_jetbrains_compose_html_html_core.$_$.e6;
+  var Span = kotlin_org_jetbrains_compose_html_html_core.$_$.z6;
   var rememberPageContext = kotlin_com_varabyte_kobweb_kobweb_core.$_$.e;
-  var Img = kotlin_org_jetbrains_compose_html_html_core.$_$.l6;
+  var Img = kotlin_org_jetbrains_compose_html_html_core.$_$.r6;
   var KMutableProperty0 = kotlin_kotlin.$_$.ae;
   var getLocalDelegateReference = kotlin_kotlin.$_$.fc;
-  var Nav = kotlin_org_jetbrains_compose_html_html_core.$_$.o6;
-  var Button = kotlin_org_jetbrains_compose_html_html_core.$_$.a6;
-  var get_em = kotlin_org_jetbrains_compose_html_html_core.$_$.h4;
+  var Nav = kotlin_org_jetbrains_compose_html_html_core.$_$.v6;
+  var Button = kotlin_org_jetbrains_compose_html_html_core.$_$.g6;
+  var get_em = kotlin_org_jetbrains_compose_html_html_core.$_$.j4;
   var com_varabyte_kobweb_silk_style_CssStyleVariant$stableprop_getter = kotlin_com_varabyte_kobweb_silk_foundation.$_$.b1;
   var Button_0 = kotlin_com_varabyte_kobweb_silk_widgets.$_$.b;
   var getStringHashCode = kotlin_kotlin.$_$.ic;
@@ -219,13 +219,22 @@
   var mapCapacity = kotlin_kotlin.$_$.d8;
   var coerceAtLeast = kotlin_kotlin.$_$.rd;
   var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.r;
-  var Section = kotlin_org_jetbrains_compose_html_html_core.$_$.r6;
-  var Main = kotlin_org_jetbrains_compose_html_html_core.$_$.n6;
-  var padding_1 = kotlin_org_jetbrains_compose_html_html_core.$_$.l5;
-  var textAlign_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.s5;
+  var Section = kotlin_org_jetbrains_compose_html_html_core.$_$.y6;
+  var Main = kotlin_org_jetbrains_compose_html_html_core.$_$.u6;
+  var padding_1 = kotlin_org_jetbrains_compose_html_html_core.$_$.o5;
+  var textAlign_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.v5;
   var getValue_0 = kotlin_kotlin.$_$.o7;
-  var Article = kotlin_org_jetbrains_compose_html_html_core.$_$.y5;
+  var Article = kotlin_org_jetbrains_compose_html_html_core.$_$.c6;
   var mutableStateOf = kotlin_androidx_compose_runtime_runtime.$_$.x;
+  var Search_getInstance = kotlin_org_jetbrains_compose_html_html_core.$_$.d;
+  var org_jetbrains_compose_web_attributes_InputType_Search$stableprop_getter = kotlin_org_jetbrains_compose_html_html_core.$_$.m2;
+  var Input = kotlin_org_jetbrains_compose_html_html_core.$_$.s6;
+  var listStyle = kotlin_org_jetbrains_compose_html_html_core.$_$.b5;
+  var margin_1 = kotlin_org_jetbrains_compose_html_html_core.$_$.g5;
+  var Br = kotlin_org_jetbrains_compose_html_html_core.$_$.f6;
+  var Aside = kotlin_org_jetbrains_compose_html_html_core.$_$.d6;
+  var marginBottom = kotlin_org_jetbrains_compose_html_html_core.$_$.c5;
+  var textDecoration = kotlin_org_jetbrains_compose_html_html_core.$_$.w5;
   //endregion
   //region block: pre-declaration
   initMetadataForObject(ComposableSingletons$MainKt, 'ComposableSingletons$MainKt');
@@ -248,6 +257,7 @@
   initMetadataForObject(ComposableSingletons$NotFoundKt, 'ComposableSingletons$NotFoundKt');
   initMetadataForObject(ComposableSingletons$AddonDetailPageKt, 'ComposableSingletons$AddonDetailPageKt');
   initMetadataForObject(ComposableSingletons$IndexKt_0, 'ComposableSingletons$IndexKt');
+  initMetadataForObject(ComposableSingletons$TemplateKt, 'ComposableSingletons$TemplateKt');
   initMetadataForObject(ComposableSingletons$IndexKt_1, 'ComposableSingletons$IndexKt');
   initMetadataForObject(ComposableSingletons$IndexKt_2, 'ComposableSingletons$IndexKt');
   //endregion
@@ -310,7 +320,7 @@
     while (!(root.firstChild == null)) {
       root.removeChild(ensureNotNull(root.firstChild));
     }
-    renderComposable('_kobweb-root', ComposableLambda$invoke$ref_15(composableLambdaInstance(1108811911, true, main$lambda_2(router))));
+    renderComposable('_kobweb-root', ComposableLambda$invoke$ref_16(composableLambdaInstance(1108811911, true, main$lambda_2(router))));
   }
   function ComposableLambda$invoke$ref(p0) {
     return function (_this__u8e3s4, p0_0, p1, p2) {
@@ -575,7 +585,7 @@
   function ComposableSingletons$MainKt$lambda$1700592220$lambda(pageCtx, $composer, $changed) {
     var $composer_0 = $composer;
     if ($composer_0.shouldExecute_4fplh_k$(!(($changed & 17) === 16), $changed & 1)) {
-      DocsPage($composer_0, 0);
+      Addon0004Page($composer_0, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -590,7 +600,7 @@
   function ComposableSingletons$MainKt$lambda$_1100462627$lambda_ty3cjn(pageCtx, $composer, $changed) {
     var $composer_0 = $composer;
     if ($composer_0.shouldExecute_4fplh_k$(!(($changed & 17) === 16), $changed & 1)) {
-      NotFoundPage($composer_0, 0);
+      DocsPage($composer_0, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -605,13 +615,28 @@
   function ComposableSingletons$MainKt$lambda$393449822$lambda(pageCtx, $composer, $changed) {
     var $composer_0 = $composer;
     if ($composer_0.shouldExecute_4fplh_k$(!(($changed & 17) === 16), $changed & 1)) {
-      ScriptsPage($composer_0, 0);
+      NotFoundPage($composer_0, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
     return Unit_getInstance();
   }
   function ComposableLambda$invoke$ref_13(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableSingletons$MainKt$lambda$1887362271$lambda(pageCtx, $composer, $changed) {
+    var $composer_0 = $composer;
+    if ($composer_0.shouldExecute_4fplh_k$(!(($changed & 17) === 16), $changed & 1)) {
+      ScriptsPage($composer_0, 0);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    return Unit_getInstance();
+  }
+  function ComposableLambda$invoke$ref_14(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -634,7 +659,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp;
       if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value = ComposableLambda$invoke$ref_14(dispatchReceiver);
+        var value = ComposableLambda$invoke$ref_15(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value);
         tmp = value;
       } else {
@@ -662,7 +687,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_14(p0) {
+  function ComposableLambda$invoke$ref_15(p0) {
     return function (_this__u8e3s4, p0_0) {
       p0.invoke_z8di7s_k$(_this__u8e3s4, p0_0);
       return Unit_getInstance();
@@ -693,7 +718,9 @@
     var tmp_9 = this;
     tmp_9.lambda$393449822__1 = ComposableLambda$invoke$ref_12(composableLambdaInstance(393449822, false, ComposableSingletons$MainKt$lambda$393449822$lambda));
     var tmp_10 = this;
-    tmp_10.lambda$854823496__1 = ComposableLambda$invoke$ref_13(composableLambdaInstance(854823496, false, ComposableSingletons$MainKt$lambda$854823496$lambda));
+    tmp_10.lambda$1887362271__1 = ComposableLambda$invoke$ref_13(composableLambdaInstance(1887362271, false, ComposableSingletons$MainKt$lambda$1887362271$lambda));
+    var tmp_11 = this;
+    tmp_11.lambda$854823496__1 = ComposableLambda$invoke$ref_14(composableLambdaInstance(854823496, false, ComposableSingletons$MainKt$lambda$854823496$lambda));
   }
   protoOf(ComposableSingletons$MainKt).get_lambda$1498945258_l486jo_k$ = function () {
     return this.lambda$1498945258__1;
@@ -728,6 +755,9 @@
   protoOf(ComposableSingletons$MainKt).get_lambda$393449822_kdbxvn_k$ = function () {
     return this.lambda$393449822__1;
   };
+  protoOf(ComposableSingletons$MainKt).get_lambda$1887362271_a5o09q_k$ = function () {
+    return this.lambda$1887362271__1;
+  };
   protoOf(ComposableSingletons$MainKt).get_lambda$854823496_rapkm2_k$ = function () {
     return this.lambda$854823496__1;
   };
@@ -759,9 +789,10 @@
     ctx.get_router_j3zccy_k$().register$default_cpqgbm_k$('/addons/0001', VOID, VOID, ComposableSingletons$MainKt_getInstance().lambda$1513822169__1);
     ctx.get_router_j3zccy_k$().register$default_cpqgbm_k$('/addons/0002', VOID, VOID, ComposableSingletons$MainKt_getInstance().lambda$_1287232678_47fjca_1);
     ctx.get_router_j3zccy_k$().register$default_cpqgbm_k$('/addons/0003', VOID, VOID, ComposableSingletons$MainKt_getInstance().lambda$206679771__1);
-    ctx.get_router_j3zccy_k$().register$default_cpqgbm_k$('/docs/', VOID, VOID, ComposableSingletons$MainKt_getInstance().lambda$1700592220__1);
-    ctx.get_router_j3zccy_k$().register$default_cpqgbm_k$('/not-found', VOID, VOID, ComposableSingletons$MainKt_getInstance().lambda$_1100462627_miwg91__1);
-    ctx.get_router_j3zccy_k$().register$default_cpqgbm_k$('/scripts/', VOID, VOID, ComposableSingletons$MainKt_getInstance().lambda$393449822__1);
+    ctx.get_router_j3zccy_k$().register$default_cpqgbm_k$('/addons/0004', VOID, VOID, ComposableSingletons$MainKt_getInstance().lambda$1700592220__1);
+    ctx.get_router_j3zccy_k$().register$default_cpqgbm_k$('/docs/', VOID, VOID, ComposableSingletons$MainKt_getInstance().lambda$_1100462627_miwg91__1);
+    ctx.get_router_j3zccy_k$().register$default_cpqgbm_k$('/not-found', VOID, VOID, ComposableSingletons$MainKt_getInstance().lambda$393449822__1);
+    ctx.get_router_j3zccy_k$().register$default_cpqgbm_k$('/scripts/', VOID, VOID, ComposableSingletons$MainKt_getInstance().lambda$1887362271__1);
     return Unit_getInstance();
   }
   function main$lambda$lambda(ctx) {
@@ -793,7 +824,7 @@
     initTheme(ctx);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_15(p0) {
+  function ComposableLambda$invoke$ref_16(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -813,7 +844,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_16(p0) {
+  function ComposableLambda$invoke$ref_17(p0) {
     return function (_this__u8e3s4, p0_0) {
       p0.invoke_z8di7s_k$(_this__u8e3s4, p0_0);
       return Unit_getInstance();
@@ -833,7 +864,7 @@
       var it = $composer_1.rememberedValue_4dg93v_k$();
       var tmp;
       if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value = ComposableLambda$invoke$ref_16(dispatchReceiver);
+        var value = ComposableLambda$invoke$ref_17(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value);
         tmp = value;
       } else {
@@ -1129,7 +1160,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(AboutPage$lambda_14($changed));
     }
   }
-  function ComposableLambda$invoke$ref_17(p0) {
+  function ComposableLambda$invoke$ref_18(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1140,7 +1171,7 @@
     Text('About this template', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_18(p0) {
+  function ComposableLambda$invoke$ref_19(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1151,7 +1182,7 @@
     Text('This template is intended to both demonstrate some fundamentals of the Kobweb framework and act a starting point you can build your own site from.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_19(p0) {
+  function ComposableLambda$invoke$ref_20(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1162,7 +1193,7 @@
     Text('Learn', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_20(p0) {
+  function ComposableLambda$invoke$ref_21(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1173,7 +1204,7 @@
     Text("If this is your first time using Kobweb, please open this site's project in an IDE and take a few minutes to look around the code.", $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_21(p0) {
+  function ComposableLambda$invoke$ref_22(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1184,7 +1215,7 @@
     Text('Files', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_22(p0) {
+  function ComposableLambda$invoke$ref_23(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1195,7 +1226,7 @@
     Text('AppEntry.kt', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_23(p0) {
+  function ComposableLambda$invoke$ref_24(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1206,7 +1237,7 @@
     Text('@App', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_24(p0) {
+  function ComposableLambda$invoke$ref_25(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1219,7 +1250,7 @@
     Text('.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_25(p0) {
+  function ComposableLambda$invoke$ref_26(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1230,7 +1261,7 @@
     Text('AppStyles.kt', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_26(p0) {
+  function ComposableLambda$invoke$ref_27(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1241,7 +1272,7 @@
     Text('An example of declaring generally useful styles that can be used anywhere across the whole site. Otherwise, you normally declare styles close to the widget that uses them.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_27(p0) {
+  function ComposableLambda$invoke$ref_28(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1252,7 +1283,7 @@
     Text('SiteTheme.kt', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_28(p0) {
+  function ComposableLambda$invoke$ref_29(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1263,7 +1294,7 @@
     Text('An example of how to define some site-specific colors, effectively extending the palette provided by Silk.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_29(p0) {
+  function ComposableLambda$invoke$ref_30(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1274,7 +1305,7 @@
     Text('components/', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_30(p0) {
+  function ComposableLambda$invoke$ref_31(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1285,7 +1316,7 @@
     Text('By convention, Kobweb codebases organize reusable site components under this folder. Within it, you have:', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_31(p0) {
+  function ComposableLambda$invoke$ref_32(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1296,7 +1327,7 @@
     Text('layouts/', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_32(p0) {
+  function ComposableLambda$invoke$ref_33(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1325,7 +1356,7 @@
   function ComposableSingletons$AboutKt$lambda$_1253383182$lambda$lambda_56k0xj($this$GenericTag) {
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_33(p0) {
+  function ComposableLambda$invoke$ref_34(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1336,7 +1367,7 @@
     Text('sections/', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_34(p0) {
+  function ComposableLambda$invoke$ref_35(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1365,7 +1396,7 @@
   function ComposableSingletons$AboutKt$lambda$_1888593381$lambda$lambda_r1axyp($this$GenericTag) {
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_35(p0) {
+  function ComposableLambda$invoke$ref_36(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1376,7 +1407,7 @@
     Text('widgets/', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_36(p0) {
+  function ComposableLambda$invoke$ref_37(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1405,7 +1436,7 @@
   function ComposableSingletons$AboutKt$lambda$_806785094$lambda$lambda_uijy5k($this$GenericTag) {
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_37(p0) {
+  function ComposableLambda$invoke$ref_38(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1418,7 +1449,7 @@
     Li(null, ComposableSingletons$AboutKt_getInstance().lambda$_806785094_pwulq3__1, $composer_0, 48, 1);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_38(p0) {
+  function ComposableLambda$invoke$ref_39(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1429,7 +1460,7 @@
     Text('pages/', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_39(p0) {
+  function ComposableLambda$invoke$ref_40(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1440,7 +1471,7 @@
     Text('@Composable', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_40(p0) {
+  function ComposableLambda$invoke$ref_41(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1451,7 +1482,7 @@
     Text('@Page', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_41(p0) {
+  function ComposableLambda$invoke$ref_42(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1462,7 +1493,7 @@
     Text('resources/markdown', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_42(p0) {
+  function ComposableLambda$invoke$ref_43(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1479,7 +1510,7 @@
     Text(' folder.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_43(p0) {
+  function ComposableLambda$invoke$ref_44(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1490,7 +1521,7 @@
     Text('resources/', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_44(p0) {
+  function ComposableLambda$invoke$ref_45(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1501,7 +1532,7 @@
     Text('public', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_45(p0) {
+  function ComposableLambda$invoke$ref_46(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1530,7 +1561,7 @@
   function ComposableSingletons$AboutKt$lambda$_1363077015$lambda$lambda_9iupw0($this$GenericTag) {
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_46(p0) {
+  function ComposableLambda$invoke$ref_47(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1541,7 +1572,7 @@
     Text('markdown', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_47(p0) {
+  function ComposableLambda$invoke$ref_48(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1570,7 +1601,7 @@
   function ComposableSingletons$AboutKt$lambda$_1914722222$lambda$lambda_2nwvv1($this$GenericTag) {
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_48(p0) {
+  function ComposableLambda$invoke$ref_49(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1582,7 +1613,7 @@
     Li(null, ComposableSingletons$AboutKt_getInstance().lambda$_1914722222_upfatm_1, $composer_0, 48, 1);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_49(p0) {
+  function ComposableLambda$invoke$ref_50(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1593,7 +1624,7 @@
     Text('Classes', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_50(p0) {
+  function ComposableLambda$invoke$ref_51(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1604,7 +1635,7 @@
     Text('The Kobweb and Silk APIs introduce a lot of powerful concepts. Here are some of the most important ones to know about which you can find used throughout this template.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_51(p0) {
+  function ComposableLambda$invoke$ref_52(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1615,7 +1646,7 @@
     Text('Modifier', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_52(p0) {
+  function ComposableLambda$invoke$ref_53(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1626,7 +1657,7 @@
     Text('Modifier', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_53(p0) {
+  function ComposableLambda$invoke$ref_54(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1639,7 +1670,7 @@
     Text(' keyword that Android developers will recognize from the Jetpack Compose API. In a webdev context, this is used for setting CSS styles and html attributes on elements in the page.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_54(p0) {
+  function ComposableLambda$invoke$ref_55(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1650,7 +1681,7 @@
     Text('CssStyle', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_55(p0) {
+  function ComposableLambda$invoke$ref_56(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1661,7 +1692,7 @@
     Text('CssStyle', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_56(p0) {
+  function ComposableLambda$invoke$ref_57(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1674,7 +1705,7 @@
     Text(' class in a Kotlin-idiomatic way. You can find examples of style blocks used throughout the template.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_57(p0) {
+  function ComposableLambda$invoke$ref_58(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1685,7 +1716,7 @@
     Text('Keyframes', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_58(p0) {
+  function ComposableLambda$invoke$ref_59(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1696,7 +1727,7 @@
     Text('Keyframes', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_59(p0) {
+  function ComposableLambda$invoke$ref_60(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1707,7 +1738,7 @@
     Text('CssStyle', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_60(p0) {
+  function ComposableLambda$invoke$ref_61(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1718,7 +1749,7 @@
     Text('Modifier.animation(YourKeyframes.toAnimation(...))', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_61(p0) {
+  function ComposableLambda$invoke$ref_62(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1735,7 +1766,7 @@
     Text(' to reference them.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_62(p0) {
+  function ComposableLambda$invoke$ref_63(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1746,7 +1777,7 @@
     Text('Starting Point', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_63(p0) {
+  function ComposableLambda$invoke$ref_64(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1757,7 +1788,7 @@
     Text('About', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_64(p0) {
+  function ComposableLambda$invoke$ref_65(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1770,7 +1801,7 @@
     Text(" page and working from there. However, you are welcome to modify or delete anything you find in the template that you don't plan to use in your final site.", $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_65(p0) {
+  function ComposableLambda$invoke$ref_66(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1781,7 +1812,7 @@
     Text("If instead you'd like to start from scratch, you can run", $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_66(p0) {
+  function ComposableLambda$invoke$ref_67(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1792,7 +1823,7 @@
     Text('$ kobweb create app/empty\n', $composer_0, 0);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_67(p0) {
+  function ComposableLambda$invoke$ref_68(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1803,7 +1834,7 @@
     Code(null, ComposableSingletons$AboutKt_getInstance().lambda$1311557770__1, $composer_0, 48, 1);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_68(p0) {
+  function ComposableLambda$invoke$ref_69(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1814,7 +1845,7 @@
     Text('which will create a new project with nothing inside of it except for a minimal, skeletal structure.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_69(p0) {
+  function ComposableLambda$invoke$ref_70(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1825,7 +1856,7 @@
     Text('Export and Deploy', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_70(p0) {
+  function ComposableLambda$invoke$ref_71(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1836,7 +1867,7 @@
     Text("When you are ready to share your site with the world, you'll want to export it first. This will create a production snapshot of your site.", $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_71(p0) {
+  function ComposableLambda$invoke$ref_72(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1847,7 +1878,7 @@
     Text('static layout', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_72(p0) {
+  function ComposableLambda$invoke$ref_73(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1858,7 +1889,7 @@
     Text('full stack', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_73(p0) {
+  function ComposableLambda$invoke$ref_74(p0) {
     return function (_this__u8e3s4, p0_0) {
       p0.invoke_z8di7s_k$(_this__u8e3s4, p0_0);
       return Unit_getInstance();
@@ -1873,7 +1904,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_74(p0) {
+  function ComposableLambda$invoke$ref_75(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1890,7 +1921,7 @@
     Text('.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_75(p0) {
+  function ComposableLambda$invoke$ref_76(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1901,7 +1932,7 @@
     Text('For most sites, a static layout site is what you want, so to do that, return to the command line and run:', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_76(p0) {
+  function ComposableLambda$invoke$ref_77(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1912,7 +1943,7 @@
     Text('$ kobweb export --layout static\n', $composer_0, 0);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_77(p0) {
+  function ComposableLambda$invoke$ref_78(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1923,7 +1954,7 @@
     Code(null, ComposableSingletons$AboutKt_getInstance().lambda$_1766050047_dtbrsy_1, $composer_0, 48, 1);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_78(p0) {
+  function ComposableLambda$invoke$ref_79(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1934,7 +1965,7 @@
     Text('.kobweb/site', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_79(p0) {
+  function ComposableLambda$invoke$ref_80(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1947,7 +1978,7 @@
     Text(' folder.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_80(p0) {
+  function ComposableLambda$invoke$ref_81(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1958,7 +1989,7 @@
     Text('Test it locally by running:', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_81(p0) {
+  function ComposableLambda$invoke$ref_82(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1969,7 +2000,7 @@
     Text('$ kobweb run --layout static --env prod\n', $composer_0, 0);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_82(p0) {
+  function ComposableLambda$invoke$ref_83(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1980,7 +2011,7 @@
     Code(null, ComposableSingletons$AboutKt_getInstance().lambda$1362220930__1, $composer_0, 48, 1);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_83(p0) {
+  function ComposableLambda$invoke$ref_84(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -1991,7 +2022,7 @@
     Text("If you're satisfied, you can upload your site files to the static website host provider of your choice. Each provider has its own instructions for how it discovers your files, so please refer to their documentation.", $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_84(p0) {
+  function ComposableLambda$invoke$ref_85(p0) {
     return function (_this__u8e3s4, p0_0) {
       p0.invoke_z8di7s_k$(_this__u8e3s4, p0_0);
       return Unit_getInstance();
@@ -2006,7 +2037,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_85(p0) {
+  function ComposableLambda$invoke$ref_86(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -2022,143 +2053,143 @@
   function ComposableSingletons$AboutKt() {
     ComposableSingletons$AboutKt_instance = this;
     var tmp = this;
-    tmp.lambda$_1984207531_qlhgoe_1 = ComposableLambda$invoke$ref_17(composableLambdaInstance(-1984207531, false, ComposableSingletons$AboutKt$lambda$_1984207531$lambda_793xmo));
+    tmp.lambda$_1984207531_qlhgoe_1 = ComposableLambda$invoke$ref_18(composableLambdaInstance(-1984207531, false, ComposableSingletons$AboutKt$lambda$_1984207531$lambda_793xmo));
     var tmp_0 = this;
-    tmp_0.lambda$_863562666_uzcpfu_1 = ComposableLambda$invoke$ref_18(composableLambdaInstance(-863562666, false, ComposableSingletons$AboutKt$lambda$_863562666$lambda_vkmlfm));
+    tmp_0.lambda$_863562666_uzcpfu_1 = ComposableLambda$invoke$ref_19(composableLambdaInstance(-863562666, false, ComposableSingletons$AboutKt$lambda$_863562666$lambda_vkmlfm));
     var tmp_1 = this;
-    tmp_1.lambda$1144063446__1 = ComposableLambda$invoke$ref_19(composableLambdaInstance(1144063446, false, ComposableSingletons$AboutKt$lambda$1144063446$lambda));
+    tmp_1.lambda$1144063446__1 = ComposableLambda$invoke$ref_20(composableLambdaInstance(1144063446, false, ComposableSingletons$AboutKt$lambda$1144063446$lambda));
     var tmp_2 = this;
-    tmp_2.lambda$_407715891_xu2qio_1 = ComposableLambda$invoke$ref_20(composableLambdaInstance(-407715891, false, ComposableSingletons$AboutKt$lambda$_407715891$lambda_xfzv3s));
+    tmp_2.lambda$_407715891_xu2qio_1 = ComposableLambda$invoke$ref_21(composableLambdaInstance(-407715891, false, ComposableSingletons$AboutKt$lambda$_407715891$lambda_xfzv3s));
     var tmp_3 = this;
-    tmp_3.lambda$_22632873_yhy4b5__1 = ComposableLambda$invoke$ref_21(composableLambdaInstance(-22632873, false, ComposableSingletons$AboutKt$lambda$_22632873$lambda_pt0lep));
+    tmp_3.lambda$_22632873_yhy4b5__1 = ComposableLambda$invoke$ref_22(composableLambdaInstance(-22632873, false, ComposableSingletons$AboutKt$lambda$_22632873$lambda_pt0lep));
     var tmp_4 = this;
-    tmp_4.lambda$_1189329192_fj0t1b_1 = ComposableLambda$invoke$ref_22(composableLambdaInstance(-1189329192, false, ComposableSingletons$AboutKt$lambda$_1189329192$lambda_mhq1mb));
+    tmp_4.lambda$_1189329192_fj0t1b_1 = ComposableLambda$invoke$ref_23(composableLambdaInstance(-1189329192, false, ComposableSingletons$AboutKt$lambda$_1189329192$lambda_mhq1mb));
     var tmp_5 = this;
-    tmp_5.lambda$_1156226033_4fyj6d_1 = ComposableLambda$invoke$ref_23(composableLambdaInstance(-1156226033, false, ComposableSingletons$AboutKt$lambda$_1156226033$lambda_k4t57n));
+    tmp_5.lambda$_1156226033_4fyj6d_1 = ComposableLambda$invoke$ref_24(composableLambdaInstance(-1156226033, false, ComposableSingletons$AboutKt$lambda$_1156226033$lambda_k4t57n));
     var tmp_6 = this;
-    tmp_6.lambda$_1574412210_nrd903__1 = ComposableLambda$invoke$ref_24(composableLambdaInstance(-1574412210, false, ComposableSingletons$AboutKt$lambda$_1574412210$lambda_f9ktwf));
+    tmp_6.lambda$_1574412210_nrd903__1 = ComposableLambda$invoke$ref_25(composableLambdaInstance(-1574412210, false, ComposableSingletons$AboutKt$lambda$_1574412210$lambda_f9ktwf));
     var tmp_7 = this;
-    tmp_7.lambda$63265231__1 = ComposableLambda$invoke$ref_25(composableLambdaInstance(63265231, false, ComposableSingletons$AboutKt$lambda$63265231$lambda));
+    tmp_7.lambda$63265231__1 = ComposableLambda$invoke$ref_26(composableLambdaInstance(63265231, false, ComposableSingletons$AboutKt$lambda$63265231$lambda));
     var tmp_8 = this;
-    tmp_8.lambda$1553858767__1 = ComposableLambda$invoke$ref_26(composableLambdaInstance(1553858767, false, ComposableSingletons$AboutKt$lambda$1553858767$lambda));
+    tmp_8.lambda$1553858767__1 = ComposableLambda$invoke$ref_27(composableLambdaInstance(1553858767, false, ComposableSingletons$AboutKt$lambda$1553858767$lambda));
     var tmp_9 = this;
-    tmp_9.lambda$_1103431088_lgm9ch_1 = ComposableLambda$invoke$ref_27(composableLambdaInstance(-1103431088, false, ComposableSingletons$AboutKt$lambda$_1103431088$lambda_esrfr7));
+    tmp_9.lambda$_1103431088_lgm9ch_1 = ComposableLambda$invoke$ref_28(composableLambdaInstance(-1103431088, false, ComposableSingletons$AboutKt$lambda$_1103431088$lambda_esrfr7));
     var tmp_10 = this;
-    tmp_10.lambda$387162448__1 = ComposableLambda$invoke$ref_28(composableLambdaInstance(387162448, false, ComposableSingletons$AboutKt$lambda$387162448$lambda));
+    tmp_10.lambda$387162448__1 = ComposableLambda$invoke$ref_29(composableLambdaInstance(387162448, false, ComposableSingletons$AboutKt$lambda$387162448$lambda));
     var tmp_11 = this;
-    tmp_11.lambda$2024839889__1 = ComposableLambda$invoke$ref_29(composableLambdaInstance(2024839889, false, ComposableSingletons$AboutKt$lambda$2024839889$lambda));
+    tmp_11.lambda$2024839889__1 = ComposableLambda$invoke$ref_30(composableLambdaInstance(2024839889, false, ComposableSingletons$AboutKt$lambda$2024839889$lambda));
     var tmp_12 = this;
-    tmp_12.lambda$_779533871_zdhyl6__1 = ComposableLambda$invoke$ref_30(composableLambdaInstance(-779533871, false, ComposableSingletons$AboutKt$lambda$_779533871$lambda_j4pnky));
+    tmp_12.lambda$_779533871_zdhyl6__1 = ComposableLambda$invoke$ref_31(composableLambdaInstance(-779533871, false, ComposableSingletons$AboutKt$lambda$_779533871$lambda_j4pnky));
     var tmp_13 = this;
-    tmp_13.lambda$_1547501133_5ajeky_1 = ComposableLambda$invoke$ref_31(composableLambdaInstance(-1547501133, false, ComposableSingletons$AboutKt$lambda$_1547501133$lambda_8jub30));
+    tmp_13.lambda$_1547501133_5ajeky_1 = ComposableLambda$invoke$ref_32(composableLambdaInstance(-1547501133, false, ComposableSingletons$AboutKt$lambda$_1547501133$lambda_8jub30));
     var tmp_14 = this;
-    tmp_14.lambda$_1253383182_6ruut0__1 = ComposableLambda$invoke$ref_32(composableLambdaInstance(-1253383182, false, ComposableSingletons$AboutKt$lambda$_1253383182$lambda_ndryw2));
+    tmp_14.lambda$_1253383182_6ruut0__1 = ComposableLambda$invoke$ref_33(composableLambdaInstance(-1253383182, false, ComposableSingletons$AboutKt$lambda$_1253383182$lambda_ndryw2));
     var tmp_15 = this;
-    tmp_15.lambda$_1068102756_c38uuu_1 = ComposableLambda$invoke$ref_33(composableLambdaInstance(-1068102756, false, ComposableSingletons$AboutKt$lambda$_1068102756$lambda_i46d14));
+    tmp_15.lambda$_1068102756_c38uuu_1 = ComposableLambda$invoke$ref_34(composableLambdaInstance(-1068102756, false, ComposableSingletons$AboutKt$lambda$_1068102756$lambda_i46d14));
     var tmp_16 = this;
-    tmp_16.lambda$_1888593381_pb12do_1 = ComposableLambda$invoke$ref_34(composableLambdaInstance(-1888593381, false, ComposableSingletons$AboutKt$lambda$_1888593381$lambda_xuoq4a));
+    tmp_16.lambda$_1888593381_pb12do_1 = ComposableLambda$invoke$ref_35(composableLambdaInstance(-1888593381, false, ComposableSingletons$AboutKt$lambda$_1888593381$lambda_xuoq4a));
     var tmp_17 = this;
-    tmp_17.lambda$13705531__1 = ComposableLambda$invoke$ref_35(composableLambdaInstance(13705531, false, ComposableSingletons$AboutKt$lambda$13705531$lambda));
+    tmp_17.lambda$13705531__1 = ComposableLambda$invoke$ref_36(composableLambdaInstance(13705531, false, ComposableSingletons$AboutKt$lambda$13705531$lambda));
     var tmp_18 = this;
-    tmp_18.lambda$_806785094_pwulq3__1 = ComposableLambda$invoke$ref_36(composableLambdaInstance(-806785094, false, ComposableSingletons$AboutKt$lambda$_806785094$lambda_2h44rh));
+    tmp_18.lambda$_806785094_pwulq3__1 = ComposableLambda$invoke$ref_37(composableLambdaInstance(-806785094, false, ComposableSingletons$AboutKt$lambda$_806785094$lambda_2h44rh));
     var tmp_19 = this;
-    tmp_19.lambda$167972387__1 = ComposableLambda$invoke$ref_37(composableLambdaInstance(167972387, false, ComposableSingletons$AboutKt$lambda$167972387$lambda));
+    tmp_19.lambda$167972387__1 = ComposableLambda$invoke$ref_38(composableLambdaInstance(167972387, false, ComposableSingletons$AboutKt$lambda$167972387$lambda));
     var tmp_20 = this;
-    tmp_20.lambda$858143570__1 = ComposableLambda$invoke$ref_38(composableLambdaInstance(858143570, false, ComposableSingletons$AboutKt$lambda$858143570$lambda));
+    tmp_20.lambda$858143570__1 = ComposableLambda$invoke$ref_39(composableLambdaInstance(858143570, false, ComposableSingletons$AboutKt$lambda$858143570$lambda));
     var tmp_21 = this;
-    tmp_21.lambda$_1528044013_v1tr8c_1 = ComposableLambda$invoke$ref_39(composableLambdaInstance(-1528044013, false, ComposableSingletons$AboutKt$lambda$_1528044013$lambda_s1bmxe));
+    tmp_21.lambda$_1528044013_v1tr8c_1 = ComposableLambda$invoke$ref_40(composableLambdaInstance(-1528044013, false, ComposableSingletons$AboutKt$lambda$_1528044013$lambda_s1bmxe));
     var tmp_22 = this;
-    tmp_22.lambda$690882826__1 = ComposableLambda$invoke$ref_40(composableLambdaInstance(690882826, false, ComposableSingletons$AboutKt$lambda$690882826$lambda));
+    tmp_22.lambda$690882826__1 = ComposableLambda$invoke$ref_41(composableLambdaInstance(690882826, false, ComposableSingletons$AboutKt$lambda$690882826$lambda));
     var tmp_23 = this;
-    tmp_23.lambda$_132798645_1zihy7__1 = ComposableLambda$invoke$ref_41(composableLambdaInstance(-132798645, false, ComposableSingletons$AboutKt$lambda$_132798645$lambda_njdt1j));
+    tmp_23.lambda$_132798645_1zihy7__1 = ComposableLambda$invoke$ref_42(composableLambdaInstance(-132798645, false, ComposableSingletons$AboutKt$lambda$_132798645$lambda_njdt1j));
     var tmp_24 = this;
-    tmp_24.lambda$_1946230190_bqf0wj_1 = ComposableLambda$invoke$ref_42(composableLambdaInstance(-1946230190, false, ComposableSingletons$AboutKt$lambda$_1946230190$lambda_iwqddx));
+    tmp_24.lambda$_1946230190_bqf0wj_1 = ComposableLambda$invoke$ref_43(composableLambdaInstance(-1946230190, false, ComposableSingletons$AboutKt$lambda$_1946230190$lambda_iwqddx));
     var tmp_25 = this;
-    tmp_25.lambda$_308552749_9uhk9h_1 = ComposableLambda$invoke$ref_43(composableLambdaInstance(-308552749, false, ComposableSingletons$AboutKt$lambda$_308552749$lambda_v572xf));
+    tmp_25.lambda$_308552749_9uhk9h_1 = ComposableLambda$invoke$ref_44(composableLambdaInstance(-308552749, false, ComposableSingletons$AboutKt$lambda$_308552749$lambda_v572xf));
     var tmp_26 = this;
-    tmp_26.lambda$_542586390_mnwfja_1 = ComposableLambda$invoke$ref_44(composableLambdaInstance(-542586390, false, ComposableSingletons$AboutKt$lambda$_542586390$lambda_ayzsdq));
+    tmp_26.lambda$_542586390_mnwfja_1 = ComposableLambda$invoke$ref_45(composableLambdaInstance(-542586390, false, ComposableSingletons$AboutKt$lambda$_542586390$lambda_ayzsdq));
     var tmp_27 = this;
-    tmp_27.lambda$_1363077015_99yj9p_1 = ComposableLambda$invoke$ref_45(composableLambdaInstance(-1363077015, false, ComposableSingletons$AboutKt$lambda$_1363077015$lambda_jagisb));
+    tmp_27.lambda$_1363077015_99yj9p_1 = ComposableLambda$invoke$ref_46(composableLambdaInstance(-1363077015, false, ComposableSingletons$AboutKt$lambda$_1363077015$lambda_jagisb));
     var tmp_28 = this;
-    tmp_28.lambda$597753235__1 = ComposableLambda$invoke$ref_46(composableLambdaInstance(597753235, false, ComposableSingletons$AboutKt$lambda$597753235$lambda));
+    tmp_28.lambda$597753235__1 = ComposableLambda$invoke$ref_47(composableLambdaInstance(597753235, false, ComposableSingletons$AboutKt$lambda$597753235$lambda));
     var tmp_29 = this;
-    tmp_29.lambda$_1914722222_upfatm_1 = ComposableLambda$invoke$ref_47(composableLambdaInstance(-1914722222, false, ComposableSingletons$AboutKt$lambda$_1914722222$lambda_tsijaw));
+    tmp_29.lambda$_1914722222_upfatm_1 = ComposableLambda$invoke$ref_48(composableLambdaInstance(-1914722222, false, ComposableSingletons$AboutKt$lambda$_1914722222$lambda_tsijaw));
     var tmp_30 = this;
-    tmp_30.lambda$_1239975334_qh15is_1 = ComposableLambda$invoke$ref_48(composableLambdaInstance(-1239975334, false, ComposableSingletons$AboutKt$lambda$_1239975334$lambda_x9tc56));
+    tmp_30.lambda$_1239975334_qh15is_1 = ComposableLambda$invoke$ref_49(composableLambdaInstance(-1239975334, false, ComposableSingletons$AboutKt$lambda$_1239975334$lambda_x9tc56));
     var tmp_31 = this;
-    tmp_31.lambda$271963534__1 = ComposableLambda$invoke$ref_49(composableLambdaInstance(271963534, false, ComposableSingletons$AboutKt$lambda$271963534$lambda));
+    tmp_31.lambda$271963534__1 = ComposableLambda$invoke$ref_50(composableLambdaInstance(271963534, false, ComposableSingletons$AboutKt$lambda$271963534$lambda));
     var tmp_32 = this;
-    tmp_32.lambda$1182040787__1 = ComposableLambda$invoke$ref_50(composableLambdaInstance(1182040787, false, ComposableSingletons$AboutKt$lambda$1182040787$lambda));
+    tmp_32.lambda$1182040787__1 = ComposableLambda$invoke$ref_51(composableLambdaInstance(1182040787, false, ComposableSingletons$AboutKt$lambda$1182040787$lambda));
     var tmp_33 = this;
-    tmp_33.lambda$_1475249068_jwtmjw_1 = ComposableLambda$invoke$ref_51(composableLambdaInstance(-1475249068, false, ComposableSingletons$AboutKt$lambda$_1475249068$lambda_mkykjm));
+    tmp_33.lambda$_1475249068_jwtmjw_1 = ComposableLambda$invoke$ref_52(composableLambdaInstance(-1475249068, false, ComposableSingletons$AboutKt$lambda$_1475249068$lambda_mkykjm));
     var tmp_34 = this;
-    tmp_34.lambda$433530645__1 = ComposableLambda$invoke$ref_52(composableLambdaInstance(433530645, false, ComposableSingletons$AboutKt$lambda$433530645$lambda));
+    tmp_34.lambda$433530645__1 = ComposableLambda$invoke$ref_53(composableLambdaInstance(433530645, false, ComposableSingletons$AboutKt$lambda$433530645$lambda));
     var tmp_35 = this;
-    tmp_35.lambda$15344468__1 = ComposableLambda$invoke$ref_53(composableLambdaInstance(15344468, false, ComposableSingletons$AboutKt$lambda$15344468$lambda));
+    tmp_35.lambda$15344468__1 = ComposableLambda$invoke$ref_54(composableLambdaInstance(15344468, false, ComposableSingletons$AboutKt$lambda$15344468$lambda));
     var tmp_36 = this;
-    tmp_36.lambda$1653021909__1 = ComposableLambda$invoke$ref_54(composableLambdaInstance(1653021909, false, ComposableSingletons$AboutKt$lambda$1653021909$lambda));
+    tmp_36.lambda$1653021909__1 = ComposableLambda$invoke$ref_55(composableLambdaInstance(1653021909, false, ComposableSingletons$AboutKt$lambda$1653021909$lambda));
     var tmp_37 = this;
-    tmp_37.lambda$_733165674_rhj9jq_1 = ComposableLambda$invoke$ref_55(composableLambdaInstance(-733165674, false, ComposableSingletons$AboutKt$lambda$_733165674$lambda_swwu72));
+    tmp_37.lambda$_733165674_rhj9jq_1 = ComposableLambda$invoke$ref_56(composableLambdaInstance(-733165674, false, ComposableSingletons$AboutKt$lambda$_733165674$lambda_swwu72));
     var tmp_38 = this;
-    tmp_38.lambda$_1151351851_6a7x3j_1 = ComposableLambda$invoke$ref_56(composableLambdaInstance(-1151351851, false, ComposableSingletons$AboutKt$lambda$_1151351851$lambda_2dmb1f));
+    tmp_38.lambda$_1151351851_6a7x3j_1 = ComposableLambda$invoke$ref_57(composableLambdaInstance(-1151351851, false, ComposableSingletons$AboutKt$lambda$_1151351851$lambda_2dmb1f));
     var tmp_39 = this;
-    tmp_39.lambda$486325590__1 = ComposableLambda$invoke$ref_57(composableLambdaInstance(486325590, false, ComposableSingletons$AboutKt$lambda$486325590$lambda));
+    tmp_39.lambda$486325590__1 = ComposableLambda$invoke$ref_58(composableLambdaInstance(486325590, false, ComposableSingletons$AboutKt$lambda$486325590$lambda));
     var tmp_40 = this;
-    tmp_40.lambda$_1070171756_5dcyq3__1 = ComposableLambda$invoke$ref_58(composableLambdaInstance(-1070171756, false, ComposableSingletons$AboutKt$lambda$_1070171756$lambda_cjb2c9));
+    tmp_40.lambda$_1070171756_5dcyq3__1 = ComposableLambda$invoke$ref_59(composableLambdaInstance(-1070171756, false, ComposableSingletons$AboutKt$lambda$_1070171756$lambda_cjb2c9));
     var tmp_41 = this;
-    tmp_41.lambda$_1002916483_w0k9dq_1 = ComposableLambda$invoke$ref_59(composableLambdaInstance(-1002916483, false, ComposableSingletons$AboutKt$lambda$_1002916483$lambda_mx7ve4));
+    tmp_41.lambda$_1002916483_w0k9dq_1 = ComposableLambda$invoke$ref_60(composableLambdaInstance(-1002916483, false, ComposableSingletons$AboutKt$lambda$_1002916483$lambda_mx7ve4));
     var tmp_42 = this;
-    tmp_42.lambda$_767238308_nxuq8k_1 = ComposableLambda$invoke$ref_60(composableLambdaInstance(-767238308, false, ComposableSingletons$AboutKt$lambda$_767238308$lambda_k0lu58));
+    tmp_42.lambda$_767238308_nxuq8k_1 = ComposableLambda$invoke$ref_61(composableLambdaInstance(-767238308, false, ComposableSingletons$AboutKt$lambda$_767238308$lambda_k0lu58));
     var tmp_43 = this;
-    tmp_43.lambda$_1149041355_9uj263__1 = ComposableLambda$invoke$ref_61(composableLambdaInstance(-1149041355, false, ComposableSingletons$AboutKt$lambda$_1149041355$lambda_l9kgq5));
+    tmp_43.lambda$_1149041355_9uj263__1 = ComposableLambda$invoke$ref_62(composableLambdaInstance(-1149041355, false, ComposableSingletons$AboutKt$lambda$_1149041355$lambda_l9kgq5));
     var tmp_44 = this;
-    tmp_44.lambda$480661837__1 = ComposableLambda$invoke$ref_62(composableLambdaInstance(480661837, false, ComposableSingletons$AboutKt$lambda$480661837$lambda));
+    tmp_44.lambda$480661837__1 = ComposableLambda$invoke$ref_63(composableLambdaInstance(480661837, false, ComposableSingletons$AboutKt$lambda$480661837$lambda));
     var tmp_45 = this;
-    tmp_45.lambda$_1098683078_u0n6mm_1 = ComposableLambda$invoke$ref_63(composableLambdaInstance(-1098683078, false, ComposableSingletons$AboutKt$lambda$_1098683078$lambda_5lakps));
+    tmp_45.lambda$_1098683078_u0n6mm_1 = ComposableLambda$invoke$ref_64(composableLambdaInstance(-1098683078, false, ComposableSingletons$AboutKt$lambda$_1098683078$lambda_5lakps));
     var tmp_46 = this;
-    tmp_46.lambda$1979229622__1 = ComposableLambda$invoke$ref_64(composableLambdaInstance(1979229622, false, ComposableSingletons$AboutKt$lambda$1979229622$lambda));
+    tmp_46.lambda$1979229622__1 = ComposableLambda$invoke$ref_65(composableLambdaInstance(1979229622, false, ComposableSingletons$AboutKt$lambda$1979229622$lambda));
     var tmp_47 = this;
-    tmp_47.lambda$812533303__1 = ComposableLambda$invoke$ref_65(composableLambdaInstance(812533303, false, ComposableSingletons$AboutKt$lambda$812533303$lambda));
+    tmp_47.lambda$812533303__1 = ComposableLambda$invoke$ref_66(composableLambdaInstance(812533303, false, ComposableSingletons$AboutKt$lambda$812533303$lambda));
     var tmp_48 = this;
-    tmp_48.lambda$1311557770__1 = ComposableLambda$invoke$ref_66(composableLambdaInstance(1311557770, false, ComposableSingletons$AboutKt$lambda$1311557770$lambda));
+    tmp_48.lambda$1311557770__1 = ComposableLambda$invoke$ref_67(composableLambdaInstance(1311557770, false, ComposableSingletons$AboutKt$lambda$1311557770$lambda));
     var tmp_49 = this;
-    tmp_49.lambda$893371593__1 = ComposableLambda$invoke$ref_67(composableLambdaInstance(893371593, false, ComposableSingletons$AboutKt$lambda$893371593$lambda));
+    tmp_49.lambda$893371593__1 = ComposableLambda$invoke$ref_68(composableLambdaInstance(893371593, false, ComposableSingletons$AboutKt$lambda$893371593$lambda));
     var tmp_50 = this;
-    tmp_50.lambda$_354163016_mcajft_1 = ComposableLambda$invoke$ref_68(composableLambdaInstance(-354163016, false, ComposableSingletons$AboutKt$lambda$_354163016$lambda_626gw1));
+    tmp_50.lambda$_354163016_mcajft_1 = ComposableLambda$invoke$ref_69(composableLambdaInstance(-354163016, false, ComposableSingletons$AboutKt$lambda$_354163016$lambda_626gw1));
     var tmp_51 = this;
-    tmp_51.lambda$_686034482_n25vbz_1 = ComposableLambda$invoke$ref_69(composableLambdaInstance(-686034482, false, ComposableSingletons$AboutKt$lambda$_686034482$lambda_d16g93));
+    tmp_51.lambda$_686034482_n25vbz_1 = ComposableLambda$invoke$ref_70(composableLambdaInstance(-686034482, false, ComposableSingletons$AboutKt$lambda$_686034482$lambda_d16g93));
     var tmp_52 = this;
-    tmp_52.lambda$_1520859335_bj8fmd_1 = ComposableLambda$invoke$ref_70(composableLambdaInstance(-1520859335, false, ComposableSingletons$AboutKt$lambda$_1520859335$lambda_v7ha71));
+    tmp_52.lambda$_1520859335_bj8fmd_1 = ComposableLambda$invoke$ref_71(composableLambdaInstance(-1520859335, false, ComposableSingletons$AboutKt$lambda$_1520859335$lambda_v7ha71));
     var tmp_53 = this;
-    tmp_53.lambda$_1470501058_iwquax_1 = ComposableLambda$invoke$ref_71(composableLambdaInstance(-1470501058, false, ComposableSingletons$AboutKt$lambda$_1470501058$lambda_ot0acl));
+    tmp_53.lambda$_1470501058_iwquax_1 = ComposableLambda$invoke$ref_72(composableLambdaInstance(-1470501058, false, ComposableSingletons$AboutKt$lambda$_1470501058$lambda_ot0acl));
     var tmp_54 = this;
-    tmp_54.lambda$332658151__1 = ComposableLambda$invoke$ref_72(composableLambdaInstance(332658151, false, ComposableSingletons$AboutKt$lambda$332658151$lambda));
+    tmp_54.lambda$332658151__1 = ComposableLambda$invoke$ref_73(composableLambdaInstance(332658151, false, ComposableSingletons$AboutKt$lambda$332658151$lambda));
     var tmp_55 = this;
-    tmp_55.lambda$_569598676_4bih1z_1 = ComposableLambda$invoke$ref_73(composableLambdaInstance(-569598676, false, ComposableSingletons$AboutKt$lambda$_569598676$lambda_px0jwf));
+    tmp_55.lambda$_569598676_4bih1z_1 = ComposableLambda$invoke$ref_74(composableLambdaInstance(-569598676, false, ComposableSingletons$AboutKt$lambda$_569598676$lambda_px0jwf));
     var tmp_56 = this;
-    tmp_56.lambda$1607411642__1 = ComposableLambda$invoke$ref_74(composableLambdaInstance(1607411642, false, ComposableSingletons$AboutKt$lambda$1607411642$lambda));
+    tmp_56.lambda$1607411642__1 = ComposableLambda$invoke$ref_75(composableLambdaInstance(1607411642, false, ComposableSingletons$AboutKt$lambda$1607411642$lambda));
     var tmp_57 = this;
-    tmp_57.lambda$440715323__1 = ComposableLambda$invoke$ref_75(composableLambdaInstance(440715323, false, ComposableSingletons$AboutKt$lambda$440715323$lambda));
+    tmp_57.lambda$440715323__1 = ComposableLambda$invoke$ref_76(composableLambdaInstance(440715323, false, ComposableSingletons$AboutKt$lambda$440715323$lambda));
     var tmp_58 = this;
-    tmp_58.lambda$_1766050047_dtbrsy_1 = ComposableLambda$invoke$ref_76(composableLambdaInstance(-1766050047, false, ComposableSingletons$AboutKt$lambda$_1766050047$lambda_9wdgpc));
+    tmp_58.lambda$_1766050047_dtbrsy_1 = ComposableLambda$invoke$ref_77(composableLambdaInstance(-1766050047, false, ComposableSingletons$AboutKt$lambda$_1766050047$lambda_9wdgpc));
     var tmp_59 = this;
-    tmp_59.lambda$83959680__1 = ComposableLambda$invoke$ref_77(composableLambdaInstance(83959680, false, ComposableSingletons$AboutKt$lambda$83959680$lambda));
+    tmp_59.lambda$83959680__1 = ComposableLambda$invoke$ref_78(composableLambdaInstance(83959680, false, ComposableSingletons$AboutKt$lambda$83959680$lambda));
     var tmp_60 = this;
-    tmp_60.lambda$_647111397_ituq4p_1 = ComposableLambda$invoke$ref_78(composableLambdaInstance(-647111397, false, ComposableSingletons$AboutKt$lambda$_647111397$lambda_vf1927));
+    tmp_60.lambda$_647111397_ituq4p_1 = ComposableLambda$invoke$ref_79(composableLambdaInstance(-647111397, false, ComposableSingletons$AboutKt$lambda$_647111397$lambda_vf1927));
     var tmp_61 = this;
-    tmp_61.lambda$_725980996_n4zqhd_1 = ComposableLambda$invoke$ref_79(composableLambdaInstance(-725980996, false, ComposableSingletons$AboutKt$lambda$_725980996$lambda_idspo9));
+    tmp_61.lambda$_725980996_n4zqhd_1 = ComposableLambda$invoke$ref_80(composableLambdaInstance(-725980996, false, ComposableSingletons$AboutKt$lambda$_725980996$lambda_idspo9));
     var tmp_62 = this;
-    tmp_62.lambda$_1892677315_d2nnov_1 = ComposableLambda$invoke$ref_80(composableLambdaInstance(-1892677315, false, ComposableSingletons$AboutKt$lambda$_1892677315$lambda_ld88hp));
+    tmp_62.lambda$_1892677315_d2nnov_1 = ComposableLambda$invoke$ref_81(composableLambdaInstance(-1892677315, false, ComposableSingletons$AboutKt$lambda$_1892677315$lambda_ld88hp));
     var tmp_63 = this;
-    tmp_63.lambda$1362220930__1 = ComposableLambda$invoke$ref_81(composableLambdaInstance(1362220930, false, ComposableSingletons$AboutKt$lambda$1362220930$lambda));
+    tmp_63.lambda$1362220930__1 = ComposableLambda$invoke$ref_82(composableLambdaInstance(1362220930, false, ComposableSingletons$AboutKt$lambda$1362220930$lambda));
     var tmp_64 = this;
-    tmp_64.lambda$_1082736639_ffw91x_1 = ComposableLambda$invoke$ref_82(composableLambdaInstance(-1082736639, false, ComposableSingletons$AboutKt$lambda$_1082736639$lambda_fzuc65));
+    tmp_64.lambda$_1082736639_ffw91x_1 = ComposableLambda$invoke$ref_83(composableLambdaInstance(-1082736639, false, ComposableSingletons$AboutKt$lambda$_1082736639$lambda_fzuc65));
     var tmp_65 = this;
-    tmp_65.lambda$1235593662__1 = ComposableLambda$invoke$ref_83(composableLambdaInstance(1235593662, false, ComposableSingletons$AboutKt$lambda$1235593662$lambda));
+    tmp_65.lambda$1235593662__1 = ComposableLambda$invoke$ref_84(composableLambdaInstance(1235593662, false, ComposableSingletons$AboutKt$lambda$1235593662$lambda));
     var tmp_66 = this;
-    tmp_66.lambda$_838931898_jqz7ql_1 = ComposableLambda$invoke$ref_84(composableLambdaInstance(-838931898, false, ComposableSingletons$AboutKt$lambda$_838931898$lambda_uaj6uz));
+    tmp_66.lambda$_838931898_jqz7ql_1 = ComposableLambda$invoke$ref_85(composableLambdaInstance(-838931898, false, ComposableSingletons$AboutKt$lambda$_838931898$lambda_uaj6uz));
     var tmp_67 = this;
-    tmp_67.lambda$1338078420__1 = ComposableLambda$invoke$ref_85(composableLambdaInstance(1338078420, false, ComposableSingletons$AboutKt$lambda$1338078420$lambda));
+    tmp_67.lambda$1338078420__1 = ComposableLambda$invoke$ref_86(composableLambdaInstance(1338078420, false, ComposableSingletons$AboutKt$lambda$1338078420$lambda));
   }
   protoOf(ComposableSingletons$AboutKt).get_lambda$_1984207531_dldtwi_k$ = function () {
     return this.lambda$_1984207531_qlhgoe_1;
@@ -2548,7 +2579,7 @@
       var it = $composer_1.rememberedValue_4dg93v_k$();
       var tmp;
       if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value = ComposableLambda$invoke$ref_87(dispatchReceiver);
+        var value = ComposableLambda$invoke$ref_88(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value);
         tmp = value;
       } else {
@@ -2713,7 +2744,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_86(p0) {
+  function ComposableLambda$invoke$ref_87(p0) {
     return function (_this__u8e3s4, p0_0) {
       p0.invoke_z8di7s_k$(_this__u8e3s4, p0_0);
       return Unit_getInstance();
@@ -2766,7 +2797,7 @@
         var it_1 = $composer_1.rememberedValue_4dg93v_k$();
         var tmp_5;
         if (invalid_0 || it_1 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-          var value_1 = ComposableLambda$invoke$ref_86(dispatchReceiver);
+          var value_1 = ComposableLambda$invoke$ref_87(dispatchReceiver);
           $composer_1.updateRememberedValue_l1wh71_k$(value_1);
           tmp_5 = value_1;
         } else {
@@ -2784,7 +2815,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_87(p0) {
+  function ComposableLambda$invoke$ref_88(p0) {
     return function (_this__u8e3s4, p0_0) {
       p0.invoke_z8di7s_k$(_this__u8e3s4, p0_0);
       return Unit_getInstance();
@@ -3013,7 +3044,7 @@
       var it = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_1;
       if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value = ComposableLambda$invoke$ref_88(dispatchReceiver);
+        var value = ComposableLambda$invoke$ref_89(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value);
         tmp_1 = value;
       } else {
@@ -3115,7 +3146,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_88(p0) {
+  function ComposableLambda$invoke$ref_89(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -3176,7 +3207,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_3;
       if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_92(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_93(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_3 = value_0;
       } else {
@@ -3259,7 +3290,7 @@
       var it_1 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_6;
       if (invalid_0 || it_1 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_1 = ComposableLambda$invoke$ref_95(dispatchReceiver);
+        var value_1 = ComposableLambda$invoke$ref_96(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_1);
         tmp_6 = value_1;
       } else {
@@ -3282,7 +3313,7 @@
   function org_example_app_components_layouts_PageLayoutData$stableprop_getter() {
     return org_example_app_components_layouts_PageLayoutData$stable;
   }
-  function ComposableLambda$invoke$ref_89(p0) {
+  function ComposableLambda$invoke$ref_90(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -3290,13 +3321,13 @@
   }
   function ComposableSingletons$PageLayoutKt$lambda$_2066276813$lambda_2h1u5d($this$Div, $composer, $changed) {
     var $composer_0 = $composer;
-    Footer_0(null, $composer_0, 0, 1);
+    Footer_0($composer_0, 0);
     return Unit_getInstance();
   }
   function ComposableSingletons$PageLayoutKt() {
     ComposableSingletons$PageLayoutKt_instance = this;
     var tmp = this;
-    tmp.lambda$_2066276813_jxkx8p_1 = ComposableLambda$invoke$ref_89(composableLambdaInstance(-2066276813, false, ComposableSingletons$PageLayoutKt$lambda$_2066276813$lambda_2h1u5d));
+    tmp.lambda$_2066276813_jxkx8p_1 = ComposableLambda$invoke$ref_90(composableLambdaInstance(-2066276813, false, ComposableSingletons$PageLayoutKt$lambda$_2066276813$lambda_2h1u5d));
   }
   protoOf(ComposableSingletons$PageLayoutKt).get_lambda$_2066276813_b0eh63_k$ = function () {
     return this.lambda$_2066276813_jxkx8p_1;
@@ -3347,7 +3378,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_90(p0) {
+  function ComposableLambda$invoke$ref_91(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -3380,7 +3411,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_2;
       if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_90(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_91(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_2 = value_0;
       } else {
@@ -3393,7 +3424,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_91(p0) {
+  function ComposableLambda$invoke$ref_92(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -3427,7 +3458,7 @@
       var it = $composer_1.rememberedValue_4dg93v_k$();
       var tmp;
       if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value = ComposableLambda$invoke$ref_91(dispatchReceiver);
+        var value = ComposableLambda$invoke$ref_92(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value);
         tmp = value;
       } else {
@@ -3454,7 +3485,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_92(p0) {
+  function ComposableLambda$invoke$ref_93(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -3526,7 +3557,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_93(p0) {
+  function ComposableLambda$invoke$ref_94(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -3557,7 +3588,7 @@
         var it = $composer_1.rememberedValue_4dg93v_k$();
         var tmp_3;
         if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-          var value = ComposableLambda$invoke$ref_93(dispatchReceiver);
+          var value = ComposableLambda$invoke$ref_94(dispatchReceiver);
           $composer_1.updateRememberedValue_l1wh71_k$(value);
           tmp_3 = value;
         } else {
@@ -3575,7 +3606,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_94(p0) {
+  function ComposableLambda$invoke$ref_95(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -3606,7 +3637,7 @@
         var it = $composer_1.rememberedValue_4dg93v_k$();
         var tmp_3;
         if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-          var value = ComposableLambda$invoke$ref_94(dispatchReceiver);
+          var value = ComposableLambda$invoke$ref_95(dispatchReceiver);
           $composer_1.updateRememberedValue_l1wh71_k$(value);
           tmp_3 = value;
         } else {
@@ -3625,7 +3656,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_95(p0) {
+  function ComposableLambda$invoke$ref_96(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -3652,13 +3683,9 @@
     var $dirty = $changed;
     if (($changed & 6) === 0)
       $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(activePath) ? 4 : 2);
-    if (!(($default & 2) === 0))
-      $dirty = $dirty | 48;
-    else if (($changed & 48) === 0)
-      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(footerText_0._v) ? 32 : 16);
     if (($changed & 384) === 0)
       $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(content) ? 256 : 128);
-    if ($composer_0.shouldExecute_4fplh_k$(!(($dirty & 147) === 146), $dirty & 1)) {
+    if ($composer_0.shouldExecute_4fplh_k$(!(($dirty & 131) === 130), $dirty & 1)) {
       if (!(($default & 2) === 0)) {
         footerText_0._v = null;
       }
@@ -3677,7 +3704,7 @@
       var tmp_0 = tmp;
       var tmp_1 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
       // Inline function 'kotlin.run' call
-      var dispatchReceiver = rememberComposableLambda(-1596976326, true, SiteScaffold$lambda_0(activePath, content, footerText_0), $composer_0, 54);
+      var dispatchReceiver = rememberComposableLambda(-1596976326, true, SiteScaffold$lambda_0(activePath, content), $composer_0, 54);
       // Inline function 'androidx.compose.runtime.remember' call
       var $composer_1 = $composer_0;
       sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
@@ -3687,7 +3714,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_2;
       if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_96(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_97(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_2 = value_0;
       } else {
@@ -3711,16 +3738,16 @@
     $this$Div.classes_ayghm2_k$(['shell']);
     return Unit_getInstance();
   }
-  function SiteScaffold$lambda_0($activePath, $content, $footerText) {
+  function SiteScaffold$lambda_0($activePath, $content) {
     return function ($this$Div, $composer, $changed) {
       var $composer_0 = $composer;
       NavHeader($activePath, $composer_0, 0);
       $content($composer_0, 0);
-      Footer_0($footerText._v, $composer_0, 0, 0);
+      Footer_0($composer_0, 0);
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_96(p0) {
+  function ComposableLambda$invoke$ref_97(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -3732,19 +3759,10 @@
       return Unit_getInstance();
     };
   }
-  function Footer_0(text, $composer, $changed, $default) {
-    var text_0 = {_v: text};
+  function Footer_0($composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1986831390);
-    var $dirty = $changed;
-    if (!(($default & 1) === 0))
-      $dirty = $dirty | 6;
-    else if (($changed & 6) === 0)
-      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(text_0._v) ? 4 : 2);
-    if ($composer_0.shouldExecute_4fplh_k$(!(($dirty & 3) === 2), $dirty & 1)) {
-      if (!(($default & 1) === 0)) {
-        text_0._v = null;
-      }
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(1083888241);
+    if ($composer_0.shouldExecute_4fplh_k$(!($changed === 0), $changed & 1)) {
       // Inline function 'androidx.compose.runtime.cache' call
       var this_0 = $composer_0;
       // Inline function 'kotlin.let' call
@@ -3758,28 +3776,8 @@
         tmp = it;
       }
       var tmp_0 = tmp;
-      var tmp_1 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
-      // Inline function 'kotlin.run' call
-      var dispatchReceiver = rememberComposableLambda(-1622628847, true, Footer$lambda_0(text_0), $composer_0, 54);
-      // Inline function 'androidx.compose.runtime.remember' call
-      var $composer_1 = $composer_0;
-      sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
-      // Inline function 'androidx.compose.runtime.cache' call
-      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
-      // Inline function 'kotlin.let' call
-      var it_0 = $composer_1.rememberedValue_4dg93v_k$();
-      var tmp_2;
-      if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_100(dispatchReceiver);
-        $composer_1.updateRememberedValue_l1wh71_k$(value_0);
-        tmp_2 = value_0;
-      } else {
-        tmp_2 = it_0;
-      }
-      var tmp_3 = tmp_2;
-      var tmp0 = (tmp_3 == null ? true : !(tmp_3 == null)) ? tmp_3 : THROW_CCE();
-      sourceInformationMarkerEnd($composer_1);
-      Footer(tmp_1, tmp0, $composer_0, 54, 0);
+      var tmp$ret$3 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      Footer(tmp$ret$3, ComposableSingletons$FooterKt_getInstance().lambda$1910713312__1, $composer_0, 54, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -3787,19 +3785,8 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_t8jcf_k$(Footer$lambda_1(text_0, $changed, $default));
+      tmp0_safe_receiver.updateScope_t8jcf_k$(Footer$lambda_0($changed));
     }
-  }
-  function ComposableLambda$invoke$ref_97(p0) {
-    return function (_this__u8e3s4, p0_0, p1) {
-      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
-      return Unit_getInstance();
-    };
-  }
-  function ComposableSingletons$FooterKt$lambda$_240623937$lambda_au1s9k($this$A, $composer, $changed) {
-    var $composer_0 = $composer;
-    Text('Github', $composer_0, 6);
-    return Unit_getInstance();
   }
   function ComposableLambda$invoke$ref_98(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
@@ -3807,9 +3794,9 @@
       return Unit_getInstance();
     };
   }
-  function ComposableSingletons$FooterKt$lambda$30447183$lambda($this$Span, $composer, $changed) {
+  function ComposableSingletons$FooterKt$lambda$_523065806$lambda_nwowg7($this$A, $composer, $changed) {
     var $composer_0 = $composer;
-    Text(' | ', $composer_0, 6);
+    Text('Github', $composer_0, 6);
     return Unit_getInstance();
   }
   function ComposableLambda$invoke$ref_99(p0) {
@@ -3818,28 +3805,93 @@
       return Unit_getInstance();
     };
   }
-  function ComposableSingletons$FooterKt$lambda$_815390104$lambda_8kb1zv($this$A, $composer, $changed) {
+  function ComposableSingletons$FooterKt$lambda$_469476926$lambda_s42d91($this$Span, $composer, $changed) {
+    var $composer_0 = $composer;
+    Text(' | ', $composer_0, 6);
+    return Unit_getInstance();
+  }
+  function ComposableLambda$invoke$ref_100(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableSingletons$FooterKt$lambda$54531483$lambda($this$A, $composer, $changed) {
     var $composer_0 = $composer;
     Text('Discord', $composer_0, 6);
+    return Unit_getInstance();
+  }
+  function ComposableLambda$invoke$ref_101(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableSingletons$FooterKt$lambda$1910713312$lambda($this$Footer, $composer, $changed) {
+    var $composer_0 = $composer;
+    // Inline function 'androidx.compose.runtime.cache' call
+    // Inline function 'kotlin.let' call
+    var it = $composer_0.rememberedValue_4dg93v_k$();
+    var tmp;
+    if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+      var value = ComposableSingletons$FooterKt$lambda$1910713312$lambda$lambda;
+      $composer_0.updateRememberedValue_l1wh71_k$(value);
+      tmp = value;
+    } else {
+      tmp = it;
+    }
+    var tmp_0 = tmp;
+    var tmp$ret$3 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+    A('https://github.com/MineKotLang/', tmp$ret$3, ComposableSingletons$FooterKt_getInstance().lambda$_523065806_300pw5__1, $composer_0, 438, 0);
+    Span(null, ComposableSingletons$FooterKt_getInstance().lambda$_469476926_p2f4a9__1, $composer_0, 48, 1);
+    // Inline function 'androidx.compose.runtime.cache' call
+    // Inline function 'kotlin.let' call
+    var it_0 = $composer_0.rememberedValue_4dg93v_k$();
+    var tmp_1;
+    if (false || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+      var value_0 = ComposableSingletons$FooterKt$lambda$1910713312$lambda$lambda_0;
+      $composer_0.updateRememberedValue_l1wh71_k$(value_0);
+      tmp_1 = value_0;
+    } else {
+      tmp_1 = it_0;
+    }
+    var tmp_2 = tmp_1;
+    var tmp$ret$7 = (tmp_2 == null ? true : !(tmp_2 == null)) ? tmp_2 : THROW_CCE();
+    A('https://discord.gg/ADD_IT_HERE_ON_RELEASE', tmp$ret$7, ComposableSingletons$FooterKt_getInstance().lambda$54531483__1, $composer_0, 438, 0);
+    return Unit_getInstance();
+  }
+  function ComposableSingletons$FooterKt$lambda$1910713312$lambda$lambda($this$A) {
+    $this$A.attr_w68641_k$('target', '_blank');
+    $this$A.attr_w68641_k$('rel', 'noopener noreferrer');
+    return Unit_getInstance();
+  }
+  function ComposableSingletons$FooterKt$lambda$1910713312$lambda$lambda_0($this$A) {
+    $this$A.attr_w68641_k$('target', '_blank');
+    $this$A.attr_w68641_k$('rel', 'noopener noreferrer');
     return Unit_getInstance();
   }
   function ComposableSingletons$FooterKt() {
     ComposableSingletons$FooterKt_instance = this;
     var tmp = this;
-    tmp.lambda$_240623937_wzrxek_1 = ComposableLambda$invoke$ref_97(composableLambdaInstance(-240623937, false, ComposableSingletons$FooterKt$lambda$_240623937$lambda_au1s9k));
+    tmp.lambda$_523065806_300pw5__1 = ComposableLambda$invoke$ref_98(composableLambdaInstance(-523065806, false, ComposableSingletons$FooterKt$lambda$_523065806$lambda_nwowg7));
     var tmp_0 = this;
-    tmp_0.lambda$30447183__1 = ComposableLambda$invoke$ref_98(composableLambdaInstance(30447183, false, ComposableSingletons$FooterKt$lambda$30447183$lambda));
+    tmp_0.lambda$_469476926_p2f4a9__1 = ComposableLambda$invoke$ref_99(composableLambdaInstance(-469476926, false, ComposableSingletons$FooterKt$lambda$_469476926$lambda_s42d91));
     var tmp_1 = this;
-    tmp_1.lambda$_815390104_dncaa1__1 = ComposableLambda$invoke$ref_99(composableLambdaInstance(-815390104, false, ComposableSingletons$FooterKt$lambda$_815390104$lambda_8kb1zv));
+    tmp_1.lambda$54531483__1 = ComposableLambda$invoke$ref_100(composableLambdaInstance(54531483, false, ComposableSingletons$FooterKt$lambda$54531483$lambda));
+    var tmp_2 = this;
+    tmp_2.lambda$1910713312__1 = ComposableLambda$invoke$ref_101(composableLambdaInstance(1910713312, false, ComposableSingletons$FooterKt$lambda$1910713312$lambda));
   }
-  protoOf(ComposableSingletons$FooterKt).get_lambda$_240623937_fcvili_k$ = function () {
-    return this.lambda$_240623937_wzrxek_1;
+  protoOf(ComposableSingletons$FooterKt).get_lambda$_523065806_oygeqf_k$ = function () {
+    return this.lambda$_523065806_300pw5__1;
   };
-  protoOf(ComposableSingletons$FooterKt).get_lambda$30447183_vsblgx_k$ = function () {
-    return this.lambda$30447183__1;
+  protoOf(ComposableSingletons$FooterKt).get_lambda$_469476926_7r1jhv_k$ = function () {
+    return this.lambda$_469476926_p2f4a9__1;
   };
-  protoOf(ComposableSingletons$FooterKt).get_lambda$_815390104_vv6vbb_k$ = function () {
-    return this.lambda$_815390104_dncaa1__1;
+  protoOf(ComposableSingletons$FooterKt).get_lambda$54531483_dhyn6u_k$ = function () {
+    return this.lambda$54531483__1;
+  };
+  protoOf(ComposableSingletons$FooterKt).get_lambda$1910713312_rq1oyn_k$ = function () {
+    return this.lambda$1910713312__1;
   };
   var ComposableSingletons$FooterKt_instance;
   function ComposableSingletons$FooterKt_getInstance() {
@@ -3851,71 +3903,9 @@
     $this$Footer.classes_ayghm2_k$(['footer', 'container']);
     return Unit_getInstance();
   }
-  function Footer$lambda$lambda($this$A) {
-    $this$A.attr_w68641_k$('target', '_blank');
-    $this$A.attr_w68641_k$('rel', 'noopener noreferrer');
-    return Unit_getInstance();
-  }
-  function Footer$lambda$lambda_0($this$A) {
-    $this$A.attr_w68641_k$('target', '_blank');
-    $this$A.attr_w68641_k$('rel', 'noopener noreferrer');
-    return Unit_getInstance();
-  }
-  function Footer$lambda_0($text) {
-    return function ($this$Footer, $composer, $changed) {
-      var $composer_0 = $composer;
-      var tmp;
-      if (!($text._v == null)) {
-        $composer_0.startReplaceGroup_5hh8aj_k$(120964335);
-        Text($text._v, $composer_0, 0);
-        $composer_0.endReplaceGroup_ek144q_k$();
-        tmp = Unit_getInstance();
-      } else {
-        $composer_0.startReplaceGroup_5hh8aj_k$(121020166);
-        // Inline function 'androidx.compose.runtime.cache' call
-        // Inline function 'kotlin.let' call
-        var it = $composer_0.rememberedValue_4dg93v_k$();
-        var tmp_0;
-        if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-          var value = Footer$lambda$lambda;
-          $composer_0.updateRememberedValue_l1wh71_k$(value);
-          tmp_0 = value;
-        } else {
-          tmp_0 = it;
-        }
-        var tmp_1 = tmp_0;
-        var tmp$ret$3 = (tmp_1 == null ? true : !(tmp_1 == null)) ? tmp_1 : THROW_CCE();
-        A('https://github.com/MineKotLang/', tmp$ret$3, ComposableSingletons$FooterKt_getInstance().lambda$_240623937_wzrxek_1, $composer_0, 438, 0);
-        Span(null, ComposableSingletons$FooterKt_getInstance().lambda$30447183__1, $composer_0, 48, 1);
-        // Inline function 'androidx.compose.runtime.cache' call
-        // Inline function 'kotlin.let' call
-        var it_0 = $composer_0.rememberedValue_4dg93v_k$();
-        var tmp_2;
-        if (false || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-          var value_0 = Footer$lambda$lambda_0;
-          $composer_0.updateRememberedValue_l1wh71_k$(value_0);
-          tmp_2 = value_0;
-        } else {
-          tmp_2 = it_0;
-        }
-        var tmp_3 = tmp_2;
-        var tmp$ret$7 = (tmp_3 == null ? true : !(tmp_3 == null)) ? tmp_3 : THROW_CCE();
-        A('https://discord.gg/ADD_IT_HERE_ON_RELEASE', tmp$ret$7, ComposableSingletons$FooterKt_getInstance().lambda$_815390104_dncaa1__1, $composer_0, 438, 0);
-        $composer_0.endReplaceGroup_ek144q_k$();
-        tmp = Unit_getInstance();
-      }
-      return Unit_getInstance();
-    };
-  }
-  function ComposableLambda$invoke$ref_100(p0) {
-    return function (_this__u8e3s4, p0_0, p1) {
-      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
-      return Unit_getInstance();
-    };
-  }
-  function Footer$lambda_1($text, $$changed, $$default) {
+  function Footer$lambda_0($$changed) {
     return function ($composer, $force) {
-      Footer_0($text._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      Footer_0($composer, updateChangedFlags($$changed | 1));
       return Unit_getInstance();
     };
   }
@@ -3956,7 +3946,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_2;
       if (invalid_0 || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_104(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_105(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_2 = value_0;
       } else {
@@ -4010,7 +4000,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_2;
       if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_108(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_109(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_2 = value_0;
       } else {
@@ -4030,7 +4020,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(NavHeader$lambda_3(activePath, $changed));
     }
   }
-  function ComposableLambda$invoke$ref_101(p0) {
+  function ComposableLambda$invoke$ref_102(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -4041,7 +4031,7 @@
     Img('/favicon.ico', 'MineKot icon', null, $composer_0, 54, 4);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_102(p0) {
+  function ComposableLambda$invoke$ref_103(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -4052,7 +4042,7 @@
     Text('MineKot', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_103(p0) {
+  function ComposableLambda$invoke$ref_104(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -4084,11 +4074,11 @@
   function ComposableSingletons$NavHeaderKt() {
     ComposableSingletons$NavHeaderKt_instance = this;
     var tmp = this;
-    tmp.lambda$_2085856988_pufwqz_1 = ComposableLambda$invoke$ref_101(composableLambdaInstance(-2085856988, false, ComposableSingletons$NavHeaderKt$lambda$_2085856988$lambda_b0q6py));
+    tmp.lambda$_2085856988_pufwqz_1 = ComposableLambda$invoke$ref_102(composableLambdaInstance(-2085856988, false, ComposableSingletons$NavHeaderKt$lambda$_2085856988$lambda_b0q6py));
     var tmp_0 = this;
-    tmp_0.lambda$_1644122597_jaet3__1 = ComposableLambda$invoke$ref_102(composableLambdaInstance(-1644122597, false, ComposableSingletons$NavHeaderKt$lambda$_1644122597$lambda_id21ay));
+    tmp_0.lambda$_1644122597_jaet3__1 = ComposableLambda$invoke$ref_103(composableLambdaInstance(-1644122597, false, ComposableSingletons$NavHeaderKt$lambda$_1644122597$lambda_id21ay));
     var tmp_1 = this;
-    tmp_1.lambda$988319814__1 = ComposableLambda$invoke$ref_103(composableLambdaInstance(988319814, false, ComposableSingletons$NavHeaderKt$lambda$988319814$lambda));
+    tmp_1.lambda$988319814__1 = ComposableLambda$invoke$ref_104(composableLambdaInstance(988319814, false, ComposableSingletons$NavHeaderKt$lambda$988319814$lambda));
   }
   protoOf(ComposableSingletons$NavHeaderKt).get_lambda$_2085856988_2i19of_k$ = function () {
     return this.lambda$_2085856988_pufwqz_1;
@@ -4123,7 +4113,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_104(p0) {
+  function ComposableLambda$invoke$ref_105(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -4178,7 +4168,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_105(p0) {
+  function ComposableLambda$invoke$ref_106(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -4205,7 +4195,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_106(p0) {
+  function ComposableLambda$invoke$ref_107(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -4252,7 +4242,7 @@
       var it_1 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_4;
       if (invalid || it_1 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_1 = ComposableLambda$invoke$ref_105(dispatchReceiver);
+        var value_1 = ComposableLambda$invoke$ref_106(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_1);
         tmp_4 = value_1;
       } else {
@@ -4287,7 +4277,7 @@
       var it_3 = $composer_2.rememberedValue_4dg93v_k$();
       var tmp_9;
       if (invalid_1 || it_3 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_3 = ComposableLambda$invoke$ref_106(dispatchReceiver_0);
+        var value_3 = ComposableLambda$invoke$ref_107(dispatchReceiver_0);
         $composer_2.updateRememberedValue_l1wh71_k$(value_3);
         tmp_9 = value_3;
       } else {
@@ -4300,7 +4290,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_107(p0) {
+  function ComposableLambda$invoke$ref_108(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -4333,7 +4323,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_2;
       if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_107(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_108(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_2 = value_0;
       } else {
@@ -4346,7 +4336,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_108(p0) {
+  function ComposableLambda$invoke$ref_109(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -4395,7 +4385,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_4;
       if (invalid_0 || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_109(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_110(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_4 = value_0;
       } else {
@@ -4434,7 +4424,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_109(p0) {
+  function ComposableLambda$invoke$ref_110(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -4813,9 +4803,9 @@
     if (!properties_initialized_SiteData_kt_3piwel) {
       properties_initialized_SiteData_kt_3piwel = true;
       docsData = listOf([new DocEntry('1', 'Expressions', 'Placeholder Title 1', 'Expression', 'Placeholder description 1.', 'placeholder code 1', 'placeholder example 1'), new DocEntry('2', 'Effects', 'Placeholder Title 2', 'Effects', 'Placeholder description 2.', 'placeholder code 2', 'placeholder example 2'), new DocEntry('3', 'Conditions', 'Placeholder Title 3', 'Condition', 'Placeholder description 3.', 'placeholder code 3', 'placeholder example 3'), new DocEntry('4', 'Effects', 'Placeholder Title 4', 'Effects', 'Placeholder description 4.', 'placeholder code 4', 'placeholder example 4'), new DocEntry('5', 'Events', 'Placeholder Title 5', 'Event', 'Placeholder description 5.', 'placeholder code 5', 'placeholder example 5'), new DocEntry('6', 'Functions', 'Placeholder Title 6', 'Function', 'Placeholder description 6.', 'placeholder code 6', 'placeholder example 6')]);
-      addonSummaries = listOf([new AddonSummary('0001', 'PLACEHOLDER', 'PLACEHOLDER', 'https://example.com/download'), new AddonSummary('0002', 'PLACEHOLDER', 'PLACEHOLDER', 'https://example.com/download'), new AddonSummary('0003', 'PLACEHOLDER', 'PLACEHOLDER', 'https://example.com/download')]);
+      addonSummaries = listOf([new AddonSummary('0001', 'PLACEHOLDER', 'PLACEHOLDER', 'https://example.com/download'), new AddonSummary('0002', 'PLACEHOLDER', 'PLACEHOLDER', 'https://example.com/download'), new AddonSummary('0003', 'PLACEHOLDER', 'PLACEHOLDER', 'https://example.com/download'), new AddonSummary('0004', 'PLACEHOLDER', 'PLACEHOLDER', 'https://example.com/download')]);
       // Inline function 'kotlin.collections.associateBy' call
-      var this_0 = listOf([new AddonDetail('0001', 'PLACEHOLDER', 'PLACEHOLDER', 'https://example.com/repository', 'https://example.com/download', listOf(['1.69', '1.68', '1.67']), listOf(['PLACEHOLDER', 'PLACEHOLDER'])), new AddonDetail('0002', 'PLACEHOLDER', 'PLACEHOLDER', 'https://example.com/repository', 'https://example.com/download', listOf(['1.69', '1.68', '1.67']), listOf(['PLACEHOLDER', 'PLACEHOLDER'])), new AddonDetail('0003', 'PLACEHOLDER', 'PLACEHOLDER', 'https://example.com/repository', 'https://example.com/download', listOf(['1.69', '1.68', '1.67']), listOf(['PLACEHOLDER', 'PLACEHOLDER']))]);
+      var this_0 = listOf([new AddonDetail('0001', 'PLACEHOLDER', 'PLACEHOLDER', 'https://example.com/repository', 'https://example.com/download', listOf(['1.69', '1.68', '1.67']), listOf(['PLACEHOLDER', 'PLACEHOLDER'])), new AddonDetail('0002', 'PLACEHOLDER', 'PLACEHOLDER', 'https://example.com/repository', 'https://example.com/download', listOf(['1.69', '1.68', '1.67']), listOf(['PLACEHOLDER', 'PLACEHOLDER'])), new AddonDetail('0003', 'PLACEHOLDER', 'PLACEHOLDER', 'https://example.com/repository', 'https://example.com/download', listOf(['1.69', '1.68', '1.67']), listOf(['PLACEHOLDER', 'PLACEHOLDER'])), new AddonDetail('0004', 'PLACEHOLDER', 'PLACEHOLDER', 'https://example.com/repository', 'https://example.com/download', listOf(['1.69', '1.68', '1.67']), listOf(['PLACEHOLDER', 'PLACEHOLDER']))]);
       var capacity = coerceAtLeast(mapCapacity(collectionSizeOrDefault(this_0, 10)), 16);
       // Inline function 'kotlin.collections.associateByTo' call
       var destination = LinkedHashMap_init_$Create$(capacity);
@@ -4848,7 +4838,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(HomePage$lambda($changed));
     }
   }
-  function ComposableLambda$invoke$ref_110(p0) {
+  function ComposableLambda$invoke$ref_111(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -4859,7 +4849,7 @@
     Text('Placeholder', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_111(p0) {
+  function ComposableLambda$invoke$ref_112(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -4870,7 +4860,7 @@
     Text('Placeholder', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_112(p0) {
+  function ComposableLambda$invoke$ref_113(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -4881,7 +4871,7 @@
     Text('Placeholder', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_113(p0) {
+  function ComposableLambda$invoke$ref_114(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -4892,7 +4882,7 @@
     Text('Placeholder', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_114(p0) {
+  function ComposableLambda$invoke$ref_115(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -4974,7 +4964,7 @@
     $this$Div.classes_ayghm2_k$(['panel', 'placeholder-block', 'fade-in']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_115(p0) {
+  function ComposableLambda$invoke$ref_116(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5002,7 +4992,7 @@
     $this$Div.classes_ayghm2_k$(['container', 'placeholder-grid']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_116(p0) {
+  function ComposableLambda$invoke$ref_117(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5013,7 +5003,7 @@
     Text('Addons', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_117(p0) {
+  function ComposableLambda$invoke$ref_118(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5024,7 +5014,7 @@
     Text('Browse Community Addons', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_118(p0) {
+  function ComposableLambda$invoke$ref_119(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5035,7 +5025,7 @@
     Text('Search community addons and open a dedicated page for each addon with versions and dependency info.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_119(p0) {
+  function ComposableLambda$invoke$ref_120(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5046,7 +5036,7 @@
     Text('Open Addons Search', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_120(p0) {
+  function ComposableLambda$invoke$ref_121(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5074,7 +5064,7 @@
     $this$A.classes_ayghm2_k$(['btn', 'primary']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_121(p0) {
+  function ComposableLambda$invoke$ref_122(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5156,7 +5146,7 @@
     $this$Div.classes_ayghm2_k$(['addon-home-actions']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_122(p0) {
+  function ComposableLambda$invoke$ref_123(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5184,7 +5174,7 @@
     $this$Div.classes_ayghm2_k$(['panel', 'addon-home-panel', 'fade-in']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_123(p0) {
+  function ComposableLambda$invoke$ref_124(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5212,7 +5202,7 @@
     $this$Div.classes_ayghm2_k$(['container']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_124(p0) {
+  function ComposableLambda$invoke$ref_125(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5223,7 +5213,7 @@
     Text('Docs', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_125(p0) {
+  function ComposableLambda$invoke$ref_126(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5234,7 +5224,7 @@
     Text('Documentation Browser', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_126(p0) {
+  function ComposableLambda$invoke$ref_127(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5245,7 +5235,7 @@
     Text('Browse syntax definitions, examples, and descriptions for events, conditions, effects, and more.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_127(p0) {
+  function ComposableLambda$invoke$ref_128(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5256,7 +5246,7 @@
     Text('Open Docs', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_128(p0) {
+  function ComposableLambda$invoke$ref_129(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5284,7 +5274,7 @@
     $this$A.classes_ayghm2_k$(['btn', 'primary']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_129(p0) {
+  function ComposableLambda$invoke$ref_130(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5366,7 +5356,7 @@
     $this$Div.classes_ayghm2_k$(['addon-home-actions']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_130(p0) {
+  function ComposableLambda$invoke$ref_131(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5394,7 +5384,7 @@
     $this$Div.classes_ayghm2_k$(['panel', 'addon-home-panel', 'fade-in']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_131(p0) {
+  function ComposableLambda$invoke$ref_132(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5422,7 +5412,7 @@
     $this$Div.classes_ayghm2_k$(['container']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_132(p0) {
+  function ComposableLambda$invoke$ref_133(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5433,7 +5423,7 @@
     Text('Scripts', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_133(p0) {
+  function ComposableLambda$invoke$ref_134(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5444,7 +5434,7 @@
     Text('Script Snippets', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_134(p0) {
+  function ComposableLambda$invoke$ref_135(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5455,7 +5445,7 @@
     Text('Browse tiny reusable scripts and quick code examples.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_135(p0) {
+  function ComposableLambda$invoke$ref_136(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5466,7 +5456,7 @@
     Text('Open Scripts', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_136(p0) {
+  function ComposableLambda$invoke$ref_137(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5494,7 +5484,7 @@
     $this$A.classes_ayghm2_k$(['btn', 'primary']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_137(p0) {
+  function ComposableLambda$invoke$ref_138(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5576,7 +5566,7 @@
     $this$Div.classes_ayghm2_k$(['addon-home-actions']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_138(p0) {
+  function ComposableLambda$invoke$ref_139(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5604,7 +5594,7 @@
     $this$Div.classes_ayghm2_k$(['panel', 'addon-home-panel', 'fade-in']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_139(p0) {
+  function ComposableLambda$invoke$ref_140(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5632,7 +5622,7 @@
     $this$Div.classes_ayghm2_k$(['container']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_140(p0) {
+  function ComposableLambda$invoke$ref_141(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5714,7 +5704,7 @@
     $this$Section.classes_ayghm2_k$(['page', 'addons-home']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_141(p0) {
+  function ComposableLambda$invoke$ref_142(p0) {
     return function (_this__u8e3s4, p0_0) {
       p0.invoke_z8di7s_k$(_this__u8e3s4, p0_0);
       return Unit_getInstance();
@@ -5732,69 +5722,69 @@
   function ComposableSingletons$IndexKt() {
     ComposableSingletons$IndexKt_instance = this;
     var tmp = this;
-    tmp.lambda$681318329__1 = ComposableLambda$invoke$ref_110(composableLambdaInstance(681318329, false, ComposableSingletons$IndexKt$lambda$681318329$lambda));
+    tmp.lambda$681318329__1 = ComposableLambda$invoke$ref_111(composableLambdaInstance(681318329, false, ComposableSingletons$IndexKt$lambda$681318329$lambda));
     var tmp_0 = this;
-    tmp_0.lambda$750002160__1 = ComposableLambda$invoke$ref_111(composableLambdaInstance(750002160, false, ComposableSingletons$IndexKt$lambda$750002160$lambda));
+    tmp_0.lambda$750002160__1 = ComposableLambda$invoke$ref_112(composableLambdaInstance(750002160, false, ComposableSingletons$IndexKt$lambda$750002160$lambda));
     var tmp_1 = this;
-    tmp_1.lambda$_481290383_zei8rm_1 = ComposableLambda$invoke$ref_112(composableLambdaInstance(-481290383, false, ComposableSingletons$IndexKt$lambda$_481290383$lambda_usyj5r));
+    tmp_1.lambda$_481290383_zei8rm_1 = ComposableLambda$invoke$ref_113(composableLambdaInstance(-481290383, false, ComposableSingletons$IndexKt$lambda$_481290383$lambda_usyj5r));
     var tmp_2 = this;
-    tmp_2.lambda$_1712582926_14s5q3__1 = ComposableLambda$invoke$ref_113(composableLambdaInstance(-1712582926, false, ComposableSingletons$IndexKt$lambda$_1712582926$lambda_x4et0y));
+    tmp_2.lambda$_1712582926_14s5q3__1 = ComposableLambda$invoke$ref_114(composableLambdaInstance(-1712582926, false, ComposableSingletons$IndexKt$lambda$_1712582926$lambda_x4et0y));
     var tmp_3 = this;
-    tmp_3.lambda$233498298__1 = ComposableLambda$invoke$ref_114(composableLambdaInstance(233498298, false, ComposableSingletons$IndexKt$lambda$233498298$lambda));
+    tmp_3.lambda$233498298__1 = ComposableLambda$invoke$ref_115(composableLambdaInstance(233498298, false, ComposableSingletons$IndexKt$lambda$233498298$lambda));
     var tmp_4 = this;
-    tmp_4.lambda$241788923__1 = ComposableLambda$invoke$ref_115(composableLambdaInstance(241788923, false, ComposableSingletons$IndexKt$lambda$241788923$lambda));
+    tmp_4.lambda$241788923__1 = ComposableLambda$invoke$ref_116(composableLambdaInstance(241788923, false, ComposableSingletons$IndexKt$lambda$241788923$lambda));
     var tmp_5 = this;
-    tmp_5.lambda$_1932132881_58oqbs_1 = ComposableLambda$invoke$ref_116(composableLambdaInstance(-1932132881, false, ComposableSingletons$IndexKt$lambda$_1932132881$lambda_ri2wed));
+    tmp_5.lambda$_1932132881_58oqbs_1 = ComposableLambda$invoke$ref_117(composableLambdaInstance(-1932132881, false, ComposableSingletons$IndexKt$lambda$_1932132881$lambda_ri2wed));
     var tmp_6 = this;
-    tmp_6.lambda$_1613185650_thijgm_1 = ComposableLambda$invoke$ref_117(composableLambdaInstance(-1613185650, false, ComposableSingletons$IndexKt$lambda$_1613185650$lambda_ht153));
+    tmp_6.lambda$_1613185650_thijgm_1 = ComposableLambda$invoke$ref_118(composableLambdaInstance(-1613185650, false, ComposableSingletons$IndexKt$lambda$_1613185650$lambda_ht153));
     var tmp_7 = this;
-    tmp_7.lambda$_2018898930_a8q05w_1 = ComposableLambda$invoke$ref_118(composableLambdaInstance(-2018898930, false, ComposableSingletons$IndexKt$lambda$_2018898930$lambda_utihr3));
+    tmp_7.lambda$_2018898930_a8q05w_1 = ComposableLambda$invoke$ref_119(composableLambdaInstance(-2018898930, false, ComposableSingletons$IndexKt$lambda$_2018898930$lambda_utihr3));
     var tmp_8 = this;
-    tmp_8.lambda$1497102356__1 = ComposableLambda$invoke$ref_119(composableLambdaInstance(1497102356, false, ComposableSingletons$IndexKt$lambda$1497102356$lambda));
+    tmp_8.lambda$1497102356__1 = ComposableLambda$invoke$ref_120(composableLambdaInstance(1497102356, false, ComposableSingletons$IndexKt$lambda$1497102356$lambda));
     var tmp_9 = this;
-    tmp_9.lambda$1645619366__1 = ComposableLambda$invoke$ref_120(composableLambdaInstance(1645619366, false, ComposableSingletons$IndexKt$lambda$1645619366$lambda));
+    tmp_9.lambda$1645619366__1 = ComposableLambda$invoke$ref_121(composableLambdaInstance(1645619366, false, ComposableSingletons$IndexKt$lambda$1645619366$lambda));
     var tmp_10 = this;
-    tmp_10.lambda$166067824__1 = ComposableLambda$invoke$ref_121(composableLambdaInstance(166067824, false, ComposableSingletons$IndexKt$lambda$166067824$lambda));
+    tmp_10.lambda$166067824__1 = ComposableLambda$invoke$ref_122(composableLambdaInstance(166067824, false, ComposableSingletons$IndexKt$lambda$166067824$lambda));
     var tmp_11 = this;
-    tmp_11.lambda$_692252367_j25210__1 = ComposableLambda$invoke$ref_122(composableLambdaInstance(-692252367, false, ComposableSingletons$IndexKt$lambda$_692252367$lambda_4y5xnj));
+    tmp_11.lambda$_692252367_j25210__1 = ComposableLambda$invoke$ref_123(composableLambdaInstance(-692252367, false, ComposableSingletons$IndexKt$lambda$_692252367$lambda_4y5xnj));
     var tmp_12 = this;
-    tmp_12.lambda$_1314896334_75zh84__1 = ComposableLambda$invoke$ref_123(composableLambdaInstance(-1314896334, false, ComposableSingletons$IndexKt$lambda$_1314896334$lambda_2b8cht));
+    tmp_12.lambda$_1314896334_75zh84__1 = ComposableLambda$invoke$ref_124(composableLambdaInstance(-1314896334, false, ComposableSingletons$IndexKt$lambda$_1314896334$lambda_2b8cht));
     var tmp_13 = this;
-    tmp_13.lambda$_1759718800_4ni1x0__1 = ComposableLambda$invoke$ref_124(composableLambdaInstance(-1759718800, false, ComposableSingletons$IndexKt$lambda$_1759718800$lambda_knptvl));
+    tmp_13.lambda$_1759718800_4ni1x0__1 = ComposableLambda$invoke$ref_125(composableLambdaInstance(-1759718800, false, ComposableSingletons$IndexKt$lambda$_1759718800$lambda_knptvl));
     var tmp_14 = this;
-    tmp_14.lambda$_1440771569_4ixdrq_1 = ComposableLambda$invoke$ref_125(composableLambdaInstance(-1440771569, false, ComposableSingletons$IndexKt$lambda$_1440771569$lambda_ah2rul));
+    tmp_14.lambda$_1440771569_4ixdrq_1 = ComposableLambda$invoke$ref_126(composableLambdaInstance(-1440771569, false, ComposableSingletons$IndexKt$lambda$_1440771569$lambda_ah2rul));
     var tmp_15 = this;
-    tmp_15.lambda$_1846484849_sdo3i2__1 = ComposableLambda$invoke$ref_126(composableLambdaInstance(-1846484849, false, ComposableSingletons$IndexKt$lambda$_1846484849$lambda_ov2g2b));
+    tmp_15.lambda$_1846484849_sdo3i2__1 = ComposableLambda$invoke$ref_127(composableLambdaInstance(-1846484849, false, ComposableSingletons$IndexKt$lambda$_1846484849$lambda_ov2g2b));
     var tmp_16 = this;
-    tmp_16.lambda$1669516437__1 = ComposableLambda$invoke$ref_127(composableLambdaInstance(1669516437, false, ComposableSingletons$IndexKt$lambda$1669516437$lambda));
+    tmp_16.lambda$1669516437__1 = ComposableLambda$invoke$ref_128(composableLambdaInstance(1669516437, false, ComposableSingletons$IndexKt$lambda$1669516437$lambda));
     var tmp_17 = this;
-    tmp_17.lambda$1818033447__1 = ComposableLambda$invoke$ref_128(composableLambdaInstance(1818033447, false, ComposableSingletons$IndexKt$lambda$1818033447$lambda));
+    tmp_17.lambda$1818033447__1 = ComposableLambda$invoke$ref_129(composableLambdaInstance(1818033447, false, ComposableSingletons$IndexKt$lambda$1818033447$lambda));
     var tmp_18 = this;
-    tmp_18.lambda$338481905__1 = ComposableLambda$invoke$ref_129(composableLambdaInstance(338481905, false, ComposableSingletons$IndexKt$lambda$338481905$lambda));
+    tmp_18.lambda$338481905__1 = ComposableLambda$invoke$ref_130(composableLambdaInstance(338481905, false, ComposableSingletons$IndexKt$lambda$338481905$lambda));
     var tmp_19 = this;
-    tmp_19.lambda$_519838286_51kpq8__1 = ComposableLambda$invoke$ref_130(composableLambdaInstance(-519838286, false, ComposableSingletons$IndexKt$lambda$_519838286$lambda_qlrzz7));
+    tmp_19.lambda$_519838286_51kpq8__1 = ComposableLambda$invoke$ref_131(composableLambdaInstance(-519838286, false, ComposableSingletons$IndexKt$lambda$_519838286$lambda_qlrzz7));
     var tmp_20 = this;
-    tmp_20.lambda$_1142482253_jwql80__1 = ComposableLambda$invoke$ref_131(composableLambdaInstance(-1142482253, false, ComposableSingletons$IndexKt$lambda$_1142482253$lambda_etlhk3));
+    tmp_20.lambda$_1142482253_jwql80__1 = ComposableLambda$invoke$ref_132(composableLambdaInstance(-1142482253, false, ComposableSingletons$IndexKt$lambda$_1142482253$lambda_etlhk3));
     var tmp_21 = this;
-    tmp_21.lambda$_1587304719_mf80jp_1 = ComposableLambda$invoke$ref_132(composableLambdaInstance(-1587304719, false, ComposableSingletons$IndexKt$lambda$_1587304719$lambda_uh0jo8));
+    tmp_21.lambda$_1587304719_mf80jp_1 = ComposableLambda$invoke$ref_133(composableLambdaInstance(-1587304719, false, ComposableSingletons$IndexKt$lambda$_1587304719$lambda_uh0jo8));
     var tmp_22 = this;
-    tmp_22.lambda$_1268357488_od27si_1 = ComposableLambda$invoke$ref_133(composableLambdaInstance(-1268357488, false, ComposableSingletons$IndexKt$lambda$_1268357488$lambda_p3ho8v));
+    tmp_22.lambda$_1268357488_od27si_1 = ComposableLambda$invoke$ref_134(composableLambdaInstance(-1268357488, false, ComposableSingletons$IndexKt$lambda$_1268357488$lambda_p3ho8v));
     var tmp_23 = this;
-    tmp_23.lambda$_1674070768_fkpw0y_1 = ComposableLambda$invoke$ref_134(composableLambdaInstance(-1674070768, false, ComposableSingletons$IndexKt$lambda$_1674070768$lambda_7q8m0f));
+    tmp_23.lambda$_1674070768_fkpw0y_1 = ComposableLambda$invoke$ref_135(composableLambdaInstance(-1674070768, false, ComposableSingletons$IndexKt$lambda$_1674070768$lambda_7q8m0f));
     var tmp_24 = this;
-    tmp_24.lambda$1841930518__1 = ComposableLambda$invoke$ref_135(composableLambdaInstance(1841930518, false, ComposableSingletons$IndexKt$lambda$1841930518$lambda));
+    tmp_24.lambda$1841930518__1 = ComposableLambda$invoke$ref_136(composableLambdaInstance(1841930518, false, ComposableSingletons$IndexKt$lambda$1841930518$lambda));
     var tmp_25 = this;
-    tmp_25.lambda$1990447528__1 = ComposableLambda$invoke$ref_136(composableLambdaInstance(1990447528, false, ComposableSingletons$IndexKt$lambda$1990447528$lambda));
+    tmp_25.lambda$1990447528__1 = ComposableLambda$invoke$ref_137(composableLambdaInstance(1990447528, false, ComposableSingletons$IndexKt$lambda$1990447528$lambda));
     var tmp_26 = this;
-    tmp_26.lambda$510895986__1 = ComposableLambda$invoke$ref_137(composableLambdaInstance(510895986, false, ComposableSingletons$IndexKt$lambda$510895986$lambda));
+    tmp_26.lambda$510895986__1 = ComposableLambda$invoke$ref_138(composableLambdaInstance(510895986, false, ComposableSingletons$IndexKt$lambda$510895986$lambda));
     var tmp_27 = this;
-    tmp_27.lambda$_347424205_w4aro9__1 = ComposableLambda$invoke$ref_138(composableLambdaInstance(-347424205, false, ComposableSingletons$IndexKt$lambda$_347424205$lambda_fqu6qs));
+    tmp_27.lambda$_347424205_w4aro9__1 = ComposableLambda$invoke$ref_139(composableLambdaInstance(-347424205, false, ComposableSingletons$IndexKt$lambda$_347424205$lambda_fqu6qs));
     var tmp_28 = this;
-    tmp_28.lambda$_970068172_ghg2p0__1 = ComposableLambda$invoke$ref_139(composableLambdaInstance(-970068172, false, ComposableSingletons$IndexKt$lambda$_970068172$lambda_wcfmt5));
+    tmp_28.lambda$_970068172_ghg2p0__1 = ComposableLambda$invoke$ref_140(composableLambdaInstance(-970068172, false, ComposableSingletons$IndexKt$lambda$_970068172$lambda_wcfmt5));
     var tmp_29 = this;
-    tmp_29.lambda$_2027002328_kgj44a_1 = ComposableLambda$invoke$ref_140(composableLambdaInstance(-2027002328, false, ComposableSingletons$IndexKt$lambda$_2027002328$lambda_q8s0x3));
+    tmp_29.lambda$_2027002328_kgj44a_1 = ComposableLambda$invoke$ref_141(composableLambdaInstance(-2027002328, false, ComposableSingletons$IndexKt$lambda$_2027002328$lambda_q8s0x3));
     var tmp_30 = this;
-    tmp_30.lambda$1338523861__1 = ComposableLambda$invoke$ref_141(composableLambdaInstance(1338523861, false, ComposableSingletons$IndexKt$lambda$1338523861$lambda));
+    tmp_30.lambda$1338523861__1 = ComposableLambda$invoke$ref_142(composableLambdaInstance(1338523861, false, ComposableSingletons$IndexKt$lambda$1338523861$lambda));
   }
   protoOf(ComposableSingletons$IndexKt).get_lambda$681318329_hte6sm_k$ = function () {
     return this.lambda$681318329__1;
@@ -5919,7 +5909,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(NotFoundPage$lambda($changed));
     }
   }
-  function ComposableLambda$invoke$ref_142(p0) {
+  function ComposableLambda$invoke$ref_143(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5930,7 +5920,7 @@
     Text('404 - Page Not Found', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_143(p0) {
+  function ComposableLambda$invoke$ref_144(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5941,7 +5931,7 @@
     Text('The page you are looking for does not exist.', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_144(p0) {
+  function ComposableLambda$invoke$ref_145(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5953,7 +5943,7 @@
     P(null, ComposableSingletons$NotFoundKt_getInstance().lambda$1980774822__1, $composer_0, 48, 1);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_145(p0) {
+  function ComposableLambda$invoke$ref_146(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -5987,7 +5977,7 @@
     textAlign_0($this$style, 'center');
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_146(p0) {
+  function ComposableLambda$invoke$ref_147(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6015,7 +6005,7 @@
     $this$Div.classes_ayghm2_k$(['container']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_147(p0) {
+  function ComposableLambda$invoke$ref_148(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6043,7 +6033,7 @@
     $this$Section.classes_ayghm2_k$(['page']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_148(p0) {
+  function ComposableLambda$invoke$ref_149(p0) {
     return function (_this__u8e3s4, p0_0) {
       p0.invoke_z8di7s_k$(_this__u8e3s4, p0_0);
       return Unit_getInstance();
@@ -6061,19 +6051,19 @@
   function ComposableSingletons$NotFoundKt() {
     ComposableSingletons$NotFoundKt_instance = this;
     var tmp = this;
-    tmp.lambda$1615325319__1 = ComposableLambda$invoke$ref_142(composableLambdaInstance(1615325319, false, ComposableSingletons$NotFoundKt$lambda$1615325319$lambda));
+    tmp.lambda$1615325319__1 = ComposableLambda$invoke$ref_143(composableLambdaInstance(1615325319, false, ComposableSingletons$NotFoundKt$lambda$1615325319$lambda));
     var tmp_0 = this;
-    tmp_0.lambda$1980774822__1 = ComposableLambda$invoke$ref_143(composableLambdaInstance(1980774822, false, ComposableSingletons$NotFoundKt$lambda$1980774822$lambda));
+    tmp_0.lambda$1980774822__1 = ComposableLambda$invoke$ref_144(composableLambdaInstance(1980774822, false, ComposableSingletons$NotFoundKt$lambda$1980774822$lambda));
     var tmp_1 = this;
-    tmp_1.lambda$_1128893308_cf53rz_1 = ComposableLambda$invoke$ref_144(composableLambdaInstance(-1128893308, false, ComposableSingletons$NotFoundKt$lambda$_1128893308$lambda_9pd8a9));
+    tmp_1.lambda$_1128893308_cf53rz_1 = ComposableLambda$invoke$ref_145(composableLambdaInstance(-1128893308, false, ComposableSingletons$NotFoundKt$lambda$_1128893308$lambda_9pd8a9));
     var tmp_2 = this;
-    tmp_2.lambda$1590817379__1 = ComposableLambda$invoke$ref_145(composableLambdaInstance(1590817379, false, ComposableSingletons$NotFoundKt$lambda$1590817379$lambda));
+    tmp_2.lambda$1590817379__1 = ComposableLambda$invoke$ref_146(composableLambdaInstance(1590817379, false, ComposableSingletons$NotFoundKt$lambda$1590817379$lambda));
     var tmp_3 = this;
-    tmp_3.lambda$1281144322__1 = ComposableLambda$invoke$ref_146(composableLambdaInstance(1281144322, false, ComposableSingletons$NotFoundKt$lambda$1281144322$lambda));
+    tmp_3.lambda$1281144322__1 = ComposableLambda$invoke$ref_147(composableLambdaInstance(1281144322, false, ComposableSingletons$NotFoundKt$lambda$1281144322$lambda));
     var tmp_4 = this;
-    tmp_4.lambda$_600646859_gavsju_1 = ComposableLambda$invoke$ref_147(composableLambdaInstance(-600646859, false, ComposableSingletons$NotFoundKt$lambda$_600646859$lambda_2a25su));
+    tmp_4.lambda$_600646859_gavsju_1 = ComposableLambda$invoke$ref_148(composableLambdaInstance(-600646859, false, ComposableSingletons$NotFoundKt$lambda$_600646859$lambda_2a25su));
     var tmp_5 = this;
-    tmp_5.lambda$_656731160_z6nv0j_1 = ComposableLambda$invoke$ref_148(composableLambdaInstance(-656731160, false, ComposableSingletons$NotFoundKt$lambda$_656731160$lambda_muzyiz));
+    tmp_5.lambda$_656731160_z6nv0j_1 = ComposableLambda$invoke$ref_149(composableLambdaInstance(-656731160, false, ComposableSingletons$NotFoundKt$lambda$_656731160$lambda_muzyiz));
   }
   protoOf(ComposableSingletons$NotFoundKt).get_lambda$1615325319_rlndyl_k$ = function () {
     return this.lambda$1615325319__1;
@@ -6171,6 +6161,27 @@
       return Unit_getInstance();
     };
   }
+  function Addon0004Page($composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1948161837);
+    if ($composer_0.shouldExecute_4fplh_k$(!($changed === 0), $changed & 1)) {
+      AddonDetailPage(getValue_0(get_addonDetailsById(), '0004'), $composer_0, org_example_app_data_AddonDetail$stableprop_getter());
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(Addon0004Page$lambda($changed));
+    }
+  }
+  function Addon0004Page$lambda($$changed) {
+    return function ($composer, $force) {
+      Addon0004Page($composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
   function AddonDetailPage(addon, $composer, $changed) {
     var $composer_0 = $composer;
     $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(817860559);
@@ -6189,7 +6200,7 @@
       var it = $composer_1.rememberedValue_4dg93v_k$();
       var tmp;
       if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value = ComposableLambda$invoke$ref_169(dispatchReceiver);
+        var value = ComposableLambda$invoke$ref_170(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value);
         tmp = value;
       } else {
@@ -6209,7 +6220,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(AddonDetailPage$lambda_0(addon, $changed));
     }
   }
-  function ComposableLambda$invoke$ref_149(p0) {
+  function ComposableLambda$invoke$ref_150(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6220,7 +6231,7 @@
     Text('Addon', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_150(p0) {
+  function ComposableLambda$invoke$ref_151(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6231,7 +6242,7 @@
     Text('Back to addons', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_151(p0) {
+  function ComposableLambda$invoke$ref_152(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6242,7 +6253,7 @@
     Text('Open source page', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_152(p0) {
+  function ComposableLambda$invoke$ref_153(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6253,7 +6264,7 @@
     Text('Download addon', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_153(p0) {
+  function ComposableLambda$invoke$ref_154(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6264,7 +6275,7 @@
     Text('Latest Versions', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_154(p0) {
+  function ComposableLambda$invoke$ref_155(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6275,7 +6286,7 @@
     Text('Dependencies', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_155(p0) {
+  function ComposableLambda$invoke$ref_156(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6289,19 +6300,19 @@
   function ComposableSingletons$AddonDetailPageKt() {
     ComposableSingletons$AddonDetailPageKt_instance = this;
     var tmp = this;
-    tmp.lambda$921614039__1 = ComposableLambda$invoke$ref_149(composableLambdaInstance(921614039, false, ComposableSingletons$AddonDetailPageKt$lambda$921614039$lambda));
+    tmp.lambda$921614039__1 = ComposableLambda$invoke$ref_150(composableLambdaInstance(921614039, false, ComposableSingletons$AddonDetailPageKt$lambda$921614039$lambda));
     var tmp_0 = this;
-    tmp_0.lambda$381565458__1 = ComposableLambda$invoke$ref_150(composableLambdaInstance(381565458, false, ComposableSingletons$AddonDetailPageKt$lambda$381565458$lambda));
+    tmp_0.lambda$381565458__1 = ComposableLambda$invoke$ref_151(composableLambdaInstance(381565458, false, ComposableSingletons$AddonDetailPageKt$lambda$381565458$lambda));
     var tmp_1 = this;
-    tmp_1.lambda$110375867__1 = ComposableLambda$invoke$ref_151(composableLambdaInstance(110375867, false, ComposableSingletons$AddonDetailPageKt$lambda$110375867$lambda));
+    tmp_1.lambda$110375867__1 = ComposableLambda$invoke$ref_152(composableLambdaInstance(110375867, false, ComposableSingletons$AddonDetailPageKt$lambda$110375867$lambda));
     var tmp_2 = this;
-    tmp_2.lambda$_594484454_89pijn_1 = ComposableLambda$invoke$ref_152(composableLambdaInstance(-594484454, false, ComposableSingletons$AddonDetailPageKt$lambda$_594484454$lambda_4q5pqq));
+    tmp_2.lambda$_594484454_89pijn_1 = ComposableLambda$invoke$ref_153(composableLambdaInstance(-594484454, false, ComposableSingletons$AddonDetailPageKt$lambda$_594484454$lambda_4q5pqq));
     var tmp_3 = this;
-    tmp_3.lambda$762536613__1 = ComposableLambda$invoke$ref_153(composableLambdaInstance(762536613, false, ComposableSingletons$AddonDetailPageKt$lambda$762536613$lambda));
+    tmp_3.lambda$762536613__1 = ComposableLambda$invoke$ref_154(composableLambdaInstance(762536613, false, ComposableSingletons$AddonDetailPageKt$lambda$762536613$lambda));
     var tmp_4 = this;
-    tmp_4.lambda$1266727438__1 = ComposableLambda$invoke$ref_154(composableLambdaInstance(1266727438, false, ComposableSingletons$AddonDetailPageKt$lambda$1266727438$lambda));
+    tmp_4.lambda$1266727438__1 = ComposableLambda$invoke$ref_155(composableLambdaInstance(1266727438, false, ComposableSingletons$AddonDetailPageKt$lambda$1266727438$lambda));
     var tmp_5 = this;
-    tmp_5.lambda$_655615090_knz8fn_1 = ComposableLambda$invoke$ref_155(composableLambdaInstance(-655615090, false, ComposableSingletons$AddonDetailPageKt$lambda$_655615090$lambda_wvltj2));
+    tmp_5.lambda$_655615090_knz8fn_1 = ComposableLambda$invoke$ref_156(composableLambdaInstance(-655615090, false, ComposableSingletons$AddonDetailPageKt$lambda$_655615090$lambda_wvltj2));
   }
   protoOf(ComposableSingletons$AddonDetailPageKt).get_lambda$921614039_4nd0to_k$ = function () {
     return this.lambda$921614039__1;
@@ -6357,7 +6368,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_156(p0) {
+  function ComposableLambda$invoke$ref_157(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6374,7 +6385,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_157(p0) {
+  function ComposableLambda$invoke$ref_158(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6450,7 +6461,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_158(p0) {
+  function ComposableLambda$invoke$ref_159(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6497,7 +6508,7 @@
       var it_1 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_4;
       if (invalid || it_1 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_1 = ComposableLambda$invoke$ref_156(dispatchReceiver);
+        var value_1 = ComposableLambda$invoke$ref_157(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_1);
         tmp_4 = value_1;
       } else {
@@ -6531,7 +6542,7 @@
       var it_3 = $composer_2.rememberedValue_4dg93v_k$();
       var tmp_9;
       if (invalid_0 || it_3 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_3 = ComposableLambda$invoke$ref_157(dispatchReceiver_0);
+        var value_3 = ComposableLambda$invoke$ref_158(dispatchReceiver_0);
         $composer_2.updateRememberedValue_l1wh71_k$(value_3);
         tmp_9 = value_3;
       } else {
@@ -6565,7 +6576,7 @@
       var it_5 = $composer_3.rememberedValue_4dg93v_k$();
       var tmp_14;
       if (invalid_1 || it_5 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_5 = ComposableLambda$invoke$ref_158(dispatchReceiver_1);
+        var value_5 = ComposableLambda$invoke$ref_159(dispatchReceiver_1);
         $composer_3.updateRememberedValue_l1wh71_k$(value_5);
         tmp_14 = value_5;
       } else {
@@ -6578,7 +6589,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_159(p0) {
+  function ComposableLambda$invoke$ref_160(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6607,7 +6618,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_160(p0) {
+  function ComposableLambda$invoke$ref_161(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6631,7 +6642,7 @@
         var it = $composer_1.rememberedValue_4dg93v_k$();
         var tmp;
         if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-          var value = ComposableLambda$invoke$ref_160(dispatchReceiver);
+          var value = ComposableLambda$invoke$ref_161(dispatchReceiver);
           $composer_1.updateRememberedValue_l1wh71_k$(value);
           tmp = value;
         } else {
@@ -6645,7 +6656,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_161(p0) {
+  function ComposableLambda$invoke$ref_162(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6692,7 +6703,7 @@
       var it_1 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_4;
       if (invalid || it_1 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_1 = ComposableLambda$invoke$ref_161(dispatchReceiver);
+        var value_1 = ComposableLambda$invoke$ref_162(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_1);
         tmp_4 = value_1;
       } else {
@@ -6705,7 +6716,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_162(p0) {
+  function ComposableLambda$invoke$ref_163(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6734,7 +6745,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_163(p0) {
+  function ComposableLambda$invoke$ref_164(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6758,7 +6769,7 @@
         var it = $composer_1.rememberedValue_4dg93v_k$();
         var tmp;
         if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-          var value = ComposableLambda$invoke$ref_163(dispatchReceiver);
+          var value = ComposableLambda$invoke$ref_164(dispatchReceiver);
           $composer_1.updateRememberedValue_l1wh71_k$(value);
           tmp = value;
         } else {
@@ -6772,7 +6783,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_164(p0) {
+  function ComposableLambda$invoke$ref_165(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6833,7 +6844,7 @@
       var it_2 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_6;
       if (invalid || it_2 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_2 = ComposableLambda$invoke$ref_164(dispatchReceiver);
+        var value_2 = ComposableLambda$invoke$ref_165(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_2);
         tmp_6 = value_2;
       } else {
@@ -6846,7 +6857,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_165(p0) {
+  function ComposableLambda$invoke$ref_166(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6879,7 +6890,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_2;
       if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_162(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_163(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_2 = value_0;
       } else {
@@ -6913,7 +6924,7 @@
       var it_2 = $composer_2.rememberedValue_4dg93v_k$();
       var tmp_7;
       if (invalid_0 || it_2 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_2 = ComposableLambda$invoke$ref_165(dispatchReceiver_0);
+        var value_2 = ComposableLambda$invoke$ref_166(dispatchReceiver_0);
         $composer_2.updateRememberedValue_l1wh71_k$(value_2);
         tmp_7 = value_2;
       } else {
@@ -6926,7 +6937,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_166(p0) {
+  function ComposableLambda$invoke$ref_167(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -6959,7 +6970,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_2;
       if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_159(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_160(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_2 = value_0;
       } else {
@@ -6993,7 +7004,7 @@
       var it_2 = $composer_2.rememberedValue_4dg93v_k$();
       var tmp_7;
       if (invalid_0 || it_2 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_2 = ComposableLambda$invoke$ref_166(dispatchReceiver_0);
+        var value_2 = ComposableLambda$invoke$ref_167(dispatchReceiver_0);
         $composer_2.updateRememberedValue_l1wh71_k$(value_2);
         tmp_7 = value_2;
       } else {
@@ -7006,7 +7017,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_167(p0) {
+  function ComposableLambda$invoke$ref_168(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7039,7 +7050,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_2;
       if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_167(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_168(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_2 = value_0;
       } else {
@@ -7052,7 +7063,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_168(p0) {
+  function ComposableLambda$invoke$ref_169(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7087,7 +7098,7 @@
         var it_0 = $composer_1.rememberedValue_4dg93v_k$();
         var tmp_3;
         if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-          var value_0 = ComposableLambda$invoke$ref_168(dispatchReceiver);
+          var value_0 = ComposableLambda$invoke$ref_169(dispatchReceiver);
           $composer_1.updateRememberedValue_l1wh71_k$(value_0);
           tmp_3 = value_0;
         } else {
@@ -7105,7 +7116,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_169(p0) {
+  function ComposableLambda$invoke$ref_170(p0) {
     return function (_this__u8e3s4, p0_0) {
       p0.invoke_z8di7s_k$(_this__u8e3s4, p0_0);
       return Unit_getInstance();
@@ -7132,7 +7143,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(AddonsPage$lambda($changed));
     }
   }
-  function ComposableLambda$invoke$ref_170(p0) {
+  function ComposableLambda$invoke$ref_171(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7143,7 +7154,7 @@
     Text('Addons', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_171(p0) {
+  function ComposableLambda$invoke$ref_172(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7154,7 +7165,7 @@
     Text('Addons', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_172(p0) {
+  function ComposableLambda$invoke$ref_173(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7200,7 +7211,7 @@
     $this$H1.classes_ayghm2_k$(['workspace-title']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_173(p0) {
+  function ComposableLambda$invoke$ref_174(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7211,7 +7222,7 @@
     Text('Open addon page', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_174(p0) {
+  function ComposableLambda$invoke$ref_175(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7222,7 +7233,7 @@
     Text('Download', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_175(p0) {
+  function ComposableLambda$invoke$ref_176(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7258,7 +7269,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_2;
       if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_179(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_180(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_2 = value_0;
       } else {
@@ -7286,7 +7297,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_176(p0) {
+  function ComposableLambda$invoke$ref_177(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7303,7 +7314,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_177(p0) {
+  function ComposableLambda$invoke$ref_178(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7359,7 +7370,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_178(p0) {
+  function ComposableLambda$invoke$ref_179(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7392,7 +7403,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_2;
       if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_176(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_177(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_2 = value_0;
       } else {
@@ -7426,7 +7437,7 @@
       var it_2 = $composer_2.rememberedValue_4dg93v_k$();
       var tmp_7;
       if (invalid_0 || it_2 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_2 = ComposableLambda$invoke$ref_177(dispatchReceiver_0);
+        var value_2 = ComposableLambda$invoke$ref_178(dispatchReceiver_0);
         $composer_2.updateRememberedValue_l1wh71_k$(value_2);
         tmp_7 = value_2;
       } else {
@@ -7460,7 +7471,7 @@
       var it_4 = $composer_3.rememberedValue_4dg93v_k$();
       var tmp_12;
       if (invalid_1 || it_4 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_4 = ComposableLambda$invoke$ref_178(dispatchReceiver_1);
+        var value_4 = ComposableLambda$invoke$ref_179(dispatchReceiver_1);
         $composer_3.updateRememberedValue_l1wh71_k$(value_4);
         tmp_12 = value_4;
       } else {
@@ -7473,13 +7484,13 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_179(p0) {
+  function ComposableLambda$invoke$ref_180(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_180(p0) {
+  function ComposableLambda$invoke$ref_181(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7525,7 +7536,7 @@
     $this$Section.classes_ayghm2_k$(['addons-results']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_181(p0) {
+  function ComposableLambda$invoke$ref_182(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7553,7 +7564,7 @@
     $this$Section.classes_ayghm2_k$(['container', 'addons-shell']);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_182(p0) {
+  function ComposableLambda$invoke$ref_183(p0) {
     return function (_this__u8e3s4, p0_0) {
       p0.invoke_z8di7s_k$(_this__u8e3s4, p0_0);
       return Unit_getInstance();
@@ -7588,23 +7599,23 @@
   function ComposableSingletons$IndexKt_0() {
     ComposableSingletons$IndexKt_instance_0 = this;
     var tmp = this;
-    tmp.lambda$434367069__1 = ComposableLambda$invoke$ref_170(composableLambdaInstance(434367069, false, ComposableSingletons$IndexKt$lambda$434367069$lambda));
+    tmp.lambda$434367069__1 = ComposableLambda$invoke$ref_171(composableLambdaInstance(434367069, false, ComposableSingletons$IndexKt$lambda$434367069$lambda));
     var tmp_0 = this;
-    tmp_0.lambda$_843370113_rlh2oi_1 = ComposableLambda$invoke$ref_171(composableLambdaInstance(-843370113, false, ComposableSingletons$IndexKt$lambda$_843370113$lambda_pldfhx));
+    tmp_0.lambda$_843370113_rlh2oi_1 = ComposableLambda$invoke$ref_172(composableLambdaInstance(-843370113, false, ComposableSingletons$IndexKt$lambda$_843370113$lambda_pldfhx));
     var tmp_1 = this;
-    tmp_1.lambda$_80001796_z5ybt7__1 = ComposableLambda$invoke$ref_172(composableLambdaInstance(-80001796, false, ComposableSingletons$IndexKt$lambda$_80001796$lambda_7nveyg));
+    tmp_1.lambda$_80001796_z5ybt7__1 = ComposableLambda$invoke$ref_173(composableLambdaInstance(-80001796, false, ComposableSingletons$IndexKt$lambda$_80001796$lambda_7nveyg));
     var tmp_2 = this;
-    tmp_2.lambda$2145552729__1 = ComposableLambda$invoke$ref_173(composableLambdaInstance(2145552729, false, ComposableSingletons$IndexKt$lambda$2145552729$lambda));
+    tmp_2.lambda$2145552729__1 = ComposableLambda$invoke$ref_174(composableLambdaInstance(2145552729, false, ComposableSingletons$IndexKt$lambda$2145552729$lambda));
     var tmp_3 = this;
-    tmp_3.lambda$_1605550832_r3whrz_1 = ComposableLambda$invoke$ref_174(composableLambdaInstance(-1605550832, false, ComposableSingletons$IndexKt$lambda$_1605550832$lambda_lj835a));
+    tmp_3.lambda$_1605550832_r3whrz_1 = ComposableLambda$invoke$ref_175(composableLambdaInstance(-1605550832, false, ComposableSingletons$IndexKt$lambda$_1605550832$lambda_lj835a));
     var tmp_4 = this;
-    tmp_4.lambda$822721965__1 = ComposableLambda$invoke$ref_175(composableLambdaInstance(822721965, false, ComposableSingletons$IndexKt$lambda$822721965$lambda));
+    tmp_4.lambda$822721965__1 = ComposableLambda$invoke$ref_176(composableLambdaInstance(822721965, false, ComposableSingletons$IndexKt$lambda$822721965$lambda));
     var tmp_5 = this;
-    tmp_5.lambda$682274272__1 = ComposableLambda$invoke$ref_180(composableLambdaInstance(682274272, false, ComposableSingletons$IndexKt$lambda$682274272$lambda));
+    tmp_5.lambda$682274272__1 = ComposableLambda$invoke$ref_181(composableLambdaInstance(682274272, false, ComposableSingletons$IndexKt$lambda$682274272$lambda));
     var tmp_6 = this;
-    tmp_6.lambda$462180947__1 = ComposableLambda$invoke$ref_181(composableLambdaInstance(462180947, false, ComposableSingletons$IndexKt$lambda$462180947$lambda));
+    tmp_6.lambda$462180947__1 = ComposableLambda$invoke$ref_182(composableLambdaInstance(462180947, false, ComposableSingletons$IndexKt$lambda$462180947$lambda));
     var tmp_7 = this;
-    tmp_7.lambda$_1895224762_szjwk2__1 = ComposableLambda$invoke$ref_182(composableLambdaInstance(-1895224762, false, ComposableSingletons$IndexKt$lambda$_1895224762$lambda_b6edgf));
+    tmp_7.lambda$_1895224762_szjwk2__1 = ComposableLambda$invoke$ref_183(composableLambdaInstance(-1895224762, false, ComposableSingletons$IndexKt$lambda$_1895224762$lambda_b6edgf));
   }
   protoOf(ComposableSingletons$IndexKt_0).get_lambda$434367069_tb37mz_k$ = function () {
     return this.lambda$434367069__1;
@@ -7645,11 +7656,1109 @@
       return Unit_getInstance();
     };
   }
+  function DocsPageTemplate(title, activePath, content, $composer, $changed, $default) {
+    var activePath_0 = {_v: activePath};
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1860199165);
+    var $dirty = $changed;
+    if (($changed & 6) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(title) ? 4 : 2);
+    if (!(($default & 2) === 0))
+      $dirty = $dirty | 48;
+    else if (($changed & 48) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(activePath_0._v) ? 32 : 16);
+    if (($changed & 384) === 0)
+      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(content) ? 256 : 128);
+    if ($composer_0.shouldExecute_4fplh_k$(!(($dirty & 147) === 146), $dirty & 1)) {
+      if (!(($default & 2) === 0)) {
+        activePath_0._v = '';
+      }
+      // Inline function 'androidx.compose.runtime.cache' call
+      var this_0 = $composer_0;
+      // Inline function 'kotlin.let' call
+      var it = this_0.rememberedValue_4dg93v_k$();
+      var tmp;
+      if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value = mutableStateOf('');
+        this_0.updateRememberedValue_l1wh71_k$(value);
+        tmp = value;
+      } else {
+        tmp = it;
+      }
+      var tmp_0 = tmp;
+      var searchQuery$delegate = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver = rememberComposableLambda(-1248397201, true, DocsPageTemplate$lambda_1(searchQuery$delegate, activePath_0, content, title), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      var it_0 = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_1;
+      if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_0 = ComposableLambda$invoke$ref_205(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value_0);
+        tmp_1 = value_0;
+      } else {
+        tmp_1 = it_0;
+      }
+      var tmp_2 = tmp_1;
+      var tmp0 = (tmp_2 == null ? true : !(tmp_2 == null)) ? tmp_2 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_1);
+      SiteScaffold('docs', null, tmp0, $composer_0, 390, 2);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(DocsPageTemplate$lambda_2(title, activePath_0, content, $changed, $default));
+    }
+  }
+  function DocNavLink(path, label, isActive, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(1060505669);
+    var $dirty = $changed;
+    if (($changed & 6) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(path) ? 4 : 2);
+    if (($changed & 48) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(label) ? 32 : 16);
+    if (($changed & 384) === 0)
+      $dirty = $dirty | ($composer_0.changed_jpyyrz_k$(isActive) ? 256 : 128);
+    if ($composer_0.shouldExecute_4fplh_k$(!(($dirty & 147) === 146), $dirty & 1)) {
+      var tmp0 = $composer_0;
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = ($dirty & 896) === 256;
+      // Inline function 'kotlin.let' call
+      var it = tmp0.rememberedValue_4dg93v_k$();
+      var tmp;
+      if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value = DocNavLink$lambda(isActive);
+        tmp0.updateRememberedValue_l1wh71_k$(value);
+        tmp = value;
+      } else {
+        tmp = it;
+      }
+      var tmp_0 = tmp;
+      var tmp_1 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver = rememberComposableLambda(1546532659, true, DocNavLink$lambda_0(label), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid_0 = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      var it_0 = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_2;
+      if (invalid_0 || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_0 = ComposableLambda$invoke$ref_206(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value_0);
+        tmp_2 = value_0;
+      } else {
+        tmp_2 = it_0;
+      }
+      var tmp_3 = tmp_2;
+      var tmp0_0 = (tmp_3 == null ? true : !(tmp_3 == null)) ? tmp_3 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_1);
+      A(path, tmp_1, tmp0_0, $composer_0, 384 | 14 & $dirty, 0);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(DocNavLink$lambda_1(path, label, isActive, $changed));
+    }
+  }
+  function ComposableLambda$invoke$ref_184(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableSingletons$TemplateKt$lambda$_2120163032$lambda_tzquad($this$H2, $composer, $changed) {
+    var $composer_0 = $composer;
+    Text('Documentation', $composer_0, 6);
+    return Unit_getInstance();
+  }
+  function ComposableLambda$invoke$ref_185(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableSingletons$TemplateKt$lambda$_1970896506$lambda_5pk50i($this$Div, $composer, $changed) {
+    var $composer_0 = $composer;
+    // Inline function 'androidx.compose.runtime.cache' call
+    // Inline function 'kotlin.let' call
+    var it = $composer_0.rememberedValue_4dg93v_k$();
+    var tmp;
+    if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+      var value = ComposableSingletons$TemplateKt$lambda$_1970896506$lambda$lambda_h81snd;
+      $composer_0.updateRememberedValue_l1wh71_k$(value);
+      tmp = value;
+    } else {
+      tmp = it;
+    }
+    var tmp_0 = tmp;
+    var tmp$ret$3 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+    H2(tmp$ret$3, ComposableSingletons$TemplateKt_getInstance().lambda$_2120163032_ug86ge_1, $composer_0, 54, 0);
+    return Unit_getInstance();
+  }
+  function ComposableSingletons$TemplateKt$lambda$_1970896506$lambda$lambda_h81snd($this$H2) {
+    $this$H2.classes_ayghm2_k$(['panel-title']);
+    return Unit_getInstance();
+  }
+  function ComposableSingletons$TemplateKt() {
+    ComposableSingletons$TemplateKt_instance = this;
+    var tmp = this;
+    tmp.lambda$_2120163032_ug86ge_1 = ComposableLambda$invoke$ref_184(composableLambdaInstance(-2120163032, false, ComposableSingletons$TemplateKt$lambda$_2120163032$lambda_tzquad));
+    var tmp_0 = this;
+    tmp_0.lambda$_1970896506_d2l5cn_1 = ComposableLambda$invoke$ref_185(composableLambdaInstance(-1970896506, false, ComposableSingletons$TemplateKt$lambda$_1970896506$lambda_5pk50i));
+  }
+  protoOf(ComposableSingletons$TemplateKt).get_lambda$_2120163032_s7mm5e_k$ = function () {
+    return this.lambda$_2120163032_ug86ge_1;
+  };
+  protoOf(ComposableSingletons$TemplateKt).get_lambda$_1970896506_es4i6j_k$ = function () {
+    return this.lambda$_1970896506_d2l5cn_1;
+  };
+  var ComposableSingletons$TemplateKt_instance;
+  function ComposableSingletons$TemplateKt_getInstance() {
+    if (ComposableSingletons$TemplateKt_instance == null)
+      new ComposableSingletons$TemplateKt();
+    return ComposableSingletons$TemplateKt_instance;
+  }
+  function DocsPageTemplate$lambda($searchQuery$delegate) {
+    // Inline function 'androidx.compose.runtime.getValue' call
+    getLocalDelegateReference('searchQuery', KMutableProperty0, true);
+    return $searchQuery$delegate.get_value_j01efc_k$();
+  }
+  function DocsPageTemplate$lambda_0($searchQuery$delegate, _set____db54di) {
+    // Inline function 'androidx.compose.runtime.setValue' call
+    getLocalDelegateReference('searchQuery', KMutableProperty0, true);
+    $searchQuery$delegate.set_value_v1vabv_k$(_set____db54di);
+    return Unit_getInstance();
+  }
+  function DocsPageTemplate$lambda$lambda$lambda($this$Section) {
+    $this$Section.classes_ayghm2_k$(['page']);
+    return Unit_getInstance();
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda($this$Div) {
+    $this$Div.classes_ayghm2_k$(['container']);
+    return Unit_getInstance();
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda($this$Div) {
+    $this$Div.classes_ayghm2_k$(['docs-layout']);
+    return Unit_getInstance();
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda($this$Aside) {
+    $this$Aside.classes_ayghm2_k$(['side-panel', 'panel']);
+    return Unit_getInstance();
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda($this$Div) {
+    $this$Div.classes_ayghm2_k$(['panel-header', 'compact']);
+    return Unit_getInstance();
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda_0($this$Div) {
+    $this$Div.classes_ayghm2_k$(['search-row']);
+    return Unit_getInstance();
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda($searchQuery$delegate) {
+    return function (it) {
+      DocsPageTemplate$lambda_0($searchQuery$delegate, it.get_value_j01efc_k$());
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda($searchQuery$delegate) {
+    return function ($this$Input) {
+      $this$Input.classes_ayghm2_k$(['search-input']);
+      $this$Input.attr_w68641_k$('placeholder', 'Search docs...');
+      $this$Input.value_hphtnt_k$(DocsPageTemplate$lambda($searchQuery$delegate));
+      $this$Input.onInput_qzb0am_k$(DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda($searchQuery$delegate));
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda_1($searchQuery$delegate) {
+    return function ($this$Div, $composer, $changed) {
+      var $composer_0 = $composer;
+      var tmp = Search_getInstance();
+      // Inline function 'androidx.compose.runtime.cache' call
+      // Inline function 'kotlin.let' call
+      var it = $composer_0.rememberedValue_4dg93v_k$();
+      var tmp_0;
+      if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value = DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda($searchQuery$delegate);
+        $composer_0.updateRememberedValue_l1wh71_k$(value);
+        tmp_0 = value;
+      } else {
+        tmp_0 = it;
+      }
+      var tmp_1 = tmp_0;
+      var tmp$ret$3 = (tmp_1 == null ? true : !(tmp_1 == null)) ? tmp_1 : THROW_CCE();
+      Input(tmp, tmp$ret$3, $composer_0, 48 | org_jetbrains_compose_web_attributes_InputType_Search$stableprop_getter());
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_186(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda_2($this$Div) {
+    $this$Div.classes_ayghm2_k$(['docs-browser']);
+    return Unit_getInstance();
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_0($this$Ul) {
+    $this$Ul.style_xwwy6r_k$(DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda);
+    return Unit_getInstance();
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda($this$style) {
+    listStyle($this$style, 'none');
+    padding_1($this$style, [get_px(0)]);
+    margin_1($this$style, [get_px(0)]);
+    return Unit_getInstance();
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_0($activePath) {
+    return function ($this$Li, $composer, $changed) {
+      var $composer_0 = $composer;
+      DocNavLink('/docs/placeholder-1', 'Placeholder 1', $activePath._v === 'placeholder-1', $composer_0, 54);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_187(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_1($activePath) {
+    return function ($this$Li, $composer, $changed) {
+      var $composer_0 = $composer;
+      DocNavLink('/docs/placeholder-2', 'Placeholder 2', $activePath._v === 'placeholder-2', $composer_0, 54);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_188(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_2($activePath) {
+    return function ($this$Li, $composer, $changed) {
+      var $composer_0 = $composer;
+      DocNavLink('/docs/placeholder-3', 'Placeholder 3', $activePath._v === 'placeholder-3', $composer_0, 54);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_189(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_3($activePath) {
+    return function ($this$Li, $composer, $changed) {
+      var $composer_0 = $composer;
+      DocNavLink('/docs/placeholder-4', 'Placeholder 4', $activePath._v === 'placeholder-4', $composer_0, 54);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_190(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_4($activePath) {
+    return function ($this$Li, $composer, $changed) {
+      var $composer_0 = $composer;
+      DocNavLink('/docs/placeholder-5', 'Placeholder 5', $activePath._v === 'placeholder-5', $composer_0, 54);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_191(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_5($activePath) {
+    return function ($this$Li, $composer, $changed) {
+      var $composer_0 = $composer;
+      DocNavLink('/docs/placeholder-6', 'Placeholder 6', $activePath._v === 'placeholder-6', $composer_0, 54);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_192(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_6($activePath) {
+    return function ($this$Li, $composer, $changed) {
+      var $composer_0 = $composer;
+      DocNavLink('/docs/placeholder-7', 'Placeholder 7', $activePath._v === 'placeholder-7', $composer_0, 54);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_193(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_1($activePath) {
+    return function ($this$Ul, $composer, $changed) {
+      var $composer_0 = $composer;
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver = rememberComposableLambda(-1692631133, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_0($activePath), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      var it = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp;
+      if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value = ComposableLambda$invoke$ref_187(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value);
+        tmp = value;
+      } else {
+        tmp = it;
+      }
+      var tmp_0 = tmp;
+      var tmp0 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_1);
+      Li(null, tmp0, $composer_0, 48, 1);
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver_0 = rememberComposableLambda(-1073286374, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_1($activePath), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_2 = $composer_0;
+      sourceInformationMarkerStart($composer_2, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid_0 = $composer_2.changed_ga7h3f_k$(dispatchReceiver_0);
+      // Inline function 'kotlin.let' call
+      var it_0 = $composer_2.rememberedValue_4dg93v_k$();
+      var tmp_1;
+      if (invalid_0 || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_0 = ComposableLambda$invoke$ref_188(dispatchReceiver_0);
+        $composer_2.updateRememberedValue_l1wh71_k$(value_0);
+        tmp_1 = value_0;
+      } else {
+        tmp_1 = it_0;
+      }
+      var tmp_2 = tmp_1;
+      var tmp0_0 = (tmp_2 == null ? true : !(tmp_2 == null)) ? tmp_2 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_2);
+      Li(null, tmp0_0, $composer_0, 48, 1);
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver_1 = rememberComposableLambda(-635580197, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_2($activePath), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_3 = $composer_0;
+      sourceInformationMarkerStart($composer_3, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid_1 = $composer_3.changed_ga7h3f_k$(dispatchReceiver_1);
+      // Inline function 'kotlin.let' call
+      var it_1 = $composer_3.rememberedValue_4dg93v_k$();
+      var tmp_3;
+      if (invalid_1 || it_1 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_1 = ComposableLambda$invoke$ref_189(dispatchReceiver_1);
+        $composer_3.updateRememberedValue_l1wh71_k$(value_1);
+        tmp_3 = value_1;
+      } else {
+        tmp_3 = it_1;
+      }
+      var tmp_4 = tmp_3;
+      var tmp0_1 = (tmp_4 == null ? true : !(tmp_4 == null)) ? tmp_4 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_3);
+      Li(null, tmp0_1, $composer_0, 48, 1);
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver_2 = rememberComposableLambda(-197874020, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_3($activePath), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_4 = $composer_0;
+      sourceInformationMarkerStart($composer_4, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid_2 = $composer_4.changed_ga7h3f_k$(dispatchReceiver_2);
+      // Inline function 'kotlin.let' call
+      var it_2 = $composer_4.rememberedValue_4dg93v_k$();
+      var tmp_5;
+      if (invalid_2 || it_2 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_2 = ComposableLambda$invoke$ref_190(dispatchReceiver_2);
+        $composer_4.updateRememberedValue_l1wh71_k$(value_2);
+        tmp_5 = value_2;
+      } else {
+        tmp_5 = it_2;
+      }
+      var tmp_6 = tmp_5;
+      var tmp0_2 = (tmp_6 == null ? true : !(tmp_6 == null)) ? tmp_6 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_4);
+      Li(null, tmp0_2, $composer_0, 48, 1);
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver_3 = rememberComposableLambda(239832157, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_4($activePath), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_5 = $composer_0;
+      sourceInformationMarkerStart($composer_5, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid_3 = $composer_5.changed_ga7h3f_k$(dispatchReceiver_3);
+      // Inline function 'kotlin.let' call
+      var it_3 = $composer_5.rememberedValue_4dg93v_k$();
+      var tmp_7;
+      if (invalid_3 || it_3 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_3 = ComposableLambda$invoke$ref_191(dispatchReceiver_3);
+        $composer_5.updateRememberedValue_l1wh71_k$(value_3);
+        tmp_7 = value_3;
+      } else {
+        tmp_7 = it_3;
+      }
+      var tmp_8 = tmp_7;
+      var tmp0_3 = (tmp_8 == null ? true : !(tmp_8 == null)) ? tmp_8 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_5);
+      Li(null, tmp0_3, $composer_0, 48, 1);
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver_4 = rememberComposableLambda(677538334, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_5($activePath), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_6 = $composer_0;
+      sourceInformationMarkerStart($composer_6, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid_4 = $composer_6.changed_ga7h3f_k$(dispatchReceiver_4);
+      // Inline function 'kotlin.let' call
+      var it_4 = $composer_6.rememberedValue_4dg93v_k$();
+      var tmp_9;
+      if (invalid_4 || it_4 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_4 = ComposableLambda$invoke$ref_192(dispatchReceiver_4);
+        $composer_6.updateRememberedValue_l1wh71_k$(value_4);
+        tmp_9 = value_4;
+      } else {
+        tmp_9 = it_4;
+      }
+      var tmp_10 = tmp_9;
+      var tmp0_4 = (tmp_10 == null ? true : !(tmp_10 == null)) ? tmp_10 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_6);
+      Li(null, tmp0_4, $composer_0, 48, 1);
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver_5 = rememberComposableLambda(1115244511, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_6($activePath), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_7 = $composer_0;
+      sourceInformationMarkerStart($composer_7, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid_5 = $composer_7.changed_ga7h3f_k$(dispatchReceiver_5);
+      // Inline function 'kotlin.let' call
+      var it_5 = $composer_7.rememberedValue_4dg93v_k$();
+      var tmp_11;
+      if (invalid_5 || it_5 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_5 = ComposableLambda$invoke$ref_193(dispatchReceiver_5);
+        $composer_7.updateRememberedValue_l1wh71_k$(value_5);
+        tmp_11 = value_5;
+      } else {
+        tmp_11 = it_5;
+      }
+      var tmp_12 = tmp_11;
+      var tmp0_5 = (tmp_12 == null ? true : !(tmp_12 == null)) ? tmp_12 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_7);
+      Li(null, tmp0_5, $composer_0, 48, 1);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_194(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_0($activePath) {
+    return function ($this$Nav, $composer, $changed) {
+      var $composer_0 = $composer;
+      // Inline function 'androidx.compose.runtime.cache' call
+      // Inline function 'kotlin.let' call
+      var it = $composer_0.rememberedValue_4dg93v_k$();
+      var tmp;
+      if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value = DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_0;
+        $composer_0.updateRememberedValue_l1wh71_k$(value);
+        tmp = value;
+      } else {
+        tmp = it;
+      }
+      var tmp_0 = tmp;
+      var tmp_1 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver = rememberComposableLambda(-2133900270, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_1($activePath), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      var it_0 = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_2;
+      if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_0 = ComposableLambda$invoke$ref_194(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value_0);
+        tmp_2 = value_0;
+      } else {
+        tmp_2 = it_0;
+      }
+      var tmp_3 = tmp_2;
+      var tmp0 = (tmp_3 == null ? true : !(tmp_3 == null)) ? tmp_3 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_1);
+      Ul(tmp_1, tmp0, $composer_0, 54, 0);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_195(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda_3($activePath) {
+    return function ($this$Div, $composer, $changed) {
+      var $composer_0 = $composer;
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver = rememberComposableLambda(-1175283299, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_0($activePath), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      var it = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp;
+      if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value = ComposableLambda$invoke$ref_195(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value);
+        tmp = value;
+      } else {
+        tmp = it;
+      }
+      var tmp_0 = tmp;
+      var tmp0 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_1);
+      Nav(null, tmp0, $composer_0, 48, 1);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_196(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda_0($searchQuery$delegate, $activePath) {
+    return function ($this$Aside, $composer, $changed) {
+      var $composer_0 = $composer;
+      // Inline function 'androidx.compose.runtime.cache' call
+      // Inline function 'kotlin.let' call
+      var it = $composer_0.rememberedValue_4dg93v_k$();
+      var tmp;
+      if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value = DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda;
+        $composer_0.updateRememberedValue_l1wh71_k$(value);
+        tmp = value;
+      } else {
+        tmp = it;
+      }
+      var tmp_0 = tmp;
+      var tmp$ret$3 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      Div(tmp$ret$3, ComposableSingletons$TemplateKt_getInstance().lambda$_1970896506_d2l5cn_1, $composer_0, 54, 0);
+      // Inline function 'androidx.compose.runtime.cache' call
+      // Inline function 'kotlin.let' call
+      var it_0 = $composer_0.rememberedValue_4dg93v_k$();
+      var tmp_1;
+      if (false || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_0 = DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda_0;
+        $composer_0.updateRememberedValue_l1wh71_k$(value_0);
+        tmp_1 = value_0;
+      } else {
+        tmp_1 = it_0;
+      }
+      var tmp_2 = tmp_1;
+      var tmp_3 = (tmp_2 == null ? true : !(tmp_2 == null)) ? tmp_2 : THROW_CCE();
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver = rememberComposableLambda(-1317823633, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda_1($searchQuery$delegate), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      var it_1 = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_4;
+      if (invalid || it_1 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_1 = ComposableLambda$invoke$ref_186(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value_1);
+        tmp_4 = value_1;
+      } else {
+        tmp_4 = it_1;
+      }
+      var tmp_5 = tmp_4;
+      var tmp0 = (tmp_5 == null ? true : !(tmp_5 == null)) ? tmp_5 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_1);
+      Div(tmp_3, tmp0, $composer_0, 54, 0);
+      Br(null, $composer_0, 0, 1);
+      // Inline function 'androidx.compose.runtime.cache' call
+      // Inline function 'kotlin.let' call
+      var it_2 = $composer_0.rememberedValue_4dg93v_k$();
+      var tmp_6;
+      if (false || it_2 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_2 = DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda_2;
+        $composer_0.updateRememberedValue_l1wh71_k$(value_2);
+        tmp_6 = value_2;
+      } else {
+        tmp_6 = it_2;
+      }
+      var tmp_7 = tmp_6;
+      var tmp_8 = (tmp_7 == null ? true : !(tmp_7 == null)) ? tmp_7 : THROW_CCE();
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver_0 = rememberComposableLambda(1686491854, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda_3($activePath), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_2 = $composer_0;
+      sourceInformationMarkerStart($composer_2, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid_0 = $composer_2.changed_ga7h3f_k$(dispatchReceiver_0);
+      // Inline function 'kotlin.let' call
+      var it_3 = $composer_2.rememberedValue_4dg93v_k$();
+      var tmp_9;
+      if (invalid_0 || it_3 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_3 = ComposableLambda$invoke$ref_196(dispatchReceiver_0);
+        $composer_2.updateRememberedValue_l1wh71_k$(value_3);
+        tmp_9 = value_3;
+      } else {
+        tmp_9 = it_3;
+      }
+      var tmp_10 = tmp_9;
+      var tmp0_0 = (tmp_10 == null ? true : !(tmp_10 == null)) ? tmp_10 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_2);
+      Div(tmp_8, tmp0_0, $composer_0, 54, 0);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_197(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda_1($this$Div) {
+    $this$Div.classes_ayghm2_k$(['main-panel', 'panel', 'fade-in']);
+    return Unit_getInstance();
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda_4($this$Div) {
+    $this$Div.style_xwwy6r_k$(DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_1);
+    return Unit_getInstance();
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_1($this$style) {
+    padding_1($this$style, [get_cssRem(2)]);
+    return Unit_getInstance();
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_2($title) {
+    return function ($this$H1, $composer, $changed) {
+      var $composer_0 = $composer;
+      Text($title, $composer_0, 0);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_198(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda_5($content, $title) {
+    return function ($this$Div, $composer, $changed) {
+      var $composer_0 = $composer;
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver = rememberComposableLambda(975334352, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda$lambda_2($title), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      var it = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp;
+      if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value = ComposableLambda$invoke$ref_198(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value);
+        tmp = value;
+      } else {
+        tmp = it;
+      }
+      var tmp_0 = tmp;
+      var tmp0 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_1);
+      H1(null, tmp0, $composer_0, 48, 1);
+      $content($composer_0, 0);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_199(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda_2($content, $title) {
+    return function ($this$Div, $composer, $changed) {
+      var $composer_0 = $composer;
+      // Inline function 'androidx.compose.runtime.cache' call
+      // Inline function 'kotlin.let' call
+      var it = $composer_0.rememberedValue_4dg93v_k$();
+      var tmp;
+      if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value = DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda_4;
+        $composer_0.updateRememberedValue_l1wh71_k$(value);
+        tmp = value;
+      } else {
+        tmp = it;
+      }
+      var tmp_0 = tmp;
+      var tmp_1 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver = rememberComposableLambda(1900603661, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda$lambda_5($content, $title), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      var it_0 = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_2;
+      if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_0 = ComposableLambda$invoke$ref_199(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value_0);
+        tmp_2 = value_0;
+      } else {
+        tmp_2 = it_0;
+      }
+      var tmp_3 = tmp_2;
+      var tmp0 = (tmp_3 == null ? true : !(tmp_3 == null)) ? tmp_3 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_1);
+      Div(tmp_1, tmp0, $composer_0, 54, 0);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_200(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda$lambda_0($searchQuery$delegate, $activePath, $content, $title) {
+    return function ($this$Div, $composer, $changed) {
+      var $composer_0 = $composer;
+      // Inline function 'androidx.compose.runtime.cache' call
+      // Inline function 'kotlin.let' call
+      var it = $composer_0.rememberedValue_4dg93v_k$();
+      var tmp;
+      if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value = DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda;
+        $composer_0.updateRememberedValue_l1wh71_k$(value);
+        tmp = value;
+      } else {
+        tmp = it;
+      }
+      var tmp_0 = tmp;
+      var tmp_1 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver = rememberComposableLambda(-228363931, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda_0($searchQuery$delegate, $activePath), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      var it_0 = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_2;
+      if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_0 = ComposableLambda$invoke$ref_197(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value_0);
+        tmp_2 = value_0;
+      } else {
+        tmp_2 = it_0;
+      }
+      var tmp_3 = tmp_2;
+      var tmp0 = (tmp_3 == null ? true : !(tmp_3 == null)) ? tmp_3 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_1);
+      Aside(tmp_1, tmp0, $composer_0, 54, 0);
+      // Inline function 'androidx.compose.runtime.cache' call
+      // Inline function 'kotlin.let' call
+      var it_1 = $composer_0.rememberedValue_4dg93v_k$();
+      var tmp_4;
+      if (false || it_1 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_1 = DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda_1;
+        $composer_0.updateRememberedValue_l1wh71_k$(value_1);
+        tmp_4 = value_1;
+      } else {
+        tmp_4 = it_1;
+      }
+      var tmp_5 = tmp_4;
+      var tmp_6 = (tmp_5 == null ? true : !(tmp_5 == null)) ? tmp_5 : THROW_CCE();
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver_0 = rememberComposableLambda(-1257356116, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda$lambda_2($content, $title), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_2 = $composer_0;
+      sourceInformationMarkerStart($composer_2, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid_0 = $composer_2.changed_ga7h3f_k$(dispatchReceiver_0);
+      // Inline function 'kotlin.let' call
+      var it_2 = $composer_2.rememberedValue_4dg93v_k$();
+      var tmp_7;
+      if (invalid_0 || it_2 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_2 = ComposableLambda$invoke$ref_200(dispatchReceiver_0);
+        $composer_2.updateRememberedValue_l1wh71_k$(value_2);
+        tmp_7 = value_2;
+      } else {
+        tmp_7 = it_2;
+      }
+      var tmp_8 = tmp_7;
+      var tmp0_0 = (tmp_8 == null ? true : !(tmp_8 == null)) ? tmp_8 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_2);
+      Div(tmp_6, tmp0_0, $composer_0, 54, 0);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_201(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda$lambda_0($searchQuery$delegate, $activePath, $content, $title) {
+    return function ($this$Div, $composer, $changed) {
+      var $composer_0 = $composer;
+      // Inline function 'androidx.compose.runtime.cache' call
+      // Inline function 'kotlin.let' call
+      var it = $composer_0.rememberedValue_4dg93v_k$();
+      var tmp;
+      if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value = DocsPageTemplate$lambda$lambda$lambda$lambda$lambda;
+        $composer_0.updateRememberedValue_l1wh71_k$(value);
+        tmp = value;
+      } else {
+        tmp = it;
+      }
+      var tmp_0 = tmp;
+      var tmp_1 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver = rememberComposableLambda(-719727093, true, DocsPageTemplate$lambda$lambda$lambda$lambda$lambda_0($searchQuery$delegate, $activePath, $content, $title), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      var it_0 = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_2;
+      if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_0 = ComposableLambda$invoke$ref_201(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value_0);
+        tmp_2 = value_0;
+      } else {
+        tmp_2 = it_0;
+      }
+      var tmp_3 = tmp_2;
+      var tmp0 = (tmp_3 == null ? true : !(tmp_3 == null)) ? tmp_3 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_1);
+      Div(tmp_1, tmp0, $composer_0, 54, 0);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_202(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda$lambda_0($searchQuery$delegate, $activePath, $content, $title) {
+    return function ($this$Section, $composer, $changed) {
+      var $composer_0 = $composer;
+      // Inline function 'androidx.compose.runtime.cache' call
+      // Inline function 'kotlin.let' call
+      var it = $composer_0.rememberedValue_4dg93v_k$();
+      var tmp;
+      if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value = DocsPageTemplate$lambda$lambda$lambda$lambda;
+        $composer_0.updateRememberedValue_l1wh71_k$(value);
+        tmp = value;
+      } else {
+        tmp = it;
+      }
+      var tmp_0 = tmp;
+      var tmp_1 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver = rememberComposableLambda(1284017450, true, DocsPageTemplate$lambda$lambda$lambda$lambda_0($searchQuery$delegate, $activePath, $content, $title), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      var it_0 = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_2;
+      if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_0 = ComposableLambda$invoke$ref_202(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value_0);
+        tmp_2 = value_0;
+      } else {
+        tmp_2 = it_0;
+      }
+      var tmp_3 = tmp_2;
+      var tmp0 = (tmp_3 == null ? true : !(tmp_3 == null)) ? tmp_3 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_1);
+      Div(tmp_1, tmp0, $composer_0, 54, 0);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_203(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda$lambda($searchQuery$delegate, $activePath, $content, $title) {
+    return function ($this$Main, $composer, $changed) {
+      var $composer_0 = $composer;
+      // Inline function 'androidx.compose.runtime.cache' call
+      // Inline function 'kotlin.let' call
+      var it = $composer_0.rememberedValue_4dg93v_k$();
+      var tmp;
+      if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value = DocsPageTemplate$lambda$lambda$lambda;
+        $composer_0.updateRememberedValue_l1wh71_k$(value);
+        tmp = value;
+      } else {
+        tmp = it;
+      }
+      var tmp_0 = tmp;
+      var tmp_1 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      // Inline function 'kotlin.run' call
+      var dispatchReceiver = rememberComposableLambda(-392996343, true, DocsPageTemplate$lambda$lambda$lambda_0($searchQuery$delegate, $activePath, $content, $title), $composer_0, 54);
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      var it_0 = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_2;
+      if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value_0 = ComposableLambda$invoke$ref_203(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value_0);
+        tmp_2 = value_0;
+      } else {
+        tmp_2 = it_0;
+      }
+      var tmp_3 = tmp_2;
+      var tmp0 = (tmp_3 == null ? true : !(tmp_3 == null)) ? tmp_3 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_1);
+      Section(tmp_1, tmp0, $composer_0, 54, 0);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_204(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda_1($searchQuery$delegate, $activePath, $content, $title) {
+    return function ($composer, $changed) {
+      var $composer_0 = $composer;
+      var tmp;
+      if ($composer_0.shouldExecute_4fplh_k$(!(($changed & 3) === 2), $changed & 1)) {
+        // Inline function 'kotlin.run' call
+        var dispatchReceiver = rememberComposableLambda(1844727676, true, DocsPageTemplate$lambda$lambda($searchQuery$delegate, $activePath, $content, $title), $composer_0, 54);
+        // Inline function 'androidx.compose.runtime.remember' call
+        var $composer_1 = $composer_0;
+        sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+        // Inline function 'androidx.compose.runtime.cache' call
+        var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+        // Inline function 'kotlin.let' call
+        var it = $composer_1.rememberedValue_4dg93v_k$();
+        var tmp_0;
+        if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+          var value = ComposableLambda$invoke$ref_204(dispatchReceiver);
+          $composer_1.updateRememberedValue_l1wh71_k$(value);
+          tmp_0 = value;
+        } else {
+          tmp_0 = it;
+        }
+        var tmp_1 = tmp_0;
+        var tmp0 = (tmp_1 == null ? true : !(tmp_1 == null)) ? tmp_1 : THROW_CCE();
+        sourceInformationMarkerEnd($composer_1);
+        Main(null, tmp0, $composer_0, 48, 1);
+        tmp = Unit_getInstance();
+      } else {
+        $composer_0.skipToGroupEnd_lh3zi2_k$();
+        tmp = Unit_getInstance();
+      }
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_205(p0) {
+    return function (_this__u8e3s4, p0_0) {
+      p0.invoke_z8di7s_k$(_this__u8e3s4, p0_0);
+      return Unit_getInstance();
+    };
+  }
+  function DocsPageTemplate$lambda_2($title, $activePath, $content, $$changed, $$default) {
+    return function ($composer, $force) {
+      DocsPageTemplate($title, $activePath._v, $content, $composer, updateChangedFlags($$changed | 1), $$default);
+      return Unit_getInstance();
+    };
+  }
+  function DocNavLink$lambda$lambda($this$style) {
+    $this$style.property_wcrait_k$('display', 'block');
+    marginBottom($this$style, get_cssRem(0.5));
+    textDecoration($this$style, 'none');
+    return Unit_getInstance();
+  }
+  function DocNavLink$lambda($isActive) {
+    return function ($this$A) {
+      $this$A.classes_ayghm2_k$(['doc-item', 'doc-item-link']);
+      var tmp;
+      if ($isActive) {
+        $this$A.classes_ayghm2_k$(['active']);
+        tmp = Unit_getInstance();
+      }
+      $this$A.style_xwwy6r_k$(DocNavLink$lambda$lambda);
+      return Unit_getInstance();
+    };
+  }
+  function DocNavLink$lambda_0($label) {
+    return function ($this$A, $composer, $changed) {
+      var $composer_0 = $composer;
+      Text($label, $composer_0, 0);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_206(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function DocNavLink$lambda_1($path, $label, $isActive, $$changed) {
+    return function ($composer, $force) {
+      DocNavLink($path, $label, $isActive, $composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
   function DocsPage($composer, $changed) {
     var $composer_0 = $composer;
     $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(782068794);
     if ($composer_0.shouldExecute_4fplh_k$(!($changed === 0), $changed & 1)) {
-      SiteScaffold('', null, ComposableSingletons$IndexKt_getInstance_1().lambda$562182566__1, $composer_0, 390, 2);
+      DocsPageTemplate('PLACEHOLDER TITLE', 'getting-started', ComposableSingletons$IndexKt_getInstance_1().lambda$_1672826803_a2ctpt_1, $composer_0, 438, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -7660,54 +8769,65 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(DocsPage$lambda($changed));
     }
   }
-  function ComposableLambda$invoke$ref_183(p0) {
+  function ComposableLambda$invoke$ref_207(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
     };
   }
-  function ComposableSingletons$IndexKt$lambda$1829349893$lambda($this$H1, $composer, $changed) {
+  function ComposableSingletons$IndexKt$lambda$2137562219$lambda($this$P, $composer, $changed) {
     var $composer_0 = $composer;
-    Text('Not made yet bro :/', $composer_0, 6);
+    Text('PLACEHOLDER DESCRIPTION OR WHATEVER', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_184(p0) {
+  function ComposableLambda$invoke$ref_208(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
     };
   }
-  function ComposableSingletons$IndexKt$lambda$144815844$lambda($this$P, $composer, $changed) {
+  function ComposableSingletons$IndexKt$lambda$_611894915$lambda_j8xvxv($this$H2, $composer, $changed) {
     var $composer_0 = $composer;
-    Text('we gotta use some starlight shit', $composer_0, 6);
+    Text('PLACEHOLDER SUB-TITLE', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_185(p0) {
+  function ComposableLambda$invoke$ref_209(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
     };
   }
-  function ComposableSingletons$IndexKt$lambda$_2034953918$lambda_sjvcyt($this$Div, $composer, $changed) {
+  function ComposableSingletons$IndexKt$lambda$_1353914371$lambda_89zzbm($this$P, $composer, $changed) {
     var $composer_0 = $composer;
-    H1(null, ComposableSingletons$IndexKt_getInstance_1().lambda$1829349893__1, $composer_0, 48, 1);
-    P(null, ComposableSingletons$IndexKt_getInstance_1().lambda$144815844__1, $composer_0, 48, 1);
+    Text('PLACEHOLDER DESCRIPTION OF SUB-TITLE', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_186(p0) {
+  function ComposableLambda$invoke$ref_210(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
     };
   }
-  function ComposableSingletons$IndexKt$lambda$_16483615$lambda_9j0a31($this$Div, $composer, $changed) {
+  function ComposableSingletons$IndexKt$lambda$_519708193$lambda_h0yuly($this$Section, $composer, $changed) {
+    var $composer_0 = $composer;
+    H2(null, ComposableSingletons$IndexKt_getInstance_1().lambda$_611894915_a7ejps_1, $composer_0, 48, 1);
+    P(null, ComposableSingletons$IndexKt_getInstance_1().lambda$_1353914371_xxj0xr_1, $composer_0, 48, 1);
+    return Unit_getInstance();
+  }
+  function ComposableLambda$invoke$ref_211(p0) {
+    return function (_this__u8e3s4, p0_0, p1) {
+      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableSingletons$IndexKt$lambda$1274307340$lambda($this$Div, $composer, $changed) {
     var $composer_0 = $composer;
     // Inline function 'androidx.compose.runtime.cache' call
     // Inline function 'kotlin.let' call
     var it = $composer_0.rememberedValue_4dg93v_k$();
     var tmp;
     if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-      var value = ComposableSingletons$IndexKt$lambda$_16483615$lambda$lambda_rpbz4o;
+      var value = ComposableSingletons$IndexKt$lambda$1274307340$lambda$lambda;
       $composer_0.updateRememberedValue_l1wh71_k$(value);
       tmp = value;
     } else {
@@ -7715,127 +8835,78 @@
     }
     var tmp_0 = tmp;
     var tmp$ret$3 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
-    Div(tmp$ret$3, ComposableSingletons$IndexKt_getInstance_1().lambda$_2034953918_9l52fs_1, $composer_0, 54, 0);
+    Section(tmp$ret$3, ComposableSingletons$IndexKt_getInstance_1().lambda$_519708193_5k9qmf_1, $composer_0, 54, 0);
     return Unit_getInstance();
   }
-  function ComposableSingletons$IndexKt$lambda$_16483615$lambda$lambda_rpbz4o($this$Div) {
-    $this$Div.classes_ayghm2_k$(['panel', 'fade-in']);
-    $this$Div.style_xwwy6r_k$(ComposableSingletons$IndexKt$lambda$_16483615$lambda$lambda$lambda_fnmwr7);
+  function ComposableSingletons$IndexKt$lambda$1274307340$lambda$lambda($this$Section) {
+    $this$Section.classes_ayghm2_k$(['doc-section']);
     return Unit_getInstance();
   }
-  function ComposableSingletons$IndexKt$lambda$_16483615$lambda$lambda$lambda_fnmwr7($this$style) {
-    padding_1($this$style, [get_cssRem(3)]);
-    textAlign_0($this$style, 'center');
-    return Unit_getInstance();
-  }
-  function ComposableLambda$invoke$ref_187(p0) {
-    return function (_this__u8e3s4, p0_0, p1) {
-      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
-      return Unit_getInstance();
-    };
-  }
-  function ComposableSingletons$IndexKt$lambda$760846912$lambda($this$Section, $composer, $changed) {
-    var $composer_0 = $composer;
-    // Inline function 'androidx.compose.runtime.cache' call
-    // Inline function 'kotlin.let' call
-    var it = $composer_0.rememberedValue_4dg93v_k$();
-    var tmp;
-    if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-      var value = ComposableSingletons$IndexKt$lambda$760846912$lambda$lambda;
-      $composer_0.updateRememberedValue_l1wh71_k$(value);
-      tmp = value;
-    } else {
-      tmp = it;
-    }
-    var tmp_0 = tmp;
-    var tmp$ret$3 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
-    Div(tmp$ret$3, ComposableSingletons$IndexKt_getInstance_1().lambda$_16483615_5hb4xs_1, $composer_0, 54, 0);
-    return Unit_getInstance();
-  }
-  function ComposableSingletons$IndexKt$lambda$760846912$lambda$lambda($this$Div) {
-    $this$Div.classes_ayghm2_k$(['container']);
-    return Unit_getInstance();
-  }
-  function ComposableLambda$invoke$ref_188(p0) {
-    return function (_this__u8e3s4, p0_0, p1) {
-      p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
-      return Unit_getInstance();
-    };
-  }
-  function ComposableSingletons$IndexKt$lambda$1254977587$lambda($this$Main, $composer, $changed) {
-    var $composer_0 = $composer;
-    // Inline function 'androidx.compose.runtime.cache' call
-    // Inline function 'kotlin.let' call
-    var it = $composer_0.rememberedValue_4dg93v_k$();
-    var tmp;
-    if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-      var value = ComposableSingletons$IndexKt$lambda$1254977587$lambda$lambda;
-      $composer_0.updateRememberedValue_l1wh71_k$(value);
-      tmp = value;
-    } else {
-      tmp = it;
-    }
-    var tmp_0 = tmp;
-    var tmp$ret$3 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
-    Section(tmp$ret$3, ComposableSingletons$IndexKt_getInstance_1().lambda$760846912__1, $composer_0, 54, 0);
-    return Unit_getInstance();
-  }
-  function ComposableSingletons$IndexKt$lambda$1254977587$lambda$lambda($this$Section) {
-    $this$Section.classes_ayghm2_k$(['page']);
-    return Unit_getInstance();
-  }
-  function ComposableLambda$invoke$ref_189(p0) {
+  function ComposableLambda$invoke$ref_212(p0) {
     return function (_this__u8e3s4, p0_0) {
       p0.invoke_z8di7s_k$(_this__u8e3s4, p0_0);
       return Unit_getInstance();
     };
   }
-  function ComposableSingletons$IndexKt$lambda$562182566$lambda($composer, $changed) {
+  function ComposableSingletons$IndexKt$lambda$_1672826803$lambda_q9r2dg($composer, $changed) {
     var $composer_0 = $composer;
     if ($composer_0.shouldExecute_4fplh_k$(!(($changed & 3) === 2), $changed & 1)) {
-      Main(null, ComposableSingletons$IndexKt_getInstance_1().lambda$1254977587__1, $composer_0, 48, 1);
+      P(null, ComposableSingletons$IndexKt_getInstance_1().lambda$2137562219__1, $composer_0, 48, 1);
+      // Inline function 'androidx.compose.runtime.cache' call
+      // Inline function 'kotlin.let' call
+      var it = $composer_0.rememberedValue_4dg93v_k$();
+      var tmp;
+      if (false || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        var value = ComposableSingletons$IndexKt$lambda$_1672826803$lambda$lambda_awinc7;
+        $composer_0.updateRememberedValue_l1wh71_k$(value);
+        tmp = value;
+      } else {
+        tmp = it;
+      }
+      var tmp_0 = tmp;
+      var tmp$ret$3 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      Div(tmp$ret$3, ComposableSingletons$IndexKt_getInstance_1().lambda$1274307340__1, $composer_0, 54, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
     return Unit_getInstance();
   }
+  function ComposableSingletons$IndexKt$lambda$_1672826803$lambda$lambda_awinc7($this$Div) {
+    $this$Div.classes_ayghm2_k$(['doc-copy-stack']);
+    return Unit_getInstance();
+  }
   function ComposableSingletons$IndexKt_1() {
     ComposableSingletons$IndexKt_instance_1 = this;
     var tmp = this;
-    tmp.lambda$1829349893__1 = ComposableLambda$invoke$ref_183(composableLambdaInstance(1829349893, false, ComposableSingletons$IndexKt$lambda$1829349893$lambda));
+    tmp.lambda$2137562219__1 = ComposableLambda$invoke$ref_207(composableLambdaInstance(2137562219, false, ComposableSingletons$IndexKt$lambda$2137562219$lambda));
     var tmp_0 = this;
-    tmp_0.lambda$144815844__1 = ComposableLambda$invoke$ref_184(composableLambdaInstance(144815844, false, ComposableSingletons$IndexKt$lambda$144815844$lambda));
+    tmp_0.lambda$_611894915_a7ejps_1 = ComposableLambda$invoke$ref_208(composableLambdaInstance(-611894915, false, ComposableSingletons$IndexKt$lambda$_611894915$lambda_j8xvxv));
     var tmp_1 = this;
-    tmp_1.lambda$_2034953918_9l52fs_1 = ComposableLambda$invoke$ref_185(composableLambdaInstance(-2034953918, false, ComposableSingletons$IndexKt$lambda$_2034953918$lambda_sjvcyt));
+    tmp_1.lambda$_1353914371_xxj0xr_1 = ComposableLambda$invoke$ref_209(composableLambdaInstance(-1353914371, false, ComposableSingletons$IndexKt$lambda$_1353914371$lambda_89zzbm));
     var tmp_2 = this;
-    tmp_2.lambda$_16483615_5hb4xs_1 = ComposableLambda$invoke$ref_186(composableLambdaInstance(-16483615, false, ComposableSingletons$IndexKt$lambda$_16483615$lambda_9j0a31));
+    tmp_2.lambda$_519708193_5k9qmf_1 = ComposableLambda$invoke$ref_210(composableLambdaInstance(-519708193, false, ComposableSingletons$IndexKt$lambda$_519708193$lambda_h0yuly));
     var tmp_3 = this;
-    tmp_3.lambda$760846912__1 = ComposableLambda$invoke$ref_187(composableLambdaInstance(760846912, false, ComposableSingletons$IndexKt$lambda$760846912$lambda));
+    tmp_3.lambda$1274307340__1 = ComposableLambda$invoke$ref_211(composableLambdaInstance(1274307340, false, ComposableSingletons$IndexKt$lambda$1274307340$lambda));
     var tmp_4 = this;
-    tmp_4.lambda$1254977587__1 = ComposableLambda$invoke$ref_188(composableLambdaInstance(1254977587, false, ComposableSingletons$IndexKt$lambda$1254977587$lambda));
-    var tmp_5 = this;
-    tmp_5.lambda$562182566__1 = ComposableLambda$invoke$ref_189(composableLambdaInstance(562182566, false, ComposableSingletons$IndexKt$lambda$562182566$lambda));
+    tmp_4.lambda$_1672826803_a2ctpt_1 = ComposableLambda$invoke$ref_212(composableLambdaInstance(-1672826803, false, ComposableSingletons$IndexKt$lambda$_1672826803$lambda_q9r2dg));
   }
-  protoOf(ComposableSingletons$IndexKt_1).get_lambda$1829349893_v8zent_k$ = function () {
-    return this.lambda$1829349893__1;
+  protoOf(ComposableSingletons$IndexKt_1).get_lambda$2137562219_ydkms5_k$ = function () {
+    return this.lambda$2137562219__1;
   };
-  protoOf(ComposableSingletons$IndexKt_1).get_lambda$144815844_18k1uk_k$ = function () {
-    return this.lambda$144815844__1;
+  protoOf(ComposableSingletons$IndexKt_1).get_lambda$_611894915_6k5r4e_k$ = function () {
+    return this.lambda$_611894915_a7ejps_1;
   };
-  protoOf(ComposableSingletons$IndexKt_1).get_lambda$_2034953918_kj5x58_k$ = function () {
-    return this.lambda$_2034953918_9l52fs_1;
+  protoOf(ComposableSingletons$IndexKt_1).get_lambda$_1353914371_dfzvbf_k$ = function () {
+    return this.lambda$_1353914371_xxj0xr_1;
   };
-  protoOf(ComposableSingletons$IndexKt_1).get_lambda$_16483615_bd8wdw_k$ = function () {
-    return this.lambda$_16483615_5hb4xs_1;
+  protoOf(ComposableSingletons$IndexKt_1).get_lambda$_519708193_283tz9_k$ = function () {
+    return this.lambda$_519708193_5k9qmf_1;
   };
-  protoOf(ComposableSingletons$IndexKt_1).get_lambda$760846912_335nl4_k$ = function () {
-    return this.lambda$760846912__1;
+  protoOf(ComposableSingletons$IndexKt_1).get_lambda$1274307340_qe5dte_k$ = function () {
+    return this.lambda$1274307340__1;
   };
-  protoOf(ComposableSingletons$IndexKt_1).get_lambda$1254977587_m1vf7e_k$ = function () {
-    return this.lambda$1254977587__1;
-  };
-  protoOf(ComposableSingletons$IndexKt_1).get_lambda$562182566_gex5la_k$ = function () {
-    return this.lambda$562182566__1;
+  protoOf(ComposableSingletons$IndexKt_1).get_lambda$_1672826803_g3qiir_k$ = function () {
+    return this.lambda$_1672826803_a2ctpt_1;
   };
   var ComposableSingletons$IndexKt_instance_1;
   function ComposableSingletons$IndexKt_getInstance_1() {
@@ -7878,7 +8949,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_1;
       if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_202(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_225(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_1 = value_0;
       } else {
@@ -7898,7 +8969,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(ScriptsPage$lambda_2($changed));
     }
   }
-  function ComposableLambda$invoke$ref_190(p0) {
+  function ComposableLambda$invoke$ref_213(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7909,7 +8980,7 @@
     Text('Scripts', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_191(p0) {
+  function ComposableLambda$invoke$ref_214(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7920,7 +8991,7 @@
     Text('Scripts', $composer_0, 6);
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_192(p0) {
+  function ComposableLambda$invoke$ref_215(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -7969,11 +9040,11 @@
   function ComposableSingletons$IndexKt_2() {
     ComposableSingletons$IndexKt_instance_2 = this;
     var tmp = this;
-    tmp.lambda$1618551275__1 = ComposableLambda$invoke$ref_190(composableLambdaInstance(1618551275, false, ComposableSingletons$IndexKt$lambda$1618551275$lambda));
+    tmp.lambda$1618551275__1 = ComposableLambda$invoke$ref_213(composableLambdaInstance(1618551275, false, ComposableSingletons$IndexKt$lambda$1618551275$lambda));
     var tmp_0 = this;
-    tmp_0.lambda$2073766029__1 = ComposableLambda$invoke$ref_191(composableLambdaInstance(2073766029, false, ComposableSingletons$IndexKt$lambda$2073766029$lambda));
+    tmp_0.lambda$2073766029__1 = ComposableLambda$invoke$ref_214(composableLambdaInstance(2073766029, false, ComposableSingletons$IndexKt$lambda$2073766029$lambda));
     var tmp_1 = this;
-    tmp_1.lambda$1231311050__1 = ComposableLambda$invoke$ref_192(composableLambdaInstance(1231311050, false, ComposableSingletons$IndexKt$lambda$1231311050$lambda));
+    tmp_1.lambda$1231311050__1 = ComposableLambda$invoke$ref_215(composableLambdaInstance(1231311050, false, ComposableSingletons$IndexKt$lambda$1231311050$lambda));
   }
   protoOf(ComposableSingletons$IndexKt_2).get_lambda$1618551275_hty6dy_k$ = function () {
     return this.lambda$1618551275__1;
@@ -8032,7 +9103,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_193(p0) {
+  function ComposableLambda$invoke$ref_216(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -8049,7 +9120,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_194(p0) {
+  function ComposableLambda$invoke$ref_217(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -8066,7 +9137,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_195(p0) {
+  function ComposableLambda$invoke$ref_218(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -8105,7 +9176,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_196(p0) {
+  function ComposableLambda$invoke$ref_219(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -8139,7 +9210,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_2;
       if (invalid_0 || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_196(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_219(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_2 = value_0;
       } else {
@@ -8152,7 +9223,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_197(p0) {
+  function ComposableLambda$invoke$ref_220(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -8185,7 +9256,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_2;
       if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_193(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_216(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_2 = value_0;
       } else {
@@ -8219,7 +9290,7 @@
       var it_2 = $composer_2.rememberedValue_4dg93v_k$();
       var tmp_7;
       if (invalid_0 || it_2 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_2 = ComposableLambda$invoke$ref_194(dispatchReceiver_0);
+        var value_2 = ComposableLambda$invoke$ref_217(dispatchReceiver_0);
         $composer_2.updateRememberedValue_l1wh71_k$(value_2);
         tmp_7 = value_2;
       } else {
@@ -8253,7 +9324,7 @@
       var it_4 = $composer_3.rememberedValue_4dg93v_k$();
       var tmp_12;
       if (invalid_1 || it_4 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_4 = ComposableLambda$invoke$ref_195(dispatchReceiver_1);
+        var value_4 = ComposableLambda$invoke$ref_218(dispatchReceiver_1);
         $composer_3.updateRememberedValue_l1wh71_k$(value_4);
         tmp_12 = value_4;
       } else {
@@ -8287,7 +9358,7 @@
       var it_6 = $composer_4.rememberedValue_4dg93v_k$();
       var tmp_17;
       if (invalid_2 || it_6 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_6 = ComposableLambda$invoke$ref_197(dispatchReceiver_2);
+        var value_6 = ComposableLambda$invoke$ref_220(dispatchReceiver_2);
         $composer_4.updateRememberedValue_l1wh71_k$(value_6);
         tmp_17 = value_6;
       } else {
@@ -8300,7 +9371,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_198(p0) {
+  function ComposableLambda$invoke$ref_221(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -8337,7 +9408,7 @@
         var it_0 = $composer_1.rememberedValue_4dg93v_k$();
         var tmp_2;
         if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-          var value_0 = ComposableLambda$invoke$ref_198(dispatchReceiver);
+          var value_0 = ComposableLambda$invoke$ref_221(dispatchReceiver);
           $composer_1.updateRememberedValue_l1wh71_k$(value_0);
           tmp_2 = value_0;
         } else {
@@ -8351,7 +9422,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_199(p0) {
+  function ComposableLambda$invoke$ref_222(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -8398,7 +9469,7 @@
       var it_1 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_4;
       if (invalid || it_1 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_1 = ComposableLambda$invoke$ref_199(dispatchReceiver);
+        var value_1 = ComposableLambda$invoke$ref_222(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_1);
         tmp_4 = value_1;
       } else {
@@ -8411,7 +9482,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_200(p0) {
+  function ComposableLambda$invoke$ref_223(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -8444,7 +9515,7 @@
       var it_0 = $composer_1.rememberedValue_4dg93v_k$();
       var tmp_2;
       if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        var value_0 = ComposableLambda$invoke$ref_200(dispatchReceiver);
+        var value_0 = ComposableLambda$invoke$ref_223(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value_0);
         tmp_2 = value_0;
       } else {
@@ -8457,7 +9528,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_201(p0) {
+  function ComposableLambda$invoke$ref_224(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
       p0.invoke_c9vvnb_k$(_this__u8e3s4, p0_0, p1);
       return Unit_getInstance();
@@ -8492,7 +9563,7 @@
         var it_0 = $composer_1.rememberedValue_4dg93v_k$();
         var tmp_3;
         if (invalid || it_0 === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-          var value_0 = ComposableLambda$invoke$ref_201(dispatchReceiver);
+          var value_0 = ComposableLambda$invoke$ref_224(dispatchReceiver);
           $composer_1.updateRememberedValue_l1wh71_k$(value_0);
           tmp_3 = value_0;
         } else {
@@ -8510,7 +9581,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_202(p0) {
+  function ComposableLambda$invoke$ref_225(p0) {
     return function (_this__u8e3s4, p0_0) {
       p0.invoke_z8di7s_k$(_this__u8e3s4, p0_0);
       return Unit_getInstance();

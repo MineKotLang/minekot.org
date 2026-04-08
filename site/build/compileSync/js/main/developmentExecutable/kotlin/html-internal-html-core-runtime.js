@@ -23,11 +23,11 @@
   //region block: imports
   var protoOf = kotlin_kotlin.$_$.md;
   var initMetadataForInterface = kotlin_kotlin.$_$.nc;
-  var THROW_CCE = kotlin_kotlin.$_$.bh;
-  var Annotation = kotlin_kotlin.$_$.mg;
+  var THROW_CCE = kotlin_kotlin.$_$.ch;
+  var Annotation = kotlin_kotlin.$_$.ng;
   var initMetadataForClass = kotlin_kotlin.$_$.kc;
   var VOID = kotlin_kotlin.$_$.d;
-  var ensureNotNull = kotlin_kotlin.$_$.th;
+  var ensureNotNull = kotlin_kotlin.$_$.uh;
   var Unit_getInstance = kotlin_kotlin.$_$.p4;
   var AbstractApplier = kotlin_androidx_compose_runtime_runtime.$_$.c;
   var clear = kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.$_$.b;

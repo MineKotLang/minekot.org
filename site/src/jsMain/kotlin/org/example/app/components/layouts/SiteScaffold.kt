@@ -14,7 +14,7 @@ fun SiteScaffold(
     Div(attrs = { classes("shell") }) {
         NavHeader(activePath = activePath)
         content()
-        Footer(text = footerText)
+        Footer()
     }
 }
 

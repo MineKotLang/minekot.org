@@ -137,7 +137,7 @@ textarea {
   display: grid;
   place-items: center;
   color: var(--on-accent);
-  background: var(--accent);
+  background: transparent;
   overflow: hidden;
 }
 

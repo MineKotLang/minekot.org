@@ -27,7 +27,7 @@
   var listOf = kotlin_kotlin.$_$.d4;
   var substringBefore = kotlin_kotlin.$_$.u9;
   var substringAfter = kotlin_kotlin.$_$.s9;
-  var to = kotlin_kotlin.$_$.db;
+  var to = kotlin_kotlin.$_$.fb;
   var emptyList = kotlin_kotlin.$_$.l3;
   //endregion
   //region block: pre-declaration
@@ -41,26 +41,26 @@
   function Builder() {
     var tmp = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp.s3d_1 = LinkedHashMap_init_$Create$();
+    tmp.c3f_1 = LinkedHashMap_init_$Create$();
   }
-  protoOf(Builder).t3d = function (key, value) {
-    var tmp0 = this.s3d_1;
+  protoOf(Builder).d3f = function (key, value) {
+    var tmp0 = this.c3f_1;
     // Inline function 'kotlin.collections.set' call
     var value_0 = new Scalar(value);
     tmp0.a2(key, value_0);
     return this;
   };
   protoOf(Builder).k24 = function () {
-    return new ValueMap(this.s3d_1);
+    return new ValueMap(this.c3f_1);
   };
   function FrontMatterElement$ValueMap$query$lambda(this$0) {
     return function (segment) {
-      return this$0.u3d_1.w1(segment);
+      return this$0.e3f_1.w1(segment);
     };
   }
   function Companion() {
   }
-  protoOf(Companion).v3d = function (populate) {
+  protoOf(Companion).f3f = function (populate) {
     var builder = new Builder();
     populate(builder);
     return builder.k24();
@@ -71,16 +71,16 @@
   }
   function Scalar(scalar) {
     FrontMatterElement.call(this);
-    this.w3d_1 = scalar;
+    this.g3f_1 = scalar;
   }
-  protoOf(Scalar).x3d = function (path) {
-    return this.y3d(path);
+  protoOf(Scalar).h3f = function (path) {
+    return this.i3f(path);
   };
   function ValueMap(map) {
     FrontMatterElement.call(this);
-    this.u3d_1 = map;
+    this.e3f_1 = map;
     // Inline function 'kotlin.collections.filter' call
-    var tmp0 = this.u3d_1.x1();
+    var tmp0 = this.e3f_1.x1();
     // Inline function 'kotlin.collections.filterTo' call
     var destination = ArrayList_init_$Create$();
     var _iterator__ex2g4s = tmp0.i();
@@ -106,8 +106,8 @@
       throw IllegalArgumentException_init_$Create$('Kobweb FrontMatter keys do not allow periods in them. Got: [' + joinToString(tmp0_safe_receiver) + ']');
     }
   }
-  protoOf(ValueMap).x3d = function (path) {
-    return this.z3d(path, FrontMatterElement$ValueMap$query$lambda(this));
+  protoOf(ValueMap).h3f = function (path) {
+    return this.j3f(path, FrontMatterElement$ValueMap$query$lambda(this));
   };
   function ValueList() {
   }
@@ -116,17 +116,17 @@
   }
   function FrontMatterElement() {
   }
-  protoOf(FrontMatterElement).z3d = function (path, processSegment) {
+  protoOf(FrontMatterElement).j3f = function (path, processSegment) {
     // Inline function 'kotlin.text.isEmpty' call
     if (charSequenceLength(path) === 0)
       return this;
-    var _destruct__k2r9zo = this.a3e(path);
+    var _destruct__k2r9zo = this.k3f(path);
     var segment = _destruct__k2r9zo.le();
     var rest = _destruct__k2r9zo.me();
     var tmp0_safe_receiver = processSegment(segment);
-    return tmp0_safe_receiver == null ? null : tmp0_safe_receiver.x3d(rest);
+    return tmp0_safe_receiver == null ? null : tmp0_safe_receiver.h3f(rest);
   };
-  protoOf(FrontMatterElement).y3d = function (path, processSegment, $super) {
+  protoOf(FrontMatterElement).i3f = function (path, processSegment, $super) {
     var tmp;
     if (processSegment === VOID) {
       tmp = FrontMatterElement$handleQuery$lambda;
@@ -134,34 +134,34 @@
       tmp = processSegment;
     }
     processSegment = tmp;
-    return $super === VOID ? this.z3d(path, processSegment) : $super.z3d.call(this, path, processSegment);
+    return $super === VOID ? this.j3f(path, processSegment) : $super.j3f.call(this, path, processSegment);
   };
   protoOf(FrontMatterElement).ec = function (path) {
-    var result = this.x3d(path);
+    var result = this.h3f(path);
     var tmp;
     if (result instanceof Scalar) {
-      tmp = listOf(result.w3d_1);
+      tmp = listOf(result.g3f_1);
     } else {
       if (result instanceof ValueList) {
-        tmp = result.c3e();
+        tmp = result.m3f();
       } else {
         tmp = null;
       }
     }
     return tmp;
   };
-  protoOf(FrontMatterElement).a3e = function (_this__u8e3s4) {
+  protoOf(FrontMatterElement).k3f = function (_this__u8e3s4) {
     var nextSegment = substringBefore(_this__u8e3s4, _Char___init__impl__6a9atx(46));
     var rest = substringAfter(_this__u8e3s4, _Char___init__impl__6a9atx(46), '');
     return to(nextSegment, rest);
   };
-  protoOf(FrontMatterElement).b3e = function () {
+  protoOf(FrontMatterElement).l3f = function () {
     var tmp0_safe_receiver = this instanceof Scalar ? this : null;
-    return tmp0_safe_receiver == null ? null : tmp0_safe_receiver.w3d_1;
+    return tmp0_safe_receiver == null ? null : tmp0_safe_receiver.g3f_1;
   };
-  protoOf(FrontMatterElement).c3e = function () {
+  protoOf(FrontMatterElement).m3f = function () {
     var tmp0_safe_receiver = this instanceof ValueList ? this : null;
-    var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.d3e_1;
+    var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.n3f_1;
     var tmp;
     if (tmp1_safe_receiver == null) {
       tmp = null;
@@ -173,7 +173,7 @@
       var _iterator__ex2g4s = tmp1_safe_receiver.i();
       while (_iterator__ex2g4s.j()) {
         var element = _iterator__ex2g4s.k();
-        var tmp0_safe_receiver_0 = element.b3e();
+        var tmp0_safe_receiver_0 = element.l3f();
         if (tmp0_safe_receiver_0 == null)
           null;
         else {

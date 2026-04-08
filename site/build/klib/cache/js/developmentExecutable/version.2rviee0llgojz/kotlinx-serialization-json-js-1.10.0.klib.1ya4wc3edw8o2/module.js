@@ -18,9 +18,9 @@
   var StringCompanionObject_getInstance = kotlin_kotlin.$_$.d4;
   var serializer = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.a;
   var InlinePrimitiveDescriptor = kotlin_org_jetbrains_kotlinx_kotlinx_serialization_core.$_$.f;
-  var THROW_CCE = kotlin_kotlin.$_$.bh;
+  var THROW_CCE = kotlin_kotlin.$_$.ch;
   var protoOf = kotlin_kotlin.$_$.md;
-  var Annotation = kotlin_kotlin.$_$.mg;
+  var Annotation = kotlin_kotlin.$_$.ng;
   var initMetadataForClass = kotlin_kotlin.$_$.kc;
   var VOID = kotlin_kotlin.$_$.d;
   var Unit_getInstance = kotlin_kotlin.$_$.p4;

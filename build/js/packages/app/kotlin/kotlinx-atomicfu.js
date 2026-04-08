@@ -16,7 +16,7 @@
   var initMetadataForObject = kotlin_kotlin.$_$.n7;
   var VOID = kotlin_kotlin.$_$.c;
   var initMetadataForClass = kotlin_kotlin.$_$.i7;
-  var toString = kotlin_kotlin.$_$.cb;
+  var toString = kotlin_kotlin.$_$.eb;
   //endregion
   //region block: pre-declaration
   initMetadataForClass(atomicfu$TraceBase, 'TraceBase');

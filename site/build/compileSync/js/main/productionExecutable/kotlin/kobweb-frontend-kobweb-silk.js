@@ -28,7 +28,7 @@
   var rememberComposableLambda = kotlin_androidx_compose_runtime_runtime.$_$.b;
   var sourceInformationMarkerStart = kotlin_androidx_compose_runtime_runtime.$_$.u;
   var Companion_getInstance = kotlin_androidx_compose_runtime_runtime.$_$.f1;
-  var THROW_CCE = kotlin_kotlin.$_$.qa;
+  var THROW_CCE = kotlin_kotlin.$_$.sa;
   var sourceInformationMarkerEnd = kotlin_androidx_compose_runtime_runtime.$_$.t;
   var KobwebApp = kotlin_com_varabyte_kobweb_kobweb_core.$_$.c;
   var KobwebComposeStyles = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c3;

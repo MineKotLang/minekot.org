@@ -26,6 +26,7 @@ import org.example.app.pages.NotFoundPage as _org_example_app_pages_NotFoundPage
 import org.example.app.pages.addons.Addon0001Page as _org_example_app_pages_addons_Addon0001Page
 import org.example.app.pages.addons.Addon0002Page as _org_example_app_pages_addons_Addon0002Page
 import org.example.app.pages.addons.Addon0003Page as _org_example_app_pages_addons_Addon0003Page
+import org.example.app.pages.addons.Addon0004Page as _org_example_app_pages_addons_Addon0004Page
 import org.example.app.pages.addons.AddonsPage as _org_example_app_pages_addons_AddonsPage
 import org.example.app.pages.docs.DocsPage as _org_example_app_pages_docs_DocsPage
 import org.example.app.pages.scripts.ScriptsPage as _org_example_app_pages_scripts_ScriptsPage
@@ -102,6 +103,11 @@ public fun main() {
             "/addons/0003",
         ) { pageCtx -> 
             _org_example_app_pages_addons_Addon0003Page()
+        }
+        ctx.router.register(
+            "/addons/0004",
+        ) { pageCtx -> 
+            _org_example_app_pages_addons_Addon0004Page()
         }
         ctx.router.register(
             "/docs/",

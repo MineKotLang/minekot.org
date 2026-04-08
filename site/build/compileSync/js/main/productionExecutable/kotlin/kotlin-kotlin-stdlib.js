@@ -5976,6 +5976,17 @@ if (typeof String.prototype.startsWith === 'undefined') {
     var it = Char__compareTo_impl_ypi4mb(char, _Char___init__impl__6a9atx(48)) >= 0 && Char__compareTo_impl_ypi4mb(char, _Char___init__impl__6a9atx(57)) <= 0 ? Char__minus_impl_a2frrh(char, _Char___init__impl__6a9atx(48)) : Char__compareTo_impl_ypi4mb(char, _Char___init__impl__6a9atx(65)) >= 0 && Char__compareTo_impl_ypi4mb(char, _Char___init__impl__6a9atx(90)) <= 0 ? Char__minus_impl_a2frrh(char, _Char___init__impl__6a9atx(65)) + 10 | 0 : Char__compareTo_impl_ypi4mb(char, _Char___init__impl__6a9atx(97)) >= 0 && Char__compareTo_impl_ypi4mb(char, _Char___init__impl__6a9atx(122)) <= 0 ? Char__minus_impl_a2frrh(char, _Char___init__impl__6a9atx(97)) + 10 | 0 : Char__compareTo_impl_ypi4mb(char, _Char___init__impl__6a9atx(128)) < 0 ? -1 : Char__compareTo_impl_ypi4mb(char, _Char___init__impl__6a9atx(65313)) >= 0 && Char__compareTo_impl_ypi4mb(char, _Char___init__impl__6a9atx(65338)) <= 0 ? Char__minus_impl_a2frrh(char, _Char___init__impl__6a9atx(65313)) + 10 | 0 : Char__compareTo_impl_ypi4mb(char, _Char___init__impl__6a9atx(65345)) >= 0 && Char__compareTo_impl_ypi4mb(char, _Char___init__impl__6a9atx(65370)) <= 0 ? Char__minus_impl_a2frrh(char, _Char___init__impl__6a9atx(65345)) + 10 | 0 : digitToIntImpl(char);
     return it >= radix ? -1 : it;
   }
+  function toBoolean(_this__u8e3s4) {
+    var tmp;
+    if (!(_this__u8e3s4 == null)) {
+      // Inline function 'kotlin.text.lowercase' call
+      // Inline function 'kotlin.js.asDynamic' call
+      tmp = _this__u8e3s4.toLowerCase() === 'true';
+    } else {
+      tmp = false;
+    }
+    return tmp;
+  }
   function Regex_init_$Init$(pattern, $this) {
     Regex.call($this, pattern, emptySet());
     return $this;
@@ -10952,41 +10963,43 @@ if (typeof String.prototype.startsWith === 'undefined') {
   _.$_$.u9 = substringBefore;
   _.$_$.v9 = substring_0;
   _.$_$.w9 = substring;
-  _.$_$.x9 = toIntOrNull;
-  _.$_$.y9 = toInt;
-  _.$_$.z9 = toString_2;
-  _.$_$.aa = trimIndent;
-  _.$_$.ba = trimMargin;
-  _.$_$.ca = trimStart;
-  _.$_$.da = trim;
-  _.$_$.ea = toDuration;
-  _.$_$.fa = toDuration_0;
-  _.$_$.ga = CharSequence;
-  _.$_$.ha = Char;
-  _.$_$.ia = Comparator;
-  _.$_$.ja = Enum;
-  _.$_$.ka = Error_0;
-  _.$_$.la = Exception;
-  _.$_$.ma = IllegalArgumentException;
-  _.$_$.na = IllegalStateException;
-  _.$_$.oa = Long;
-  _.$_$.pa = RuntimeException;
-  _.$_$.qa = THROW_CCE;
-  _.$_$.ra = UnsupportedOperationException;
-  _.$_$.sa = addSuppressed;
-  _.$_$.ta = countOneBits;
-  _.$_$.ua = countTrailingZeroBits;
-  _.$_$.va = createFailure;
-  _.$_$.wa = ensureNotNull;
-  _.$_$.xa = lazy;
-  _.$_$.ya = noWhenBranchMatchedException;
-  _.$_$.za = rotateLeft;
-  _.$_$.ab = stackTraceToString;
-  _.$_$.bb = get_suppressedExceptions;
-  _.$_$.cb = toString_0;
-  _.$_$.db = to;
-  _.$_$.eb = ulongCompare;
-  _.$_$.fb = asList_0;
+  _.$_$.x9 = toBoolean;
+  _.$_$.y9 = toIntOrNull;
+  _.$_$.z9 = toInt;
+  _.$_$.aa = toString_2;
+  _.$_$.ba = trimIndent;
+  _.$_$.ca = trimMargin;
+  _.$_$.da = trimStart;
+  _.$_$.ea = trim;
+  _.$_$.fa = toDuration;
+  _.$_$.ga = toDuration_0;
+  _.$_$.ha = CharSequence;
+  _.$_$.ia = Char;
+  _.$_$.ja = Comparator;
+  _.$_$.ka = Enum;
+  _.$_$.la = Error_0;
+  _.$_$.ma = Exception;
+  _.$_$.na = IllegalArgumentException;
+  _.$_$.oa = IllegalStateException;
+  _.$_$.pa = Long;
+  _.$_$.qa = Pair;
+  _.$_$.ra = RuntimeException;
+  _.$_$.sa = THROW_CCE;
+  _.$_$.ta = UnsupportedOperationException;
+  _.$_$.ua = addSuppressed;
+  _.$_$.va = countOneBits;
+  _.$_$.wa = countTrailingZeroBits;
+  _.$_$.xa = createFailure;
+  _.$_$.ya = ensureNotNull;
+  _.$_$.za = lazy;
+  _.$_$.ab = noWhenBranchMatchedException;
+  _.$_$.bb = rotateLeft;
+  _.$_$.cb = stackTraceToString;
+  _.$_$.db = get_suppressedExceptions;
+  _.$_$.eb = toString_0;
+  _.$_$.fb = to;
+  _.$_$.gb = ulongCompare;
+  _.$_$.hb = asList_0;
   //endregion
   return _;
 }));

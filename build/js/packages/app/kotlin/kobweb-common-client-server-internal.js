@@ -14,7 +14,7 @@
   //region block: imports
   var imul = Math.imul;
   var Unit_instance = kotlin_kotlin.$_$.c2;
-  var Enum = kotlin_kotlin.$_$.ja;
+  var Enum = kotlin_kotlin.$_$.ka;
   var protoOf = kotlin_kotlin.$_$.y7;
   var initMetadataForClass = kotlin_kotlin.$_$.i7;
   var VOID = kotlin_kotlin.$_$.c;
@@ -31,10 +31,10 @@
   var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.e1;
   var first = kotlin_kotlin.$_$.r3;
   var drop = kotlin_kotlin.$_$.k3;
-  var to = kotlin_kotlin.$_$.db;
+  var to = kotlin_kotlin.$_$.fb;
   var joinToString = kotlin_kotlin.$_$.v3;
   var emptyList = kotlin_kotlin.$_$.l3;
-  var noWhenBranchMatchedException = kotlin_kotlin.$_$.ya;
+  var noWhenBranchMatchedException = kotlin_kotlin.$_$.ab;
   var plus = kotlin_kotlin.$_$.n4;
   var charSequenceLength = kotlin_kotlin.$_$.x6;
   var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.r1;
@@ -91,7 +91,7 @@
   }
   function Companion() {
   }
-  protoOf(Companion).h2r = function (routeSegment) {
+  protoOf(Companion).r2s = function (routeSegment) {
     if (!isDynamicSegment(routeSegment))
       return null;
     var name = routeSegment;
@@ -139,15 +139,15 @@
     Match_REST_OPTIONAL_instance = new Match('REST_OPTIONAL', 3);
   }
   function Info(name, match) {
-    this.i2r_1 = name;
-    this.j2r_1 = match;
+    this.s2s_1 = name;
+    this.t2s_1 = match;
   }
   protoOf(Info).toString = function () {
-    return 'Info(name=' + this.i2r_1 + ', match=' + this.j2r_1.toString() + ')';
+    return 'Info(name=' + this.s2s_1 + ', match=' + this.t2s_1.toString() + ')';
   };
   protoOf(Info).hashCode = function () {
-    var result = getStringHashCode(this.i2r_1);
-    result = imul(result, 31) + this.j2r_1.hashCode() | 0;
+    var result = getStringHashCode(this.s2s_1);
+    result = imul(result, 31) + this.t2s_1.hashCode() | 0;
     return result;
   };
   protoOf(Info).equals = function (other) {
@@ -155,9 +155,9 @@
       return true;
     if (!(other instanceof Info))
       return false;
-    if (!(this.i2r_1 === other.i2r_1))
+    if (!(this.s2s_1 === other.s2s_1))
       return false;
-    if (!this.j2r_1.equals(other.j2r_1))
+    if (!this.t2s_1.equals(other.t2s_1))
       return false;
     return true;
   };
@@ -182,26 +182,26 @@
   }
   function Node(parent, sourceRouteSegment) {
     parent = parent === VOID ? null : parent;
-    this.k2r_1 = parent;
-    this.l2r_1 = sourceRouteSegment;
-    this.m2r_1 = null;
+    this.u2s_1 = parent;
+    this.v2s_1 = sourceRouteSegment;
+    this.w2s_1 = null;
     var tmp = this;
     // Inline function 'kotlin.collections.mutableListOf' call
-    tmp.n2r_1 = ArrayList_init_$Create$();
-    this.o2r_1 = null;
-    this.p2r_1 = this.l2r_1;
-    this.q2r_1 = false;
+    tmp.x2s_1 = ArrayList_init_$Create$();
+    this.y2s_1 = null;
+    this.z2s_1 = this.v2s_1;
+    this.a2t_1 = false;
   }
-  protoOf(Node).r2r = function () {
-    return this.m2r_1;
+  protoOf(Node).b2t = function () {
+    return this.w2s_1;
   };
   protoOf(Node).nq = function () {
     // Inline function 'kotlin.collections.buildList' call
     // Inline function 'kotlin.collections.buildListInternal' call
     // Inline function 'kotlin.apply' call
     var this_0 = ArrayList_init_$Create$();
-    this_0.r(this.n2r_1);
-    var tmp0_safe_receiver = this.o2r_1;
+    this_0.r(this.x2s_1);
+    var tmp0_safe_receiver = this.y2s_1;
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -211,12 +211,12 @@
     return this_0.s4();
   };
   protoOf(Node).t1z = function () {
-    return this.p2r_1;
+    return this.z2s_1;
   };
-  protoOf(Node).s2r = function () {
-    return this.q2r_1;
+  protoOf(Node).c2t = function () {
+    return this.a2t_1;
   };
-  protoOf(Node).v2r = function (routeSegment) {
+  protoOf(Node).f2t = function (routeSegment) {
     var tmp0 = this.nq();
     var tmp$ret$1;
     $l$block: {
@@ -224,7 +224,7 @@
       var _iterator__ex2g4s = tmp0.i();
       while (_iterator__ex2g4s.j()) {
         var element = _iterator__ex2g4s.k();
-        if (element.u2r(routeSegment)) {
+        if (element.e2t(routeSegment)) {
           tmp$ret$1 = element;
           break $l$block;
         }
@@ -233,33 +233,33 @@
     }
     return tmp$ret$1;
   };
-  protoOf(Node).w2r = function (routeSegment) {
+  protoOf(Node).g2t = function (routeSegment) {
     // Inline function 'kotlin.check' call
-    if (!(this.v2r(routeSegment) == null)) {
+    if (!(this.f2t(routeSegment) == null)) {
       var message = 'Node.createChild called unexpectedly. Please report this issue.';
       throw IllegalStateException_init_$Create$(toString(message));
     }
     // Inline function 'kotlin.check' call
-    if (!!this.s2r()) {
-      var message_0 = 'User attempted to register an invalid route. "' + this.l2r_1 + '" must be the last segment of the route, but it was followed by "' + routeSegment + '".';
+    if (!!this.c2t()) {
+      var message_0 = 'User attempted to register an invalid route. "' + this.v2s_1 + '" must be the last segment of the route, but it was followed by "' + routeSegment + '".';
       throw IllegalStateException_init_$Create$(toString(message_0));
     }
     var tmp;
     if (isDynamicSegment(routeSegment)) {
       // Inline function 'kotlin.also' call
       var this_0 = new DynamicNode(this, routeSegment);
-      this.o2r_1 = this_0;
+      this.y2s_1 = this_0;
       tmp = this_0;
     } else {
       // Inline function 'kotlin.also' call
       var this_1 = new StaticNode(this, routeSegment);
-      this.n2r_1.h(this_1);
+      this.x2s_1.h(this_1);
       tmp = this_1;
     }
     return tmp;
   };
-  protoOf(Node).x2r = function (routeSegments) {
-    var consumeResult = this.t2r(routeSegments);
+  protoOf(Node).h2t = function (routeSegments) {
+    var consumeResult = this.d2t(routeSegments);
     var tmp;
     switch (consumeResult.l2_1) {
       case 0:
@@ -277,7 +277,7 @@
     var _destruct__k2r9zo = tmp;
     var consumedPart = _destruct__k2r9zo.le();
     var remainingSegments = _destruct__k2r9zo.me();
-    if (remainingSegments.l() && this.r2r() == null)
+    if (remainingSegments.l() && this.b2t() == null)
       return null;
     if (remainingSegments.l())
       return resolve$createResolvedEntry(this, consumedPart);
@@ -288,7 +288,7 @@
       var _iterator__ex2g4s = tmp0.i();
       while (_iterator__ex2g4s.j()) {
         var element = _iterator__ex2g4s.k();
-        var result = element.x2r(remainingSegments);
+        var result = element.h2t(remainingSegments);
         if (!(result == null)) {
           tmp$ret$1 = result;
           break $l$block;
@@ -309,11 +309,11 @@
   function RootNode() {
     Node.call(this, null, '');
   }
-  protoOf(RootNode).u2r = function (routeSegment) {
+  protoOf(RootNode).e2t = function (routeSegment) {
     // Inline function 'kotlin.text.isEmpty' call
     return charSequenceLength(routeSegment) === 0;
   };
-  protoOf(RootNode).t2r = function (routeSegments) {
+  protoOf(RootNode).d2t = function (routeSegments) {
     // Inline function 'kotlin.check' call
     if (!(first(routeSegments) === '')) {
       throw IllegalStateException_init_$Create$('Check failed.');
@@ -326,18 +326,18 @@
   function StaticNode(parent, sourceRouteSegment) {
     ChildNode.call(this, parent, sourceRouteSegment);
   }
-  protoOf(StaticNode).u2r = function (routeSegment) {
-    return routeSegment === this.l2r_1;
+  protoOf(StaticNode).e2t = function (routeSegment) {
+    return routeSegment === this.v2s_1;
   };
-  protoOf(StaticNode).t2r = function (routeSegments) {
-    if (this.u2r(first(routeSegments)))
+  protoOf(StaticNode).d2t = function (routeSegments) {
+    if (this.e2t(first(routeSegments)))
       return AcceptResult_SINGLE_getInstance();
     return AcceptResult_NONE_getInstance();
   };
   function DynamicNode(parent, sourceRouteSegment) {
     ChildNode.call(this, parent, sourceRouteSegment);
     var tmp = this;
-    var tmp0_elvis_lhs = Companion_instance.h2r(sourceRouteSegment);
+    var tmp0_elvis_lhs = Companion_instance.r2s(sourceRouteSegment);
     var tmp_0;
     if (tmp0_elvis_lhs == null) {
       var message = 'Expected a dynamic route segment here, but got "' + sourceRouteSegment + '"';
@@ -345,34 +345,34 @@
     } else {
       tmp_0 = tmp0_elvis_lhs;
     }
-    tmp.t2s_1 = tmp_0;
-    this.u2s_1 = this.t2s_1.i2r_1;
-    this.v2s_1 = !this.t2s_1.j2r_1.equals(Match_SINGLE_getInstance());
+    tmp.d2u_1 = tmp_0;
+    this.e2u_1 = this.d2u_1.s2s_1;
+    this.f2u_1 = !this.d2u_1.t2s_1.equals(Match_SINGLE_getInstance());
   }
   protoOf(DynamicNode).t1z = function () {
-    return this.u2s_1;
+    return this.e2u_1;
   };
-  protoOf(DynamicNode).s2r = function () {
-    return this.v2s_1;
+  protoOf(DynamicNode).c2t = function () {
+    return this.f2u_1;
   };
-  protoOf(DynamicNode).u2r = function (routeSegment) {
-    var tmp0_safe_receiver = Companion_instance.h2r(routeSegment);
+  protoOf(DynamicNode).e2t = function (routeSegment) {
+    var tmp0_safe_receiver = Companion_instance.r2s(routeSegment);
     if (tmp0_safe_receiver == null)
       null;
     else {
       // Inline function 'kotlin.let' call
-      if (!this.t2s_1.equals(tmp0_safe_receiver)) {
+      if (!this.d2u_1.equals(tmp0_safe_receiver)) {
         // Inline function 'kotlin.error' call
-        var message = 'User is attempting to register a dynamic route that conflicts with another dynamic route already set up. "' + routeSegment + '" is being registered but "' + this.l2r_1 + '" already exists.';
+        var message = 'User is attempting to register a dynamic route that conflicts with another dynamic route already set up. "' + routeSegment + '" is being registered but "' + this.v2s_1 + '" already exists.';
         throw IllegalStateException_init_$Create$(toString(message));
       }
       return true;
     }
     return false;
   };
-  protoOf(DynamicNode).t2r = function (routeSegments) {
+  protoOf(DynamicNode).d2t = function (routeSegments) {
     var tmp;
-    switch (this.t2s_1.j2r_1.l2_1) {
+    switch (this.d2u_1.t2s_1.l2_1) {
       case 0:
         tmp = !(first(routeSegments) === '') ? AcceptResult_SINGLE_getInstance() : AcceptResult_NONE_getInstance();
         break;
@@ -392,20 +392,20 @@
     return tmp;
   };
   function ResolvedEntry(node, capturedRouteSegment) {
-    this.w2s_1 = node;
-    this.x2s_1 = capturedRouteSegment;
+    this.g2u_1 = node;
+    this.h2u_1 = capturedRouteSegment;
   }
   function resolveWithoutRedirects($this, route) {
-    return $this.y2s_1.x2r(split(route, charArrayOf([_Char___init__impl__6a9atx(47)])));
+    return $this.i2u_1.h2t(split(route, charArrayOf([_Char___init__impl__6a9atx(47)])));
   }
   function resolveAllowingRedirects($this, route) {
     // Inline function 'kotlin.collections.fold' call
     var accumulator = route;
-    var _iterator__ex2g4s = $this.z2s_1.i();
+    var _iterator__ex2g4s = $this.j2u_1.i();
     while (_iterator__ex2g4s.j()) {
       var element = _iterator__ex2g4s.k();
       var route_0 = accumulator;
-      var tmp0_elvis_lhs = element.c2t(route_0);
+      var tmp0_elvis_lhs = element.m2u(route_0);
       accumulator = tmp0_elvis_lhs == null ? route_0 : tmp0_elvis_lhs;
     }
     var redirectedRoute = accumulator;
@@ -414,7 +414,7 @@
   function checkRoute($this, route) {
     // Inline function 'kotlin.collections.isNotEmpty' call
     // Inline function 'kotlin.require' call
-    if (!!$this.y2s_1.nq().l()) {
+    if (!!$this.i2u_1.nq().l()) {
       var message = "No routes were ever registered. This is unexpected and probably means no `@Page` was defined (or pages were defined in the wrong place where Kobweb couldn't discover them).";
       throw IllegalArgumentException_init_$Create$(toString(message));
     }
@@ -434,23 +434,23 @@
     return toRouteString(resolvedNodes);
   }
   function RouteTree() {
-    this.y2s_1 = new RootNode();
+    this.i2u_1 = new RootNode();
     var tmp = this;
     // Inline function 'kotlin.collections.mutableListOf' call
-    tmp.z2s_1 = ArrayList_init_$Create$();
+    tmp.j2u_1 = ArrayList_init_$Create$();
   }
-  protoOf(RouteTree).d2t = function (route, allowRedirects) {
+  protoOf(RouteTree).n2u = function (route, allowRedirects) {
     return allowRedirects ? resolveAllowingRedirects(this, route) : resolveWithoutRedirects(this, route);
   };
-  protoOf(RouteTree).e2t = function (route) {
+  protoOf(RouteTree).o2u = function (route) {
     return !(checkRoute(this, route) == null);
   };
-  protoOf(RouteTree).f2t = function (route, data) {
+  protoOf(RouteTree).p2u = function (route, data) {
     var routeSegments = toMutableList(split(route, charArrayOf([_Char___init__impl__6a9atx(47)])));
-    var currNode = this.y2s_1;
+    var currNode = this.i2u_1;
     // Inline function 'kotlin.require' call
     // Inline function 'kotlin.require' call
-    if (!this.y2s_1.u2r(removeFirst(routeSegments))) {
+    if (!this.i2u_1.e2t(removeFirst(routeSegments))) {
       var message = 'Failed requirement.';
       throw IllegalArgumentException_init_$Create$(toString(message));
     }
@@ -460,12 +460,12 @@
         break $l$loop;
       }
       var nextRouteSegment = removeFirst(routeSegments);
-      var tmp0_elvis_lhs = currNode.v2r(nextRouteSegment);
-      currNode = tmp0_elvis_lhs == null ? currNode.w2r(nextRouteSegment) : tmp0_elvis_lhs;
+      var tmp0_elvis_lhs = currNode.f2t(nextRouteSegment);
+      currNode = tmp0_elvis_lhs == null ? currNode.g2t(nextRouteSegment) : tmp0_elvis_lhs;
     }
-    if (!(currNode.r2r() == null))
+    if (!(currNode.b2t() == null))
       return false;
-    currNode.m2r_1 = data;
+    currNode.w2s_1 = data;
     return true;
   };
   function toRouteString(_this__u8e3s4) {
@@ -475,7 +475,7 @@
     return startsWith_0(_this__u8e3s4, _Char___init__impl__6a9atx(123)) && endsWith_0(_this__u8e3s4, _Char___init__impl__6a9atx(125));
   }
   function toRouteString$lambda(it) {
-    return it.x2s_1;
+    return it.h2u_1;
   }
   //region block: init
   Companion_instance = new Companion();

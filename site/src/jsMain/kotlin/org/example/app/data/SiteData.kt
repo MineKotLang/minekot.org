@@ -47,6 +47,7 @@ val addonSummaries = listOf(
     AddonSummary("0001", "PLACEHOLDER", "PLACEHOLDER", "https://example.com/download"),
     AddonSummary("0002", "PLACEHOLDER", "PLACEHOLDER", "https://example.com/download"),
     AddonSummary("0003", "PLACEHOLDER", "PLACEHOLDER", "https://example.com/download"),
+    AddonSummary("0004", "PLACEHOLDER", "PLACEHOLDER", "https://example.com/download"),
 )
 
 val addonDetailsById = listOf(
@@ -77,6 +78,15 @@ val addonDetailsById = listOf(
         versions = listOf("1.69", "1.68", "1.67"),
         dependencies = listOf("PLACEHOLDER", "PLACEHOLDER"),
     ),
+    AddonDetail(
+        id = "0004",
+        title = "PLACEHOLDER",
+        description = "PLACEHOLDER",
+        repositoryUrl = "https://example.com/repository",
+        downloadUrl = "https://example.com/download",
+        versions = listOf("1.69", "1.68", "1.67"),
+        dependencies = listOf("PLACEHOLDER", "PLACEHOLDER"),
+    ),
 ).associateBy { it.id }
 
 val scriptSnippets = listOf(
@@ -85,4 +95,3 @@ val scriptSnippets = listOf(
     ScriptSnippet("snippet-3", "PLACEHOLDER", "PLACEHOLDER", "placeholder script snippet"),
     ScriptSnippet("snippet-4", "PLACEHOLDER", "PLACEHOLDER", "placeholder script snippet"),
 )
-

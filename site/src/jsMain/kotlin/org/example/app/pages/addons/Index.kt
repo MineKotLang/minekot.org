@@ -13,7 +13,7 @@ import org.jetbrains.compose.web.dom.Main
 import org.jetbrains.compose.web.dom.P
 import org.jetbrains.compose.web.dom.Section
 import org.jetbrains.compose.web.dom.Text
-
+// in siteData.kt is the list of the addons
 @Page("/addons/")
 @Composable
 fun AddonsPage() {
