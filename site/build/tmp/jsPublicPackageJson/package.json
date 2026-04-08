@@ -1,7 +1,7 @@
 {
-  "name": "app",
+  "name": "MineKot.org",
   "version": "1.0.0-SNAPSHOT",
-  "main": "app.js",
+  "main": "MineKot.org.js",
   "devDependencies": {
     "webpack": "5.101.3",
     "webpack-cli": "6.0.1",

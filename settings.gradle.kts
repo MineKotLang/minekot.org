@@ -1,3 +1,5 @@
+@file:Suppress("UnstableApiUsage")
+
 pluginManagement {
     repositories {
         gradlePluginPortal()
@@ -25,6 +27,6 @@ gradle.settingsEvaluated {
     dependencyResolutionManagement.repositories { kobwebSnapshots() }
 }
 
-rootProject.name = "app"
+rootProject.name = "MineKot.org"
 
 include(":site")

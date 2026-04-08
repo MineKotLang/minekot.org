@@ -28,118 +28,118 @@
   'use strict';
   //region block: imports
   var imul = Math.imul;
-  var KProperty1 = kotlin_kotlin.$_$.de;
-  var getPropertyCallableRef = kotlin_kotlin.$_$.hc;
-  var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.h2;
-  var charArrayOf = kotlin_kotlin.$_$.vb;
-  var trimStart = kotlin_kotlin.$_$.gg;
-  var Unit_getInstance = kotlin_kotlin.$_$.p4;
+  var KProperty1 = kotlin_kotlin.$_$.ue;
+  var getPropertyCallableRef = kotlin_kotlin.$_$.uc;
+  var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.k2;
+  var charArrayOf = kotlin_kotlin.$_$.hc;
+  var trimStart = kotlin_kotlin.$_$.jh;
+  var Unit_getInstance = kotlin_kotlin.$_$.x4;
   var get_http = kotlin_com_varabyte_kobweb_browser_ext.$_$.b;
-  var KMutableProperty0 = kotlin_kotlin.$_$.ae;
-  var KMutableProperty1 = kotlin_kotlin.$_$.be;
-  var protoOf = kotlin_kotlin.$_$.md;
+  var KMutableProperty0 = kotlin_kotlin.$_$.re;
+  var KMutableProperty1 = kotlin_kotlin.$_$.se;
+  var protoOf = kotlin_kotlin.$_$.zd;
   var FetchDefaults_getInstance = kotlin_com_varabyte_kobweb_browser_ext.$_$.g;
-  var VOID = kotlin_kotlin.$_$.d;
-  var initMetadataForClass = kotlin_kotlin.$_$.kc;
-  var lazy = kotlin_kotlin.$_$.wh;
-  var THROW_CCE = kotlin_kotlin.$_$.ch;
-  var Annotation = kotlin_kotlin.$_$.ng;
-  var org_jetbrains_compose_web_css_StyleSheet$stableprop_getter = kotlin_org_jetbrains_compose_html_html_core.$_$.n5;
-  var sourceInformationMarkerStart = kotlin_androidx_compose_runtime_runtime.$_$.z;
-  var Style = kotlin_org_jetbrains_compose_html_html_core.$_$.a7;
-  var sourceInformationMarkerEnd = kotlin_androidx_compose_runtime_runtime.$_$.y;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.r5;
-  var padding = kotlin_org_jetbrains_compose_html_html_core.$_$.o5;
-  var margin = kotlin_org_jetbrains_compose_html_html_core.$_$.g5;
+  var VOID = kotlin_kotlin.$_$.e;
+  var initMetadataForClass = kotlin_kotlin.$_$.xc;
+  var lazy = kotlin_kotlin.$_$.fj;
+  var THROW_CCE = kotlin_kotlin.$_$.hi;
+  var Annotation = kotlin_kotlin.$_$.qh;
+  var org_jetbrains_compose_web_css_StyleSheet$stableprop_getter = kotlin_org_jetbrains_compose_html_html_core.$_$.o5;
+  var sourceInformationMarkerStart = kotlin_androidx_compose_runtime_runtime.$_$.a1;
+  var Style = kotlin_org_jetbrains_compose_html_html_core.$_$.b7;
+  var sourceInformationMarkerEnd = kotlin_androidx_compose_runtime_runtime.$_$.z;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.t5;
+  var padding = kotlin_org_jetbrains_compose_html_html_core.$_$.q5;
+  var margin = kotlin_org_jetbrains_compose_html_html_core.$_$.h5;
   var boxSizing = kotlin_org_jetbrains_compose_html_html_core.$_$.d4;
   var StyleSheet = kotlin_org_jetbrains_compose_html_html_core.$_$.m3;
   var StyleSheet_init_$Init$ = kotlin_org_jetbrains_compose_html_html_core.$_$.b;
   var layer = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.v1;
-  var initMetadataForObject = kotlin_kotlin.$_$.pc;
-  var updateChangedFlags = kotlin_androidx_compose_runtime_runtime.$_$.e1;
-  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.ta;
-  var toString = kotlin_kotlin.$_$.od;
-  var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.r1;
-  var getValue = kotlin_kotlin.$_$.o7;
-  var getStringHashCode = kotlin_kotlin.$_$.ic;
-  var mapCapacity = kotlin_kotlin.$_$.d8;
-  var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.r;
-  var substringAfterLast = kotlin_kotlin.$_$.sf;
-  var plus = kotlin_kotlin.$_$.l8;
-  var equals = kotlin_kotlin.$_$.dc;
-  var hashCode = kotlin_kotlin.$_$.jc;
-  var initMetadataForCompanion = kotlin_kotlin.$_$.lc;
-  var mutableStateOf = kotlin_androidx_compose_runtime_runtime.$_$.x;
-  var staticCompositionLocalOf = kotlin_androidx_compose_runtime_runtime.$_$.b1;
-  var initMetadataForInterface = kotlin_kotlin.$_$.nc;
-  var mutableStateMapOf = kotlin_androidx_compose_runtime_runtime.$_$.w;
-  var ensureNotNull = kotlin_kotlin.$_$.uh;
-  var Companion_getInstance = kotlin_androidx_compose_runtime_runtime.$_$.k1;
-  var A = kotlin_org_jetbrains_compose_html_html_core.$_$.e6;
-  var isBlank = kotlin_kotlin.$_$.af;
-  var startsWith = kotlin_kotlin.$_$.rf;
-  var endsWith = kotlin_kotlin.$_$.ve;
-  var startsWith_0 = kotlin_kotlin.$_$.qf;
-  var dropLast = kotlin_kotlin.$_$.se;
-  var charSequenceLength = kotlin_kotlin.$_$.zb;
-  var removePrefix = kotlin_kotlin.$_$.if;
-  var THROW_IAE = kotlin_kotlin.$_$.dh;
-  var enumEntries = kotlin_kotlin.$_$.sa;
-  var Enum = kotlin_kotlin.$_$.rg;
-  var noWhenBranchMatchedException = kotlin_kotlin.$_$.xh;
-  var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.c1;
-  var ArrayList_init_$Create$ = kotlin_kotlin.$_$.i;
-  var joinToString = kotlin_kotlin.$_$.s7;
-  var objectCreate = kotlin_kotlin.$_$.ld;
-  var substringBefore = kotlin_kotlin.$_$.vf;
-  var to = kotlin_kotlin.$_$.ei;
-  var substringAfter = kotlin_kotlin.$_$.uf;
-  var split = kotlin_kotlin.$_$.pf;
-  var Regex_init_$Create$ = kotlin_kotlin.$_$.b1;
-  var drop = kotlin_kotlin.$_$.te;
-  var first = kotlin_kotlin.$_$.xe;
-  var LinkedHashMap_init_$Create$_0 = kotlin_kotlin.$_$.s;
-  var split_0 = kotlin_kotlin.$_$.of;
-  var getOrNull = kotlin_kotlin.$_$.n7;
-  var Exception = kotlin_kotlin.$_$.tg;
-  var Exception_init_$Init$ = kotlin_kotlin.$_$.h1;
-  var captureStack = kotlin_kotlin.$_$.ub;
-  var emptyMap = kotlin_kotlin.$_$.f7;
-  var last = kotlin_kotlin.$_$.z7;
+  var initMetadataForObject = kotlin_kotlin.$_$.cd;
+  var updateChangedFlags = kotlin_androidx_compose_runtime_runtime.$_$.f1;
+  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.cb;
+  var toString = kotlin_kotlin.$_$.be;
+  var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.u1;
+  var getValue = kotlin_kotlin.$_$.w7;
+  var getStringHashCode = kotlin_kotlin.$_$.vc;
+  var mapCapacity = kotlin_kotlin.$_$.l8;
+  var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.s;
+  var substringAfterLast = kotlin_kotlin.$_$.ng;
+  var plus = kotlin_kotlin.$_$.t8;
+  var equals = kotlin_kotlin.$_$.qc;
+  var hashCode = kotlin_kotlin.$_$.wc;
+  var initMetadataForCompanion = kotlin_kotlin.$_$.yc;
+  var mutableStateOf = kotlin_androidx_compose_runtime_runtime.$_$.y;
+  var staticCompositionLocalOf = kotlin_androidx_compose_runtime_runtime.$_$.c1;
+  var mutableStateMapOf = kotlin_androidx_compose_runtime_runtime.$_$.x;
+  var initMetadataForInterface = kotlin_kotlin.$_$.ad;
+  var ensureNotNull = kotlin_kotlin.$_$.aj;
+  var Companion_getInstance = kotlin_androidx_compose_runtime_runtime.$_$.l1;
+  var A = kotlin_org_jetbrains_compose_html_html_core.$_$.f6;
+  var isBlank = kotlin_kotlin.$_$.tf;
+  var startsWith = kotlin_kotlin.$_$.mg;
+  var endsWith = kotlin_kotlin.$_$.nf;
+  var startsWith_0 = kotlin_kotlin.$_$.lg;
+  var dropLast = kotlin_kotlin.$_$.kf;
+  var charSequenceLength = kotlin_kotlin.$_$.lc;
+  var removePrefix = kotlin_kotlin.$_$.cg;
+  var THROW_IAE = kotlin_kotlin.$_$.ii;
+  var enumEntries = kotlin_kotlin.$_$.bb;
+  var Enum = kotlin_kotlin.$_$.wh;
+  var noWhenBranchMatchedException = kotlin_kotlin.$_$.gj;
+  var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.e1;
+  var ArrayList_init_$Create$ = kotlin_kotlin.$_$.j;
+  var joinToString = kotlin_kotlin.$_$.a8;
+  var objectCreate = kotlin_kotlin.$_$.yd;
+  var substringBefore = kotlin_kotlin.$_$.qg;
+  var to = kotlin_kotlin.$_$.oj;
+  var substringAfter = kotlin_kotlin.$_$.pg;
+  var split = kotlin_kotlin.$_$.kg;
+  var Regex_init_$Create$ = kotlin_kotlin.$_$.c1;
+  var drop = kotlin_kotlin.$_$.lf;
+  var first = kotlin_kotlin.$_$.qf;
+  var LinkedHashMap_init_$Create$_0 = kotlin_kotlin.$_$.t;
+  var split_0 = kotlin_kotlin.$_$.jg;
+  var getOrNull = kotlin_kotlin.$_$.v7;
+  var Exception = kotlin_kotlin.$_$.yh;
+  var Exception_init_$Init$ = kotlin_kotlin.$_$.j1;
+  var captureStack = kotlin_kotlin.$_$.gc;
+  var emptyMap = kotlin_kotlin.$_$.n7;
+  var last = kotlin_kotlin.$_$.h8;
   var DynamicNode = kotlin_com_varabyte_kobweb_client_server_internal.$_$.a;
   var toRouteString = kotlin_com_varabyte_kobweb_client_server_internal.$_$.c;
-  var ArrayList_init_$Create$_0 = kotlin_kotlin.$_$.j;
-  var KtMap = kotlin_kotlin.$_$.l5;
-  var isInterface = kotlin_kotlin.$_$.yc;
-  var contains = kotlin_kotlin.$_$.pe;
-  var Collection = kotlin_kotlin.$_$.z4;
+  var ArrayList_init_$Create$_0 = kotlin_kotlin.$_$.k;
+  var KtMap = kotlin_kotlin.$_$.t5;
+  var isInterface = kotlin_kotlin.$_$.ld;
+  var contains = kotlin_kotlin.$_$.hf;
+  var Collection = kotlin_kotlin.$_$.h5;
   var DisposableEffectResult = kotlin_androidx_compose_runtime_runtime.$_$.g;
   var DisposableEffect = kotlin_androidx_compose_runtime_runtime.$_$.j;
   var rememberComposableLambda = kotlin_androidx_compose_runtime_runtime.$_$.b;
-  var asReversed = kotlin_kotlin.$_$.i6;
-  var substringAfter_0 = kotlin_kotlin.$_$.tf;
+  var asReversed = kotlin_kotlin.$_$.q6;
+  var substringAfter_0 = kotlin_kotlin.$_$.og;
   var RouteTree = kotlin_com_varabyte_kobweb_client_server_internal.$_$.b;
-  var filter = kotlin_kotlin.$_$.ie;
-  var map = kotlin_kotlin.$_$.le;
-  var androidx_compose_runtime_ProvidedValue$stableprop_getter = kotlin_androidx_compose_runtime_runtime.$_$.r;
+  var filter = kotlin_kotlin.$_$.ze;
+  var map = kotlin_kotlin.$_$.cf;
+  var androidx_compose_runtime_ProvidedValue$stableprop_getter = kotlin_androidx_compose_runtime_runtime.$_$.s;
   var CompositionLocalProvider = kotlin_androidx_compose_runtime_runtime.$_$.d;
-  var IllegalArgumentException_init_$Create$ = kotlin_kotlin.$_$.m1;
-  var listOf = kotlin_kotlin.$_$.c8;
-  var removeSuffix = kotlin_kotlin.$_$.jf;
-  var contains_0 = kotlin_kotlin.$_$.qe;
-  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.c7;
+  var IllegalArgumentException_init_$Create$ = kotlin_kotlin.$_$.p1;
+  var listOf = kotlin_kotlin.$_$.k8;
+  var removeSuffix = kotlin_kotlin.$_$.dg;
+  var contains_0 = kotlin_kotlin.$_$.if;
+  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.d7;
   var composableLambdaInstance = kotlin_androidx_compose_runtime_runtime.$_$.a;
-  var toMutableMap = kotlin_kotlin.$_$.s9;
-  var Div = kotlin_org_jetbrains_compose_html_html_core.$_$.i6;
-  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.p5;
-  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.a6;
-  var get_vh = kotlin_org_jetbrains_compose_html_html_core.$_$.z5;
-  var height = kotlin_org_jetbrains_compose_html_html_core.$_$.x4;
+  var toMutableMap = kotlin_kotlin.$_$.aa;
+  var Div = kotlin_org_jetbrains_compose_html_html_core.$_$.j6;
+  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.r5;
+  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.c6;
+  var get_vh = kotlin_org_jetbrains_compose_html_html_core.$_$.b6;
+  var height = kotlin_org_jetbrains_compose_html_html_core.$_$.y4;
   var Companion_getInstance_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.j;
   var display = kotlin_org_jetbrains_compose_html_html_core.$_$.i4;
-  var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.k3;
+  var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.g3;
   var alignItems = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.h;
-  var Companion_getInstance_2 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.t3;
+  var Companion_getInstance_2 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.p3;
   var justifyContent = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.s1;
   //endregion
   //region block: pre-declaration
@@ -171,12 +171,12 @@
   initMetadataForCompanion(Companion_3);
   initMetadataForClass(Route, 'Route');
   initMetadataForClass(RouteException, 'RouteException', VOID, Exception);
-  initMetadataForClass(UpdateHistoryMode, 'UpdateHistoryMode', VOID, Enum);
   initMetadataForClass(RouteEntry, 'RouteEntry');
   initMetadataForClass(Router$renderActivePage$$inlined$run$2$2$2$1, VOID, VOID, VOID, [DisposableEffectResult]);
   initMetadataForClass(Router, 'Router', Router);
   initMetadataForObject(ComposableSingletons$RouterKt, 'ComposableSingletons$RouterKt');
   initMetadataForClass(RouteInterceptorScope, 'RouteInterceptorScope');
+  initMetadataForClass(UpdateHistoryMode, 'UpdateHistoryMode', VOID, Enum);
   //endregion
   function get_api(_this__u8e3s4) {
     _init_properties_ApiFetcher_kt__epxlpv();
@@ -791,6 +791,9 @@
     }
     return tmp;
   }
+  function com_varabyte_kobweb_core_PageContext$stableprop_getter() {
+    return com_varabyte_kobweb_core_PageContext$stable;
+  }
   function Companion() {
     Companion_instance = this;
   }
@@ -843,9 +846,6 @@
     }
     return tmp;
   };
-  function com_varabyte_kobweb_core_PageContext$stableprop_getter() {
-    return com_varabyte_kobweb_core_PageContext$stable;
-  }
   function PageContextLocal$lambda() {
     _init_properties_PageContext_kt__u2hiem();
     return null;
@@ -860,8 +860,6 @@
     }
   }
   var com_varabyte_kobweb_core_data_MutableData$stable;
-  function Data() {
-  }
   function _get_map__e6co1h($this) {
     return $this.map_1;
   }
@@ -879,6 +877,8 @@
   protoOf(MutableData).clear_j9egeb_k$ = function () {
     this.map_1.clear_j9egeb_k$();
   };
+  function Data() {
+  }
   function getValue_0(_this__u8e3s4, key) {
     return ensureNotNull(_this__u8e3s4.get_rskua5_k$(key));
   }
@@ -1565,40 +1565,6 @@
   var com_varabyte_kobweb_navigation_RouteInterceptorScope$stable;
   var com_varabyte_kobweb_navigation_Router_RouteEntry$stable;
   var com_varabyte_kobweb_navigation_Router$stable;
-  var UpdateHistoryMode_PUSH_instance;
-  var UpdateHistoryMode_REPLACE_instance;
-  function values_0() {
-    return [UpdateHistoryMode_PUSH_getInstance(), UpdateHistoryMode_REPLACE_getInstance()];
-  }
-  function valueOf_0(value) {
-    switch (value) {
-      case 'PUSH':
-        return UpdateHistoryMode_PUSH_getInstance();
-      case 'REPLACE':
-        return UpdateHistoryMode_REPLACE_getInstance();
-      default:
-        UpdateHistoryMode_initEntries();
-        THROW_IAE('No enum constant com.varabyte.kobweb.navigation.UpdateHistoryMode.' + value);
-        break;
-    }
-  }
-  function get_entries_0() {
-    if ($ENTRIES_0 == null)
-      $ENTRIES_0 = enumEntries(values_0());
-    return $ENTRIES_0;
-  }
-  var UpdateHistoryMode_entriesInitialized;
-  function UpdateHistoryMode_initEntries() {
-    if (UpdateHistoryMode_entriesInitialized)
-      return Unit_getInstance();
-    UpdateHistoryMode_entriesInitialized = true;
-    UpdateHistoryMode_PUSH_instance = new UpdateHistoryMode('PUSH', 0);
-    UpdateHistoryMode_REPLACE_instance = new UpdateHistoryMode('REPLACE', 1);
-  }
-  var $ENTRIES_0;
-  function UpdateHistoryMode(name, ordinal) {
-    Enum.call(this, name, ordinal);
-  }
   function RouteEntry(path, isDynamic) {
     this.path_1 = path;
     this.isDynamic_1 = isDynamic;
@@ -2515,6 +2481,40 @@
   protoOf(RouteInterceptorScope).get_pathQueryAndFragment_8mv2zx_k$ = function () {
     return Route_init_$Create$(this.path_1, this.queryParams_1, this.fragment_1).toString();
   };
+  var UpdateHistoryMode_PUSH_instance;
+  var UpdateHistoryMode_REPLACE_instance;
+  function values_0() {
+    return [UpdateHistoryMode_PUSH_getInstance(), UpdateHistoryMode_REPLACE_getInstance()];
+  }
+  function valueOf_0(value) {
+    switch (value) {
+      case 'PUSH':
+        return UpdateHistoryMode_PUSH_getInstance();
+      case 'REPLACE':
+        return UpdateHistoryMode_REPLACE_getInstance();
+      default:
+        UpdateHistoryMode_initEntries();
+        THROW_IAE('No enum constant com.varabyte.kobweb.navigation.UpdateHistoryMode.' + value);
+        break;
+    }
+  }
+  function get_entries_0() {
+    if ($ENTRIES_0 == null)
+      $ENTRIES_0 = enumEntries(values_0());
+    return $ENTRIES_0;
+  }
+  var UpdateHistoryMode_entriesInitialized;
+  function UpdateHistoryMode_initEntries() {
+    if (UpdateHistoryMode_entriesInitialized)
+      return Unit_getInstance();
+    UpdateHistoryMode_entriesInitialized = true;
+    UpdateHistoryMode_PUSH_instance = new UpdateHistoryMode('PUSH', 0);
+    UpdateHistoryMode_REPLACE_instance = new UpdateHistoryMode('REPLACE', 1);
+  }
+  var $ENTRIES_0;
+  function UpdateHistoryMode(name, ordinal) {
+    Enum.call(this, name, ordinal);
+  }
   function DefaultErrorPage($composer, $changed) {
     var $composer_0 = $composer;
     $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(1831390232);
@@ -2603,18 +2603,19 @@
   //endregion
   //region block: exports
   _.$_$ = _.$_$ || {};
-  _.$_$.a = getValue_0;
-  _.$_$.b = initKobweb;
-  _.$_$.c = KobwebApp;
-  _.$_$.d = com_varabyte_kobweb_core_PageContext$stableprop_getter;
-  _.$_$.e = rememberPageContext;
-  _.$_$.f = Anchor;
-  _.$_$.g = Router;
-  _.$_$.h = com_varabyte_kobweb_navigation_Router$stableprop_getter;
-  _.$_$.i = remove;
-  _.$_$.j = UpdateHistoryMode_REPLACE_getInstance;
-  _.$_$.k = AppGlobals_getInstance;
-  _.$_$.l = Companion_getInstance_5;
+  _.$_$.a = get_api;
+  _.$_$.b = getValue_0;
+  _.$_$.c = initKobweb;
+  _.$_$.d = KobwebApp;
+  _.$_$.e = com_varabyte_kobweb_core_PageContext$stableprop_getter;
+  _.$_$.f = rememberPageContext;
+  _.$_$.g = Anchor;
+  _.$_$.h = Router;
+  _.$_$.i = com_varabyte_kobweb_navigation_Router$stableprop_getter;
+  _.$_$.j = remove;
+  _.$_$.k = UpdateHistoryMode_REPLACE_getInstance;
+  _.$_$.l = AppGlobals_getInstance;
+  _.$_$.m = Companion_getInstance_5;
   //endregion
   return _;
 }));

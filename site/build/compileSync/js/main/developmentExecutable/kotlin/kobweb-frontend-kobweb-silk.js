@@ -25,16 +25,16 @@
   'use strict';
   //region block: imports
   var rememberComposableLambda = kotlin_androidx_compose_runtime_runtime.$_$.b;
-  var sourceInformationMarkerStart = kotlin_androidx_compose_runtime_runtime.$_$.z;
-  var Companion_getInstance = kotlin_androidx_compose_runtime_runtime.$_$.k1;
-  var THROW_CCE = kotlin_kotlin.$_$.ch;
-  var sourceInformationMarkerEnd = kotlin_androidx_compose_runtime_runtime.$_$.y;
-  var KobwebApp = kotlin_com_varabyte_kobweb_kobweb_core.$_$.c;
-  var Unit_getInstance = kotlin_kotlin.$_$.p4;
+  var sourceInformationMarkerStart = kotlin_androidx_compose_runtime_runtime.$_$.a1;
+  var Companion_getInstance = kotlin_androidx_compose_runtime_runtime.$_$.l1;
+  var THROW_CCE = kotlin_kotlin.$_$.hi;
+  var sourceInformationMarkerEnd = kotlin_androidx_compose_runtime_runtime.$_$.z;
+  var KobwebApp = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
+  var Unit_getInstance = kotlin_kotlin.$_$.x4;
   var KobwebComposeStyles = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i3;
   var SilkFoundationStyles = kotlin_com_varabyte_kobweb_silk_foundation.$_$.w1;
   var ColorModeAware = kotlin_com_varabyte_kobweb_silk_foundation.$_$.v1;
-  var updateChangedFlags = kotlin_androidx_compose_runtime_runtime.$_$.e1;
+  var updateChangedFlags = kotlin_androidx_compose_runtime_runtime.$_$.f1;
   //endregion
   //region block: pre-declaration
   //endregion

@@ -5,9 +5,10 @@ plugins {
     alias(libs.plugins.compose.compiler)
     alias(libs.plugins.kobweb.application)
     alias(libs.plugins.kobwebx.markdown)
+    alias(libs.plugins.kotlin.serialization)
 }
 
-group = "org.example.app"
+group = "org.minekot.site"
 version = "1.0-SNAPSHOT"
 
 kobweb {
@@ -19,7 +20,7 @@ kobweb {
 }
 
 kotlin {
-    configAsKobwebApplication("app" /*, includeServer = true*/)
+    configAsKobwebApplication("MineKot.org" /*, includeServer = true*/)
 
     sourceSets {
 
@@ -29,6 +30,7 @@ kotlin {
             implementation(libs.kobweb.core)
             implementation(libs.kobweb.silk)
             implementation(libs.kobwebx.markdown)
+            implementation(libs.kotlinx.serialization.json)
         }
 
     }

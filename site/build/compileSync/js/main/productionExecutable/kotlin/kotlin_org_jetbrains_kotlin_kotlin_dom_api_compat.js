@@ -12,18 +12,18 @@
 }(function (_, kotlin_kotlin) {
   'use strict';
   //region block: imports
-  var toSet = kotlin_kotlin.$_$.c5;
-  var THROW_CCE = kotlin_kotlin.$_$.sa;
-  var isCharSequence = kotlin_kotlin.$_$.p7;
-  var trim = kotlin_kotlin.$_$.ea;
-  var toString = kotlin_kotlin.$_$.z7;
-  var Regex_init_$Create$ = kotlin_kotlin.$_$.u;
-  var ArrayList_init_$Create$ = kotlin_kotlin.$_$.h;
-  var Unit_instance = kotlin_kotlin.$_$.c2;
-  var joinToString = kotlin_kotlin.$_$.v3;
-  var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.v;
-  var charSequenceLength = kotlin_kotlin.$_$.x6;
-  var joinTo = kotlin_kotlin.$_$.x3;
+  var toSet = kotlin_kotlin.$_$.a8;
+  var THROW_CCE = kotlin_kotlin.$_$.ff;
+  var isCharSequence = kotlin_kotlin.$_$.za;
+  var trim = kotlin_kotlin.$_$.le;
+  var toString = kotlin_kotlin.$_$.qb;
+  var Regex_init_$Create$ = kotlin_kotlin.$_$.b1;
+  var ArrayList_init_$Create$ = kotlin_kotlin.$_$.j;
+  var Unit_instance = kotlin_kotlin.$_$.g4;
+  var joinToString = kotlin_kotlin.$_$.o6;
+  var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.c1;
+  var charSequenceLength = kotlin_kotlin.$_$.da;
+  var joinTo = kotlin_kotlin.$_$.q6;
   //endregion
   //region block: pre-declaration
   //endregion
@@ -51,14 +51,14 @@
       // Inline function 'kotlin.text.toRegex' call
       // Inline function 'kotlin.text.split' call
       // Inline function 'kotlin.collections.filter' call
-      var tmp0_0 = Regex_init_$Create$('\\s+').bc(tmp0, 0);
+      var tmp0_0 = Regex_init_$Create$('\\s+').yc(tmp0, 0);
       // Inline function 'kotlin.collections.filterTo' call
       var destination = ArrayList_init_$Create$();
-      var _iterator__ex2g4s = tmp0_0.i();
-      while (_iterator__ex2g4s.j()) {
-        var element_0 = _iterator__ex2g4s.k();
-        if (!toBeRemoved.t(element_0)) {
-          destination.h(element_0);
+      var _iterator__ex2g4s = tmp0_0.t();
+      while (_iterator__ex2g4s.u()) {
+        var element_0 = _iterator__ex2g4s.v();
+        if (!toBeRemoved.g1(element_0)) {
+          destination.y(element_0);
         }
       }
       _this__u8e3s4.className = joinToString(destination, ' ');
@@ -76,22 +76,22 @@
       var element = cssClasses[inductionVariable];
       inductionVariable = inductionVariable + 1 | 0;
       if (!hasClass(_this__u8e3s4, element)) {
-        destination.h(element);
+        destination.y(element);
       }
     }
     var missingClasses = destination;
     // Inline function 'kotlin.collections.isNotEmpty' call
-    if (!missingClasses.l()) {
+    if (!missingClasses.r()) {
       // Inline function 'kotlin.text.trim' call
       var this_0 = _this__u8e3s4.className;
       var presentClasses = toString(trim(isCharSequence(this_0) ? this_0 : THROW_CCE()));
       // Inline function 'kotlin.text.buildString' call
       // Inline function 'kotlin.apply' call
       var this_1 = StringBuilder_init_$Create$();
-      this_1.m7(presentClasses);
+      this_1.q(presentClasses);
       // Inline function 'kotlin.text.isEmpty' call
       if (!(charSequenceLength(presentClasses) === 0)) {
-        this_1.m7(' ');
+        this_1.q(' ');
       }
       joinTo(missingClasses, this_1, ' ');
       _this__u8e3s4.className = this_1.toString();
@@ -104,7 +104,7 @@
     // Inline function 'kotlin.text.toRegex' call
     var this_0 = '(^|.*\\s+)' + cssClass + '($|\\s+.*)';
     // Inline function 'kotlin.text.matches' call
-    return Regex_init_$Create$(this_0).nb(tmp0);
+    return Regex_init_$Create$(this_0).jc(tmp0);
   }
   //region block: exports
   _.$_$ = _.$_$ || {};

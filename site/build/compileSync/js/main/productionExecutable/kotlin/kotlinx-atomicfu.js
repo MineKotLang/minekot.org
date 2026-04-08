@@ -12,11 +12,11 @@
 }(function (_, kotlin_kotlin) {
   'use strict';
   //region block: imports
-  var protoOf = kotlin_kotlin.$_$.y7;
-  var initMetadataForObject = kotlin_kotlin.$_$.n7;
-  var VOID = kotlin_kotlin.$_$.c;
-  var initMetadataForClass = kotlin_kotlin.$_$.i7;
-  var toString = kotlin_kotlin.$_$.eb;
+  var protoOf = kotlin_kotlin.$_$.ob;
+  var initMetadataForObject = kotlin_kotlin.$_$.ua;
+  var VOID = kotlin_kotlin.$_$.d;
+  var initMetadataForClass = kotlin_kotlin.$_$.pa;
+  var toString = kotlin_kotlin.$_$.hg;
   //endregion
   //region block: pre-declaration
   initMetadataForClass(atomicfu$TraceBase, 'TraceBase');
@@ -48,10 +48,10 @@
   function AtomicRef(value) {
     this.kotlinx$atomicfu$value = value;
   }
-  protoOf(AtomicRef).qo = function (_set____db54di) {
+  protoOf(AtomicRef).it = function (_set____db54di) {
     this.kotlinx$atomicfu$value = _set____db54di;
   };
-  protoOf(AtomicRef).ro = function () {
+  protoOf(AtomicRef).jt = function () {
     return this.kotlinx$atomicfu$value;
   };
   protoOf(AtomicRef).atomicfu$compareAndSet = function (expect, update) {
@@ -74,10 +74,10 @@
   function AtomicInt(value) {
     this.kotlinx$atomicfu$value = value;
   }
-  protoOf(AtomicInt).so = function (_set____db54di) {
+  protoOf(AtomicInt).kt = function (_set____db54di) {
     this.kotlinx$atomicfu$value = _set____db54di;
   };
-  protoOf(AtomicInt).ro = function () {
+  protoOf(AtomicInt).jt = function () {
     return this.kotlinx$atomicfu$value;
   };
   protoOf(AtomicInt).atomicfu$compareAndSet = function (expect, update) {
@@ -127,10 +127,10 @@
   function AtomicBoolean(value) {
     this.kotlinx$atomicfu$value = value;
   }
-  protoOf(AtomicBoolean).to = function (_set____db54di) {
+  protoOf(AtomicBoolean).lt = function (_set____db54di) {
     this.kotlinx$atomicfu$value = _set____db54di;
   };
-  protoOf(AtomicBoolean).ro = function () {
+  protoOf(AtomicBoolean).jt = function () {
     return this.kotlinx$atomicfu$value;
   };
   protoOf(AtomicBoolean).atomicfu$compareAndSet = function (expect, update) {

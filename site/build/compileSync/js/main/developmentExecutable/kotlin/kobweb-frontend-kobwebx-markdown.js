@@ -12,9 +12,9 @@
 }(function (_, kotlin_kotlin) {
   'use strict';
   //region block: imports
-  var protoOf = kotlin_kotlin.$_$.md;
-  var initMetadataForClass = kotlin_kotlin.$_$.kc;
-  var getKClass = kotlin_kotlin.$_$.yd;
+  var protoOf = kotlin_kotlin.$_$.zd;
+  var initMetadataForClass = kotlin_kotlin.$_$.xc;
+  var getKClass = kotlin_kotlin.$_$.pe;
   //endregion
   //region block: pre-declaration
   initMetadataForClass(MarkdownContext, 'MarkdownContext');

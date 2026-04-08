@@ -19,87 +19,87 @@
   'use strict';
   //region block: imports
   var imul = Math.imul;
-  var THROW_CCE = kotlin_kotlin.$_$.ch;
-  var protoOf = kotlin_kotlin.$_$.md;
-  var Annotation = kotlin_kotlin.$_$.ng;
-  var initMetadataForClass = kotlin_kotlin.$_$.kc;
-  var VOID = kotlin_kotlin.$_$.d;
-  var Unit_getInstance = kotlin_kotlin.$_$.p4;
-  var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.s;
-  var ArrayList_init_$Create$ = kotlin_kotlin.$_$.j;
-  var addAll = kotlin_kotlin.$_$.z5;
-  var to = kotlin_kotlin.$_$.ei;
-  var Pair = kotlin_kotlin.$_$.zg;
-  var initMetadataForCompanion = kotlin_kotlin.$_$.lc;
-  var asList = kotlin_kotlin.$_$.h6;
-  var initMetadataForInterface = kotlin_kotlin.$_$.nc;
-  var initMetadataForObject = kotlin_kotlin.$_$.pc;
-  var THROW_IAE = kotlin_kotlin.$_$.dh;
-  var enumEntries = kotlin_kotlin.$_$.sa;
-  var Enum = kotlin_kotlin.$_$.rg;
-  var toString = kotlin_kotlin.$_$.od;
-  var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.r1;
+  var THROW_CCE = kotlin_kotlin.$_$.hi;
+  var protoOf = kotlin_kotlin.$_$.zd;
+  var Annotation = kotlin_kotlin.$_$.qh;
+  var initMetadataForClass = kotlin_kotlin.$_$.xc;
+  var VOID = kotlin_kotlin.$_$.e;
+  var Unit_getInstance = kotlin_kotlin.$_$.x4;
+  var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.t;
+  var ArrayList_init_$Create$ = kotlin_kotlin.$_$.k;
+  var addAll = kotlin_kotlin.$_$.h6;
+  var to = kotlin_kotlin.$_$.oj;
+  var Pair = kotlin_kotlin.$_$.ei;
+  var initMetadataForCompanion = kotlin_kotlin.$_$.yc;
+  var asList = kotlin_kotlin.$_$.p6;
+  var initMetadataForInterface = kotlin_kotlin.$_$.ad;
+  var initMetadataForObject = kotlin_kotlin.$_$.cd;
+  var THROW_IAE = kotlin_kotlin.$_$.ii;
+  var enumEntries = kotlin_kotlin.$_$.bb;
+  var Enum = kotlin_kotlin.$_$.wh;
+  var toString = kotlin_kotlin.$_$.be;
+  var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.u1;
   var NamedEventListener = kotlin_org_jetbrains_compose_html_internal_html_core_runtime.$_$.d;
-  var equals = kotlin_kotlin.$_$.dc;
-  var toString_0 = kotlin_kotlin.$_$.di;
-  var toBoolean = kotlin_kotlin.$_$.yf;
-  var sourceInformationMarkerStart = kotlin_androidx_compose_runtime_runtime.$_$.z;
-  var traceEventStart = kotlin_androidx_compose_runtime_runtime.$_$.d1;
-  var isTraceInProgress = kotlin_androidx_compose_runtime_runtime.$_$.u;
-  var Companion_getInstance = kotlin_androidx_compose_runtime_runtime.$_$.k1;
-  var sourceInformationMarkerEnd = kotlin_androidx_compose_runtime_runtime.$_$.y;
+  var equals = kotlin_kotlin.$_$.qc;
+  var charSequenceLength = kotlin_kotlin.$_$.lc;
+  var LinkedHashSet_init_$Create$ = kotlin_kotlin.$_$.v;
+  var ensureNotNull = kotlin_kotlin.$_$.aj;
+  var sourceInformationMarkerStart = kotlin_androidx_compose_runtime_runtime.$_$.a1;
+  var traceEventStart = kotlin_androidx_compose_runtime_runtime.$_$.e1;
+  var isTraceInProgress = kotlin_androidx_compose_runtime_runtime.$_$.v;
+  var Companion_getInstance = kotlin_androidx_compose_runtime_runtime.$_$.l1;
+  var sourceInformationMarkerEnd = kotlin_androidx_compose_runtime_runtime.$_$.z;
   var DisposableEffect = kotlin_androidx_compose_runtime_runtime.$_$.j;
-  var traceEventEnd = kotlin_androidx_compose_runtime_runtime.$_$.c1;
-  var charSequenceLength = kotlin_kotlin.$_$.zb;
-  var LinkedHashSet_init_$Create$ = kotlin_kotlin.$_$.u;
-  var ensureNotNull = kotlin_kotlin.$_$.uh;
+  var traceEventEnd = kotlin_androidx_compose_runtime_runtime.$_$.d1;
+  var toString_0 = kotlin_kotlin.$_$.nj;
+  var toBoolean = kotlin_kotlin.$_$.ug;
   var DisposableEffectResult = kotlin_androidx_compose_runtime_runtime.$_$.g;
-  var hashCode = kotlin_kotlin.$_$.jc;
-  var joinToString = kotlin_kotlin.$_$.s7;
-  var getStringHashCode = kotlin_kotlin.$_$.ic;
-  var objectCreate = kotlin_kotlin.$_$.ld;
-  var toList = kotlin_kotlin.$_$.o9;
-  var numberToDouble = kotlin_kotlin.$_$.jd;
-  var getNumberHashCode = kotlin_kotlin.$_$.gc;
-  var defineProp = kotlin_kotlin.$_$.bc;
-  var getBooleanHashCode = kotlin_kotlin.$_$.ec;
-  var isInterface = kotlin_kotlin.$_$.yc;
-  var Collection = kotlin_kotlin.$_$.z4;
-  var FunctionAdapter = kotlin_kotlin.$_$.qb;
-  var ReadOnlyProperty = kotlin_kotlin.$_$.qd;
-  var getKClassFromExpression = kotlin_kotlin.$_$.xd;
-  var mutableStateListOf = kotlin_androidx_compose_runtime_runtime.$_$.v;
-  var toMutableList = kotlin_kotlin.$_$.r9;
-  var listOf = kotlin_kotlin.$_$.c8;
-  var listOf_0 = kotlin_kotlin.$_$.b8;
-  var listOfNotNull = kotlin_kotlin.$_$.a8;
-  var joinToString_0 = kotlin_kotlin.$_$.t7;
-  var contains = kotlin_kotlin.$_$.pe;
-  var sourceInformation = kotlin_androidx_compose_runtime_runtime.$_$.a1;
-  var _SkippableUpdater___init__impl__4ft0t9 = kotlin_androidx_compose_runtime_runtime.$_$.f1;
-  var _SkippableUpdater___get_composer__impl__6t7yne = kotlin_androidx_compose_runtime_runtime.$_$.g1;
-  var _Updater___init__impl__rbfxm8 = kotlin_androidx_compose_runtime_runtime.$_$.h1;
-  var Updater__set_impl_v7kwss = kotlin_androidx_compose_runtime_runtime.$_$.i1;
-  var SkippableUpdater = kotlin_androidx_compose_runtime_runtime.$_$.p;
+  var hashCode = kotlin_kotlin.$_$.wc;
+  var joinToString = kotlin_kotlin.$_$.a8;
+  var getStringHashCode = kotlin_kotlin.$_$.vc;
+  var objectCreate = kotlin_kotlin.$_$.yd;
+  var toList = kotlin_kotlin.$_$.w9;
+  var numberToDouble = kotlin_kotlin.$_$.wd;
+  var getNumberHashCode = kotlin_kotlin.$_$.tc;
+  var defineProp = kotlin_kotlin.$_$.oc;
+  var getBooleanHashCode = kotlin_kotlin.$_$.rc;
+  var isInterface = kotlin_kotlin.$_$.ld;
+  var Collection = kotlin_kotlin.$_$.h5;
+  var FunctionAdapter = kotlin_kotlin.$_$.cc;
+  var ReadOnlyProperty = kotlin_kotlin.$_$.de;
+  var getKClassFromExpression = kotlin_kotlin.$_$.oe;
+  var mutableStateListOf = kotlin_androidx_compose_runtime_runtime.$_$.w;
+  var toMutableList = kotlin_kotlin.$_$.z9;
+  var listOf = kotlin_kotlin.$_$.k8;
+  var listOf_0 = kotlin_kotlin.$_$.j8;
+  var listOfNotNull = kotlin_kotlin.$_$.i8;
+  var joinToString_0 = kotlin_kotlin.$_$.b8;
+  var contains = kotlin_kotlin.$_$.hf;
+  var sourceInformation = kotlin_androidx_compose_runtime_runtime.$_$.b1;
+  var _SkippableUpdater___init__impl__4ft0t9 = kotlin_androidx_compose_runtime_runtime.$_$.g1;
+  var _SkippableUpdater___get_composer__impl__6t7yne = kotlin_androidx_compose_runtime_runtime.$_$.h1;
+  var _Updater___init__impl__rbfxm8 = kotlin_androidx_compose_runtime_runtime.$_$.i1;
+  var Updater__set_impl_v7kwss = kotlin_androidx_compose_runtime_runtime.$_$.j1;
+  var SkippableUpdater = kotlin_androidx_compose_runtime_runtime.$_$.q;
   var DomNodeWrapper = kotlin_org_jetbrains_compose_html_internal_html_core_runtime.$_$.c;
-  var emptyList = kotlin_kotlin.$_$.e7;
-  var copyToArray = kotlin_kotlin.$_$.b7;
-  var updateChangedFlags = kotlin_androidx_compose_runtime_runtime.$_$.e1;
-  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.ta;
+  var emptyList = kotlin_kotlin.$_$.m7;
+  var copyToArray = kotlin_kotlin.$_$.j7;
+  var updateChangedFlags = kotlin_androidx_compose_runtime_runtime.$_$.f1;
+  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.cb;
   var DOMScope = kotlin_org_jetbrains_compose_html_internal_html_core_runtime.$_$.a;
-  var SideEffect = kotlin_androidx_compose_runtime_runtime.$_$.o;
-  var RememberObserver = kotlin_androidx_compose_runtime_runtime.$_$.n;
-  var mutableStateOf = kotlin_androidx_compose_runtime_runtime.$_$.x;
+  var SideEffect = kotlin_androidx_compose_runtime_runtime.$_$.p;
+  var RememberObserver = kotlin_androidx_compose_runtime_runtime.$_$.o;
+  var mutableStateOf = kotlin_androidx_compose_runtime_runtime.$_$.y;
   var rememberComposableLambda = kotlin_androidx_compose_runtime_runtime.$_$.b;
-  var invalidApplier = kotlin_androidx_compose_runtime_runtime.$_$.t;
+  var invalidApplier = kotlin_androidx_compose_runtime_runtime.$_$.u;
   var DomApplier = kotlin_org_jetbrains_compose_html_internal_html_core_runtime.$_$.b;
-  var KProperty1 = kotlin_kotlin.$_$.de;
-  var getPropertyCallableRef = kotlin_kotlin.$_$.hc;
-  var lazy = kotlin_kotlin.$_$.wh;
+  var KProperty1 = kotlin_kotlin.$_$.ue;
+  var getPropertyCallableRef = kotlin_kotlin.$_$.uc;
+  var lazy = kotlin_kotlin.$_$.fj;
   var DisposableEffect_0 = kotlin_androidx_compose_runtime_runtime.$_$.i;
-  var compositionLocalOf = kotlin_androidx_compose_runtime_runtime.$_$.s;
-  var mapOf = kotlin_kotlin.$_$.f8;
-  var substring = kotlin_kotlin.$_$.xf;
+  var compositionLocalOf = kotlin_androidx_compose_runtime_runtime.$_$.t;
+  var mapOf = kotlin_kotlin.$_$.n8;
+  var substring = kotlin_kotlin.$_$.sg;
   //endregion
   //region block: pre-declaration
   initMetadataForClass(ExperimentalComposeWebApi, 'ExperimentalComposeWebApi', VOID, VOID, [Annotation]);
@@ -291,17 +291,17 @@
   initMetadataForCompanion(Companion_1);
   initMetadataForClass(Draggable, 'Draggable', VOID, Enum);
   initMetadataForClass(SyntheticEventListener, 'SyntheticEventListener', VOID, VOID, [NamedEventListener]);
+  initMetadataForClass(MouseEventListener, 'MouseEventListener', VOID, SyntheticEventListener);
   initMetadataForClass(MouseWheelEventListener, 'MouseWheelEventListener', VOID, SyntheticEventListener);
-  initMetadataForClass(InputEventListener, 'InputEventListener', VOID, SyntheticEventListener);
+  initMetadataForClass(DragEventListener, 'DragEventListener', VOID, SyntheticEventListener);
+  initMetadataForClass(ClipboardEventListener, 'ClipboardEventListener', VOID, SyntheticEventListener);
   initMetadataForClass(KeyboardEventListener, 'KeyboardEventListener', VOID, SyntheticEventListener);
+  initMetadataForClass(FocusEventListener, 'FocusEventListener', VOID, SyntheticEventListener);
   initMetadataForClass(TouchEventListener, 'TouchEventListener', VOID, SyntheticEventListener);
   initMetadataForClass(AnimationEventListener, 'AnimationEventListener', VOID, SyntheticEventListener);
-  initMetadataForClass(ClipboardEventListener, 'ClipboardEventListener', VOID, SyntheticEventListener);
-  initMetadataForClass(SelectEventListener, 'SelectEventListener', VOID, SyntheticEventListener);
-  initMetadataForClass(FocusEventListener, 'FocusEventListener', VOID, SyntheticEventListener);
-  initMetadataForClass(DragEventListener, 'DragEventListener', VOID, SyntheticEventListener);
-  initMetadataForClass(MouseEventListener, 'MouseEventListener', VOID, SyntheticEventListener);
+  initMetadataForClass(InputEventListener, 'InputEventListener', VOID, SyntheticEventListener);
   initMetadataForClass(ChangeEventListener, 'ChangeEventListener', VOID, SyntheticEventListener);
+  initMetadataForClass(SelectEventListener, 'SelectEventListener', VOID, SyntheticEventListener);
   initMetadataForClass(InputAttrsScope, 'InputAttrsScope', VOID, VOID, [AttrsScope]);
   initMetadataForClass(DisposeRadioGroupEffect$$inlined$cache$2$1, VOID, VOID, VOID, [DisposableEffectResult]);
   function property(propertyName, value, important) {
@@ -693,29 +693,29 @@
   initMetadataForClass(CSSBuilderImpl, 'CSSBuilderImpl', VOID, CSSRuleBuilderImpl, [CSSRuleBuilderImpl, CSSBuilder, CSSRulesHolder]);
   initMetadataForCompanion(Companion_2);
   initMetadataForInterface(StylePropertyEnum, 'StylePropertyEnum');
-  initMetadataForInterface(Position, 'Position', VOID, VOID, [StylePropertyEnum]);
-  initMetadataForCompanion(Companion_3);
-  initMetadataForInterface(AnimationFillMode, 'AnimationFillMode', VOID, VOID, [StylePropertyEnum]);
-  initMetadataForCompanion(Companion_4);
-  initMetadataForInterface(AlignItems, 'AlignItems', VOID, VOID, [StylePropertyEnum]);
-  initMetadataForCompanion(Companion_5);
-  initMetadataForInterface(JustifyContent, 'JustifyContent', VOID, VOID, [StylePropertyEnum]);
-  initMetadataForCompanion(Companion_6);
   initMetadataForInterface(LineStyle, 'LineStyle', VOID, VOID, [StylePropertyEnum]);
-  initMetadataForCompanion(Companion_7);
+  initMetadataForCompanion(Companion_3);
   initMetadataForInterface(DisplayStyle, 'DisplayStyle', VOID, VOID, [StylePropertyEnum]);
-  initMetadataForCompanion(Companion_8);
+  initMetadataForCompanion(Companion_4);
+  initMetadataForInterface(Position, 'Position', VOID, VOID, [StylePropertyEnum]);
+  initMetadataForCompanion(Companion_5);
   initMetadataForInterface(AnimationTimingFunction, 'AnimationTimingFunction', VOID, VOID, [StylePropertyEnum]);
-  initMetadataForCompanion(Companion_9);
-  initMetadataForInterface(FlexDirection, 'FlexDirection', VOID, VOID, [StylePropertyEnum]);
-  initMetadataForCompanion(Companion_10);
-  initMetadataForInterface(AlignSelf, 'AlignSelf', VOID, VOID, [StylePropertyEnum]);
-  initMetadataForCompanion(Companion_11);
+  initMetadataForCompanion(Companion_6);
   initMetadataForInterface(AnimationDirection, 'AnimationDirection', VOID, VOID, [StylePropertyEnum]);
-  initMetadataForCompanion(Companion_12);
+  initMetadataForCompanion(Companion_7);
+  initMetadataForInterface(AnimationFillMode, 'AnimationFillMode', VOID, VOID, [StylePropertyEnum]);
+  initMetadataForCompanion(Companion_8);
   initMetadataForInterface(AnimationPlayState, 'AnimationPlayState', VOID, VOID, [StylePropertyEnum]);
-  initMetadataForCompanion(Companion_13);
+  initMetadataForCompanion(Companion_9);
   initMetadataForInterface(StepPosition, 'StepPosition', VOID, VOID, [StylePropertyEnum]);
+  initMetadataForCompanion(Companion_10);
+  initMetadataForInterface(AlignItems, 'AlignItems', VOID, VOID, [StylePropertyEnum]);
+  initMetadataForCompanion(Companion_11);
+  initMetadataForInterface(AlignSelf, 'AlignSelf', VOID, VOID, [StylePropertyEnum]);
+  initMetadataForCompanion(Companion_12);
+  initMetadataForInterface(FlexDirection, 'FlexDirection', VOID, VOID, [StylePropertyEnum]);
+  initMetadataForCompanion(Companion_13);
+  initMetadataForInterface(JustifyContent, 'JustifyContent', VOID, VOID, [StylePropertyEnum]);
   initMetadataForClass(CSSKeyframe, 'CSSKeyframe');
   initMetadataForObject(From, 'From', VOID, CSSKeyframe);
   initMetadataForObject(To, 'To', VOID, CSSKeyframe);
@@ -912,25 +912,25 @@
     return setCheckedValue;
   }
   var setCheckedValue;
+  function type_0(_this__u8e3s4, value) {
+    _init_properties_Attrs_kt__w5qjhs();
+    return _this__u8e3s4.attr_w68641_k$('type', value.get_str_18ivy0_k$());
+  }
   function href(_this__u8e3s4, value) {
     _init_properties_Attrs_kt__w5qjhs();
     return _this__u8e3s4.attr_w68641_k$('href', value);
-  }
-  function type_0(_this__u8e3s4, value) {
-    _init_properties_Attrs_kt__w5qjhs();
-    return _this__u8e3s4.attr_w68641_k$('type', value.get_typeStr_cucz82_k$());
-  }
-  function src(_this__u8e3s4, value) {
-    _init_properties_Attrs_kt__w5qjhs();
-    return _this__u8e3s4.attr_w68641_k$('src', value);
   }
   function alt(_this__u8e3s4, value) {
     _init_properties_Attrs_kt__w5qjhs();
     return _this__u8e3s4.attr_w68641_k$('alt', value);
   }
+  function src(_this__u8e3s4, value) {
+    _init_properties_Attrs_kt__w5qjhs();
+    return _this__u8e3s4.attr_w68641_k$('src', value);
+  }
   function type_1(_this__u8e3s4, value) {
     _init_properties_Attrs_kt__w5qjhs();
-    return _this__u8e3s4.attr_w68641_k$('type', value.get_str_18ivy0_k$());
+    return _this__u8e3s4.attr_w68641_k$('type', value.get_typeStr_cucz82_k$());
   }
   function setInputValue$lambda(e, v) {
     _init_properties_Attrs_kt__w5qjhs();
@@ -1999,9 +1999,6 @@
     var tmp3_elvis_lhs = tmp_0;
     return tmp3_elvis_lhs == null ? '' : tmp3_elvis_lhs;
   };
-  function org_jetbrains_compose_web_attributes_InputType_Search$stableprop_getter() {
-    return org_jetbrains_compose_web_attributes_InputType_Search$stable;
-  }
   var Draggable_True_instance;
   var Draggable_False_instance;
   var Draggable_Auto_instance;
@@ -2044,6 +2041,9 @@
   protoOf(Draggable).get_str_18ivy0_k$ = function () {
     return this.str_1;
   };
+  function org_jetbrains_compose_web_attributes_InputType_Search$stableprop_getter() {
+    return org_jetbrains_compose_web_attributes_InputType_Search$stable;
+  }
   function ButtonType_Button_getInstance() {
     ButtonType_initEntries();
     return ButtonType_Button_instance;
@@ -2112,6 +2112,40 @@
   var org_jetbrains_compose_web_attributes_InputEventListener$stable;
   var org_jetbrains_compose_web_attributes_ChangeEventListener$stable;
   var org_jetbrains_compose_web_attributes_SelectEventListener$stable;
+  function SyntheticEventListener(event, listener) {
+    this.event_1 = event;
+    this.listener_1 = listener;
+    this.name_1 = this.event_1;
+  }
+  protoOf(SyntheticEventListener).get_event_ir25pt_k$ = function () {
+    return this.event_1;
+  };
+  protoOf(SyntheticEventListener).get_listener_9jgv43_k$ = function () {
+    return this.listener_1;
+  };
+  protoOf(SyntheticEventListener).get_name_woqyms_k$ = function () {
+    return this.name_1;
+  };
+  protoOf(SyntheticEventListener).handleEvent_zcjn50_k$ = function (event) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    var tmp$ret$1 = new SyntheticEvent(event);
+    this.listener_1(tmp$ret$1);
+  };
+  protoOf(SyntheticEventListener).handleEvent = function (event) {
+    return this.handleEvent_zcjn50_k$(event);
+  };
+  function MouseEventListener(event, listener) {
+    SyntheticEventListener.call(this, event, listener);
+  }
+  protoOf(MouseEventListener).handleEvent_zcjn50_k$ = function (event) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    this.listener_1(new SyntheticMouseEvent(event));
+  };
+  protoOf(MouseEventListener).handleEvent = function (event) {
+    return this.handleEvent_zcjn50_k$(event);
+  };
   function MouseWheelEventListener(event, listener) {
     SyntheticEventListener.call(this, event, listener);
   }
@@ -2123,19 +2157,26 @@
   protoOf(MouseWheelEventListener).handleEvent = function (event) {
     return this.handleEvent_zcjn50_k$(event);
   };
-  function InputEventListener(eventName, inputType, listener) {
-    eventName = eventName === VOID ? 'input' : eventName;
-    SyntheticEventListener.call(this, eventName, listener);
-    this.inputType_1 = inputType;
+  function DragEventListener(event, listener) {
+    SyntheticEventListener.call(this, event, listener);
   }
-  protoOf(InputEventListener).get_inputType_yaat1h_k$ = function () {
-    return this.inputType_1;
+  protoOf(DragEventListener).handleEvent_zcjn50_k$ = function (event) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    this.listener_1(new SyntheticDragEvent(event));
   };
-  protoOf(InputEventListener).handleEvent_zcjn50_k$ = function (event) {
-    var value = this.inputType_1.inputValue_qots9j_k$(event);
-    this.listener_1(new SyntheticInputEvent(value, event));
+  protoOf(DragEventListener).handleEvent = function (event) {
+    return this.handleEvent_zcjn50_k$(event);
   };
-  protoOf(InputEventListener).handleEvent = function (event) {
+  function ClipboardEventListener(event, listener) {
+    SyntheticEventListener.call(this, event, listener);
+  }
+  protoOf(ClipboardEventListener).handleEvent_zcjn50_k$ = function (event) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    this.listener_1(new SyntheticClipboardEvent(event));
+  };
+  protoOf(ClipboardEventListener).handleEvent = function (event) {
     return this.handleEvent_zcjn50_k$(event);
   };
   function KeyboardEventListener(event, listener) {
@@ -2147,6 +2188,17 @@
     this.listener_1(new SyntheticKeyboardEvent(event));
   };
   protoOf(KeyboardEventListener).handleEvent = function (event) {
+    return this.handleEvent_zcjn50_k$(event);
+  };
+  function FocusEventListener(event, listener) {
+    SyntheticEventListener.call(this, event, listener);
+  }
+  protoOf(FocusEventListener).handleEvent_zcjn50_k$ = function (event) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    this.listener_1(new SyntheticFocusEvent(event));
+  };
+  protoOf(FocusEventListener).handleEvent = function (event) {
     return this.handleEvent_zcjn50_k$(event);
   };
   function TouchEventListener(event, listener) {
@@ -2171,83 +2223,19 @@
   protoOf(AnimationEventListener).handleEvent = function (event) {
     return this.handleEvent_zcjn50_k$(event);
   };
-  function SyntheticEventListener(event, listener) {
-    this.event_1 = event;
-    this.listener_1 = listener;
-    this.name_1 = this.event_1;
+  function InputEventListener(eventName, inputType, listener) {
+    eventName = eventName === VOID ? 'input' : eventName;
+    SyntheticEventListener.call(this, eventName, listener);
+    this.inputType_1 = inputType;
   }
-  protoOf(SyntheticEventListener).get_event_ir25pt_k$ = function () {
-    return this.event_1;
+  protoOf(InputEventListener).get_inputType_yaat1h_k$ = function () {
+    return this.inputType_1;
   };
-  protoOf(SyntheticEventListener).get_listener_9jgv43_k$ = function () {
-    return this.listener_1;
+  protoOf(InputEventListener).handleEvent_zcjn50_k$ = function (event) {
+    var value = this.inputType_1.inputValue_qots9j_k$(event);
+    this.listener_1(new SyntheticInputEvent(value, event));
   };
-  protoOf(SyntheticEventListener).get_name_woqyms_k$ = function () {
-    return this.name_1;
-  };
-  protoOf(SyntheticEventListener).handleEvent_zcjn50_k$ = function (event) {
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    var tmp$ret$1 = new SyntheticEvent(event);
-    this.listener_1(tmp$ret$1);
-  };
-  protoOf(SyntheticEventListener).handleEvent = function (event) {
-    return this.handleEvent_zcjn50_k$(event);
-  };
-  function ClipboardEventListener(event, listener) {
-    SyntheticEventListener.call(this, event, listener);
-  }
-  protoOf(ClipboardEventListener).handleEvent_zcjn50_k$ = function (event) {
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    this.listener_1(new SyntheticClipboardEvent(event));
-  };
-  protoOf(ClipboardEventListener).handleEvent = function (event) {
-    return this.handleEvent_zcjn50_k$(event);
-  };
-  function SelectEventListener(listener) {
-    SyntheticEventListener.call(this, 'select', listener);
-  }
-  protoOf(SelectEventListener).handleEvent_zcjn50_k$ = function (event) {
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    var tmp$ret$1 = event.target;
-    this.listener_1(new SyntheticSelectEvent(event, tmp$ret$1));
-  };
-  protoOf(SelectEventListener).handleEvent = function (event) {
-    return this.handleEvent_zcjn50_k$(event);
-  };
-  function FocusEventListener(event, listener) {
-    SyntheticEventListener.call(this, event, listener);
-  }
-  protoOf(FocusEventListener).handleEvent_zcjn50_k$ = function (event) {
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    this.listener_1(new SyntheticFocusEvent(event));
-  };
-  protoOf(FocusEventListener).handleEvent = function (event) {
-    return this.handleEvent_zcjn50_k$(event);
-  };
-  function DragEventListener(event, listener) {
-    SyntheticEventListener.call(this, event, listener);
-  }
-  protoOf(DragEventListener).handleEvent_zcjn50_k$ = function (event) {
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    this.listener_1(new SyntheticDragEvent(event));
-  };
-  protoOf(DragEventListener).handleEvent = function (event) {
-    return this.handleEvent_zcjn50_k$(event);
-  };
-  function MouseEventListener(event, listener) {
-    SyntheticEventListener.call(this, event, listener);
-  }
-  protoOf(MouseEventListener).handleEvent_zcjn50_k$ = function (event) {
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    this.listener_1(new SyntheticMouseEvent(event));
-  };
-  protoOf(MouseEventListener).handleEvent = function (event) {
+  protoOf(InputEventListener).handleEvent = function (event) {
     return this.handleEvent_zcjn50_k$(event);
   };
   function ChangeEventListener(inputType, listener) {
@@ -2262,6 +2250,18 @@
     this.listener_1(new SyntheticChangeEvent(value, event));
   };
   protoOf(ChangeEventListener).handleEvent = function (event) {
+    return this.handleEvent_zcjn50_k$(event);
+  };
+  function SelectEventListener(listener) {
+    SyntheticEventListener.call(this, 'select', listener);
+  }
+  protoOf(SelectEventListener).handleEvent_zcjn50_k$ = function (event) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    var tmp$ret$1 = event.target;
+    this.listener_1(new SyntheticSelectEvent(event, tmp$ret$1));
+  };
+  protoOf(SelectEventListener).handleEvent = function (event) {
     return this.handleEvent_zcjn50_k$(event);
   };
   var org_jetbrains_compose_web_attributes_builders_InputAttrsScope$stable;
@@ -2494,37 +2494,33 @@
     return controlledRadioGroups;
   }
   var controlledRadioGroups;
-  function restoreControlledInputState(inputElement) {
-    _init_properties_InternalControlledInputUtils_kt__h0qaxa();
-    var type = Companion_getInstance_2().fromString_z108ba_k$(inputElement.type);
-    if (get_controlledInputsValuesWeakMap().has(inputElement)) {
-      if (equals(type, Radio_getInstance())) {
-        var tmp0_safe_receiver = get_controlledRadioGroups().get_wei43m_k$(inputElement.name);
-        if (tmp0_safe_receiver == null)
-          null;
-        else {
-          // Inline function 'kotlin.collections.forEach' call
-          var _iterator__ex2g4s = tmp0_safe_receiver.iterator_jk1svi_k$();
-          while (_iterator__ex2g4s.hasNext_bitz1p_k$()) {
-            var element = _iterator__ex2g4s.next_20eer_k$();
-            element.checked = toBoolean(toString_0(get_controlledInputsValuesWeakMap().get(element)));
-          }
-        }
-        inputElement.checked = toBoolean(toString_0(get_controlledInputsValuesWeakMap().get(inputElement)));
-        return Unit_getInstance();
-      }
-      if (equals(type, Checkbox_getInstance())) {
-        inputElement.checked = toBoolean(toString_0(get_controlledInputsValuesWeakMap().get(inputElement)));
-      } else {
-        inputElement.value = toString_0(get_controlledInputsValuesWeakMap().get(inputElement));
-      }
-    }
-  }
   function saveControlledInputState(element, value) {
     _init_properties_InternalControlledInputUtils_kt__h0qaxa();
     get_controlledInputsValuesWeakMap().set(element, value);
     if (element instanceof HTMLInputElement) {
       updateRadioGroupIfNeeded(element);
+    }
+  }
+  function updateRadioGroupIfNeeded(element) {
+    _init_properties_InternalControlledInputUtils_kt__h0qaxa();
+    var tmp;
+    if (element.type === 'radio') {
+      // Inline function 'kotlin.text.isNotEmpty' call
+      var this_0 = element.name;
+      tmp = charSequenceLength(this_0) > 0;
+    } else {
+      tmp = false;
+    }
+    if (tmp) {
+      if (!get_controlledRadioGroups().containsKey_aw81wo_k$(element.name)) {
+        var tmp0 = get_controlledRadioGroups();
+        var tmp2 = element.name;
+        // Inline function 'kotlin.collections.mutableSetOf' call
+        // Inline function 'kotlin.collections.set' call
+        var value = LinkedHashSet_init_$Create$();
+        tmp0.put_4fpzoq_k$(tmp2, value);
+      }
+      ensureNotNull(get_controlledRadioGroups().get_wei43m_k$(element.name)).add_utx5q5_k$(element);
     }
   }
   function DisposeRadioGroupEffect(_this__u8e3s4, $composer, $changed) {
@@ -2556,26 +2552,30 @@
     }
     sourceInformationMarkerEnd($composer_0);
   }
-  function updateRadioGroupIfNeeded(element) {
+  function restoreControlledInputState(inputElement) {
     _init_properties_InternalControlledInputUtils_kt__h0qaxa();
-    var tmp;
-    if (element.type === 'radio') {
-      // Inline function 'kotlin.text.isNotEmpty' call
-      var this_0 = element.name;
-      tmp = charSequenceLength(this_0) > 0;
-    } else {
-      tmp = false;
-    }
-    if (tmp) {
-      if (!get_controlledRadioGroups().containsKey_aw81wo_k$(element.name)) {
-        var tmp0 = get_controlledRadioGroups();
-        var tmp2 = element.name;
-        // Inline function 'kotlin.collections.mutableSetOf' call
-        // Inline function 'kotlin.collections.set' call
-        var value = LinkedHashSet_init_$Create$();
-        tmp0.put_4fpzoq_k$(tmp2, value);
+    var type = Companion_getInstance_2().fromString_z108ba_k$(inputElement.type);
+    if (get_controlledInputsValuesWeakMap().has(inputElement)) {
+      if (equals(type, Radio_getInstance())) {
+        var tmp0_safe_receiver = get_controlledRadioGroups().get_wei43m_k$(inputElement.name);
+        if (tmp0_safe_receiver == null)
+          null;
+        else {
+          // Inline function 'kotlin.collections.forEach' call
+          var _iterator__ex2g4s = tmp0_safe_receiver.iterator_jk1svi_k$();
+          while (_iterator__ex2g4s.hasNext_bitz1p_k$()) {
+            var element = _iterator__ex2g4s.next_20eer_k$();
+            element.checked = toBoolean(toString_0(get_controlledInputsValuesWeakMap().get(element)));
+          }
+        }
+        inputElement.checked = toBoolean(toString_0(get_controlledInputsValuesWeakMap().get(inputElement)));
+        return Unit_getInstance();
       }
-      ensureNotNull(get_controlledRadioGroups().get_wei43m_k$(element.name)).add_utx5q5_k$(element);
+      if (equals(type, Checkbox_getInstance())) {
+        inputElement.checked = toBoolean(toString_0(get_controlledInputsValuesWeakMap().get(inputElement)));
+      } else {
+        inputElement.value = toString_0(get_controlledInputsValuesWeakMap().get(inputElement));
+      }
     }
   }
   function DisposeRadioGroupEffect$$inlined$cache$2$1($ref) {
@@ -2675,35 +2675,65 @@
   function Companion_2() {
     Companion_instance_2 = this;
   }
-  protoOf(Companion_2).get_Static_4hz9g7_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.Position' call
+  protoOf(Companion_2).get_None_wo6tgh_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'static';
+    return 'none';
   };
-  protoOf(Companion_2).get_Relative_v4kdkl_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.Position' call
+  protoOf(Companion_2).get_Hidden_viqel_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'relative';
+    return 'hidden';
   };
-  protoOf(Companion_2).get_Absolute_25kja8_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.Position' call
+  protoOf(Companion_2).get_Dotted_2o3wrx_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'absolute';
+    return 'dotted';
   };
-  protoOf(Companion_2).get_Sticky_4i40sy_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.Position' call
+  protoOf(Companion_2).get_Dashed_2vtwyu_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'sticky';
+    return 'dashed';
   };
-  protoOf(Companion_2).get_Fixed_i9smcr_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.Position' call
+  protoOf(Companion_2).get_Solid_ih1j6q_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'fixed';
+    return 'solid';
+  };
+  protoOf(Companion_2).get_Double_2o3myu_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'double';
+  };
+  protoOf(Companion_2).get_Groove_17ey1p_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'groove';
+  };
+  protoOf(Companion_2).get_Ridge_igdqoy_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'ridge';
+  };
+  protoOf(Companion_2).get_Inset_ibj3dg_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'inset';
+  };
+  protoOf(Companion_2).get_Outset_2mooe5_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'outset';
   };
   var Companion_instance_2;
   function Companion_getInstance_3() {
@@ -2711,34 +2741,106 @@
       new Companion_2();
     return Companion_instance_2;
   }
-  function Position() {
+  function LineStyle() {
   }
   function Companion_3() {
     Companion_instance_3 = this;
   }
+  protoOf(Companion_3).get_Block_i7n684_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'block';
+  };
+  protoOf(Companion_3).get_Inline_bkx8e_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'inline';
+  };
+  protoOf(Companion_3).get_InlineBlock_dx9ywb_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'inline-block';
+  };
+  protoOf(Companion_3).get_Flex_wo1n4y_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'flex';
+  };
+  protoOf(Companion_3).get_LegacyInlineFlex_bx32c_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'inline-flex';
+  };
+  protoOf(Companion_3).get_Grid_wo2enj_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'grid';
+  };
+  protoOf(Companion_3).get_LegacyInlineGrid_bxukx_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'inline-grid';
+  };
+  protoOf(Companion_3).get_FlowRoot_2ttlax_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'flow-root';
+  };
   protoOf(Companion_3).get_None_wo6tgh_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationFillMode' call
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return 'none';
   };
-  protoOf(Companion_3).get_Forwards_mqp421_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationFillMode' call
+  protoOf(Companion_3).get_Contents_uww6pv_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'forwards';
+    return 'contents';
   };
-  protoOf(Companion_3).get_Backwards_6xoxjt_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationFillMode' call
+  protoOf(Companion_3).get_Table_ihc6md_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'backwards';
+    return 'table';
   };
-  protoOf(Companion_3).get_Both_wnz5re_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationFillMode' call
+  protoOf(Companion_3).get_TableRow_phjndh_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'both';
+    return 'table-row';
+  };
+  protoOf(Companion_3).get_ListItem_8hh2km_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'list-item';
+  };
+  protoOf(Companion_3).get_Inherit_a1a9e6_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'inherit';
+  };
+  protoOf(Companion_3).get_Initial_a0h2v9_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'initial';
+  };
+  protoOf(Companion_3).get_Unset_ii4mhs_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'unset';
   };
   var Companion_instance_3;
   function Companion_getInstance_4() {
@@ -2746,93 +2848,40 @@
       new Companion_3();
     return Companion_instance_3;
   }
-  function AnimationFillMode() {
-  }
-  function get_value(_this__u8e3s4) {
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return _this__u8e3s4;
+  function DisplayStyle() {
   }
   function Companion_4() {
     Companion_instance_4 = this;
   }
-  protoOf(Companion_4).get_Normal_22avww_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+  protoOf(Companion_4).get_Static_4hz9g7_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.Position' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'normal';
+    return 'static';
   };
-  protoOf(Companion_4).get_Stretch_2brthg_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+  protoOf(Companion_4).get_Relative_v4kdkl_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.Position' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'stretch';
+    return 'relative';
   };
-  protoOf(Companion_4).get_Center_3arb0i_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+  protoOf(Companion_4).get_Absolute_25kja8_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.Position' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'center';
+    return 'absolute';
   };
-  protoOf(Companion_4).get_Start_ih4i6x_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+  protoOf(Companion_4).get_Sticky_4i40sy_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.Position' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'start';
+    return 'sticky';
   };
-  protoOf(Companion_4).get_End_18ju7i_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+  protoOf(Companion_4).get_Fixed_i9smcr_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.Position' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'end';
-  };
-  protoOf(Companion_4).get_FlexStart_cfavq8_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'flex-start';
-  };
-  protoOf(Companion_4).get_FlexEnd_fz7iu1_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'flex-end';
-  };
-  protoOf(Companion_4).get_Baseline_bu5gku_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'baseline';
-  };
-  protoOf(Companion_4).get_SafeCenter_caps7p_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'safe center';
-  };
-  protoOf(Companion_4).get_UnsafeCenter_h98ef8_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'unsafe center';
-  };
-  protoOf(Companion_4).get_Inherit_a1a9e6_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'inherit';
-  };
-  protoOf(Companion_4).get_Initial_a0h2v9_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'initial';
-  };
-  protoOf(Companion_4).get_Unset_ii4mhs_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'unset';
+    return 'fixed';
   };
   var Companion_instance_4;
   function Companion_getInstance_5() {
@@ -2840,112 +2889,88 @@
       new Companion_4();
     return Companion_instance_4;
   }
-  function AlignItems() {
+  function Position() {
   }
   function Companion_5() {
     Companion_instance_5 = this;
   }
-  protoOf(Companion_5).get_Center_3arb0i_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+  protoOf(Companion_5).get_Ease_wo0sbb_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'center';
+    return 'ease';
   };
-  protoOf(Companion_5).get_Start_ih4i6x_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+  protoOf(Companion_5).get_EaseIn_2esdgk_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'start';
+    return 'ease-in';
   };
-  protoOf(Companion_5).get_End_18ju7i_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+  protoOf(Companion_5).get_EaseOut_3pbekp_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'end';
+    return 'ease-out';
   };
-  protoOf(Companion_5).get_FlexStart_cfavq8_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+  protoOf(Companion_5).get_EaseInOut_7d98oe_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'flex-start';
+    return 'ease-in-out';
   };
-  protoOf(Companion_5).get_FlexEnd_fz7iu1_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+  protoOf(Companion_5).get_Linear_10u5ou_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'flex-end';
+    return 'linear';
   };
-  protoOf(Companion_5).get_Left_wo5bw0_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+  protoOf(Companion_5).get_StepStart_7bah8z_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'left';
+    return 'step-start';
   };
-  protoOf(Companion_5).get_Right_igdsyb_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+  protoOf(Companion_5).get_StepEnd_2ir2xm_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'right';
+    return 'step-end';
   };
-  protoOf(Companion_5).get_Normal_22avww_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+  protoOf(Companion_5).cubicBezier_lhi215_k$ = function (x1, y1, x2, y2) {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'normal';
+    return 'cubic-bezier(' + x1 + ', ' + y1 + ', ' + x2 + ', ' + y2 + ')';
   };
-  protoOf(Companion_5).get_SpaceBetween_5p3wqd_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+  protoOf(Companion_5).steps_fj33mi_k$ = function (count, stepPosition) {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'space-between';
+    return 'steps(' + count + ', ' + toString(stepPosition) + ')';
   };
-  protoOf(Companion_5).get_SpaceAround_1tvu22_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+  protoOf(Companion_5).steps_rhawfj_k$ = function (count) {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'space-around';
-  };
-  protoOf(Companion_5).get_SpaceEvenly_3s2yx0_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'space-evenly';
-  };
-  protoOf(Companion_5).get_Stretch_2brthg_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'stretch';
+    return 'steps(' + count + ')';
   };
   protoOf(Companion_5).get_Inherit_a1a9e6_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return 'inherit';
   };
   protoOf(Companion_5).get_Initial_a0h2v9_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return 'initial';
   };
   protoOf(Companion_5).get_Unset_ii4mhs_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return 'unset';
-  };
-  protoOf(Companion_5).get_SafeCenter_caps7p_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'safe center';
-  };
-  protoOf(Companion_5).get_UnsafeCenter_h98ef8_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'unsafe center';
   };
   var Companion_instance_5;
   function Companion_getInstance_6() {
@@ -2953,70 +2978,52 @@
       new Companion_5();
     return Companion_instance_5;
   }
-  function JustifyContent() {
+  function AnimationTimingFunction() {
   }
   function Companion_6() {
     Companion_instance_6 = this;
   }
-  protoOf(Companion_6).get_None_wo6tgh_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
+  protoOf(Companion_6).get_Normal_22avww_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationDirection' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'none';
+    return 'normal';
   };
-  protoOf(Companion_6).get_Hidden_viqel_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
+  protoOf(Companion_6).get_Reverse_o1nacn_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationDirection' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'hidden';
+    return 'reverse';
   };
-  protoOf(Companion_6).get_Dotted_2o3wrx_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
+  protoOf(Companion_6).get_Alternate_idby5t_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationDirection' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'dotted';
+    return 'alternate';
   };
-  protoOf(Companion_6).get_Dashed_2vtwyu_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
+  protoOf(Companion_6).get_AlternateReverse_i0aiof_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationDirection' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'dashed';
+    return 'alternate-reverse';
   };
-  protoOf(Companion_6).get_Solid_ih1j6q_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
+  protoOf(Companion_6).get_Inherit_a1a9e6_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationDirection' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'solid';
+    return 'inherit';
   };
-  protoOf(Companion_6).get_Double_2o3myu_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
+  protoOf(Companion_6).get_Initial_a0h2v9_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationDirection' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'double';
+    return 'initial';
   };
-  protoOf(Companion_6).get_Groove_17ey1p_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
+  protoOf(Companion_6).get_Unset_ii4mhs_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationDirection' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'groove';
-  };
-  protoOf(Companion_6).get_Ridge_igdqoy_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'ridge';
-  };
-  protoOf(Companion_6).get_Inset_ibj3dg_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'inset';
-  };
-  protoOf(Companion_6).get_Outset_2mooe5_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'outset';
+    return 'unset';
   };
   var Companion_instance_6;
   function Companion_getInstance_7() {
@@ -3024,106 +3031,34 @@
       new Companion_6();
     return Companion_instance_6;
   }
-  function LineStyle() {
+  function AnimationDirection() {
   }
   function Companion_7() {
     Companion_instance_7 = this;
   }
-  protoOf(Companion_7).get_Block_i7n684_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'block';
-  };
-  protoOf(Companion_7).get_Inline_bkx8e_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'inline';
-  };
-  protoOf(Companion_7).get_InlineBlock_dx9ywb_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'inline-block';
-  };
-  protoOf(Companion_7).get_Flex_wo1n4y_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'flex';
-  };
-  protoOf(Companion_7).get_LegacyInlineFlex_bx32c_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'inline-flex';
-  };
-  protoOf(Companion_7).get_Grid_wo2enj_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'grid';
-  };
-  protoOf(Companion_7).get_LegacyInlineGrid_bxukx_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'inline-grid';
-  };
-  protoOf(Companion_7).get_FlowRoot_2ttlax_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'flow-root';
-  };
   protoOf(Companion_7).get_None_wo6tgh_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+    // Inline function 'org.jetbrains.compose.web.css.AnimationFillMode' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return 'none';
   };
-  protoOf(Companion_7).get_Contents_uww6pv_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+  protoOf(Companion_7).get_Forwards_mqp421_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationFillMode' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'contents';
+    return 'forwards';
   };
-  protoOf(Companion_7).get_Table_ihc6md_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+  protoOf(Companion_7).get_Backwards_6xoxjt_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationFillMode' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'table';
+    return 'backwards';
   };
-  protoOf(Companion_7).get_TableRow_phjndh_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
+  protoOf(Companion_7).get_Both_wnz5re_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationFillMode' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'table-row';
-  };
-  protoOf(Companion_7).get_ListItem_8hh2km_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'list-item';
-  };
-  protoOf(Companion_7).get_Inherit_a1a9e6_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'inherit';
-  };
-  protoOf(Companion_7).get_Initial_a0h2v9_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'initial';
-  };
-  protoOf(Companion_7).get_Unset_ii4mhs_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'unset';
+    return 'both';
   };
   var Companion_instance_7;
   function Companion_getInstance_8() {
@@ -3131,85 +3066,49 @@
       new Companion_7();
     return Companion_instance_7;
   }
-  function DisplayStyle() {
+  function AnimationFillMode() {
   }
   function Companion_8() {
     Companion_instance_8 = this;
   }
-  protoOf(Companion_8).get_Ease_wo0sbb_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
+  protoOf(Companion_8).get_Running_gl64p6_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationPlayState' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'ease';
+    return 'running';
   };
-  protoOf(Companion_8).get_EaseIn_2esdgk_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
+  protoOf(Companion_8).get_Paused_2sr1w7_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationPlayState' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'ease-in';
+    return 'Paused';
   };
-  protoOf(Companion_8).get_EaseOut_3pbekp_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
+  protoOf(Companion_8).get_Backwards_6xoxjt_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationPlayState' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'ease-out';
+    return 'backwards';
   };
-  protoOf(Companion_8).get_EaseInOut_7d98oe_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
+  protoOf(Companion_8).get_Both_wnz5re_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AnimationPlayState' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'ease-in-out';
-  };
-  protoOf(Companion_8).get_Linear_10u5ou_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'linear';
-  };
-  protoOf(Companion_8).get_StepStart_7bah8z_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'step-start';
-  };
-  protoOf(Companion_8).get_StepEnd_2ir2xm_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'step-end';
-  };
-  protoOf(Companion_8).cubicBezier_lhi215_k$ = function (x1, y1, x2, y2) {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'cubic-bezier(' + x1 + ', ' + y1 + ', ' + x2 + ', ' + y2 + ')';
-  };
-  protoOf(Companion_8).steps_fj33mi_k$ = function (count, stepPosition) {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'steps(' + count + ', ' + toString(stepPosition) + ')';
-  };
-  protoOf(Companion_8).steps_rhawfj_k$ = function (count) {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'steps(' + count + ')';
+    return 'both';
   };
   protoOf(Companion_8).get_Inherit_a1a9e6_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
+    // Inline function 'org.jetbrains.compose.web.css.AnimationPlayState' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return 'inherit';
   };
   protoOf(Companion_8).get_Initial_a0h2v9_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
+    // Inline function 'org.jetbrains.compose.web.css.AnimationPlayState' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return 'initial';
   };
   protoOf(Companion_8).get_Unset_ii4mhs_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationTimingFunction' call
+    // Inline function 'org.jetbrains.compose.web.css.AnimationPlayState' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return 'unset';
@@ -3220,277 +3119,14 @@
       new Companion_8();
     return Companion_instance_8;
   }
-  function AnimationTimingFunction() {
-  }
-  function Companion_9() {
-    Companion_instance_9 = this;
-  }
-  protoOf(Companion_9).get_Row_18jkj3_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.FlexDirection' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'row';
-  };
-  protoOf(Companion_9).get_RowReverse_d0ukpd_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.FlexDirection' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'row-reverse';
-  };
-  protoOf(Companion_9).get_Column_35am4h_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.FlexDirection' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'column';
-  };
-  protoOf(Companion_9).get_ColumnReverse_rkbov1_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.FlexDirection' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'column-reverse';
-  };
-  var Companion_instance_9;
-  function Companion_getInstance_10() {
-    if (Companion_instance_9 == null)
-      new Companion_9();
-    return Companion_instance_9;
-  }
-  function FlexDirection() {
-  }
-  function Companion_10() {
-    Companion_instance_10 = this;
-  }
-  protoOf(Companion_10).get_Auto_wnyn88_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'auto';
-  };
-  protoOf(Companion_10).get_Normal_22avww_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'normal';
-  };
-  protoOf(Companion_10).get_Center_3arb0i_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'center';
-  };
-  protoOf(Companion_10).get_Start_ih4i6x_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'start';
-  };
-  protoOf(Companion_10).get_End_18ju7i_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'end';
-  };
-  protoOf(Companion_10).get_SelfStart_di8gbx_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'self-start';
-  };
-  protoOf(Companion_10).get_SelfEnd_9ir8ka_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'self-end';
-  };
-  protoOf(Companion_10).get_FlexStart_cfavq8_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'flex-start';
-  };
-  protoOf(Companion_10).get_FlexEnd_fz7iu1_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'flex-end';
-  };
-  protoOf(Companion_10).get_Baseline_bu5gku_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'baseline';
-  };
-  protoOf(Companion_10).get_Stretch_2brthg_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'stretch';
-  };
-  protoOf(Companion_10).get_SafeCenter_caps7p_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'safe center';
-  };
-  protoOf(Companion_10).get_UnsafeCenter_h98ef8_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'unsafe center';
-  };
-  protoOf(Companion_10).get_Inherit_a1a9e6_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'inherit';
-  };
-  protoOf(Companion_10).get_Initial_a0h2v9_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'initial';
-  };
-  protoOf(Companion_10).get_Unset_ii4mhs_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'unset';
-  };
-  var Companion_instance_10;
-  function Companion_getInstance_11() {
-    if (Companion_instance_10 == null)
-      new Companion_10();
-    return Companion_instance_10;
-  }
-  function AlignSelf() {
-  }
-  function Companion_11() {
-    Companion_instance_11 = this;
-  }
-  protoOf(Companion_11).get_Normal_22avww_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationDirection' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'normal';
-  };
-  protoOf(Companion_11).get_Reverse_o1nacn_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationDirection' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'reverse';
-  };
-  protoOf(Companion_11).get_Alternate_idby5t_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationDirection' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'alternate';
-  };
-  protoOf(Companion_11).get_AlternateReverse_i0aiof_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationDirection' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'alternate-reverse';
-  };
-  protoOf(Companion_11).get_Inherit_a1a9e6_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationDirection' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'inherit';
-  };
-  protoOf(Companion_11).get_Initial_a0h2v9_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationDirection' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'initial';
-  };
-  protoOf(Companion_11).get_Unset_ii4mhs_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationDirection' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'unset';
-  };
-  var Companion_instance_11;
-  function Companion_getInstance_12() {
-    if (Companion_instance_11 == null)
-      new Companion_11();
-    return Companion_instance_11;
-  }
-  function AnimationDirection() {
-  }
-  function Companion_12() {
-    Companion_instance_12 = this;
-  }
-  protoOf(Companion_12).get_Running_gl64p6_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationPlayState' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'running';
-  };
-  protoOf(Companion_12).get_Paused_2sr1w7_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationPlayState' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'Paused';
-  };
-  protoOf(Companion_12).get_Backwards_6xoxjt_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationPlayState' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'backwards';
-  };
-  protoOf(Companion_12).get_Both_wnz5re_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationPlayState' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'both';
-  };
-  protoOf(Companion_12).get_Inherit_a1a9e6_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationPlayState' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'inherit';
-  };
-  protoOf(Companion_12).get_Initial_a0h2v9_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationPlayState' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'initial';
-  };
-  protoOf(Companion_12).get_Unset_ii4mhs_k$ = function () {
-    // Inline function 'org.jetbrains.compose.web.css.AnimationPlayState' call
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return 'unset';
-  };
-  var Companion_instance_12;
-  function Companion_getInstance_13() {
-    if (Companion_instance_12 == null)
-      new Companion_12();
-    return Companion_instance_12;
-  }
   function AnimationPlayState() {
   }
+  function get_value(_this__u8e3s4) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return _this__u8e3s4;
+  }
   function StylePropertyEnum() {
-  }
-  function Position_0(value) {
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return value;
-  }
-  function AnimationFillMode_0(value) {
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return value;
-  }
-  function AlignItems_0(value) {
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return value;
-  }
-  function JustifyContent_0(value) {
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return value;
   }
   function LineStyle_0(value) {
     // Inline function 'kotlin.js.unsafeCast' call
@@ -3502,69 +3138,69 @@
     // Inline function 'kotlin.js.asDynamic' call
     return value;
   }
+  function Position_0(value) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return value;
+  }
   function AnimationTimingFunction_0(value) {
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return value;
   }
-  function Companion_13() {
-    Companion_instance_13 = this;
+  function Companion_9() {
+    Companion_instance_9 = this;
   }
-  protoOf(Companion_13).get_JumpStart_i85v5h_k$ = function () {
+  protoOf(Companion_9).get_JumpStart_i85v5h_k$ = function () {
     // Inline function 'org.jetbrains.compose.web.css.StepPosition' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return 'jump-start';
   };
-  protoOf(Companion_13).get_JumpEnd_81cg5g_k$ = function () {
+  protoOf(Companion_9).get_JumpEnd_81cg5g_k$ = function () {
     // Inline function 'org.jetbrains.compose.web.css.StepPosition' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return 'jump-end';
   };
-  protoOf(Companion_13).get_JumpNone_yykj9t_k$ = function () {
+  protoOf(Companion_9).get_JumpNone_yykj9t_k$ = function () {
     // Inline function 'org.jetbrains.compose.web.css.StepPosition' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return 'jump-none';
   };
-  protoOf(Companion_13).get_JumpBoth_yys6yw_k$ = function () {
+  protoOf(Companion_9).get_JumpBoth_yys6yw_k$ = function () {
     // Inline function 'org.jetbrains.compose.web.css.StepPosition' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return 'jump-both';
   };
-  protoOf(Companion_13).get_Start_ih4i6x_k$ = function () {
+  protoOf(Companion_9).get_Start_ih4i6x_k$ = function () {
     // Inline function 'org.jetbrains.compose.web.css.StepPosition' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return 'start';
   };
-  protoOf(Companion_13).get_End_18ju7i_k$ = function () {
+  protoOf(Companion_9).get_End_18ju7i_k$ = function () {
     // Inline function 'org.jetbrains.compose.web.css.StepPosition' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return 'end';
   };
-  var Companion_instance_13;
-  function Companion_getInstance_14() {
-    if (Companion_instance_13 == null)
-      new Companion_13();
-    return Companion_instance_13;
+  var Companion_instance_9;
+  function Companion_getInstance_10() {
+    if (Companion_instance_9 == null)
+      new Companion_9();
+    return Companion_instance_9;
   }
   function StepPosition() {
   }
-  function FlexDirection_0(value) {
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return value;
-  }
-  function AlignSelf_0(value) {
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return value;
-  }
   function AnimationDirection_0(value) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return value;
+  }
+  function AnimationFillMode_0(value) {
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return value;
@@ -3575,6 +3211,370 @@
     return value;
   }
   function StepPosition_0(value) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return value;
+  }
+  function Companion_10() {
+    Companion_instance_10 = this;
+  }
+  protoOf(Companion_10).get_Normal_22avww_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'normal';
+  };
+  protoOf(Companion_10).get_Stretch_2brthg_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'stretch';
+  };
+  protoOf(Companion_10).get_Center_3arb0i_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'center';
+  };
+  protoOf(Companion_10).get_Start_ih4i6x_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'start';
+  };
+  protoOf(Companion_10).get_End_18ju7i_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'end';
+  };
+  protoOf(Companion_10).get_FlexStart_cfavq8_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'flex-start';
+  };
+  protoOf(Companion_10).get_FlexEnd_fz7iu1_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'flex-end';
+  };
+  protoOf(Companion_10).get_Baseline_bu5gku_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'baseline';
+  };
+  protoOf(Companion_10).get_SafeCenter_caps7p_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'safe center';
+  };
+  protoOf(Companion_10).get_UnsafeCenter_h98ef8_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'unsafe center';
+  };
+  protoOf(Companion_10).get_Inherit_a1a9e6_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'inherit';
+  };
+  protoOf(Companion_10).get_Initial_a0h2v9_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'initial';
+  };
+  protoOf(Companion_10).get_Unset_ii4mhs_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignItems' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'unset';
+  };
+  var Companion_instance_10;
+  function Companion_getInstance_11() {
+    if (Companion_instance_10 == null)
+      new Companion_10();
+    return Companion_instance_10;
+  }
+  function AlignItems() {
+  }
+  function Companion_11() {
+    Companion_instance_11 = this;
+  }
+  protoOf(Companion_11).get_Auto_wnyn88_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'auto';
+  };
+  protoOf(Companion_11).get_Normal_22avww_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'normal';
+  };
+  protoOf(Companion_11).get_Center_3arb0i_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'center';
+  };
+  protoOf(Companion_11).get_Start_ih4i6x_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'start';
+  };
+  protoOf(Companion_11).get_End_18ju7i_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'end';
+  };
+  protoOf(Companion_11).get_SelfStart_di8gbx_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'self-start';
+  };
+  protoOf(Companion_11).get_SelfEnd_9ir8ka_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'self-end';
+  };
+  protoOf(Companion_11).get_FlexStart_cfavq8_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'flex-start';
+  };
+  protoOf(Companion_11).get_FlexEnd_fz7iu1_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'flex-end';
+  };
+  protoOf(Companion_11).get_Baseline_bu5gku_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'baseline';
+  };
+  protoOf(Companion_11).get_Stretch_2brthg_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'stretch';
+  };
+  protoOf(Companion_11).get_SafeCenter_caps7p_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'safe center';
+  };
+  protoOf(Companion_11).get_UnsafeCenter_h98ef8_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'unsafe center';
+  };
+  protoOf(Companion_11).get_Inherit_a1a9e6_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'inherit';
+  };
+  protoOf(Companion_11).get_Initial_a0h2v9_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'initial';
+  };
+  protoOf(Companion_11).get_Unset_ii4mhs_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.AlignSelf' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'unset';
+  };
+  var Companion_instance_11;
+  function Companion_getInstance_12() {
+    if (Companion_instance_11 == null)
+      new Companion_11();
+    return Companion_instance_11;
+  }
+  function AlignSelf() {
+  }
+  function Companion_12() {
+    Companion_instance_12 = this;
+  }
+  protoOf(Companion_12).get_Row_18jkj3_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.FlexDirection' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'row';
+  };
+  protoOf(Companion_12).get_RowReverse_d0ukpd_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.FlexDirection' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'row-reverse';
+  };
+  protoOf(Companion_12).get_Column_35am4h_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.FlexDirection' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'column';
+  };
+  protoOf(Companion_12).get_ColumnReverse_rkbov1_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.FlexDirection' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'column-reverse';
+  };
+  var Companion_instance_12;
+  function Companion_getInstance_13() {
+    if (Companion_instance_12 == null)
+      new Companion_12();
+    return Companion_instance_12;
+  }
+  function FlexDirection() {
+  }
+  function Companion_13() {
+    Companion_instance_13 = this;
+  }
+  protoOf(Companion_13).get_Center_3arb0i_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'center';
+  };
+  protoOf(Companion_13).get_Start_ih4i6x_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'start';
+  };
+  protoOf(Companion_13).get_End_18ju7i_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'end';
+  };
+  protoOf(Companion_13).get_FlexStart_cfavq8_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'flex-start';
+  };
+  protoOf(Companion_13).get_FlexEnd_fz7iu1_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'flex-end';
+  };
+  protoOf(Companion_13).get_Left_wo5bw0_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'left';
+  };
+  protoOf(Companion_13).get_Right_igdsyb_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'right';
+  };
+  protoOf(Companion_13).get_Normal_22avww_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'normal';
+  };
+  protoOf(Companion_13).get_SpaceBetween_5p3wqd_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'space-between';
+  };
+  protoOf(Companion_13).get_SpaceAround_1tvu22_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'space-around';
+  };
+  protoOf(Companion_13).get_SpaceEvenly_3s2yx0_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'space-evenly';
+  };
+  protoOf(Companion_13).get_Stretch_2brthg_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'stretch';
+  };
+  protoOf(Companion_13).get_Inherit_a1a9e6_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'inherit';
+  };
+  protoOf(Companion_13).get_Initial_a0h2v9_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'initial';
+  };
+  protoOf(Companion_13).get_Unset_ii4mhs_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'unset';
+  };
+  protoOf(Companion_13).get_SafeCenter_caps7p_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'safe center';
+  };
+  protoOf(Companion_13).get_UnsafeCenter_h98ef8_k$ = function () {
+    // Inline function 'org.jetbrains.compose.web.css.JustifyContent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return 'unsafe center';
+  };
+  var Companion_instance_13;
+  function Companion_getInstance_14() {
+    if (Companion_instance_13 == null)
+      new Companion_13();
+    return Companion_instance_13;
+  }
+  function JustifyContent() {
+  }
+  function AlignItems_0(value) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return value;
+  }
+  function AlignSelf_0(value) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return value;
+  }
+  function FlexDirection_0(value) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return value;
+  }
+  function JustifyContent_0(value) {
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return value;
@@ -4184,6 +4184,13 @@
   };
   function CSSMediaQuery() {
   }
+  function media(_this__u8e3s4, query, rulesBuild) {
+    media_0(_this__u8e3s4, new Raw(query), rulesBuild);
+  }
+  function media_0(_this__u8e3s4, query, rulesBuild) {
+    var rules = _this__u8e3s4.buildRules_xiubel_k$(rulesBuild);
+    _this__u8e3s4.add_19esmm_k$(new CSSMediaRuleDeclaration(query, rules));
+  }
   function CSSMediaRuleDeclaration(query, rules) {
     this.query_1 = query;
     this.rules_1 = rules;
@@ -4206,13 +4213,6 @@
     }
     return tmp;
   };
-  function media(_this__u8e3s4, query, rulesBuild) {
-    media_0(_this__u8e3s4, new Raw(query), rulesBuild);
-  }
-  function media_0(_this__u8e3s4, query, rulesBuild) {
-    var rules = _this__u8e3s4.buildRules_xiubel_k$(rulesBuild);
-    _this__u8e3s4.add_19esmm_k$(new CSSMediaRuleDeclaration(query, rules));
-  }
   var org_jetbrains_compose_web_css_CSSCalcValue$stable;
   function unaryMinus(_this__u8e3s4) {
     return new CSSUnitValueTyped(-_this__u8e3s4.value, _this__u8e3s4.unit);
@@ -4548,6 +4548,14 @@
   }
   function CSSUnitLengthOrPercentage() {
   }
+  function get_deg(_this__u8e3s4) {
+    var tmp = numberToDouble(_this__u8e3s4);
+    // Inline function 'org.jetbrains.compose.web.css.Companion.deg' call
+    Companion_getInstance_15();
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return new CSSUnitValueTyped(tmp, 'deg');
+  }
   function get_cssRem(_this__u8e3s4) {
     var tmp = numberToDouble(_this__u8e3s4);
     // Inline function 'org.jetbrains.compose.web.css.Companion.rem' call
@@ -4579,6 +4587,18 @@
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return new CSSUnitValueTyped(tmp, 'fr');
+  }
+  function CSSUnitPercentage() {
+  }
+  function get_vh(_this__u8e3s4) {
+    var tmp = numberToDouble(_this__u8e3s4);
+    // Inline function 'org.jetbrains.compose.web.css.Companion.vh' call
+    Companion_getInstance_15();
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return new CSSUnitValueTyped(tmp, 'vh');
+  }
+  function CSSUnitFlex() {
   }
   function CSSUnitValueTyped(value, unit) {
     this.value_1 = value;
@@ -4625,18 +4645,6 @@
       return false;
     return true;
   };
-  function get_vh(_this__u8e3s4) {
-    var tmp = numberToDouble(_this__u8e3s4);
-    // Inline function 'org.jetbrains.compose.web.css.Companion.vh' call
-    Companion_getInstance_15();
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return new CSSUnitValueTyped(tmp, 'vh');
-  }
-  function CSSUnitPercentage() {
-  }
-  function CSSUnitFlex() {
-  }
   function CSSUnitRel() {
   }
   function CSSUnitAbs() {
@@ -4644,14 +4652,6 @@
   function CSSUnitFrequency() {
   }
   function CSSUnitResolution() {
-  }
-  function get_deg(_this__u8e3s4) {
-    var tmp = numberToDouble(_this__u8e3s4);
-    // Inline function 'org.jetbrains.compose.web.css.Companion.deg' call
-    Companion_getInstance_15();
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return new CSSUnitValueTyped(tmp, 'deg');
   }
   var org_jetbrains_compose_web_css_Color_RGB$stable;
   var org_jetbrains_compose_web_css_Color_RGBA$stable;
@@ -6592,23 +6592,26 @@
   function listStyle(_this__u8e3s4, value) {
     _this__u8e3s4.property_wcrait_k$('list-style', value);
   }
+  function marginTop(_this__u8e3s4, value) {
+    _this__u8e3s4.property_npxg1h_k$('margin-top', value);
+  }
+  function marginRight(_this__u8e3s4, value) {
+    _this__u8e3s4.property_npxg1h_k$('margin-right', value);
+  }
+  function marginBottom(_this__u8e3s4, value) {
+    _this__u8e3s4.property_npxg1h_k$('margin-bottom', value);
+  }
   function margin(_this__u8e3s4, value) {
     _this__u8e3s4.property_wcrait_k$('margin', joinToString_0(value, ' '));
   }
   function marginLeft(_this__u8e3s4, value) {
     _this__u8e3s4.property_npxg1h_k$('margin-left', value);
   }
-  function marginRight(_this__u8e3s4, value) {
-    _this__u8e3s4.property_npxg1h_k$('margin-right', value);
-  }
-  function marginTop(_this__u8e3s4, value) {
-    _this__u8e3s4.property_npxg1h_k$('margin-top', value);
-  }
-  function marginBottom(_this__u8e3s4, value) {
-    _this__u8e3s4.property_npxg1h_k$('margin-bottom', value);
-  }
   function padding(_this__u8e3s4, value) {
     _this__u8e3s4.property_wcrait_k$('padding', joinToString_0(value, ' '));
+  }
+  function paddingLeft(_this__u8e3s4, value) {
+    _this__u8e3s4.property_npxg1h_k$('padding-left', value);
   }
   function position(_this__u8e3s4, position) {
     // Inline function 'org.jetbrains.compose.web.css.value' call
@@ -6654,6 +6657,9 @@
   }
   function fontWeight(_this__u8e3s4, value) {
     _this__u8e3s4.property_jk9dw6_k$('font-weight', value);
+  }
+  function fontWeight_0(_this__u8e3s4, value) {
+    _this__u8e3s4.property_wcrait_k$('font-weight', value);
   }
   function fontFamily$lambda(it) {
     return contains(it, ' ') ? '"' + it + '"' : it;
@@ -8464,86 +8470,6 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(H4$lambda(attrs_0, content_0, $changed, $default));
     }
   }
-  function Footer_0(attrs, content, $composer, $changed, $default) {
-    _init_properties_Elements_kt__eyv5nt();
-    var attrs_0 = {_v: attrs};
-    var content_0 = {_v: content};
-    var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(1264215569);
-    sourceInformation($composer_0, 'C(Footer)835@26195L104:Elements.kt#97hrze');
-    var $dirty = $changed;
-    if (!(($default & 1) === 0))
-      $dirty = $dirty | 6;
-    else if (($changed & 6) === 0)
-      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(attrs_0._v) ? 4 : 2);
-    if (!(($default & 2) === 0))
-      $dirty = $dirty | 48;
-    else if (($changed & 48) === 0)
-      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(content_0._v) ? 32 : 16);
-    if ($composer_0.shouldExecute_4fplh_k$(!(($dirty & 19) === 18), $dirty & 1)) {
-      if (!(($default & 1) === 0)) {
-        attrs_0._v = null;
-      }
-      if (!(($default & 2) === 0)) {
-        content_0._v = null;
-      }
-      if (isTraceInProgress()) {
-        traceEventStart(1264215569, $dirty, -1, 'org.jetbrains.compose.web.dom.Footer (Elements.kt:834)');
-      }
-      TagElement(get_Footer(), attrs_0._v, content_0._v, $composer_0, 112 & $dirty << 3 | 896 & $dirty << 3);
-      if (isTraceInProgress()) {
-        traceEventEnd();
-      }
-    } else {
-      $composer_0.skipToGroupEnd_lh3zi2_k$();
-    }
-    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
-    if (tmp0_safe_receiver == null)
-      null;
-    else {
-      tmp0_safe_receiver.updateScope_t8jcf_k$(Footer$lambda(attrs_0, content_0, $changed, $default));
-    }
-  }
-  function Nav_0(attrs, content, $composer, $changed, $default) {
-    _init_properties_Elements_kt__eyv5nt();
-    var attrs_0 = {_v: attrs};
-    var content_0 = {_v: content};
-    var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1921726723);
-    sourceInformation($composer_0, 'C(Nav)788@25260L85:Elements.kt#97hrze');
-    var $dirty = $changed;
-    if (!(($default & 1) === 0))
-      $dirty = $dirty | 6;
-    else if (($changed & 6) === 0)
-      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(attrs_0._v) ? 4 : 2);
-    if (!(($default & 2) === 0))
-      $dirty = $dirty | 48;
-    else if (($changed & 48) === 0)
-      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(content_0._v) ? 32 : 16);
-    if ($composer_0.shouldExecute_4fplh_k$(!(($dirty & 19) === 18), $dirty & 1)) {
-      if (!(($default & 1) === 0)) {
-        attrs_0._v = null;
-      }
-      if (!(($default & 2) === 0)) {
-        content_0._v = null;
-      }
-      if (isTraceInProgress()) {
-        traceEventStart(-1921726723, $dirty, -1, 'org.jetbrains.compose.web.dom.Nav (Elements.kt:788)');
-      }
-      TagElement(get_Nav(), attrs_0._v, content_0._v, $composer_0, 112 & $dirty << 3 | 896 & $dirty << 3);
-      if (isTraceInProgress()) {
-        traceEventEnd();
-      }
-    } else {
-      $composer_0.skipToGroupEnd_lh3zi2_k$();
-    }
-    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
-    if (tmp0_safe_receiver == null)
-      null;
-    else {
-      tmp0_safe_receiver.updateScope_t8jcf_k$(Nav$lambda(attrs_0, content_0, $changed, $default));
-    }
-  }
   function Input_0(type, attrs, $composer, $changed) {
     _init_properties_Elements_kt__eyv5nt();
     var $composer_0 = $composer;
@@ -8627,13 +8553,13 @@
       tmp2_safe_receiver.updateScope_t8jcf_k$(Input$lambda_1(type, attrs, $changed));
     }
   }
-  function Article_0(attrs, content, $composer, $changed, $default) {
+  function Nav_0(attrs, content, $composer, $changed, $default) {
     _init_properties_Elements_kt__eyv5nt();
     var attrs_0 = {_v: attrs};
     var content_0 = {_v: content};
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1853093488);
-    sourceInformation($composer_0, 'C(Article)197@10487L105:Elements.kt#97hrze');
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1921726723);
+    sourceInformation($composer_0, 'C(Nav)788@25260L85:Elements.kt#97hrze');
     var $dirty = $changed;
     if (!(($default & 1) === 0))
       $dirty = $dirty | 6;
@@ -8651,9 +8577,9 @@
         content_0._v = null;
       }
       if (isTraceInProgress()) {
-        traceEventStart(-1853093488, $dirty, -1, 'org.jetbrains.compose.web.dom.Article (Elements.kt:196)');
+        traceEventStart(-1921726723, $dirty, -1, 'org.jetbrains.compose.web.dom.Nav (Elements.kt:788)');
       }
-      TagElement(get_Article(), attrs_0._v, content_0._v, $composer_0, 112 & $dirty << 3 | 896 & $dirty << 3);
+      TagElement(get_Nav(), attrs_0._v, content_0._v, $composer_0, 112 & $dirty << 3 | 896 & $dirty << 3);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -8664,7 +8590,47 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_t8jcf_k$(Article$lambda(attrs_0, content_0, $changed, $default));
+      tmp0_safe_receiver.updateScope_t8jcf_k$(Nav$lambda(attrs_0, content_0, $changed, $default));
+    }
+  }
+  function Footer_0(attrs, content, $composer, $changed, $default) {
+    _init_properties_Elements_kt__eyv5nt();
+    var attrs_0 = {_v: attrs};
+    var content_0 = {_v: content};
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(1264215569);
+    sourceInformation($composer_0, 'C(Footer)835@26195L104:Elements.kt#97hrze');
+    var $dirty = $changed;
+    if (!(($default & 1) === 0))
+      $dirty = $dirty | 6;
+    else if (($changed & 6) === 0)
+      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(attrs_0._v) ? 4 : 2);
+    if (!(($default & 2) === 0))
+      $dirty = $dirty | 48;
+    else if (($changed & 48) === 0)
+      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(content_0._v) ? 32 : 16);
+    if ($composer_0.shouldExecute_4fplh_k$(!(($dirty & 19) === 18), $dirty & 1)) {
+      if (!(($default & 1) === 0)) {
+        attrs_0._v = null;
+      }
+      if (!(($default & 2) === 0)) {
+        content_0._v = null;
+      }
+      if (isTraceInProgress()) {
+        traceEventStart(1264215569, $dirty, -1, 'org.jetbrains.compose.web.dom.Footer (Elements.kt:834)');
+      }
+      TagElement(get_Footer(), attrs_0._v, content_0._v, $composer_0, 112 & $dirty << 3 | 896 & $dirty << 3);
+      if (isTraceInProgress()) {
+        traceEventEnd();
+      }
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(Footer$lambda(attrs_0, content_0, $changed, $default));
     }
   }
   function Section_0(attrs, content, $composer, $changed, $default) {
@@ -9361,18 +9327,6 @@
       return Unit_getInstance();
     };
   }
-  function Footer$lambda($attrs, $content, $$changed, $$default) {
-    return function ($composer, $force) {
-      Footer_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
-      return Unit_getInstance();
-    };
-  }
-  function Nav$lambda($attrs, $content, $$changed, $$default) {
-    return function ($composer, $force) {
-      Nav_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
-      return Unit_getInstance();
-    };
-  }
   function Input$lambda$lambda($keyForRestoringControlledState) {
     return function (it) {
       $keyForRestoringControlledState.set_value_v1vabv_k$($keyForRestoringControlledState.get_value_j01efc_k$() + 1 | 0);
@@ -9382,7 +9336,7 @@
   function Input$lambda($type, $attrs, $keyForRestoringControlledState) {
     return function ($this$TagElement) {
       var inputAttrsBuilder = new InputAttrsScope($type, $this$TagElement);
-      type_0(inputAttrsBuilder, $type);
+      type_1(inputAttrsBuilder, $type);
       inputAttrsBuilder.onInput_qzb0am_k$(Input$lambda$lambda($keyForRestoringControlledState));
       $attrs(inputAttrsBuilder);
       return Unit_getInstance();
@@ -9466,9 +9420,15 @@
       return Unit_getInstance();
     };
   }
-  function Article$lambda($attrs, $content, $$changed, $$default) {
+  function Nav$lambda($attrs, $content, $$changed, $$default) {
     return function ($composer, $force) {
-      Article_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      Nav_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      return Unit_getInstance();
+    };
+  }
+  function Footer$lambda($attrs, $content, $$changed, $$default) {
+    return function ($composer, $force) {
+      Footer_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
       return Unit_getInstance();
     };
   }
@@ -10954,16 +10914,16 @@
   _.$_$.b = StyleSheet_init_$Init$;
   _.$_$.c = StyleSheet_init_$Create$;
   _.$_$.d = Search_getInstance;
-  _.$_$.e = Companion_getInstance_5;
-  _.$_$.f = Companion_getInstance_11;
+  _.$_$.e = Companion_getInstance_11;
+  _.$_$.f = Companion_getInstance_12;
   _.$_$.g = From_getInstance;
   _.$_$.h = To_getInstance;
   _.$_$.i = Color_getInstance_0;
-  _.$_$.j = Companion_getInstance_8;
-  _.$_$.k = Companion_getInstance_10;
-  _.$_$.l = Companion_getInstance_6;
-  _.$_$.m = Companion_getInstance_7;
-  _.$_$.n = Companion_getInstance_3;
+  _.$_$.j = Companion_getInstance_4;
+  _.$_$.k = Companion_getInstance_13;
+  _.$_$.l = Companion_getInstance_14;
+  _.$_$.m = Companion_getInstance_3;
+  _.$_$.n = Companion_getInstance_5;
   _.$_$.o = classes;
   _.$_$.p = contentEditable;
   _.$_$.q = dir;
@@ -11015,7 +10975,7 @@
   _.$_$.k2 = onTouchStart;
   _.$_$.l2 = onWheel;
   _.$_$.m2 = org_jetbrains_compose_web_attributes_InputType_Search$stableprop_getter;
-  _.$_$.n2 = type_1;
+  _.$_$.n2 = type_0;
   _.$_$.o2 = CSSBorder;
   _.$_$.p2 = CSSGroupingRuleDeclaration;
   _.$_$.q2 = Combine;
@@ -11068,75 +11028,76 @@
   _.$_$.l4 = flexGrow;
   _.$_$.m4 = fontFamily;
   _.$_$.n4 = fontSize;
-  _.$_$.o4 = fontWeight;
-  _.$_$.p4 = get_fr;
-  _.$_$.q4 = gap;
-  _.$_$.r4 = gridArea;
-  _.$_$.s4 = gridAutoColumns;
-  _.$_$.t4 = gridAutoRows;
-  _.$_$.u4 = gridRow;
-  _.$_$.v4 = gridTemplateColumns;
-  _.$_$.w4 = gridTemplateRows;
-  _.$_$.x4 = height;
-  _.$_$.y4 = justifyContent;
-  _.$_$.z4 = left;
-  _.$_$.a5 = lineHeight;
-  _.$_$.b5 = listStyle;
-  _.$_$.c5 = marginBottom;
-  _.$_$.d5 = marginLeft;
-  _.$_$.e5 = marginRight;
-  _.$_$.f5 = marginTop;
-  _.$_$.g5 = margin;
-  _.$_$.h5 = maxWidth;
-  _.$_$.i5 = media;
-  _.$_$.j5 = minHeight;
-  _.$_$.k5 = minWidth;
-  _.$_$.l5 = get_ms;
-  _.$_$.m5 = opacity;
-  _.$_$.n5 = org_jetbrains_compose_web_css_StyleSheet$stableprop_getter;
-  _.$_$.o5 = padding;
-  _.$_$.p5 = get_percent;
-  _.$_$.q5 = position;
-  _.$_$.r5 = get_px;
-  _.$_$.s5 = right;
-  _.$_$.t5 = rowGap;
-  _.$_$.u5 = style_3;
-  _.$_$.v5 = textAlign;
-  _.$_$.w5 = textDecoration;
-  _.$_$.x5 = top;
-  _.$_$.y5 = unaryMinus;
-  _.$_$.z5 = get_vh;
-  _.$_$.a6 = width_0;
-  _.$_$.b6 = width;
-  _.$_$.c6 = Article_0;
-  _.$_$.d6 = Aside_0;
-  _.$_$.e6 = A_0;
-  _.$_$.f6 = Br_0;
-  _.$_$.g6 = Button_1;
-  _.$_$.h6 = Code_0;
-  _.$_$.i6 = Div_0;
-  _.$_$.j6 = ElementBuilder;
-  _.$_$.k6 = Em_0;
-  _.$_$.l6 = Footer_0;
-  _.$_$.m6 = H1_0;
-  _.$_$.n6 = H2_0;
-  _.$_$.o6 = H3_0;
-  _.$_$.p6 = H4_0;
-  _.$_$.q6 = Hr_0;
-  _.$_$.r6 = Img_0;
-  _.$_$.s6 = Input_0;
-  _.$_$.t6 = Li_0;
-  _.$_$.u6 = Main_0;
-  _.$_$.v6 = Nav_0;
-  _.$_$.w6 = Pre_0;
-  _.$_$.x6 = P_0;
-  _.$_$.y6 = Section_0;
-  _.$_$.z6 = Span_0;
-  _.$_$.a7 = Style_1;
-  _.$_$.b7 = TagElement;
-  _.$_$.c7 = Text_1;
-  _.$_$.d7 = Ul_0;
-  _.$_$.e7 = stringPresentation;
+  _.$_$.o4 = fontWeight_0;
+  _.$_$.p4 = fontWeight;
+  _.$_$.q4 = get_fr;
+  _.$_$.r4 = gap;
+  _.$_$.s4 = gridArea;
+  _.$_$.t4 = gridAutoColumns;
+  _.$_$.u4 = gridAutoRows;
+  _.$_$.v4 = gridRow;
+  _.$_$.w4 = gridTemplateColumns;
+  _.$_$.x4 = gridTemplateRows;
+  _.$_$.y4 = height;
+  _.$_$.z4 = justifyContent;
+  _.$_$.a5 = left;
+  _.$_$.b5 = lineHeight;
+  _.$_$.c5 = listStyle;
+  _.$_$.d5 = marginBottom;
+  _.$_$.e5 = marginLeft;
+  _.$_$.f5 = marginRight;
+  _.$_$.g5 = marginTop;
+  _.$_$.h5 = margin;
+  _.$_$.i5 = maxWidth;
+  _.$_$.j5 = media;
+  _.$_$.k5 = minHeight;
+  _.$_$.l5 = minWidth;
+  _.$_$.m5 = get_ms;
+  _.$_$.n5 = opacity;
+  _.$_$.o5 = org_jetbrains_compose_web_css_StyleSheet$stableprop_getter;
+  _.$_$.p5 = paddingLeft;
+  _.$_$.q5 = padding;
+  _.$_$.r5 = get_percent;
+  _.$_$.s5 = position;
+  _.$_$.t5 = get_px;
+  _.$_$.u5 = right;
+  _.$_$.v5 = rowGap;
+  _.$_$.w5 = style_3;
+  _.$_$.x5 = textAlign;
+  _.$_$.y5 = textDecoration;
+  _.$_$.z5 = top;
+  _.$_$.a6 = unaryMinus;
+  _.$_$.b6 = get_vh;
+  _.$_$.c6 = width_0;
+  _.$_$.d6 = width;
+  _.$_$.e6 = Aside_0;
+  _.$_$.f6 = A_0;
+  _.$_$.g6 = Br_0;
+  _.$_$.h6 = Button_1;
+  _.$_$.i6 = Code_0;
+  _.$_$.j6 = Div_0;
+  _.$_$.k6 = ElementBuilder;
+  _.$_$.l6 = Em_0;
+  _.$_$.m6 = Footer_0;
+  _.$_$.n6 = H1_0;
+  _.$_$.o6 = H2_0;
+  _.$_$.p6 = H3_0;
+  _.$_$.q6 = H4_0;
+  _.$_$.r6 = Hr_0;
+  _.$_$.s6 = Img_0;
+  _.$_$.t6 = Input_0;
+  _.$_$.u6 = Li_0;
+  _.$_$.v6 = Main_0;
+  _.$_$.w6 = Nav_0;
+  _.$_$.x6 = Pre_0;
+  _.$_$.y6 = P_0;
+  _.$_$.z6 = Section_0;
+  _.$_$.a7 = Span_0;
+  _.$_$.b7 = Style_1;
+  _.$_$.c7 = TagElement;
+  _.$_$.d7 = Text_1;
+  _.$_$.e7 = Ul_0;
+  _.$_$.f7 = stringPresentation;
   //endregion
   return _;
 }));

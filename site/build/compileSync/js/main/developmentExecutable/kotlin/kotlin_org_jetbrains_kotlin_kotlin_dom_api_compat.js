@@ -12,20 +12,20 @@
 }(function (_, kotlin_kotlin) {
   'use strict';
   //region block: imports
-  var ArrayList_init_$Create$ = kotlin_kotlin.$_$.j;
-  var THROW_CCE = kotlin_kotlin.$_$.ch;
-  var isCharSequence = kotlin_kotlin.$_$.uc;
-  var trim = kotlin_kotlin.$_$.hg;
-  var toString = kotlin_kotlin.$_$.od;
-  var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.c1;
-  var charSequenceLength = kotlin_kotlin.$_$.zb;
-  var joinTo = kotlin_kotlin.$_$.u7;
-  var Unit_getInstance = kotlin_kotlin.$_$.p4;
-  var toSet = kotlin_kotlin.$_$.u9;
-  var Regex_init_$Create$ = kotlin_kotlin.$_$.b1;
-  var joinToString = kotlin_kotlin.$_$.s7;
-  var ensureNotNull = kotlin_kotlin.$_$.uh;
-  var VOID = kotlin_kotlin.$_$.d;
+  var ArrayList_init_$Create$ = kotlin_kotlin.$_$.k;
+  var THROW_CCE = kotlin_kotlin.$_$.hi;
+  var isCharSequence = kotlin_kotlin.$_$.hd;
+  var trim = kotlin_kotlin.$_$.kh;
+  var toString = kotlin_kotlin.$_$.be;
+  var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.e1;
+  var charSequenceLength = kotlin_kotlin.$_$.lc;
+  var joinTo = kotlin_kotlin.$_$.c8;
+  var Unit_getInstance = kotlin_kotlin.$_$.x4;
+  var Regex_init_$Create$ = kotlin_kotlin.$_$.c1;
+  var toSet = kotlin_kotlin.$_$.ca;
+  var joinToString = kotlin_kotlin.$_$.a8;
+  var ensureNotNull = kotlin_kotlin.$_$.aj;
+  var VOID = kotlin_kotlin.$_$.e;
   //endregion
   //region block: pre-declaration
   //endregion
@@ -61,6 +61,13 @@
       return true;
     }
     return false;
+  }
+  function hasClass(_this__u8e3s4, cssClass) {
+    var tmp0 = _this__u8e3s4.className;
+    // Inline function 'kotlin.text.toRegex' call
+    var this_0 = '(^|.*\\s+)' + cssClass + '($|\\s+.*)';
+    // Inline function 'kotlin.text.matches' call
+    return Regex_init_$Create$(this_0).matches_evli6i_k$(tmp0);
   }
   function removeClass(_this__u8e3s4, cssClasses) {
     var tmp$ret$1;
@@ -101,13 +108,6 @@
     }
     return false;
   }
-  function hasClass(_this__u8e3s4, cssClass) {
-    var tmp0 = _this__u8e3s4.className;
-    // Inline function 'kotlin.text.toRegex' call
-    var this_0 = '(^|.*\\s+)' + cssClass + '($|\\s+.*)';
-    // Inline function 'kotlin.text.matches' call
-    return Regex_init_$Create$(this_0).matches_evli6i_k$(tmp0);
-  }
   function clear(_this__u8e3s4) {
     while (_this__u8e3s4.hasChildNodes()) {
       _this__u8e3s4.removeChild(ensureNotNull(_this__u8e3s4.firstChild));
@@ -116,6 +116,12 @@
   function get(_this__u8e3s4, index) {
     // Inline function 'kotlin.js.asDynamic' call
     return _this__u8e3s4[index];
+  }
+  function EventSourceInit(withCredentials) {
+    withCredentials = withCredentials === VOID ? false : withCredentials;
+    var o = {};
+    o['withCredentials'] = withCredentials;
+    return o;
   }
   function get_INSTANT(_this__u8e3s4) {
     // Inline function 'kotlin.js.asDynamic' call
@@ -144,6 +150,10 @@
     o['top'] = top;
     o['behavior'] = behavior;
     return o;
+  }
+  function get_1(_this__u8e3s4, index) {
+    // Inline function 'kotlin.js.asDynamic' call
+    return _this__u8e3s4[index];
   }
   function get_AUTO(_this__u8e3s4) {
     // Inline function 'kotlin.js.asDynamic' call
@@ -182,7 +192,8 @@
   _.$_$ = _.$_$ || {};
   _.$_$.a = addClass;
   _.$_$.b = clear;
-  _.$_$.c = removeClass;
+  _.$_$.c = hasClass;
+  _.$_$.d = removeClass;
   //endregion
   return _;
 }));

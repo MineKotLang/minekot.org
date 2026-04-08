@@ -25,103 +25,103 @@
   'use strict';
   //region block: imports
   var imul = Math.imul;
-  var Unit_instance = kotlin_kotlin.$_$.c2;
-  var org_jetbrains_compose_web_css_StyleSheet$stableprop_getter = kotlin_org_jetbrains_compose_html_html_core.$_$.v2;
-  var sourceInformationMarkerStart = kotlin_androidx_compose_runtime_runtime.$_$.u;
-  var Style = kotlin_org_jetbrains_compose_html_html_core.$_$.i4;
-  var sourceInformationMarkerEnd = kotlin_androidx_compose_runtime_runtime.$_$.t;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.z2;
-  var padding = kotlin_org_jetbrains_compose_html_html_core.$_$.w2;
-  var margin = kotlin_org_jetbrains_compose_html_html_core.$_$.o2;
+  var Unit_instance = kotlin_kotlin.$_$.g4;
+  var org_jetbrains_compose_web_css_StyleSheet$stableprop_getter = kotlin_org_jetbrains_compose_html_html_core.$_$.x2;
+  var sourceInformationMarkerStart = kotlin_androidx_compose_runtime_runtime.$_$.v;
+  var Style = kotlin_org_jetbrains_compose_html_html_core.$_$.k4;
+  var sourceInformationMarkerEnd = kotlin_androidx_compose_runtime_runtime.$_$.u;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.c3;
+  var padding = kotlin_org_jetbrains_compose_html_html_core.$_$.z2;
+  var margin = kotlin_org_jetbrains_compose_html_html_core.$_$.q2;
   var boxSizing = kotlin_org_jetbrains_compose_html_html_core.$_$.o1;
   var StyleSheet = kotlin_org_jetbrains_compose_html_html_core.$_$.h1;
-  var VOID = kotlin_kotlin.$_$.c;
+  var VOID = kotlin_kotlin.$_$.d;
   var StyleSheet_init_$Init$ = kotlin_org_jetbrains_compose_html_html_core.$_$.a;
   var layer = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.f1;
-  var protoOf = kotlin_kotlin.$_$.y7;
-  var initMetadataForObject = kotlin_kotlin.$_$.n7;
-  var updateChangedFlags = kotlin_androidx_compose_runtime_runtime.$_$.z;
-  var toString = kotlin_kotlin.$_$.z7;
-  var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.e1;
-  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.x5;
-  var initMetadataForCompanion = kotlin_kotlin.$_$.j7;
-  var mutableStateOf = kotlin_androidx_compose_runtime_runtime.$_$.s;
-  var initMetadataForClass = kotlin_kotlin.$_$.i7;
-  var mapCapacity = kotlin_kotlin.$_$.f4;
-  var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.m;
-  var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.r1;
-  var substringAfterLast = kotlin_kotlin.$_$.r9;
-  var plus = kotlin_kotlin.$_$.l4;
-  var equals = kotlin_kotlin.$_$.b7;
-  var getStringHashCode = kotlin_kotlin.$_$.g7;
-  var hashCode = kotlin_kotlin.$_$.h7;
-  var staticCompositionLocalOf = kotlin_androidx_compose_runtime_runtime.$_$.w;
-  var mutableStateMapOf = kotlin_androidx_compose_runtime_runtime.$_$.r;
-  var ensureNotNull = kotlin_kotlin.$_$.ya;
-  var Companion_getInstance = kotlin_androidx_compose_runtime_runtime.$_$.f1;
-  var THROW_CCE = kotlin_kotlin.$_$.sa;
-  var A = kotlin_org_jetbrains_compose_html_html_core.$_$.m3;
-  var isBlank = kotlin_kotlin.$_$.c9;
-  var startsWith = kotlin_kotlin.$_$.q9;
-  var endsWith = kotlin_kotlin.$_$.z8;
-  var startsWith_0 = kotlin_kotlin.$_$.p9;
-  var dropLast = kotlin_kotlin.$_$.w8;
-  var charSequenceLength = kotlin_kotlin.$_$.x6;
-  var removePrefix = kotlin_kotlin.$_$.j9;
-  var Enum = kotlin_kotlin.$_$.ka;
-  var noWhenBranchMatchedException = kotlin_kotlin.$_$.ab;
-  var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.v;
-  var ArrayList_init_$Create$ = kotlin_kotlin.$_$.g;
-  var joinToString = kotlin_kotlin.$_$.v3;
-  var objectCreate = kotlin_kotlin.$_$.x7;
-  var substringBefore = kotlin_kotlin.$_$.u9;
-  var to = kotlin_kotlin.$_$.fb;
-  var charArrayOf = kotlin_kotlin.$_$.u6;
-  var trimStart = kotlin_kotlin.$_$.da;
-  var substringAfter = kotlin_kotlin.$_$.t9;
-  var split = kotlin_kotlin.$_$.o9;
-  var Regex_init_$Create$ = kotlin_kotlin.$_$.u;
-  var drop = kotlin_kotlin.$_$.x8;
-  var first = kotlin_kotlin.$_$.b9;
-  var LinkedHashMap_init_$Create$_0 = kotlin_kotlin.$_$.n;
-  var split_0 = kotlin_kotlin.$_$.n9;
-  var getOrNull = kotlin_kotlin.$_$.s3;
-  var Exception = kotlin_kotlin.$_$.ma;
-  var Exception_init_$Init$ = kotlin_kotlin.$_$.z;
-  var captureStack = kotlin_kotlin.$_$.t6;
-  var emptyMap = kotlin_kotlin.$_$.m3;
-  var last = kotlin_kotlin.$_$.b4;
+  var protoOf = kotlin_kotlin.$_$.ob;
+  var initMetadataForObject = kotlin_kotlin.$_$.ua;
+  var updateChangedFlags = kotlin_androidx_compose_runtime_runtime.$_$.a1;
+  var toString = kotlin_kotlin.$_$.qb;
+  var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.p1;
+  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.w8;
+  var initMetadataForCompanion = kotlin_kotlin.$_$.qa;
+  var mutableStateOf = kotlin_androidx_compose_runtime_runtime.$_$.t;
+  var initMetadataForClass = kotlin_kotlin.$_$.pa;
+  var mapCapacity = kotlin_kotlin.$_$.y6;
+  var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.r;
+  var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.c2;
+  var substringAfterLast = kotlin_kotlin.$_$.td;
+  var plus = kotlin_kotlin.$_$.f7;
+  var equals = kotlin_kotlin.$_$.ia;
+  var getStringHashCode = kotlin_kotlin.$_$.na;
+  var hashCode = kotlin_kotlin.$_$.oa;
+  var staticCompositionLocalOf = kotlin_androidx_compose_runtime_runtime.$_$.x;
+  var mutableStateMapOf = kotlin_androidx_compose_runtime_runtime.$_$.s;
+  var ensureNotNull = kotlin_kotlin.$_$.wf;
+  var Companion_getInstance = kotlin_androidx_compose_runtime_runtime.$_$.g1;
+  var THROW_CCE = kotlin_kotlin.$_$.ff;
+  var A = kotlin_org_jetbrains_compose_html_html_core.$_$.o3;
+  var isBlank = kotlin_kotlin.$_$.cd;
+  var startsWith = kotlin_kotlin.$_$.sd;
+  var endsWith = kotlin_kotlin.$_$.wc;
+  var startsWith_0 = kotlin_kotlin.$_$.rd;
+  var dropLast = kotlin_kotlin.$_$.tc;
+  var charSequenceLength = kotlin_kotlin.$_$.da;
+  var removePrefix = kotlin_kotlin.$_$.kd;
+  var Enum = kotlin_kotlin.$_$.we;
+  var noWhenBranchMatchedException = kotlin_kotlin.$_$.cg;
+  var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.c1;
+  var ArrayList_init_$Create$ = kotlin_kotlin.$_$.i;
+  var joinToString = kotlin_kotlin.$_$.o6;
+  var objectCreate = kotlin_kotlin.$_$.nb;
+  var substringBefore = kotlin_kotlin.$_$.wd;
+  var to = kotlin_kotlin.$_$.ig;
+  var charArrayOf = kotlin_kotlin.$_$.z9;
+  var trimStart = kotlin_kotlin.$_$.ke;
+  var substringAfter = kotlin_kotlin.$_$.vd;
+  var split = kotlin_kotlin.$_$.qd;
+  var Regex_init_$Create$ = kotlin_kotlin.$_$.b1;
+  var drop = kotlin_kotlin.$_$.uc;
+  var first = kotlin_kotlin.$_$.zc;
+  var LinkedHashMap_init_$Create$_0 = kotlin_kotlin.$_$.s;
+  var split_0 = kotlin_kotlin.$_$.pd;
+  var getOrNull = kotlin_kotlin.$_$.j6;
+  var Exception = kotlin_kotlin.$_$.ye;
+  var Exception_init_$Init$ = kotlin_kotlin.$_$.g1;
+  var captureStack = kotlin_kotlin.$_$.y9;
+  var emptyMap = kotlin_kotlin.$_$.d6;
+  var last = kotlin_kotlin.$_$.u6;
   var DynamicNode = kotlin_com_varabyte_kobweb_client_server_internal.$_$.a;
   var toRouteString = kotlin_com_varabyte_kobweb_client_server_internal.$_$.c;
-  var KMutableProperty1 = kotlin_kotlin.$_$.j8;
-  var getPropertyCallableRef = kotlin_kotlin.$_$.f7;
-  var ArrayList_init_$Create$_0 = kotlin_kotlin.$_$.h;
-  var KtMap = kotlin_kotlin.$_$.p2;
-  var isInterface = kotlin_kotlin.$_$.q7;
-  var contains = kotlin_kotlin.$_$.u8;
+  var KMutableProperty1 = kotlin_kotlin.$_$.fc;
+  var getPropertyCallableRef = kotlin_kotlin.$_$.ma;
+  var ArrayList_init_$Create$_0 = kotlin_kotlin.$_$.j;
+  var KtMap = kotlin_kotlin.$_$.x4;
+  var isInterface = kotlin_kotlin.$_$.db;
+  var contains = kotlin_kotlin.$_$.rc;
   var DisposableEffect = kotlin_androidx_compose_runtime_runtime.$_$.i;
   var rememberComposableLambda = kotlin_androidx_compose_runtime_runtime.$_$.b;
-  var asReversed = kotlin_kotlin.$_$.z2;
-  var substringAfter_0 = kotlin_kotlin.$_$.s9;
+  var asReversed = kotlin_kotlin.$_$.i5;
+  var substringAfter_0 = kotlin_kotlin.$_$.ud;
   var RouteTree = kotlin_com_varabyte_kobweb_client_server_internal.$_$.b;
-  var androidx_compose_runtime_ProvidedValue$stableprop_getter = kotlin_androidx_compose_runtime_runtime.$_$.m;
+  var androidx_compose_runtime_ProvidedValue$stableprop_getter = kotlin_androidx_compose_runtime_runtime.$_$.n;
   var CompositionLocalProvider = kotlin_androidx_compose_runtime_runtime.$_$.d;
-  var IllegalArgumentException_init_$Create$ = kotlin_kotlin.$_$.b1;
-  var removeSuffix = kotlin_kotlin.$_$.k9;
-  var contains_0 = kotlin_kotlin.$_$.v8;
-  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.k4;
+  var IllegalArgumentException_init_$Create$ = kotlin_kotlin.$_$.l1;
+  var removeSuffix = kotlin_kotlin.$_$.ld;
+  var contains_0 = kotlin_kotlin.$_$.sc;
+  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.m4;
   var composableLambdaInstance = kotlin_androidx_compose_runtime_runtime.$_$.a;
-  var toMutableMap = kotlin_kotlin.$_$.a5;
-  var Div = kotlin_org_jetbrains_compose_html_html_core.$_$.q3;
-  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.x2;
-  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.i3;
-  var get_vh = kotlin_org_jetbrains_compose_html_html_core.$_$.h3;
-  var height = kotlin_org_jetbrains_compose_html_html_core.$_$.i2;
+  var toMutableMap = kotlin_kotlin.$_$.y7;
+  var Div = kotlin_org_jetbrains_compose_html_html_core.$_$.s3;
+  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.a3;
+  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.l3;
+  var get_vh = kotlin_org_jetbrains_compose_html_html_core.$_$.k3;
+  var height = kotlin_org_jetbrains_compose_html_html_core.$_$.j2;
   var Companion_instance = kotlin_org_jetbrains_compose_html_html_core.$_$.i;
   var display = kotlin_org_jetbrains_compose_html_html_core.$_$.t1;
-  var Companion_instance_0 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.t2;
+  var Companion_instance_0 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.p2;
   var alignItems = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.h;
-  var Companion_instance_1 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.a3;
+  var Companion_instance_1 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.w2;
   var justifyContent = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.c1;
   //endregion
   //region block: pre-declaration
@@ -154,33 +154,33 @@
   function KobwebApp(content, $composer, $changed) {
     _init_properties_App_kt__fk8usv();
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.c13(1293008755);
+    $composer_0 = $composer_0.u17(1293008755);
     var $dirty = $changed;
     if (($changed & 6) === 0)
-      $dirty = $dirty | ($composer_0.s13(content) ? 4 : 2);
-    if ($composer_0.u13(!(($dirty & 3) === 2), $dirty & 1)) {
+      $dirty = $dirty | ($composer_0.k18(content) ? 4 : 2);
+    if ($composer_0.m18(!(($dirty & 3) === 2), $dirty & 1)) {
       var tmp0 = DefaultStyleSheet_getInstance();
       var tmp2 = $composer_0;
       // Inline function 'org.jetbrains.compose.web.css.Style' call
       org_jetbrains_compose_web_css_StyleSheet$stableprop_getter();
       var $composer_1 = tmp2;
       sourceInformationMarkerStart($composer_1, -1196466140, 'CC(Style)166@5403L37:StyleSheet.kt#97hrcb');
-      Style(null, tmp0.e2p(), $composer_1, 0, 1);
+      Style(null, tmp0.u2t(), $composer_1, 0, 1);
       sourceInformationMarkerEnd($composer_1);
       content($composer_0, 14 & $dirty);
     } else {
-      $composer_0.h13();
+      $composer_0.z17();
     }
-    var tmp0_safe_receiver = $composer_0.d13();
+    var tmp0_safe_receiver = $composer_0.v17();
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.z1n(KobwebApp$lambda(content, $changed));
+      tmp0_safe_receiver.r1s(KobwebApp$lambda(content, $changed));
     }
   }
   function DefaultStyleSheet$lambda($this$layer) {
-    $this$layer.i2p('html, body', DefaultStyleSheet$lambda$lambda);
-    $this$layer.i2p('*', DefaultStyleSheet$lambda$lambda_0);
+    $this$layer.y2t('html, body', DefaultStyleSheet$lambda$lambda);
+    $this$layer.y2t('*', DefaultStyleSheet$lambda$lambda_0);
     return Unit_instance;
   }
   function DefaultStyleSheet$lambda$lambda($this$style) {
@@ -197,8 +197,8 @@
     StyleSheet_init_$Init$(VOID, VOID, this);
     layer(this, 'reset', DefaultStyleSheet$lambda);
   }
-  protoOf(DefaultStyleSheet).h2p = function (selector, cssRule) {
-    return this.g2p(selector, cssRule);
+  protoOf(DefaultStyleSheet).x2t = function (selector, cssRule) {
+    return this.w2t(selector, cssRule);
   };
   var DefaultStyleSheet_instance;
   function DefaultStyleSheet_getInstance() {
@@ -222,13 +222,13 @@
   var com_varabyte_kobweb_core_AppGlobals$stable;
   function AppGlobals() {
   }
-  protoOf(AppGlobals).l30 = function (values) {
+  protoOf(AppGlobals).m34 = function (values) {
     // Inline function 'kotlin.check' call
-    if (!!!(this.k30_1 == null)) {
+    if (!!!(this.l34_1 == null)) {
       var message = 'Cannot initialize AppGlobals more than once';
       throw IllegalStateException_init_$Create$(toString(message));
     }
-    this.k30_1 = values;
+    this.l34_1 = values;
   };
   var AppGlobals_instance;
   function AppGlobals_getInstance() {
@@ -243,31 +243,31 @@
   var com_varabyte_kobweb_core_PageContext$stable;
   function Companion() {
   }
-  protoOf(Companion).n30 = function () {
-    var tmp = this.m30_1;
+  protoOf(Companion).o34 = function () {
+    var tmp = this.n34_1;
     if (!(tmp == null))
       return tmp;
     else {
       throwUninitializedPropertyAccessException('instance');
     }
   };
-  protoOf(Companion).o30 = function (router, data) {
-    this.m30_1 = new PageContext(router, data);
+  protoOf(Companion).p34 = function (router, data) {
+    this.n34_1 = new PageContext(router, data);
   };
   var Companion_instance_2;
   function Companion_getInstance_0() {
     return Companion_instance_2;
   }
   function PageContext(router, data) {
-    this.p30_1 = router;
-    this.q30_1 = data;
-    this.r30_1 = mutableStateOf(null);
+    this.q34_1 = router;
+    this.r34_1 = data;
+    this.s34_1 = mutableStateOf(null);
   }
-  protoOf(PageContext).s30 = function (value) {
-    this.r30_1.oy(value);
+  protoOf(PageContext).t34 = function (value) {
+    this.s34_1.g13(value);
   };
-  protoOf(PageContext).t30 = function () {
-    var tmp0_elvis_lhs = this.r30_1.t1();
+  protoOf(PageContext).u34 = function () {
+    var tmp0_elvis_lhs = this.s34_1.h2();
     var tmp;
     if (tmp0_elvis_lhs == null) {
       var message = 'PageContext route info is only valid within a @Page composable';
@@ -278,74 +278,74 @@
     return tmp;
   };
   function RouteInfo(route, dynamicParams) {
-    this.u30_1 = route;
+    this.v34_1 = route;
     var tmp = this;
     // Inline function 'kotlin.collections.mapValues' call
     // Inline function 'kotlin.collections.mapValuesTo' call
-    var destination = LinkedHashMap_init_$Create$(mapCapacity(dynamicParams.n()));
+    var destination = LinkedHashMap_init_$Create$(mapCapacity(dynamicParams.a1()));
     // Inline function 'kotlin.collections.associateByTo' call
-    var _iterator__ex2g4s = dynamicParams.z1().i();
-    while (_iterator__ex2g4s.j()) {
-      var element = _iterator__ex2g4s.k();
-      var tmp_0 = element.s1();
+    var _iterator__ex2g4s = dynamicParams.n2().t();
+    while (_iterator__ex2g4s.u()) {
+      var element = _iterator__ex2g4s.v();
+      var tmp_0 = element.g2();
       // Inline function 'kotlin.collections.component2' call
-      var value = element.t1();
+      var value = element.h2();
       var tmp$ret$2 = decodeURIComponent(value);
-      destination.a2(tmp_0, tmp$ret$2);
+      destination.o2(tmp_0, tmp$ret$2);
     }
-    tmp.v30_1 = destination;
-    this.w30_1 = substringAfterLast(this.u30_1.d31_1, _Char___init__impl__6a9atx(47));
-    this.x30_1 = this.u30_1.d31_1;
-    this.y30_1 = plus(this.u30_1.e31_1, dynamicParams);
-    this.z30_1 = this.u30_1.e31_1;
-    this.a31_1 = this.u30_1.f31_1;
+    tmp.w34_1 = destination;
+    this.x34_1 = substringAfterLast(this.v34_1.e35_1, _Char___init__impl__6a9atx(47));
+    this.y34_1 = this.v34_1.e35_1;
+    this.z34_1 = plus(this.v34_1.f35_1, dynamicParams);
+    this.a35_1 = this.v34_1.f35_1;
+    this.b35_1 = this.v34_1.g35_1;
   }
-  protoOf(RouteInfo).g31 = function () {
-    return this.u30_1.toString();
+  protoOf(RouteInfo).h35 = function () {
+    return this.v34_1.toString();
   };
   protoOf(RouteInfo).toString = function () {
-    return this.g31();
+    return this.h35();
   };
   protoOf(RouteInfo).equals = function (other) {
     var tmp;
     var tmp_0;
     var tmp_1;
     if (other instanceof RouteInfo) {
-      tmp_1 = other.x30_1 === this.x30_1;
+      tmp_1 = other.y34_1 === this.y34_1;
     } else {
       tmp_1 = false;
     }
     if (tmp_1) {
-      tmp_0 = equals(other.y30_1, this.y30_1);
+      tmp_0 = equals(other.z34_1, this.z34_1);
     } else {
       tmp_0 = false;
     }
     if (tmp_0) {
-      tmp = other.a31_1 == this.a31_1;
+      tmp = other.b35_1 == this.b35_1;
     } else {
       tmp = false;
     }
     return tmp;
   };
   protoOf(RouteInfo).hashCode = function () {
-    var result = getStringHashCode(this.x30_1);
-    result = imul(31, result) + hashCode(this.y30_1) | 0;
+    var result = getStringHashCode(this.y34_1);
+    result = imul(31, result) + hashCode(this.z34_1) | 0;
     var tmp = imul(31, result);
     // Inline function 'kotlin.hashCode' call
-    var tmp0_safe_receiver = this.a31_1;
+    var tmp0_safe_receiver = this.b35_1;
     var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : hashCode(tmp0_safe_receiver);
     result = tmp + (tmp1_elvis_lhs == null ? 0 : tmp1_elvis_lhs) | 0;
     return result;
   };
-  protoOf(RouteInfo).h31 = function (path, queryParams, fragment, dynamicParams) {
+  protoOf(RouteInfo).i35 = function (path, queryParams, fragment, dynamicParams) {
     return new RouteInfo(Route_init_$Create$(path, queryParams, fragment), dynamicParams);
   };
-  protoOf(RouteInfo).i31 = function (path, queryParams, fragment, dynamicParams, $super) {
-    path = path === VOID ? this.u30_1.d31_1 : path;
-    queryParams = queryParams === VOID ? this.u30_1.e31_1 : queryParams;
-    fragment = fragment === VOID ? this.u30_1.f31_1 : fragment;
-    dynamicParams = dynamicParams === VOID ? this.v30_1 : dynamicParams;
-    return $super === VOID ? this.h31(path, queryParams, fragment, dynamicParams) : $super.h31.call(this, path, queryParams, fragment, dynamicParams);
+  protoOf(RouteInfo).j35 = function (path, queryParams, fragment, dynamicParams, $super) {
+    path = path === VOID ? this.v34_1.e35_1 : path;
+    queryParams = queryParams === VOID ? this.v34_1.f35_1 : queryParams;
+    fragment = fragment === VOID ? this.v34_1.g35_1 : fragment;
+    dynamicParams = dynamicParams === VOID ? this.w34_1 : dynamicParams;
+    return $super === VOID ? this.i35(path, queryParams, fragment, dynamicParams) : $super.i35.call(this, path, queryParams, fragment, dynamicParams);
   };
   function com_varabyte_kobweb_core_PageContext$stableprop_getter() {
     return com_varabyte_kobweb_core_PageContext$stable;
@@ -357,7 +357,7 @@
     var this_0 = get_PageContextLocal();
     var $composer_1 = $composer_0;
     sourceInformationMarkerStart($composer_1, 2023513938, 'CC(<get-current>):CompositionLocal.kt#9igjgp');
-    var tmp0 = $composer_1.v13(this_0);
+    var tmp0 = $composer_1.n18(this_0);
     sourceInformationMarkerEnd($composer_1);
     var tmp;
     if (tmp0 == null) {
@@ -383,21 +383,21 @@
   }
   var com_varabyte_kobweb_core_data_MutableData$stable;
   function MutableData() {
-    this.j31_1 = mutableStateMapOf();
+    this.k35_1 = mutableStateMapOf();
   }
-  protoOf(MutableData).k31 = function (key, value) {
+  protoOf(MutableData).l35 = function (key, value) {
     // Inline function 'kotlin.collections.set' call
-    this.j31_1.a2(key, value);
+    this.k35_1.o2(key, value);
   };
-  protoOf(MutableData).l31 = function (key) {
-    var tmp = this.j31_1.w1(key);
+  protoOf(MutableData).m35 = function (key) {
+    var tmp = this.k35_1.k2(key);
     return !(tmp == null) ? tmp : null;
   };
-  protoOf(MutableData).f2 = function () {
-    this.j31_1.f2();
+  protoOf(MutableData).t2 = function () {
+    this.k35_1.t2();
   };
   function getValue(_this__u8e3s4, key) {
-    return ensureNotNull(_this__u8e3s4.l31(key));
+    return ensureNotNull(_this__u8e3s4.m35(key));
   }
   var com_varabyte_kobweb_core_init_InitKobwebContext$stable;
   function initKobweb(router, init) {
@@ -406,13 +406,13 @@
     set_MutableKobwebConfigInstance(config);
   }
   function InitKobwebContext(config, router) {
-    this.m31_1 = config;
-    this.n31_1 = router;
+    this.n35_1 = config;
+    this.o35_1 = router;
   }
   var com_varabyte_kobweb_core_init_InitRouteContext$stable;
   function InitRouteContext(route, data) {
-    this.o31_1 = route;
-    this.p31_1 = data;
+    this.p35_1 = route;
+    this.q35_1 = data;
   }
   function set_MutableKobwebConfigInstance(_set____db54di) {
     _init_properties_KobwebConfig_kt__rz30d4();
@@ -426,14 +426,14 @@
   var com_varabyte_kobweb_core_init_MutableOpenLinkStrategies$stable;
   var com_varabyte_kobweb_core_init_MutableKobwebConfig$stable;
   function MutableKobwebConfig() {
-    this.q31_1 = new MutableOpenLinkStrategies();
+    this.r35_1 = new MutableOpenLinkStrategies();
   }
-  protoOf(MutableKobwebConfig).r31 = function () {
-    return this.q31_1;
+  protoOf(MutableKobwebConfig).s35 = function () {
+    return this.r35_1;
   };
   function Companion_0() {
   }
-  protoOf(Companion_0).s31 = function () {
+  protoOf(Companion_0).t35 = function () {
     return get_MutableKobwebConfigInstance();
   };
   var Companion_instance_3;
@@ -443,14 +443,14 @@
   function MutableOpenLinkStrategies(internal, external) {
     internal = internal === VOID ? OpenLinkStrategy_IN_PLACE_getInstance() : internal;
     external = external === VOID ? OpenLinkStrategy_IN_NEW_TAB_getInstance() : external;
-    this.t31_1 = internal;
-    this.u31_1 = external;
+    this.u35_1 = internal;
+    this.v35_1 = external;
   }
-  protoOf(MutableOpenLinkStrategies).v31 = function () {
-    return this.t31_1;
+  protoOf(MutableOpenLinkStrategies).w35 = function () {
+    return this.u35_1;
   };
-  protoOf(MutableOpenLinkStrategies).w31 = function () {
-    return this.u31_1;
+  protoOf(MutableOpenLinkStrategies).x35 = function () {
+    return this.v35_1;
   };
   var properties_initialized_KobwebConfig_kt_yaxikm;
   function _init_properties_KobwebConfig_kt__rz30d4() {
@@ -468,21 +468,21 @@
     var updateHistoryMode_0 = {_v: updateHistoryMode};
     var content_0 = {_v: content};
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.c13(1682374411);
+    $composer_0 = $composer_0.u17(1682374411);
     var $dirty = $changed;
     if (($changed & 6) === 0)
-      $dirty = $dirty | ($composer_0.p13(href) ? 4 : 2);
+      $dirty = $dirty | ($composer_0.h18(href) ? 4 : 2);
     if (!(($default & 2) === 0))
       $dirty = $dirty | 48;
     else if (($changed & 48) === 0)
-      $dirty = $dirty | ($composer_0.s13(attrs_0._v) ? 32 : 16);
+      $dirty = $dirty | ($composer_0.k18(attrs_0._v) ? 32 : 16);
     if (!(($default & 4) === 0))
       $dirty = $dirty | 384;
     else if (($changed & 384) === 0) {
       var tmp;
       var tmp_0 = $composer_0;
       var tmpEnum = openInternalLinksStrategy_0._v;
-      if (tmp_0.r13(tmpEnum == null ? -1 : tmpEnum.l2_1)) {
+      if (tmp_0.j18(tmpEnum == null ? -1 : tmpEnum.z2_1)) {
         tmp = 256;
       } else {
         tmp = 128;
@@ -495,7 +495,7 @@
       var tmp_1;
       var tmp_2 = $composer_0;
       var tmpEnum_0 = openExternalLinksStrategy_0._v;
-      if (tmp_2.r13(tmpEnum_0 == null ? -1 : tmpEnum_0.l2_1)) {
+      if (tmp_2.j18(tmpEnum_0 == null ? -1 : tmpEnum_0.z2_1)) {
         tmp_1 = 2048;
       } else {
         tmp_1 = 1024;
@@ -508,7 +508,7 @@
       var tmp_3;
       var tmp_4 = $composer_0;
       var tmpEnum_1 = updateHistoryMode_0._v;
-      if (tmp_4.r13(tmpEnum_1 == null ? -1 : tmpEnum_1.l2_1)) {
+      if (tmp_4.j18(tmpEnum_1 == null ? -1 : tmpEnum_1.z2_1)) {
         tmp_3 = 16384;
       } else {
         tmp_3 = 8192;
@@ -518,8 +518,8 @@
     if (!(($default & 32) === 0))
       $dirty = $dirty | 196608;
     else if (($changed & 196608) === 0)
-      $dirty = $dirty | ($composer_0.s13(content_0._v) ? 131072 : 65536);
-    if ($composer_0.u13(!(($dirty & 74899) === 74898), $dirty & 1)) {
+      $dirty = $dirty | ($composer_0.k18(content_0._v) ? 131072 : 65536);
+    if ($composer_0.m18(!(($dirty & 74899) === 74898), $dirty & 1)) {
       if (!(($default & 2) === 0)) {
         attrs_0._v = null;
       }
@@ -536,16 +536,16 @@
         content_0._v = null;
       }
       var ctx = rememberPageContext($composer_0, 0);
-      var tmp_5 = Companion_instance_4.x31(href);
+      var tmp_5 = Companion_instance_4.y35(href);
       var tmp0 = $composer_0;
       // Inline function 'androidx.compose.runtime.cache' call
-      var invalid = !!(!!(!!(!!(!!(($dirty & 112) === 32 | ($dirty & 896) === 256) | ($dirty & 7168) === 2048) | $composer_0.s13(ctx)) | ($dirty & 14) === 4) | ($dirty & 57344) === 16384);
+      var invalid = !!(!!(!!(!!(!!(($dirty & 112) === 32 | ($dirty & 896) === 256) | ($dirty & 7168) === 2048) | $composer_0.k18(ctx)) | ($dirty & 14) === 4) | ($dirty & 57344) === 16384);
       // Inline function 'kotlin.let' call
-      var it = tmp0.n13();
+      var it = tmp0.f18();
       var tmp_6;
-      if (invalid || it === Companion_getInstance().p12_1) {
+      if (invalid || it === Companion_getInstance().h17_1) {
         var value = Anchor$lambda(attrs_0, openInternalLinksStrategy_0, openExternalLinksStrategy_0, ctx, href, updateHistoryMode_0);
-        tmp0.o13(value);
+        tmp0.g18(value);
         tmp_6 = value;
       } else {
         tmp_6 = it;
@@ -554,25 +554,25 @@
       var tmp$ret$3 = (tmp_7 == null ? true : !(tmp_7 == null)) ? tmp_7 : THROW_CCE();
       A(tmp_5, tmp$ret$3, content_0._v, $composer_0, 896 & $dirty >> 9, 0);
     } else {
-      $composer_0.h13();
+      $composer_0.z17();
     }
-    var tmp0_safe_receiver = $composer_0.d13();
+    var tmp0_safe_receiver = $composer_0.v17();
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.z1n(Anchor$lambda_0(href, attrs_0, openInternalLinksStrategy_0, openExternalLinksStrategy_0, updateHistoryMode_0, content_0, $changed, $default));
+      tmp0_safe_receiver.r1s(Anchor$lambda_0(href, attrs_0, openInternalLinksStrategy_0, openExternalLinksStrategy_0, updateHistoryMode_0, content_0, $changed, $default));
     }
   }
   function Anchor$lambda$lambda($openInternalLinksStrategy, $openExternalLinksStrategy, $ctx, $href, $updateHistoryMode) {
     return function (evt) {
       var tmp0_elvis_lhs = $openInternalLinksStrategy._v;
-      var openInternalLinksStrategy = tmp0_elvis_lhs == null ? toOpenLinkStrategy(evt, Companion_instance_3.s31().r31().v31()) : tmp0_elvis_lhs;
+      var openInternalLinksStrategy = tmp0_elvis_lhs == null ? toOpenLinkStrategy(evt, Companion_instance_3.t35().s35().w35()) : tmp0_elvis_lhs;
       var tmp1_elvis_lhs = $openExternalLinksStrategy._v;
-      var openExternalLinksStrategy = tmp1_elvis_lhs == null ? toOpenLinkStrategy(evt, Companion_instance_3.s31().r31().w31()) : tmp1_elvis_lhs;
+      var openExternalLinksStrategy = tmp1_elvis_lhs == null ? toOpenLinkStrategy(evt, Companion_instance_3.t35().s35().x35()) : tmp1_elvis_lhs;
       var tmp2_elvis_lhs = $updateHistoryMode._v;
-      $ctx.p30_1.j32($href, tmp2_elvis_lhs == null ? UpdateHistoryMode_PUSH_getInstance() : tmp2_elvis_lhs, openInternalLinksStrategy, openExternalLinksStrategy);
-      evt.t2q();
-      evt.u2q();
+      $ctx.q34_1.k36($href, tmp2_elvis_lhs == null ? UpdateHistoryMode_PUSH_getInstance() : tmp2_elvis_lhs, openInternalLinksStrategy, openExternalLinksStrategy);
+      evt.j2v();
+      evt.k2v();
       return Unit_instance;
     };
   }
@@ -582,7 +582,7 @@
       if (!($attrs._v == null)) {
         tmp = $attrs._v($this$A);
       }
-      $this$A.h2m(Anchor$lambda$lambda($openInternalLinksStrategy, $openExternalLinksStrategy, $ctx, $href, $updateHistoryMode));
+      $this$A.x2q(Anchor$lambda$lambda($openInternalLinksStrategy, $openExternalLinksStrategy, $ctx, $href, $updateHistoryMode));
       return Unit_instance;
     };
   }
@@ -595,38 +595,38 @@
   var com_varabyte_kobweb_navigation_BasePathImpl$stable;
   function Companion_1() {
   }
-  protoOf(Companion_1).k32 = function (value) {
-    Companion_instance_5.m32(new BasePathImpl(value));
+  protoOf(Companion_1).l36 = function (value) {
+    Companion_instance_5.n36(new BasePathImpl(value));
   };
-  protoOf(Companion_1).t1 = function () {
-    return Companion_instance_5.o32().n32_1;
+  protoOf(Companion_1).h2 = function () {
+    return Companion_instance_5.p36().o36_1;
   };
-  protoOf(Companion_1).x31 = function (path) {
-    return Companion_instance_5.o32().x31(path);
+  protoOf(Companion_1).y35 = function (path) {
+    return Companion_instance_5.p36().y35(path);
   };
   var Companion_instance_4;
   function Companion_getInstance_2() {
     return Companion_instance_4;
   }
   function Companion_2() {
-    this.l32_1 = null;
+    this.m36_1 = null;
   }
-  protoOf(Companion_2).m32 = function (value) {
+  protoOf(Companion_2).n36 = function (value) {
     // Inline function 'kotlin.check' call
-    if (!(this.l32_1 == null)) {
+    if (!(this.m36_1 == null)) {
       var message = 'Cannot overwrite base path once set';
       throw IllegalStateException_init_$Create$(toString(message));
     }
-    this.l32_1 = value;
+    this.m36_1 = value;
   };
-  protoOf(Companion_2).p32 = function () {
-    if (this.l32_1 == null) {
-      this.l32_1 = new BasePathImpl('');
+  protoOf(Companion_2).q36 = function () {
+    if (this.m36_1 == null) {
+      this.m36_1 = new BasePathImpl('');
     }
-    return this.l32_1;
+    return this.m36_1;
   };
-  protoOf(Companion_2).o32 = function () {
-    return ensureNotNull(this.p32());
+  protoOf(Companion_2).p36 = function () {
+    return ensureNotNull(this.q36());
   };
   var Companion_instance_5;
   function Companion_getInstance_3() {
@@ -659,31 +659,31 @@
       tmp_2 = endsWith(tmp1_safe_receiver, _Char___init__impl__6a9atx(47)) ? tmp1_safe_receiver : tmp1_safe_receiver + '/';
     }
     var tmp2_elvis_lhs = tmp_2;
-    tmp.n32_1 = tmp2_elvis_lhs == null ? '' : tmp2_elvis_lhs;
+    tmp.o36_1 = tmp2_elvis_lhs == null ? '' : tmp2_elvis_lhs;
   }
-  protoOf(BasePathImpl).x31 = function (path) {
-    if (isBlank(this.n32_1))
+  protoOf(BasePathImpl).y35 = function (path) {
+    if (isBlank(this.o36_1))
       return path;
     if (!startsWith_0(path, '/'))
       return path;
-    return dropLast(this.n32_1, 1) + path;
+    return dropLast(this.o36_1, 1) + path;
   };
   protoOf(BasePathImpl).toString = function () {
-    return this.n32_1;
+    return this.o36_1;
   };
   function remove(_this__u8e3s4, path) {
     var tmp;
     // Inline function 'kotlin.text.isNotEmpty' call
-    var this_0 = _this__u8e3s4.t1();
+    var this_0 = _this__u8e3s4.h2();
     if (charSequenceLength(this_0) > 0) {
-      tmp = removePrefix(path, dropLast(_this__u8e3s4.t1(), 1));
+      tmp = removePrefix(path, dropLast(_this__u8e3s4.h2(), 1));
     } else {
       tmp = path;
     }
     return tmp;
   }
   function prependIf(_this__u8e3s4, condition, path) {
-    return condition ? _this__u8e3s4.x31(path) : path;
+    return condition ? _this__u8e3s4.y35(path) : path;
   }
   var OpenLinkStrategy_IN_PLACE_instance;
   var OpenLinkStrategy_IN_NEW_TAB_instance;
@@ -699,7 +699,7 @@
     Enum.call(this, name, ordinal);
   }
   function open(_this__u8e3s4, href, strategy) {
-    switch (strategy.l2_1) {
+    switch (strategy.z2_1) {
       case 0:
         _this__u8e3s4.open(href, '_self');
         break;
@@ -713,7 +713,7 @@
   }
   function toOpenLinkStrategy(_this__u8e3s4, default_0) {
     default_0 = default_0 === VOID ? OpenLinkStrategy_IN_PLACE_getInstance() : default_0;
-    return _this__u8e3s4.c2s_1 || _this__u8e3s4.o2s_1 ? OpenLinkStrategy_IN_NEW_TAB_getInstance() : default_0;
+    return _this__u8e3s4.s2w_1 || _this__u8e3s4.e2x_1 ? OpenLinkStrategy_IN_NEW_TAB_getInstance() : default_0;
   }
   function OpenLinkStrategy_IN_PLACE_getInstance() {
     OpenLinkStrategy_initEntries();
@@ -725,8 +725,8 @@
   }
   var com_varabyte_kobweb_navigation_PageData$stable;
   function PageData(pageMethod, routeInfo) {
-    this.q32_1 = pageMethod;
-    this.r32_1 = routeInfo;
+    this.r36_1 = pageMethod;
+    this.s36_1 = routeInfo;
   }
   var com_varabyte_kobweb_navigation_RouteException$stable;
   var com_varabyte_kobweb_navigation_Route$stable;
@@ -734,38 +734,38 @@
     // Inline function 'kotlin.text.buildString' call
     // Inline function 'kotlin.apply' call
     var this_0 = StringBuilder_init_$Create$();
-    this_0.m7(path);
+    this_0.q(path);
     // Inline function 'kotlin.collections.isNotEmpty' call
-    if (!queryParams.l()) {
-      this_0.n7(_Char___init__impl__6a9atx(63));
+    if (!queryParams.r()) {
+      this_0.s(_Char___init__impl__6a9atx(63));
       // Inline function 'kotlin.collections.map' call
       // Inline function 'kotlin.collections.mapTo' call
-      var destination = ArrayList_init_$Create$(queryParams.n());
+      var destination = ArrayList_init_$Create$(queryParams.a1());
       // Inline function 'kotlin.collections.iterator' call
-      var _iterator__ex2g4s = queryParams.z1().i();
-      while (_iterator__ex2g4s.j()) {
-        var item = _iterator__ex2g4s.k();
+      var _iterator__ex2g4s = queryParams.n2().t();
+      while (_iterator__ex2g4s.u()) {
+        var item = _iterator__ex2g4s.v();
         // Inline function 'kotlin.collections.component1' call
-        var key = item.s1();
+        var key = item.g2();
         // Inline function 'kotlin.collections.component2' call
-        var value = item.t1();
+        var value = item.h2();
         // Inline function 'kotlin.text.buildString' call
         // Inline function 'kotlin.apply' call
         var this_1 = StringBuilder_init_$Create$();
-        this_1.m7(key);
+        this_1.q(key);
         // Inline function 'kotlin.text.isNotEmpty' call
         if (charSequenceLength(value) > 0) {
-          this_1.n7(_Char___init__impl__6a9atx(61));
-          this_1.m7(value);
+          this_1.s(_Char___init__impl__6a9atx(61));
+          this_1.q(value);
         }
         var tmp$ret$8 = this_1.toString();
-        destination.h(tmp$ret$8);
+        destination.y(tmp$ret$8);
       }
-      this_0.m7(joinToString(destination, '&'));
+      this_0.q(joinToString(destination, '&'));
     }
     if (!(fragment == null)) {
-      this_0.n7(_Char___init__impl__6a9atx(35));
-      this_0.m7(fragment);
+      this_0.s(_Char___init__impl__6a9atx(35));
+      this_0.q(fragment);
     }
     var tmp$ret$13 = this_0.toString();
     Route.call($this, tmp$ret$13);
@@ -776,34 +776,34 @@
   }
   function Companion_3() {
   }
-  protoOf(Companion_3).s32 = function (pathQueryAndFragment) {
+  protoOf(Companion_3).t36 = function (pathQueryAndFragment) {
     var pathPart = substringBefore(substringBefore(pathQueryAndFragment, _Char___init__impl__6a9atx(63)), _Char___init__impl__6a9atx(35));
     return to(pathPart, removePrefix(pathQueryAndFragment, pathPart));
   };
-  protoOf(Companion_3).t32 = function (url) {
+  protoOf(Companion_3).u36 = function (url) {
     var tmp;
     if (!startsWith_0(url, '//')) {
       // Inline function 'kotlin.let' call
       var splitResult = split(url, ['://'], VOID, 2);
-      tmp = splitResult.n() === 1 ? to('', splitResult.m(0)) : to(splitResult.m(0) + '://', trimStart(splitResult.m(1), charArrayOf([_Char___init__impl__6a9atx(47)])));
+      tmp = splitResult.a1() === 1 ? to('', splitResult.z(0)) : to(splitResult.z(0) + '://', trimStart(splitResult.z(1), charArrayOf([_Char___init__impl__6a9atx(47)])));
     } else {
       var withoutLeadingSlashes = trimStart(url, charArrayOf([_Char___init__impl__6a9atx(47)]));
       var domain = substringBefore(withoutLeadingSlashes, _Char___init__impl__6a9atx(47));
       tmp = to('//' + domain, substringAfter(withoutLeadingSlashes, domain));
     }
     var _destruct__k2r9zo = tmp;
-    var prefix = _destruct__k2r9zo.le();
-    var rest = _destruct__k2r9zo.me();
-    var _destruct__k2r9zo_0 = this.s32(rest);
-    var path = _destruct__k2r9zo_0.le();
-    var queryAndFragment = _destruct__k2r9zo_0.me();
+    var prefix = _destruct__k2r9zo.rf();
+    var rest = _destruct__k2r9zo.sf();
+    var _destruct__k2r9zo_0 = this.t36(rest);
+    var path = _destruct__k2r9zo_0.rf();
+    var queryAndFragment = _destruct__k2r9zo_0.sf();
     // Inline function 'kotlin.text.replace' call
-    return prefix + Regex_init_$Create$('//+').tb(path, '/') + queryAndFragment;
+    return prefix + Regex_init_$Create$('//+').pc(path, '/') + queryAndFragment;
   };
-  protoOf(Companion_3).u32 = function (path) {
-    return !(this.f2k(path) == null);
+  protoOf(Companion_3).v36 = function (path) {
+    return !(this.v2o(path) == null);
   };
-  protoOf(Companion_3).f2k = function (path) {
+  protoOf(Companion_3).v2o = function (path) {
     var tmp;
     try {
       tmp = new Route(path);
@@ -819,8 +819,8 @@
     }
     return tmp;
   };
-  protoOf(Companion_3).v32 = function (url) {
-    var tmp0_elvis_lhs = this.f2k(removePrefix(url.href, url.origin));
+  protoOf(Companion_3).w36 = function (url) {
+    var tmp0_elvis_lhs = this.v2o(removePrefix(url.href, url.origin));
     return tmp0_elvis_lhs == null ? new Route('') : tmp0_elvis_lhs;
   };
   var Companion_instance_6;
@@ -847,39 +847,39 @@
     if (!isValidRoute) {
       throw new RouteException(pathQueryAndFragment_0);
     }
-    this.b31_1 = Companion_instance_6.t32(pathQueryAndFragment);
-    this.c31_1 = new URL(this.b31_1, 'http://unused.com');
-    var isAbsolute = startsWith_0(this.b31_1, '/');
+    this.c35_1 = Companion_instance_6.u36(pathQueryAndFragment);
+    this.d35_1 = new URL(this.c35_1, 'http://unused.com');
+    var isAbsolute = startsWith_0(this.c35_1, '/');
     var tmp_1 = this;
     var tmp_2;
     if (isAbsolute) {
-      tmp_2 = this.c31_1.pathname;
+      tmp_2 = this.d35_1.pathname;
     } else {
       // Inline function 'kotlin.also' call
-      var this_0 = drop(this.c31_1.pathname, 1);
+      var this_0 = drop(this.d35_1.pathname, 1);
       // Inline function 'kotlin.check' call
-      if (!(first(this.c31_1.pathname) === _Char___init__impl__6a9atx(47))) {
+      if (!(first(this.d35_1.pathname) === _Char___init__impl__6a9atx(47))) {
         throw IllegalStateException_init_$Create$('Check failed.');
       }
       tmp_2 = this_0;
     }
-    tmp_1.d31_1 = tmp_2;
+    tmp_1.e35_1 = tmp_2;
     var tmp_3 = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
     // Inline function 'kotlin.apply' call
     var this_1 = LinkedHashMap_init_$Create$_0();
     $l$block: {
       // Inline function 'kotlin.text.isEmpty' call
-      var this_2 = this.c31_1.search;
+      var this_2 = this.d35_1.search;
       if (charSequenceLength(this_2) === 0) {
         break $l$block;
       }
       // Inline function 'kotlin.collections.forEach' call
-      var _iterator__ex2g4s = split_0(removePrefix(this.c31_1.search, '?'), charArrayOf([_Char___init__impl__6a9atx(38)])).i();
-      while (_iterator__ex2g4s.j()) {
-        var element = _iterator__ex2g4s.k();
+      var _iterator__ex2g4s = split_0(removePrefix(this.d35_1.search, '?'), charArrayOf([_Char___init__impl__6a9atx(38)])).t();
+      while (_iterator__ex2g4s.u()) {
+        var element = _iterator__ex2g4s.v();
         var keyValue = split_0(element, charArrayOf([_Char___init__impl__6a9atx(61)]), VOID, 2);
-        var key = keyValue.m(0);
+        var key = keyValue.z(0);
         // Inline function 'kotlin.collections.elementAtOrNull' call
         var tmp0_safe_receiver = getOrNull(keyValue, 1);
         var tmp_4;
@@ -892,13 +892,13 @@
         var tmp1_elvis_lhs = tmp_4;
         // Inline function 'kotlin.collections.set' call
         var value = tmp1_elvis_lhs == null ? '' : tmp1_elvis_lhs;
-        this_1.a2(key, value);
+        this_1.o2(key, value);
       }
     }
-    tmp_3.e31_1 = this_1;
+    tmp_3.f35_1 = this_1;
     var tmp_5 = this;
     // Inline function 'kotlin.takeIf' call
-    var this_3 = this.c31_1.hash;
+    var this_3 = this.d35_1.hash;
     var tmp_6;
     if (startsWith_0(this_3, '#')) {
       tmp_6 = this_3;
@@ -914,19 +914,19 @@
       // Inline function 'kotlin.let' call
       tmp_7 = decodeURIComponent(tmp1_safe_receiver);
     }
-    tmp_5.f31_1 = tmp_7;
+    tmp_5.g35_1 = tmp_7;
   }
-  protoOf(Route).w32 = function (path, queryParams, fragment) {
+  protoOf(Route).x36 = function (path, queryParams, fragment) {
     return Route_init_$Create$(path, queryParams, fragment);
   };
-  protoOf(Route).x32 = function (path, queryParams, fragment, $super) {
-    path = path === VOID ? this.d31_1 : path;
-    queryParams = queryParams === VOID ? this.e31_1 : queryParams;
-    fragment = fragment === VOID ? this.f31_1 : fragment;
-    return $super === VOID ? this.w32(path, queryParams, fragment) : $super.w32.call(this, path, queryParams, fragment);
+  protoOf(Route).y36 = function (path, queryParams, fragment, $super) {
+    path = path === VOID ? this.e35_1 : path;
+    queryParams = queryParams === VOID ? this.f35_1 : queryParams;
+    fragment = fragment === VOID ? this.g35_1 : fragment;
+    return $super === VOID ? this.x36(path, queryParams, fragment) : $super.x36.call(this, path, queryParams, fragment);
   };
   protoOf(Route).toString = function () {
-    return this.d31_1 + this.c31_1.search + this.c31_1.hash;
+    return this.e35_1 + this.d35_1.search + this.d35_1.hash;
   };
   function RouteException(value) {
     Exception_init_$Init$('Failed to create a route. Routes should be valid URLs without a leading domain. Got: ' + value, this);
@@ -934,7 +934,7 @@
   }
   function createPageData(_this__u8e3s4, route, errorPageMethod) {
     var self_0 = _this__u8e3s4;
-    var tmp0_elvis_lhs = self_0.n2u(route.d31_1, true);
+    var tmp0_elvis_lhs = self_0.d2z(route.e35_1, true);
     var tmp;
     if (tmp0_elvis_lhs == null) {
       return new PageData(errorPageMethod, new RouteInfo(route, emptyMap()));
@@ -942,110 +942,110 @@
       tmp = tmp0_elvis_lhs;
     }
     var resolved = tmp;
-    var tmp1_elvis_lhs = last(resolved).g2u_1.b2t();
+    var tmp1_elvis_lhs = last(resolved).w2y_1.r2x();
     var pageMethod = tmp1_elvis_lhs == null ? errorPageMethod : tmp1_elvis_lhs;
     // Inline function 'kotlin.collections.mutableMapOf' call
     var dynamicParams = LinkedHashMap_init_$Create$_0();
     // Inline function 'kotlin.collections.forEach' call
-    var _iterator__ex2g4s = resolved.i();
-    while (_iterator__ex2g4s.j()) {
-      var element = _iterator__ex2g4s.k();
-      var tmp_0 = element.g2u_1;
+    var _iterator__ex2g4s = resolved.t();
+    while (_iterator__ex2g4s.u()) {
+      var element = _iterator__ex2g4s.v();
+      var tmp_0 = element.w2y_1;
       if (tmp_0 instanceof DynamicNode) {
-        var tmp2 = element.g2u_1.t1z();
+        var tmp2 = element.w2y_1.m();
         // Inline function 'kotlin.collections.set' call
-        var value = element.h2u_1;
-        dynamicParams.a2(tmp2, value);
+        var value = element.x2y_1;
+        dynamicParams.o2(tmp2, value);
       }
     }
-    return new PageData(pageMethod, new RouteInfo(route.x32(toRouteString(resolved)), dynamicParams));
+    return new PageData(pageMethod, new RouteInfo(route.y36(toRouteString(resolved)), dynamicParams));
   }
   var com_varabyte_kobweb_navigation_RouteInterceptorScope$stable;
   var com_varabyte_kobweb_navigation_Router_RouteEntry$stable;
   var com_varabyte_kobweb_navigation_Router$stable;
   function _set_activePageMethod__f6z3vj($this, _set____db54di) {
-    var tmp0 = $this.f32_1;
+    var tmp0 = $this.g36_1;
     var tmp = KMutableProperty1;
     var tmp_0 = Router$_get_activePageMethod_$ref_kzrggv_0();
     // Inline function 'androidx.compose.runtime.setValue' call
     getPropertyCallableRef('activePageMethod', 1, tmp, tmp_0, Router$_set_activePageMethod_$ref_yxu4h7_0());
-    tmp0.oy(_set____db54di);
+    tmp0.g13(_set____db54di);
     return Unit_instance;
   }
   function _get_activePageMethod__dw5579($this) {
-    var tmp0 = $this.f32_1;
+    var tmp0 = $this.g36_1;
     var tmp = KMutableProperty1;
     var tmp_0 = Router$_get_activePageMethod_$ref_kzrggv();
     // Inline function 'androidx.compose.runtime.getValue' call
     getPropertyCallableRef('activePageMethod', 1, tmp, tmp_0, Router$_set_activePageMethod_$ref_yxu4h7());
-    return tmp0.t1();
+    return tmp0.h2();
   }
   function _set_scrollRequest__vmu5bx($this, _set____db54di) {
-    var tmp0 = $this.i32_1;
+    var tmp0 = $this.j36_1;
     var tmp = KMutableProperty1;
     var tmp_0 = Router$_get_scrollRequest_$ref_4bly9p_0();
     // Inline function 'androidx.compose.runtime.setValue' call
     getPropertyCallableRef('scrollRequest', 1, tmp, tmp_0, Router$_set_scrollRequest_$ref_he6y0n_0());
-    tmp0.oy(_set____db54di);
+    tmp0.g13(_set____db54di);
     return Unit_instance;
   }
   function _get_scrollRequest__o6ie4v($this) {
-    var tmp0 = $this.i32_1;
+    var tmp0 = $this.j36_1;
     var tmp = KMutableProperty1;
     var tmp_0 = Router$_get_scrollRequest_$ref_4bly9p();
     // Inline function 'androidx.compose.runtime.getValue' call
     getPropertyCallableRef('scrollRequest', 1, tmp, tmp_0, Router$_set_scrollRequest_$ref_he6y0n());
-    return tmp0.t1();
+    return tmp0.h2();
   }
   function updatePageContext($this, _this__u8e3s4, pathQueryAndFragment) {
     if (startsWith_0(pathQueryAndFragment, '#')) {
-      var routeInfo = _this__u8e3s4.r30_1.t1();
+      var routeInfo = _this__u8e3s4.s34_1.h2();
       if (!(routeInfo == null)) {
-        _this__u8e3s4.r30_1.oy(routeInfo.i31(VOID, VOID, removePrefix(pathQueryAndFragment, '#')));
+        _this__u8e3s4.s34_1.g13(routeInfo.j35(VOID, VOID, removePrefix(pathQueryAndFragment, '#')));
         return true;
       } else {
         return false;
       }
     }
-    var route = Companion_instance_6.f2k(pathQueryAndFragment);
+    var route = Companion_instance_6.v2o(pathQueryAndFragment);
     var tmp;
     if (!(route == null)) {
-      var data = createPageData($this.g32_1, route, $this.y31_1);
-      var tmp0_safe_receiver = _this__u8e3s4.r30_1.t1();
-      var previousRoutePath = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.x30_1;
-      _set_activePageMethod__f6z3vj($this, data.q32_1);
-      _this__u8e3s4.s30(data.r32_1);
-      if (!(previousRoutePath === route.d31_1)) {
+      var data = createPageData($this.h36_1, route, $this.z35_1);
+      var tmp0_safe_receiver = _this__u8e3s4.s34_1.h2();
+      var previousRoutePath = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.y34_1;
+      _set_activePageMethod__f6z3vj($this, data.r36_1);
+      _this__u8e3s4.t34(data.s36_1);
+      if (!(previousRoutePath === route.e35_1)) {
         // Inline function 'kotlin.collections.mutableListOf' call
         var initRouteMethods = ArrayList_init_$Create$_0();
-        var tmp0 = $this.d32_1;
+        var tmp0 = $this.e36_1;
         // Inline function 'kotlin.collections.get' call
         var key = _get_activePageMethod__dw5579($this);
-        var tmp1_safe_receiver = (isInterface(tmp0, KtMap) ? tmp0 : THROW_CCE()).w1(key);
+        var tmp1_safe_receiver = (isInterface(tmp0, KtMap) ? tmp0 : THROW_CCE()).k2(key);
         if (tmp1_safe_receiver == null)
           null;
         else {
           // Inline function 'kotlin.let' call
-          initRouteMethods.h(tmp1_safe_receiver);
+          initRouteMethods.y(tmp1_safe_receiver);
         }
         // Inline function 'kotlin.collections.forEach' call
-        var _iterator__ex2g4s = $this.y32(data.q32_1).i();
-        while (_iterator__ex2g4s.j()) {
-          var element = _iterator__ex2g4s.k();
-          var tmp0_safe_receiver_0 = $this.e32_1.w1(element);
+        var _iterator__ex2g4s = $this.z36(data.r36_1).t();
+        while (_iterator__ex2g4s.u()) {
+          var element = _iterator__ex2g4s.v();
+          var tmp0_safe_receiver_0 = $this.f36_1.k2(element);
           if (tmp0_safe_receiver_0 == null)
             null;
           else {
             // Inline function 'kotlin.let' call
-            initRouteMethods.h(tmp0_safe_receiver_0);
+            initRouteMethods.y(tmp0_safe_receiver_0);
           }
         }
-        $this.z31_1.f2();
-        var ctx = new InitRouteContext(data.r32_1, $this.z31_1);
+        $this.a36_1.t2();
+        var ctx = new InitRouteContext(data.s36_1, $this.a36_1);
         // Inline function 'kotlin.collections.forEach' call
-        var _iterator__ex2g4s_0 = initRouteMethods.i();
-        while (_iterator__ex2g4s_0.j()) {
-          var element_0 = _iterator__ex2g4s_0.k();
+        var _iterator__ex2g4s_0 = initRouteMethods.t();
+        while (_iterator__ex2g4s_0.u()) {
+          var element_0 = _iterator__ex2g4s_0.v();
           element_0(ctx);
         }
       }
@@ -1057,10 +1057,10 @@
   }
   function normalize($this, _this__u8e3s4) {
     // Inline function 'kotlin.check' call
-    if (!Companion_instance_6.u32(_this__u8e3s4)) {
+    if (!Companion_instance_6.v36(_this__u8e3s4)) {
       throw IllegalStateException_init_$Create$('Check failed.');
     }
-    var hrefResolved = Companion_instance_6.v32(new URL(Companion_instance_6.t32(_this__u8e3s4), window.location.href)).toString();
+    var hrefResolved = Companion_instance_6.w36(new URL(Companion_instance_6.u36(_this__u8e3s4), window.location.href)).toString();
     // Inline function 'kotlin.takeIf' call
     var this_0 = remove(Companion_instance_4, hrefResolved);
     var tmp;
@@ -1074,16 +1074,16 @@
     var withoutPrefix = tmp0_elvis_lhs == null ? '/' : tmp0_elvis_lhs;
     var hadPrefix = !(withoutPrefix === hrefResolved);
     var tmp_0 = Companion_instance_4;
-    var tmp0 = $this.h32_1;
+    var tmp0 = $this.i36_1;
     // Inline function 'kotlin.collections.fold' call
     var accumulator = (new Route(withoutPrefix)).toString();
-    var _iterator__ex2g4s = tmp0.i();
-    while (_iterator__ex2g4s.j()) {
-      var element = _iterator__ex2g4s.k();
+    var _iterator__ex2g4s = tmp0.t();
+    while (_iterator__ex2g4s.u()) {
+      var element = _iterator__ex2g4s.v();
       var acc = accumulator;
       var interceptor = new RouteInterceptorScope(acc);
       element(interceptor);
-      accumulator = Companion_instance_6.t32(interceptor.g31());
+      accumulator = Companion_instance_6.u36(interceptor.h35());
     }
     var tmp$ret$5 = accumulator;
     return prependIf(tmp_0, hadPrefix, tmp$ret$5);
@@ -1141,7 +1141,7 @@
   }
   function Router$lambda(this$0) {
     return function (it) {
-      var tmp = Companion_instance_2.n30();
+      var tmp = Companion_instance_2.o34();
       // Inline function 'kotlin.let' call
       var it_0 = ensureNotNull(document.location);
       var tmp$ret$1 = removePrefix(it_0.href, it_0.origin);
@@ -1150,7 +1150,7 @@
   }
   function Router$renderActivePage$$inlined$run$2$2$2$1() {
   }
-  protoOf(Router$renderActivePage$$inlined$run$2$2$2$1).ts = function () {
+  protoOf(Router$renderActivePage$$inlined$run$2$2$2$1).lx = function () {
   };
   function Router$renderActivePage$lambda$lambda$lambda(this$0) {
     return function ($this$DisposableEffect) {
@@ -1167,15 +1167,15 @@
   function Router$renderActivePage$lambda$lambda$lambda_0($pageMethod) {
     return function (ctx, $composer, $changed) {
       var $composer_0 = $composer;
-      $composer_0.y12(850244467, Companion_instance_2.n30().t30().x30_1);
+      $composer_0.q17(850244467, Companion_instance_2.o34().u34().y34_1);
       $pageMethod(ctx, $composer_0, 14 & $changed);
-      $composer_0.z12();
+      $composer_0.r17();
       return Unit_instance;
     };
   }
   function ComposableLambda$invoke$ref(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
-      p0.a2a(_this__u8e3s4, p0_0, p1);
+      p0.q2e(_this__u8e3s4, p0_0, p1);
       return Unit_instance;
     };
   }
@@ -1188,7 +1188,7 @@
   }
   function ComposableLambda$invoke$ref_0(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
-      p0.a2a(_this__u8e3s4, p0_0, p1);
+      p0.q2e(_this__u8e3s4, p0_0, p1);
       return Unit_instance;
     };
   }
@@ -1196,16 +1196,16 @@
     return function ($composer, $changed) {
       var $composer_0 = $composer;
       var tmp;
-      if ($composer_0.u13(!(($changed & 3) === 2), $changed & 1)) {
+      if ($composer_0.m18(!(($changed & 3) === 2), $changed & 1)) {
         var tmp_0 = _get_scrollRequest__o6ie4v(this$0);
         // Inline function 'androidx.compose.runtime.cache' call
-        var invalid = $composer_0.s13(this$0);
+        var invalid = $composer_0.k18(this$0);
         // Inline function 'kotlin.let' call
-        var it = $composer_0.n13();
+        var it = $composer_0.f18();
         var tmp_1;
-        if (invalid || it === Companion_getInstance().p12_1) {
+        if (invalid || it === Companion_getInstance().h17_1) {
           var value = Router$renderActivePage$lambda$lambda$lambda(this$0);
-          $composer_0.o13(value);
+          $composer_0.g18(value);
           tmp_1 = value;
         } else {
           tmp_1 = it;
@@ -1219,13 +1219,13 @@
         var $composer_1 = $composer_0;
         sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
         // Inline function 'androidx.compose.runtime.cache' call
-        var invalid_0 = $composer_1.p13(dispatchReceiver);
+        var invalid_0 = $composer_1.h18(dispatchReceiver);
         // Inline function 'kotlin.let' call
-        var it_0 = $composer_1.n13();
+        var it_0 = $composer_1.f18();
         var tmp_3;
-        if (invalid_0 || it_0 === Companion_getInstance().p12_1) {
+        if (invalid_0 || it_0 === Companion_getInstance().h17_1) {
           var value_0 = ComposableLambda$invoke$ref(dispatchReceiver);
-          $composer_1.o13(value_0);
+          $composer_1.g18(value_0);
           tmp_3 = value_0;
         } else {
           tmp_3 = it_0;
@@ -1234,14 +1234,14 @@
         var tmp0 = (tmp_4 == null ? true : !(tmp_4 == null)) ? tmp_4 : THROW_CCE();
         sourceInformationMarkerEnd($composer_1);
         var keyedPageMethod = tmp0;
-        $composer_0.w12(1960057240);
+        $composer_0.o17(1960057240);
         // Inline function 'kotlin.collections.foldRight' call
-        var this_0 = asReversed(this$0.y32($pageMethod));
+        var this_0 = asReversed(this$0.z36($pageMethod));
         var accumulator = keyedPageMethod;
-        if (!this_0.l()) {
-          var iterator = this_0.s(this_0.n());
-          while (iterator.u3()) {
-            var tmp0_0 = iterator.w3();
+        if (!this_0.r()) {
+          var iterator = this_0.f1(this_0.a1());
+          while (iterator.p4()) {
+            var tmp0_0 = iterator.r4();
             var accum = accumulator;
             // Inline function 'kotlin.run' call
             var dispatchReceiver_0 = rememberComposableLambda(1052452521, true, Router$renderActivePage$lambda$lambda$lambda_1(tmp0_0, accum), $composer_0, 54);
@@ -1249,13 +1249,13 @@
             var $composer_2 = $composer_0;
             sourceInformationMarkerStart($composer_2, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
             // Inline function 'androidx.compose.runtime.cache' call
-            var invalid_1 = $composer_2.p13(dispatchReceiver_0);
+            var invalid_1 = $composer_2.h18(dispatchReceiver_0);
             // Inline function 'kotlin.let' call
-            var it_1 = $composer_2.n13();
+            var it_1 = $composer_2.f18();
             var tmp_5;
-            if (invalid_1 || it_1 === Companion_getInstance().p12_1) {
+            if (invalid_1 || it_1 === Companion_getInstance().h17_1) {
               var value_1 = ComposableLambda$invoke$ref_0(dispatchReceiver_0);
-              $composer_2.o13(value_1);
+              $composer_2.g18(value_1);
               tmp_5 = value_1;
             } else {
               tmp_5 = it_1;
@@ -1267,10 +1267,10 @@
           }
         }
         var tmp0_group = accumulator;
-        $composer_0.x12();
-        tmp = tmp0_group(Companion_instance_2.n30(), $composer_0, 0);
+        $composer_0.p17();
+        tmp = tmp0_group(Companion_instance_2.o34(), $composer_0, 0);
       } else {
-        $composer_0.h13();
+        $composer_0.z17();
         tmp = Unit_instance;
       }
       return Unit_instance;
@@ -1278,7 +1278,7 @@
   }
   function ComposableLambda$invoke$ref_1(p0) {
     return function (_this__u8e3s4, p0_0) {
-      p0.s1h(_this__u8e3s4, p0_0);
+      p0.k1m(_this__u8e3s4, p0_0);
       return Unit_instance;
     };
   }
@@ -1286,7 +1286,7 @@
     return function ($composer, $changed) {
       var $composer_0 = $composer;
       var tmp;
-      if ($composer_0.u13(!(($changed & 3) === 2), $changed & 1)) {
+      if ($composer_0.m18(!(($changed & 3) === 2), $changed & 1)) {
         var tmp_0 = $pageWrapper._v;
         // Inline function 'kotlin.run' call
         var dispatchReceiver = rememberComposableLambda(-1343210329, true, Router$renderActivePage$lambda$lambda(this$0, $pageMethod), $composer_0, 54);
@@ -1294,13 +1294,13 @@
         var $composer_1 = $composer_0;
         sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
         // Inline function 'androidx.compose.runtime.cache' call
-        var invalid = $composer_1.p13(dispatchReceiver);
+        var invalid = $composer_1.h18(dispatchReceiver);
         // Inline function 'kotlin.let' call
-        var it = $composer_1.n13();
+        var it = $composer_1.f18();
         var tmp_1;
-        if (invalid || it === Companion_getInstance().p12_1) {
+        if (invalid || it === Companion_getInstance().h17_1) {
           var value = ComposableLambda$invoke$ref_1(dispatchReceiver);
-          $composer_1.o13(value);
+          $composer_1.g18(value);
           tmp_1 = value;
         } else {
           tmp_1 = it;
@@ -1310,7 +1310,7 @@
         sourceInformationMarkerEnd($composer_1);
         tmp = tmp_0(tmp0, $composer_0, 6);
       } else {
-        $composer_0.h13();
+        $composer_0.z17();
         tmp = Unit_instance;
       }
       return Unit_instance;
@@ -1318,13 +1318,13 @@
   }
   function ComposableLambda$invoke$ref_2(p0) {
     return function (_this__u8e3s4, p0_0) {
-      p0.s1h(_this__u8e3s4, p0_0);
+      p0.k1m(_this__u8e3s4, p0_0);
       return Unit_instance;
     };
   }
   function Router$renderActivePage$lambda_0($tmp0_rcvr, $pageWrapper, $$changed, $$default) {
     return function ($composer, $force) {
-      $tmp0_rcvr.d33($pageWrapper._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      $tmp0_rcvr.e37($pageWrapper._v, $composer, updateChangedFlags($$changed | 1), $$default);
       return Unit_instance;
     };
   }
@@ -1353,53 +1353,53 @@
     };
   }
   function Router() {
-    this.y31_1 = ComposableSingletons$RouterKt_getInstance().f33_1;
-    this.z31_1 = new MutableData();
+    this.z35_1 = ComposableSingletons$RouterKt_getInstance().g37_1;
+    this.a36_1 = new MutableData();
     var tmp = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
     // Inline function 'kotlin.apply' call
     var this_0 = LinkedHashMap_init_$Create$_0();
     var tmp2 = 'com.varabyte.kobweb.core.layout.NoLayout';
     // Inline function 'kotlin.collections.set' call
-    var value = ComposableSingletons$RouterKt_getInstance().g33_1;
-    this_0.a2(tmp2, value);
-    tmp.a32_1 = this_0;
+    var value = ComposableSingletons$RouterKt_getInstance().h37_1;
+    this_0.o2(tmp2, value);
+    tmp.b36_1 = this_0;
     var tmp_0 = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
     // Inline function 'kotlin.apply' call
     var this_1 = LinkedHashMap_init_$Create$_0();
-    var tmp2_0 = this.y31_1;
+    var tmp2_0 = this.z35_1;
     // Inline function 'kotlin.collections.set' call
     var value_0 = 'com.varabyte.kobweb.core.layout.NoLayout';
-    this_1.a2(tmp2_0, value_0);
-    tmp_0.b32_1 = this_1;
+    this_1.o2(tmp2_0, value_0);
+    tmp_0.c36_1 = this_1;
     var tmp_1 = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp_1.c32_1 = LinkedHashMap_init_$Create$_0();
+    tmp_1.d36_1 = LinkedHashMap_init_$Create$_0();
     var tmp_2 = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp_2.d32_1 = LinkedHashMap_init_$Create$_0();
+    tmp_2.e36_1 = LinkedHashMap_init_$Create$_0();
     var tmp_3 = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp_3.e32_1 = LinkedHashMap_init_$Create$_0();
-    this.f32_1 = mutableStateOf(null);
-    this.g32_1 = new RouteTree();
+    tmp_3.f36_1 = LinkedHashMap_init_$Create$_0();
+    this.g36_1 = mutableStateOf(null);
+    this.h36_1 = new RouteTree();
     var tmp_4 = this;
     // Inline function 'kotlin.collections.mutableListOf' call
-    tmp_4.h32_1 = ArrayList_init_$Create$_0();
-    this.i32_1 = mutableStateOf(null);
-    Companion_instance_2.o30(this, this.z31_1);
+    tmp_4.i36_1 = ArrayList_init_$Create$_0();
+    this.j36_1 = mutableStateOf(null);
+    Companion_instance_2.p34(this, this.a36_1);
     var tmp_5 = window;
     tmp_5.onpopstate = Router$lambda(this);
   }
-  protoOf(Router).y32 = function (_this__u8e3s4) {
-    var tmp0_safe_receiver = this.b32_1.w1(_this__u8e3s4);
+  protoOf(Router).z36 = function (_this__u8e3s4) {
+    var tmp0_safe_receiver = this.c36_1.k2(_this__u8e3s4);
     var tmp;
     if (tmp0_safe_receiver == null) {
       tmp = null;
     } else {
       // Inline function 'kotlin.let' call
-      tmp = this.a32_1.w1(tmp0_safe_receiver);
+      tmp = this.b36_1.k2(tmp0_safe_receiver);
     }
     var layoutMethod = tmp;
     // Inline function 'kotlin.collections.buildList' call
@@ -1407,33 +1407,33 @@
     // Inline function 'kotlin.apply' call
     var this_0 = ArrayList_init_$Create$_0();
     while (!(layoutMethod == null)) {
-      this_0.h(layoutMethod);
-      var tmp0_safe_receiver_0 = this.c32_1.w1(layoutMethod);
+      this_0.y(layoutMethod);
+      var tmp0_safe_receiver_0 = this.d36_1.k2(layoutMethod);
       var tmp_0;
       if (tmp0_safe_receiver_0 == null) {
         tmp_0 = null;
       } else {
         // Inline function 'kotlin.let' call
-        tmp_0 = this.a32_1.w1(tmp0_safe_receiver_0);
+        tmp_0 = this.b36_1.k2(tmp0_safe_receiver_0);
       }
       layoutMethod = tmp_0;
     }
-    return this_0.s4();
+    return this_0.n5();
   };
-  protoOf(Router).d33 = function (pageWrapper, $composer, $changed, $default) {
+  protoOf(Router).e37 = function (pageWrapper, $composer, $changed, $default) {
     var pageWrapper_0 = {_v: pageWrapper};
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.c13(137063404);
+    $composer_0 = $composer_0.u17(137063404);
     var $dirty = $changed;
     if (!(($default & 1) === 0))
       $dirty = $dirty | 6;
     else if (($changed & 6) === 0)
-      $dirty = $dirty | ($composer_0.s13(pageWrapper_0._v) ? 4 : 2);
+      $dirty = $dirty | ($composer_0.k18(pageWrapper_0._v) ? 4 : 2);
     if (($changed & 48) === 0)
-      $dirty = $dirty | ($composer_0.s13(this) ? 32 : 16);
-    if ($composer_0.u13(!(($dirty & 19) === 18), $dirty & 1)) {
+      $dirty = $dirty | ($composer_0.k18(this) ? 32 : 16);
+    if ($composer_0.m18(!(($dirty & 19) === 18), $dirty & 1)) {
       if (!(($default & 1) === 0)) {
-        pageWrapper_0._v = ComposableSingletons$RouterKt_getInstance().h33_1;
+        pageWrapper_0._v = ComposableSingletons$RouterKt_getInstance().i37_1;
       }
       var tmp0_elvis_lhs = _get_activePageMethod__dw5579(this);
       var tmp;
@@ -1444,20 +1444,20 @@
         tmp = tmp0_elvis_lhs;
       }
       var pageMethod = tmp;
-      var tmp_0 = get_PageContextLocal().u1n(Companion_instance_2.n30());
+      var tmp_0 = get_PageContextLocal().m1s(Companion_instance_2.o34());
       // Inline function 'kotlin.run' call
       var dispatchReceiver = rememberComposableLambda(248233772, true, Router$renderActivePage$lambda(pageWrapper_0, this, pageMethod), $composer_0, 54);
       // Inline function 'androidx.compose.runtime.remember' call
       var $composer_1 = $composer_0;
       sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
       // Inline function 'androidx.compose.runtime.cache' call
-      var invalid = $composer_1.p13(dispatchReceiver);
+      var invalid = $composer_1.h18(dispatchReceiver);
       // Inline function 'kotlin.let' call
-      var it = $composer_1.n13();
+      var it = $composer_1.f18();
       var tmp_1;
-      if (invalid || it === Companion_getInstance().p12_1) {
+      if (invalid || it === Companion_getInstance().h17_1) {
         var value = ComposableLambda$invoke$ref_2(dispatchReceiver);
-        $composer_1.o13(value);
+        $composer_1.g18(value);
         tmp_1 = value;
       } else {
         tmp_1 = it;
@@ -1467,53 +1467,53 @@
       sourceInformationMarkerEnd($composer_1);
       CompositionLocalProvider(tmp_0, tmp0, $composer_0, 48 | androidx_compose_runtime_ProvidedValue$stableprop_getter());
     } else {
-      $composer_0.h13();
+      $composer_0.z17();
     }
-    var tmp1_safe_receiver = $composer_0.d13();
+    var tmp1_safe_receiver = $composer_0.v17();
     if (tmp1_safe_receiver == null)
       null;
     else {
-      tmp1_safe_receiver.z1n(Router$renderActivePage$lambda_0(this, pageWrapper_0, $changed, $default));
+      tmp1_safe_receiver.r1s(Router$renderActivePage$lambda_0(this, pageWrapper_0, $changed, $default));
     }
   };
-  protoOf(Router).i33 = function (layoutId, parentLayoutId, initRouteMethod, layoutMethod) {
+  protoOf(Router).j37 = function (layoutId, parentLayoutId, initRouteMethod, layoutMethod) {
     // Inline function 'kotlin.collections.set' call
-    this.a32_1.a2(layoutId, layoutMethod);
+    this.b36_1.o2(layoutId, layoutMethod);
     if (parentLayoutId == null)
       null;
     else {
       // Inline function 'kotlin.let' call
       // Inline function 'kotlin.collections.set' call
-      this.c32_1.a2(layoutMethod, parentLayoutId);
+      this.d36_1.o2(layoutMethod, parentLayoutId);
     }
     if (initRouteMethod == null)
       null;
     else {
       // Inline function 'kotlin.let' call
       // Inline function 'kotlin.collections.set' call
-      this.e32_1.a2(layoutMethod, initRouteMethod);
+      this.f36_1.o2(layoutMethod, initRouteMethod);
     }
   };
-  protoOf(Router).j33 = function (layoutId, parentLayoutId, initRouteMethod, layoutMethod, $super) {
+  protoOf(Router).k37 = function (layoutId, parentLayoutId, initRouteMethod, layoutMethod, $super) {
     parentLayoutId = parentLayoutId === VOID ? null : parentLayoutId;
     initRouteMethod = initRouteMethod === VOID ? null : initRouteMethod;
     var tmp;
     if ($super === VOID) {
-      this.i33(layoutId, parentLayoutId, initRouteMethod, layoutMethod);
+      this.j37(layoutId, parentLayoutId, initRouteMethod, layoutMethod);
       tmp = Unit_instance;
     } else {
-      tmp = $super.i33.call(this, layoutId, parentLayoutId, initRouteMethod, layoutMethod);
+      tmp = $super.j37.call(this, layoutId, parentLayoutId, initRouteMethod, layoutMethod);
     }
     return tmp;
   };
-  protoOf(Router).k33 = function (route, layoutId, initRouteMethod, pageMethod) {
+  protoOf(Router).l37 = function (route, layoutId, initRouteMethod, pageMethod) {
     // Inline function 'kotlin.require' call
-    if (!(Companion_instance_6.u32(route) && startsWith(route, _Char___init__impl__6a9atx(47)))) {
+    if (!(Companion_instance_6.v36(route) && startsWith(route, _Char___init__impl__6a9atx(47)))) {
       var message = 'Registration only allowed for internal, rooted routes, e.g. /example/path. Got: ' + route;
       throw IllegalArgumentException_init_$Create$(toString(message));
     }
     // Inline function 'kotlin.require' call
-    if (!this.g32_1.p2u(Companion_instance_4.x31(route), pageMethod)) {
+    if (!this.h36_1.f2z(Companion_instance_4.y35(route), pageMethod)) {
       var message_0 = 'Registration failure. Path is already registered: ' + route;
       throw IllegalArgumentException_init_$Create$(toString(message_0));
     }
@@ -1522,59 +1522,59 @@
     else {
       // Inline function 'kotlin.let' call
       // Inline function 'kotlin.collections.set' call
-      this.b32_1.a2(pageMethod, layoutId);
+      this.c36_1.o2(pageMethod, layoutId);
     }
     if (initRouteMethod == null)
       null;
     else {
       // Inline function 'kotlin.let' call
       // Inline function 'kotlin.collections.set' call
-      this.d32_1.a2(pageMethod, initRouteMethod);
+      this.e36_1.o2(pageMethod, initRouteMethod);
     }
   };
-  protoOf(Router).l33 = function (route, layoutId, initRouteMethod, pageMethod, $super) {
+  protoOf(Router).m37 = function (route, layoutId, initRouteMethod, pageMethod, $super) {
     layoutId = layoutId === VOID ? null : layoutId;
     initRouteMethod = initRouteMethod === VOID ? null : initRouteMethod;
     var tmp;
     if ($super === VOID) {
-      this.k33(route, layoutId, initRouteMethod, pageMethod);
+      this.l37(route, layoutId, initRouteMethod, pageMethod);
       tmp = Unit_instance;
     } else {
-      tmp = $super.k33.call(this, route, layoutId, initRouteMethod, pageMethod);
+      tmp = $super.l37.call(this, route, layoutId, initRouteMethod, pageMethod);
     }
     return tmp;
   };
-  protoOf(Router).m33 = function (interceptor) {
-    this.h32_1.h(interceptor);
+  protoOf(Router).n37 = function (interceptor) {
+    this.i36_1.y(interceptor);
   };
-  protoOf(Router).n33 = function (pathQueryAndFragment, updateHistoryMode, openLinkStrategy, routeToErrorPageOnFail) {
+  protoOf(Router).o37 = function (pathQueryAndFragment, updateHistoryMode, openLinkStrategy, routeToErrorPageOnFail) {
     if (includesHost(this, pathQueryAndFragment))
       return false;
-    var pathQueryAndFragment_0 = Companion_instance_4.x31(pathQueryAndFragment);
-    if (Companion_instance_6.u32(pathQueryAndFragment_0)) {
+    var pathQueryAndFragment_0 = Companion_instance_4.y35(pathQueryAndFragment);
+    if (Companion_instance_6.v36(pathQueryAndFragment_0)) {
       pathQueryAndFragment_0 = normalize(this, pathQueryAndFragment_0);
       // Inline function 'kotlin.run' call
-      var _destruct__k2r9zo = Companion_instance_6.s32(pathQueryAndFragment_0);
-      var pathPart = _destruct__k2r9zo.le();
-      var queryAndFragmentPart = _destruct__k2r9zo.me();
+      var _destruct__k2r9zo = Companion_instance_6.t36(pathQueryAndFragment_0);
+      var pathPart = _destruct__k2r9zo.rf();
+      var queryAndFragmentPart = _destruct__k2r9zo.sf();
       if (!(pathPart === '/')) {
-        if (!this.g32_1.o2u(pathPart)) {
+        if (!this.h36_1.e2z(pathPart)) {
           if (endsWith(pathPart, _Char___init__impl__6a9atx(47))) {
             var withoutSlash = removeSuffix(pathPart, '/');
-            if (this.g32_1.o2u(withoutSlash)) {
+            if (this.h36_1.e2z(withoutSlash)) {
               pathQueryAndFragment_0 = withoutSlash + queryAndFragmentPart;
             }
           } else {
             var withSlash = pathPart + '/';
-            if (this.g32_1.o2u(withSlash)) {
+            if (this.h36_1.e2z(withSlash)) {
               pathQueryAndFragment_0 = withSlash + queryAndFragmentPart;
             }
           }
         }
       }
       if (!routeToErrorPageOnFail) {
-        var pathPart_0 = Companion_instance_6.s32(pathQueryAndFragment_0).le();
-        if (!this.g32_1.o2u(pathPart_0)) {
+        var pathPart_0 = Companion_instance_6.t36(pathQueryAndFragment_0).rf();
+        if (!this.h36_1.e2z(pathPart_0)) {
           return false;
         }
       }
@@ -1584,13 +1584,13 @@
       return true;
     }
     var tmp;
-    if (updatePageContext(this, Companion_instance_2.n30(), pathQueryAndFragment_0)) {
-      pathQueryAndFragment_0 = Companion_instance_2.n30().t30().x30_1 + Companion_instance_6.s32(pathQueryAndFragment_0).ke_1;
+    if (updatePageContext(this, Companion_instance_2.o34(), pathQueryAndFragment_0)) {
+      pathQueryAndFragment_0 = Companion_instance_2.o34().u34().y34_1 + Companion_instance_6.t36(pathQueryAndFragment_0).qf_1;
       // Inline function 'kotlin.let' call
       var url = window.location.origin + pathQueryAndFragment_0;
-      var onNewPage = !(window.location.pathname === Companion_instance_6.v32(new URL(url)).d31_1);
+      var onNewPage = !(window.location.pathname === Companion_instance_6.w36(new URL(url)).e35_1);
       if (!(window.location.href === url)) {
-        switch (updateHistoryMode.l2_1) {
+        switch (updateHistoryMode.z2_1) {
           case 0:
             window.history.pushState(window.history.state, '', url);
             break;
@@ -1614,16 +1614,16 @@
     }
     return tmp;
   };
-  protoOf(Router).o33 = function (pathQueryAndFragment, updateHistoryMode, openLinkStrategy, routeToErrorPageOnFail, $super) {
+  protoOf(Router).p37 = function (pathQueryAndFragment, updateHistoryMode, openLinkStrategy, routeToErrorPageOnFail, $super) {
     updateHistoryMode = updateHistoryMode === VOID ? UpdateHistoryMode_PUSH_getInstance() : updateHistoryMode;
     openLinkStrategy = openLinkStrategy === VOID ? OpenLinkStrategy_IN_PLACE_getInstance() : openLinkStrategy;
     routeToErrorPageOnFail = routeToErrorPageOnFail === VOID ? true : routeToErrorPageOnFail;
-    return $super === VOID ? this.n33(pathQueryAndFragment, updateHistoryMode, openLinkStrategy, routeToErrorPageOnFail) : $super.n33.call(this, pathQueryAndFragment, updateHistoryMode, openLinkStrategy, routeToErrorPageOnFail);
+    return $super === VOID ? this.o37(pathQueryAndFragment, updateHistoryMode, openLinkStrategy, routeToErrorPageOnFail) : $super.o37.call(this, pathQueryAndFragment, updateHistoryMode, openLinkStrategy, routeToErrorPageOnFail);
   };
-  protoOf(Router).j32 = function (pathQueryAndFragment, updateHistoryMode, openInternalLinksStrategy, openExternalLinksStrategy) {
-    if (!this.n33(pathQueryAndFragment, updateHistoryMode, openInternalLinksStrategy, false)) {
+  protoOf(Router).k36 = function (pathQueryAndFragment, updateHistoryMode, openInternalLinksStrategy, openExternalLinksStrategy) {
+    if (!this.o37(pathQueryAndFragment, updateHistoryMode, openInternalLinksStrategy, false)) {
       var tmp = window;
-      var tmp_0 = Companion_instance_6.t32(pathQueryAndFragment);
+      var tmp_0 = Companion_instance_6.u36(pathQueryAndFragment);
       var tmp_1;
       if (resolvesToSameOrigin(this, pathQueryAndFragment)) {
         tmp_1 = openInternalLinksStrategy;
@@ -1633,9 +1633,22 @@
       open(tmp, tmp_0, tmp_1);
     }
   };
+  protoOf(Router).q37 = function (pathQueryAndFragment, updateHistoryMode, openInternalLinksStrategy, openExternalLinksStrategy, $super) {
+    updateHistoryMode = updateHistoryMode === VOID ? UpdateHistoryMode_PUSH_getInstance() : updateHistoryMode;
+    openInternalLinksStrategy = openInternalLinksStrategy === VOID ? OpenLinkStrategy_IN_PLACE_getInstance() : openInternalLinksStrategy;
+    openExternalLinksStrategy = openExternalLinksStrategy === VOID ? OpenLinkStrategy_IN_NEW_TAB_getInstance() : openExternalLinksStrategy;
+    var tmp;
+    if ($super === VOID) {
+      this.k36(pathQueryAndFragment, updateHistoryMode, openInternalLinksStrategy, openExternalLinksStrategy);
+      tmp = Unit_instance;
+    } else {
+      tmp = $super.k36.call(this, pathQueryAndFragment, updateHistoryMode, openInternalLinksStrategy, openExternalLinksStrategy);
+    }
+    return tmp;
+  };
   function ComposableLambda$invoke$ref_3(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
-      p0.a2a(_this__u8e3s4, p0_0, p1);
+      p0.q2e(_this__u8e3s4, p0_0, p1);
       return Unit_instance;
     };
   }
@@ -1646,7 +1659,7 @@
   }
   function ComposableLambda$invoke$ref_4(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
-      p0.a2a(_this__u8e3s4, p0_0, p1);
+      p0.q2e(_this__u8e3s4, p0_0, p1);
       return Unit_instance;
     };
   }
@@ -1657,7 +1670,7 @@
   }
   function ComposableLambda$invoke$ref_5(p0) {
     return function (_this__u8e3s4, p0_0, p1, p2) {
-      p0.b2a(_this__u8e3s4, p0_0, p1, p2);
+      p0.r2e(_this__u8e3s4, p0_0, p1, p2);
       return Unit_instance;
     };
   }
@@ -1668,7 +1681,7 @@
   }
   function ComposableLambda$invoke$ref_6(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
-      p0.a2a(_this__u8e3s4, p0_0, p1);
+      p0.q2e(_this__u8e3s4, p0_0, p1);
       return Unit_instance;
     };
   }
@@ -1676,24 +1689,24 @@
     var $composer_0 = $composer;
     var $dirty = $changed;
     if (($changed & 6) === 0)
-      $dirty = $dirty | ($composer_0.s13(it) ? 4 : 2);
-    if ($composer_0.u13(!(($dirty & 19) === 18), $dirty & 1)) {
+      $dirty = $dirty | ($composer_0.k18(it) ? 4 : 2);
+    if ($composer_0.m18(!(($dirty & 19) === 18), $dirty & 1)) {
       it($composer_0, 14 & $dirty);
     } else {
-      $composer_0.h13();
+      $composer_0.z17();
     }
     return Unit_instance;
   }
   function ComposableSingletons$RouterKt() {
     ComposableSingletons$RouterKt_instance = this;
     var tmp = this;
-    tmp.e33_1 = ComposableLambda$invoke$ref_3(composableLambdaInstance(215212537, false, ComposableSingletons$RouterKt$lambda$215212537$lambda));
+    tmp.f37_1 = ComposableLambda$invoke$ref_3(composableLambdaInstance(215212537, false, ComposableSingletons$RouterKt$lambda$215212537$lambda));
     var tmp_0 = this;
-    tmp_0.f33_1 = ComposableLambda$invoke$ref_4(composableLambdaInstance(-1582477545, false, ComposableSingletons$RouterKt$lambda$_1582477545$lambda_kdntrc));
+    tmp_0.g37_1 = ComposableLambda$invoke$ref_4(composableLambdaInstance(-1582477545, false, ComposableSingletons$RouterKt$lambda$_1582477545$lambda_kdntrc));
     var tmp_1 = this;
-    tmp_1.g33_1 = ComposableLambda$invoke$ref_5(composableLambdaInstance(-1070949088, false, ComposableSingletons$RouterKt$lambda$_1070949088$lambda_malff6));
+    tmp_1.h37_1 = ComposableLambda$invoke$ref_5(composableLambdaInstance(-1070949088, false, ComposableSingletons$RouterKt$lambda$_1070949088$lambda_malff6));
     var tmp_2 = this;
-    tmp_2.h33_1 = ComposableLambda$invoke$ref_6(composableLambdaInstance(-149473399, false, ComposableSingletons$RouterKt$lambda$_149473399$lambda_vw12th));
+    tmp_2.i37_1 = ComposableLambda$invoke$ref_6(composableLambdaInstance(-149473399, false, ComposableSingletons$RouterKt$lambda$_149473399$lambda_vw12th));
   }
   var ComposableSingletons$RouterKt_instance;
   function ComposableSingletons$RouterKt_getInstance() {
@@ -1702,16 +1715,16 @@
     return ComposableSingletons$RouterKt_instance;
   }
   function RouteInterceptorScope(pathQueryAndFragment) {
-    this.z32_1 = new Route(pathQueryAndFragment);
-    this.a33_1 = this.z32_1.d31_1;
-    this.b33_1 = toMutableMap(this.z32_1.e31_1);
-    this.c33_1 = this.z32_1.f31_1;
+    this.a37_1 = new Route(pathQueryAndFragment);
+    this.b37_1 = this.a37_1.e35_1;
+    this.c37_1 = toMutableMap(this.a37_1.f35_1);
+    this.d37_1 = this.a37_1.g35_1;
   }
-  protoOf(RouteInterceptorScope).p33 = function (value) {
-    this.a33_1 = startsWith(value, _Char___init__impl__6a9atx(47)) ? value : '/' + value;
+  protoOf(RouteInterceptorScope).r37 = function (value) {
+    this.b37_1 = startsWith(value, _Char___init__impl__6a9atx(47)) ? value : '/' + value;
   };
-  protoOf(RouteInterceptorScope).g31 = function () {
-    return Route_init_$Create$(this.a33_1, this.b33_1, this.c33_1).toString();
+  protoOf(RouteInterceptorScope).h35 = function () {
+    return Route_init_$Create$(this.b37_1, this.c37_1, this.d37_1).toString();
   };
   var UpdateHistoryMode_PUSH_instance;
   var UpdateHistoryMode_REPLACE_instance;
@@ -1728,38 +1741,38 @@
   }
   function DefaultErrorPage($composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.c13(1831390232);
-    if ($composer_0.u13(!($changed === 0), $changed & 1)) {
+    $composer_0 = $composer_0.u17(1831390232);
+    if ($composer_0.m18(!($changed === 0), $changed & 1)) {
       // Inline function 'androidx.compose.runtime.cache' call
       var this_0 = $composer_0;
       // Inline function 'kotlin.let' call
-      var it = this_0.n13();
+      var it = this_0.f18();
       var tmp;
-      if (false || it === Companion_getInstance().p12_1) {
+      if (false || it === Companion_getInstance().h17_1) {
         var value = DefaultErrorPage$lambda;
-        this_0.o13(value);
+        this_0.g18(value);
         tmp = value;
       } else {
         tmp = it;
       }
       var tmp_0 = tmp;
       var tmp$ret$3 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
-      Div(tmp$ret$3, ComposableSingletons$RouterKt_getInstance().e33_1, $composer_0, 54, 0);
+      Div(tmp$ret$3, ComposableSingletons$RouterKt_getInstance().f37_1, $composer_0, 54, 0);
     } else {
-      $composer_0.h13();
+      $composer_0.z17();
     }
-    var tmp0_safe_receiver = $composer_0.d13();
+    var tmp0_safe_receiver = $composer_0.v17();
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.z1n(DefaultErrorPage$lambda_0($changed));
+      tmp0_safe_receiver.r1s(DefaultErrorPage$lambda_0($changed));
     }
   }
   function com_varabyte_kobweb_navigation_Router$stableprop_getter() {
     return com_varabyte_kobweb_navigation_Router$stable;
   }
   function DefaultErrorPage$lambda($this$Div) {
-    $this$Div.z2l(DefaultErrorPage$lambda$lambda);
+    $this$Div.p2q(DefaultErrorPage$lambda$lambda);
     return Unit_instance;
   }
   function DefaultErrorPage$lambda$lambda($this$style) {
@@ -1770,8 +1783,8 @@
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     display($this$style, 'flex');
-    alignItems($this$style, Companion_instance_0.w2u());
-    justifyContent($this$style, Companion_instance_1.w2u());
+    alignItems($this$style, Companion_instance_0.m2z());
+    justifyContent($this$style, Companion_instance_1.m2z());
     return Unit_instance;
   }
   function DefaultErrorPage$lambda_0($$changed) {

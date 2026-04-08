@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/minekot.org.iml" filepath="$PROJECT_DIR$/.idea/minekot.org.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MineKot.org.iml" filepath="$PROJECT_DIR$/.idea/modules/MineKot.org.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/site/MineKot.org.site.iml" filepath="$PROJECT_DIR$/.idea/modules/site/MineKot.org.site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/site/MineKot.org.site.jsMain.iml" filepath="$PROJECT_DIR$/.idea/modules/site/MineKot.org.site.jsMain.iml" />
     </modules>
   </component>
 </project>

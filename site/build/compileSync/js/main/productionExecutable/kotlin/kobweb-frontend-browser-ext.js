@@ -12,32 +12,32 @@
 }(function (_, kotlin_kotlin) {
   'use strict';
   //region block: imports
-  var IllegalArgumentException = kotlin_kotlin.$_$.na;
-  var protoOf = kotlin_kotlin.$_$.y7;
-  var initMetadataForCompanion = kotlin_kotlin.$_$.j7;
-  var charSequenceLength = kotlin_kotlin.$_$.x6;
-  var toString = kotlin_kotlin.$_$.z7;
-  var IllegalArgumentException_init_$Create$ = kotlin_kotlin.$_$.b1;
-  var Unit_instance = kotlin_kotlin.$_$.c2;
-  var charCodeAt = kotlin_kotlin.$_$.v6;
-  var isDigit = kotlin_kotlin.$_$.d9;
-  var substring = kotlin_kotlin.$_$.w9;
-  var CharSequence = kotlin_kotlin.$_$.ha;
-  var initMetadataForClass = kotlin_kotlin.$_$.i7;
-  var VOID = kotlin_kotlin.$_$.c;
-  var isBlank = kotlin_kotlin.$_$.c9;
-  var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.v;
-  var charSequenceGet = kotlin_kotlin.$_$.w6;
-  var isUpperCase = kotlin_kotlin.$_$.g9;
-  var Char = kotlin_kotlin.$_$.ia;
-  var get_lastIndex = kotlin_kotlin.$_$.i9;
-  var isLowerCase = kotlin_kotlin.$_$.f9;
-  var toString_0 = kotlin_kotlin.$_$.s1;
-  var Companion_getInstance = kotlin_kotlin.$_$.a2;
-  var DurationUnit_MILLISECONDS_getInstance = kotlin_kotlin.$_$.d;
-  var toDuration = kotlin_kotlin.$_$.ga;
-  var _Duration___get_inWholeMilliseconds__impl__msfiry = kotlin_kotlin.$_$.p1;
-  var convertToInt = kotlin_kotlin.$_$.f6;
+  var IllegalArgumentException = kotlin_kotlin.$_$.ze;
+  var protoOf = kotlin_kotlin.$_$.ob;
+  var initMetadataForCompanion = kotlin_kotlin.$_$.qa;
+  var charSequenceLength = kotlin_kotlin.$_$.da;
+  var toString = kotlin_kotlin.$_$.qb;
+  var IllegalArgumentException_init_$Create$ = kotlin_kotlin.$_$.l1;
+  var Unit_instance = kotlin_kotlin.$_$.g4;
+  var charCodeAt = kotlin_kotlin.$_$.ba;
+  var isDigit = kotlin_kotlin.$_$.dd;
+  var substring = kotlin_kotlin.$_$.yd;
+  var CharSequence = kotlin_kotlin.$_$.re;
+  var initMetadataForClass = kotlin_kotlin.$_$.pa;
+  var VOID = kotlin_kotlin.$_$.d;
+  var isBlank = kotlin_kotlin.$_$.cd;
+  var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.c1;
+  var charSequenceGet = kotlin_kotlin.$_$.ca;
+  var isUpperCase = kotlin_kotlin.$_$.gd;
+  var Char = kotlin_kotlin.$_$.se;
+  var get_lastIndex = kotlin_kotlin.$_$.id;
+  var isLowerCase = kotlin_kotlin.$_$.fd;
+  var toString_0 = kotlin_kotlin.$_$.f2;
+  var Companion_getInstance = kotlin_kotlin.$_$.w3;
+  var DurationUnit_MILLISECONDS_getInstance = kotlin_kotlin.$_$.e;
+  var toDuration = kotlin_kotlin.$_$.pe;
+  var _Duration___get_inWholeMilliseconds__impl__msfiry = kotlin_kotlin.$_$.a2;
+  var convertToInt = kotlin_kotlin.$_$.f9;
   //endregion
   //region block: pre-declaration
   initMetadataForCompanion(Companion);
@@ -47,7 +47,7 @@
   //endregion
   function Companion() {
   }
-  protoOf(Companion).f2k = function (identifier) {
+  protoOf(Companion).v2o = function (identifier) {
     var tmp;
     try {
       tmp = new CssIdent(identifier);
@@ -68,37 +68,37 @@
     return Companion_instance;
   }
   function CssIdent(asStr) {
-    this.g2k_1 = asStr;
-    var errorMsg = 'Invalid CSS identifier: "' + this.g2k_1 + '". See https://developer.mozilla.org/en-US/docs/Web/CSS/ident#syntax';
+    this.w2o_1 = asStr;
+    var errorMsg = 'Invalid CSS identifier: "' + this.w2o_1 + '". See https://developer.mozilla.org/en-US/docs/Web/CSS/ident#syntax';
     // Inline function 'kotlin.text.isNotEmpty' call
-    var this_0 = this.g2k_1;
+    var this_0 = this.w2o_1;
     // Inline function 'kotlin.require' call
     if (!(charSequenceLength(this_0) > 0)) {
       var message = errorMsg;
       throw IllegalArgumentException_init_$Create$(toString(message));
     }
     // Inline function 'kotlin.require' call
-    if (!!isDigit(charCodeAt(this.g2k_1, 0))) {
+    if (!!isDigit(charCodeAt(this.w2o_1, 0))) {
       var message_0 = errorMsg;
       throw IllegalArgumentException_init_$Create$(toString(message_0));
     }
     // Inline function 'kotlin.require' call
-    if (!CSS.supports('--' + this.g2k_1 + ':0')) {
+    if (!CSS.supports('--' + this.w2o_1 + ':0')) {
       var message_1 = errorMsg;
       throw IllegalArgumentException_init_$Create$(toString(message_1));
     }
   }
-  protoOf(CssIdent).h2k = function (action) {
-    return new CssIdent(action(this.g2k_1));
+  protoOf(CssIdent).x2o = function (action) {
+    return new CssIdent(action(this.w2o_1));
   };
   protoOf(CssIdent).b = function (index) {
-    return charCodeAt(this.g2k_1, index);
+    return charCodeAt(this.w2o_1, index);
   };
   protoOf(CssIdent).c = function (startIndex, endIndex) {
-    return substring(this.g2k_1, startIndex, endIndex);
+    return substring(this.w2o_1, startIndex, endIndex);
   };
   protoOf(CssIdent).a = function () {
-    return this.g2k_1.length;
+    return this.w2o_1.length;
   };
   function titleCamelCaseToKebabCase(_this__u8e3s4) {
     return camelCaseToKebabCase(_this__u8e3s4);
@@ -130,7 +130,7 @@
         // Inline function 'kotlin.text.isNotEmpty' call
         if (charSequenceLength(this_0) > 0) {
           if (!lastIsUpper || (_unary__edvuaz < get_lastIndex(str) && isLowerCase(charCodeAt(str, _unary__edvuaz + 1 | 0)))) {
-            this_0.m7('-');
+            this_0.q('-');
           }
         }
         // Inline function 'kotlin.text.lowercase' call
@@ -141,14 +141,14 @@
         tmp = new Char(item);
       }
       var cFinal = tmp;
-      this_0.l7(cFinal);
+      this_0.w(cFinal);
       lastIsUpper = isUpper;
     }
     return this_0.toString();
   }
   function Companion_0() {
     Companion_instance_0 = this;
-    this.i2k_1 = new CancellableActionHandle(0);
+    this.y2o_1 = new CancellableActionHandle(0);
   }
   var Companion_instance_0;
   function Companion_getInstance_1() {
@@ -159,8 +159,8 @@
   function CancellableActionHandle(id, isInterval) {
     Companion_getInstance_1();
     isInterval = isInterval === VOID ? false : isInterval;
-    this.j2k_1 = isInterval;
-    this.k2k_1 = id;
+    this.z2o_1 = isInterval;
+    this.a2p_1 = id;
   }
   function invokeLater(_this__u8e3s4, block) {
     // Inline function 'kotlin.time.Companion.milliseconds' call

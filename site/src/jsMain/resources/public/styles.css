@@ -375,11 +375,11 @@ textarea {
 }
 
 .syntaxtitletype,
-.addonname {
+.modulename {
   color: var(--muted);
 }
 
-.addonname {
+.modulename {
   margin: 0;
   font-size: 0.95rem;
 }
@@ -536,29 +536,29 @@ textarea {
   border: 1px solid var(--surface-border);
 }
 
-.addons-home {
+.modules-home {
   padding-top: 0;
 }
 
-.addon-home-panel {
+.module-home-panel {
   padding: 24px;
   display: grid;
   gap: 14px;
 }
 
-.addon-home-actions {
+.module-home-actions {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
 
-.addon-placeholder-grid {
+.module-placeholder-grid {
   display: grid;
   gap: 12px;
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.addon-placeholder-item {
+.module-placeholder-item {
   min-height: 110px;
   border-radius: var(--radius-md);
   border: 1px dashed var(--surface-border);
@@ -569,60 +569,60 @@ textarea {
   letter-spacing: 0.08em;
 }
 
-.addons-shell {
+.modules-shell {
   display: grid;
   gap: 18px;
 }
 
-.addons-header {
+.modules-header {
   padding: 24px;
   display: grid;
   gap: 12px;
 }
 
-.addons-results {
+.modules-results {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
 }
 
-.addon-result-card {
+.module-result-card {
   padding: 18px;
   display: grid;
   gap: 12px;
 }
 
-.addon-detail-shell {
+.module-detail-shell {
   display: grid;
   gap: 18px;
 }
 
-.addon-detail-header {
+.module-detail-header {
   padding: 24px;
   display: grid;
   gap: 12px;
 }
 
-.addon-meta-grid {
+.module-meta-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
 }
 
-.addon-meta-card {
+.module-meta-card {
   padding: 20px;
   display: grid;
   gap: 12px;
 }
 
-.addon-list {
+.module-list {
   margin: 0;
   padding-left: 18px;
   display: grid;
   gap: 10px;
 }
 
-.addon-list li {
+.module-list li {
   color: var(--muted);
 }
 
@@ -674,7 +674,7 @@ textarea {
 }
 
 .moderation-item,
-.community-addon-item {
+.community-module-item {
   border: 1px solid var(--surface-border);
   border-radius: var(--radius-md);
   padding: 14px;
@@ -779,9 +779,9 @@ body[data-page="docs"] .fade-in {
 @media (max-width: 1080px) {
   .placeholder-grid,
   .docs-layout,
-  .addons-results,
-  .addon-meta-grid,
-  .addon-placeholder-grid,
+  .modules-results,
+  .module-meta-grid,
+  .module-placeholder-grid,
   .auth-grid {
     grid-template-columns: 1fr;
   }
@@ -921,10 +921,10 @@ body[data-page="docs"] .fade-in {
   }
 
   .SyntaxItemCard,
-  .addon-home-panel,
-  .addons-header,
-  .addon-detail-header,
-  .addon-meta-card,
+  .module-home-panel,
+  .modules-header,
+  .module-detail-header,
+  .module-meta-card,
   .account-panel,
   .upload-panel,
   .moderation-panel,
@@ -935,7 +935,7 @@ body[data-page="docs"] .fade-in {
 
 @media (orientation: landscape) and (max-height: 540px) {
   body[data-page="docs"] .topbar,
-  body[data-page="addons"] .topbar {
+  body[data-page="modules"] .topbar {
     position: static;
   }
 

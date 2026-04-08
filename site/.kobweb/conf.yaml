@@ -5,10 +5,10 @@ server:
   files:
     dev:
       contentRoot: "build/processedResources/js/main/public"
-      script: "build/kotlin-webpack/js/developmentExecutable/app.js"
+      script: "build/kotlin-webpack/js/developmentExecutable/MineKot.org.js"
       api: "build/libs/app.jar"
     prod:
-      script: "build/kotlin-webpack/js/productionExecutable/app.js"
+      script: "build/kotlin-webpack/js/productionExecutable/MineKot.org.js"
       siteRoot: ".kobweb/site"
 
   port: 8080

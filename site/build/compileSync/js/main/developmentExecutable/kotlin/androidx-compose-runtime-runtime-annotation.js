@@ -12,11 +12,11 @@
 }(function (_, kotlin_kotlin) {
   'use strict';
   //region block: imports
-  var THROW_CCE = kotlin_kotlin.$_$.ch;
-  var protoOf = kotlin_kotlin.$_$.md;
-  var Annotation = kotlin_kotlin.$_$.ng;
-  var initMetadataForClass = kotlin_kotlin.$_$.kc;
-  var VOID = kotlin_kotlin.$_$.d;
+  var THROW_CCE = kotlin_kotlin.$_$.hi;
+  var protoOf = kotlin_kotlin.$_$.zd;
+  var Annotation = kotlin_kotlin.$_$.qh;
+  var initMetadataForClass = kotlin_kotlin.$_$.xc;
+  var VOID = kotlin_kotlin.$_$.e;
   //endregion
   //region block: pre-declaration
   initMetadataForClass(Immutable, 'Immutable', VOID, VOID, [Annotation]);

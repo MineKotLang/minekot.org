@@ -35,29 +35,29 @@
   //region block: imports
   var get_BorderColorVar = kotlin_com_varabyte_kobweb_silk_widgets.$_$.g;
   var StyleVariable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.g;
-  var KProperty1 = kotlin_kotlin.$_$.l8;
-  var getPropertyCallableRef = kotlin_kotlin.$_$.f7;
-  var protoOf = kotlin_kotlin.$_$.y7;
-  var initMetadataForObject = kotlin_kotlin.$_$.n7;
-  var Companion_instance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.j3;
-  var Companion_instance_0 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.e3;
+  var KProperty1 = kotlin_kotlin.$_$.hc;
+  var getPropertyCallableRef = kotlin_kotlin.$_$.ma;
+  var protoOf = kotlin_kotlin.$_$.ob;
+  var initMetadataForObject = kotlin_kotlin.$_$.ua;
+  var Companion_instance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i3;
+  var Companion_instance_0 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.a3;
   var listStyle = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m1;
-  var Companion_instance_1 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.l3;
+  var Companion_instance_1 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.h3;
   var textAlign = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n2;
   var get_cssRem = kotlin_org_jetbrains_compose_html_html_core.$_$.s1;
   var padding = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e2;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.z2;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.c3;
   var borderRadius = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l;
   var Companion_instance_2 = kotlin_org_jetbrains_compose_html_html_core.$_$.l;
   var border = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n;
   var Companion_instance_3 = kotlin_com_varabyte_kobweb_silk_foundation.$_$.b2;
-  var VOID = kotlin_kotlin.$_$.c;
+  var VOID = kotlin_kotlin.$_$.d;
   var base = kotlin_com_varabyte_kobweb_silk_foundation.$_$.y;
   var addVariantBase = kotlin_com_varabyte_kobweb_silk_foundation.$_$.u;
-  var Unit_instance = kotlin_kotlin.$_$.c2;
-  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.x2;
+  var Unit_instance = kotlin_kotlin.$_$.g4;
+  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.a3;
   var width = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w2;
-  var Companion_instance_4 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.f3;
+  var Companion_instance_4 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.b3;
   var objectFit = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x1;
   var CssStyle = kotlin_com_varabyte_kobweb_silk_foundation.$_$.s;
   var StyleVariable_0 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.f;
@@ -66,21 +66,21 @@
   var toModifier = kotlin_com_varabyte_kobweb_silk_foundation.$_$.d1;
   var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a3;
   var rememberComposableLambda = kotlin_androidx_compose_runtime_runtime.$_$.b;
-  var sourceInformationMarkerStart = kotlin_androidx_compose_runtime_runtime.$_$.u;
-  var Companion_getInstance = kotlin_androidx_compose_runtime_runtime.$_$.f1;
-  var THROW_CCE = kotlin_kotlin.$_$.sa;
-  var sourceInformationMarkerEnd = kotlin_androidx_compose_runtime_runtime.$_$.t;
+  var sourceInformationMarkerStart = kotlin_androidx_compose_runtime_runtime.$_$.v;
+  var Companion_getInstance = kotlin_androidx_compose_runtime_runtime.$_$.g1;
+  var THROW_CCE = kotlin_kotlin.$_$.ff;
+  var sourceInformationMarkerEnd = kotlin_androidx_compose_runtime_runtime.$_$.u;
   var Anchor = kotlin_com_varabyte_kobweb_kobweb_core.$_$.f;
   var get_link = kotlin_com_varabyte_kobweb_silk_foundation.$_$.m;
   var get_visited = kotlin_com_varabyte_kobweb_silk_foundation.$_$.p;
   var get_hover = kotlin_com_varabyte_kobweb_silk_foundation.$_$.l;
-  var Companion_instance_5 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.m3;
+  var Companion_instance_5 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.i3;
   var textDecorationLine = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o2;
   var color = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v;
   var get_ColorVar = kotlin_com_varabyte_kobweb_silk_widgets.$_$.h;
-  var com_varabyte_kobweb_compose_dom_ElementRefScope$stableprop_getter = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.k2;
-  var registerRefScope = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.l2;
-  var updateChangedFlags = kotlin_androidx_compose_runtime_runtime.$_$.z;
+  var com_varabyte_kobweb_compose_dom_ElementRefScope$stableprop_getter = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.h2;
+  var registerRefScope = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.i2;
+  var updateChangedFlags = kotlin_androidx_compose_runtime_runtime.$_$.a1;
   var addVariant = kotlin_com_varabyte_kobweb_silk_foundation.$_$.v;
   var Colors_instance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e3;
   var get_entries = kotlin_com_varabyte_kobweb_silk_foundation.$_$.l1;
@@ -89,8 +89,8 @@
   var toPalette = kotlin_com_varabyte_kobweb_silk_foundation.$_$.k1;
   var setVariable = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k2;
   var ColorGroup = kotlin_com_varabyte_kobweb_silk_foundation.$_$.g1;
-  var KMutableProperty1 = kotlin_kotlin.$_$.j8;
-  var initMetadataForClass = kotlin_kotlin.$_$.i7;
+  var KMutableProperty1 = kotlin_kotlin.$_$.fc;
+  var initMetadataForClass = kotlin_kotlin.$_$.pa;
   var MutablePalette = kotlin_com_varabyte_kobweb_silk_foundation.$_$.h1;
   var com_varabyte_kobweb_silk_theme_colors_palette_MutablePalette_ColorGroup$stableprop_getter = kotlin_com_varabyte_kobweb_silk_foundation.$_$.i1;
   var com_varabyte_kobweb_silk_theme_colors_palette_MutablePalette_ColorGroup_EntryDelegate$stableprop_getter = kotlin_com_varabyte_kobweb_silk_foundation.$_$.j1;
@@ -113,18 +113,18 @@
   var com_varabyte_kobweb_silk_components_document_TocVars$stable;
   function TocVars$_get_BorderColor_$ref_d3lohz() {
     return function (p0) {
-      return p0.z3f();
+      return p0.a3k();
     };
   }
   function TocVars() {
     TocVars_instance = this;
     var tmp = this;
-    var tmp0_defaultFallback = get_BorderColorVar().o2x();
-    tmp.w3q_1 = StyleVariable(tmp0_defaultFallback, 'silk');
+    var tmp0_defaultFallback = get_BorderColorVar().e32();
+    tmp.x3u_1 = StyleVariable(tmp0_defaultFallback, 'silk');
   }
-  protoOf(TocVars).z3f = function () {
+  protoOf(TocVars).a3k = function () {
     var tmp = KProperty1;
-    return this.w3q_1.u2x(this, getPropertyCallableRef('BorderColor', 1, tmp, TocVars$_get_BorderColor_$ref_d3lohz(), null));
+    return this.x3u_1.k32(this, getPropertyCallableRef('BorderColor', 1, tmp, TocVars$_get_BorderColor_$ref_d3lohz(), null));
   };
   var TocVars_instance;
   function TocVars_getInstance() {
@@ -134,7 +134,7 @@
   }
   function TocStyle$lambda($this$base) {
     _init_properties_Toc_kt__9n5312();
-    return padding(textAlign(listStyle(Companion_instance, Companion_instance_0.n2v()), Companion_instance_1.x2u()), get_cssRem(0));
+    return padding(textAlign(listStyle(Companion_instance, Companion_instance_0.d30()), Companion_instance_1.n2z()), get_cssRem(0));
   }
   function TocBorderedVariant$lambda($this$addVariantBase) {
     _init_properties_Toc_kt__9n5312();
@@ -144,7 +144,7 @@
     // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return padding(border(tmp, tmp_0, 'solid', TocVars_getInstance().z3f().o2x()), get_cssRem(1));
+    return padding(border(tmp, tmp_0, 'solid', TocVars_getInstance().a3k().e32()), get_cssRem(1));
   }
   var properties_initialized_Toc_kt_t9o4p4;
   function _init_properties_Toc_kt__9n5312() {
@@ -173,7 +173,7 @@
   }
   function FitWidthImageVariant$lambda($this$addVariantBase) {
     _init_properties_Image_kt__h9v8mh();
-    return objectFit(width(Companion_instance, get_percent(100)), Companion_instance_4.w2w());
+    return objectFit(width(Companion_instance, get_percent(100)), Companion_instance_4.m31());
   }
   var properties_initialized_Image_kt_7kjzpx;
   function _init_properties_Image_kt__h9v8mh() {
@@ -207,26 +207,26 @@
   var com_varabyte_kobweb_silk_components_navigation_LinkVars$stable;
   function LinkVars$_get_DefaultColor_$ref_plujau() {
     return function (p0) {
-      return p0.z3q();
+      return p0.a3v();
     };
   }
   function LinkVars$_get_VisitedColor_$ref_j60201() {
     return function (p0) {
-      return p0.a3r();
+      return p0.b3v();
     };
   }
   function LinkVars() {
     LinkVars_instance = this;
-    this.x3q_1 = StyleVariable_0('silk');
-    this.y3q_1 = StyleVariable_0('silk');
+    this.y3u_1 = StyleVariable_0('silk');
+    this.z3u_1 = StyleVariable_0('silk');
   }
-  protoOf(LinkVars).z3q = function () {
+  protoOf(LinkVars).a3v = function () {
     var tmp = KProperty1;
-    return this.x3q_1.u2x(this, getPropertyCallableRef('DefaultColor', 1, tmp, LinkVars$_get_DefaultColor_$ref_plujau(), null));
+    return this.y3u_1.k32(this, getPropertyCallableRef('DefaultColor', 1, tmp, LinkVars$_get_DefaultColor_$ref_plujau(), null));
   };
-  protoOf(LinkVars).a3r = function () {
+  protoOf(LinkVars).b3v = function () {
     var tmp = KProperty1;
-    return this.y3q_1.u2x(this, getPropertyCallableRef('VisitedColor', 1, tmp, LinkVars$_get_VisitedColor_$ref_j60201(), null));
+    return this.z3u_1.k32(this, getPropertyCallableRef('VisitedColor', 1, tmp, LinkVars$_get_VisitedColor_$ref_j60201(), null));
   };
   var LinkVars_instance;
   function LinkVars_getInstance() {
@@ -243,25 +243,25 @@
     var updateHistoryMode_0 = {_v: updateHistoryMode};
     var ref_0 = {_v: ref};
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.c13(-253586851);
+    $composer_0 = $composer_0.u17(-253586851);
     var $dirty = $changed;
     if (($changed & 6) === 0)
-      $dirty = $dirty | ($composer_0.p13(path) ? 4 : 2);
+      $dirty = $dirty | ($composer_0.h18(path) ? 4 : 2);
     if (!(($default & 2) === 0))
       $dirty = $dirty | 48;
     else if (($changed & 48) === 0)
-      $dirty = $dirty | ($composer_0.p13(modifier_0._v) ? 32 : 16);
+      $dirty = $dirty | ($composer_0.h18(modifier_0._v) ? 32 : 16);
     if (!(($default & 4) === 0))
       $dirty = $dirty | 384;
     else if (($changed & 384) === 0)
-      $dirty = $dirty | ((($changed & 512) === 0 ? $composer_0.p13(variant_0._v) : $composer_0.s13(variant_0._v)) ? 256 : 128);
+      $dirty = $dirty | ((($changed & 512) === 0 ? $composer_0.h18(variant_0._v) : $composer_0.k18(variant_0._v)) ? 256 : 128);
     if (!(($default & 8) === 0))
       $dirty = $dirty | 3072;
     else if (($changed & 3072) === 0) {
       var tmp;
       var tmp_0 = $composer_0;
       var tmpEnum = openInternalLinksStrategy_0._v;
-      if (tmp_0.r13(tmpEnum == null ? -1 : tmpEnum.l2_1)) {
+      if (tmp_0.j18(tmpEnum == null ? -1 : tmpEnum.z2_1)) {
         tmp = 2048;
       } else {
         tmp = 1024;
@@ -274,7 +274,7 @@
       var tmp_1;
       var tmp_2 = $composer_0;
       var tmpEnum_0 = openExternalLinksStrategy_0._v;
-      if (tmp_2.r13(tmpEnum_0 == null ? -1 : tmpEnum_0.l2_1)) {
+      if (tmp_2.j18(tmpEnum_0 == null ? -1 : tmpEnum_0.z2_1)) {
         tmp_1 = 16384;
       } else {
         tmp_1 = 8192;
@@ -287,7 +287,7 @@
       var tmp_3;
       var tmp_4 = $composer_0;
       var tmpEnum_1 = updateHistoryMode_0._v;
-      if (tmp_4.r13(tmpEnum_1 == null ? -1 : tmpEnum_1.l2_1)) {
+      if (tmp_4.j18(tmpEnum_1 == null ? -1 : tmpEnum_1.z2_1)) {
         tmp_3 = 131072;
       } else {
         tmp_3 = 65536;
@@ -297,10 +297,10 @@
     if (!(($default & 64) === 0))
       $dirty = $dirty | 1572864;
     else if (($changed & 1572864) === 0)
-      $dirty = $dirty | ((($changed & 2097152) === 0 ? $composer_0.p13(ref_0._v) : $composer_0.s13(ref_0._v)) ? 1048576 : 524288);
+      $dirty = $dirty | ((($changed & 2097152) === 0 ? $composer_0.h18(ref_0._v) : $composer_0.k18(ref_0._v)) ? 1048576 : 524288);
     if (($changed & 12582912) === 0)
-      $dirty = $dirty | ($composer_0.s13(content) ? 8388608 : 4194304);
-    if ($composer_0.u13(!(($dirty & 4793491) === 4793490), $dirty & 1)) {
+      $dirty = $dirty | ($composer_0.k18(content) ? 8388608 : 4194304);
+    if ($composer_0.m18(!(($dirty & 4793491) === 4793490), $dirty & 1)) {
       if (!(($default & 2) === 0)) {
         modifier_0._v = Companion_instance;
       }
@@ -319,7 +319,7 @@
       if (!(($default & 64) === 0)) {
         ref_0._v = null;
       }
-      var tmp_5 = toAttrs(toModifier(get_LinkStyle(), [variant_0._v], $composer_0, com_varabyte_kobweb_silk_style_CssStyle$stableprop_getter() | com_varabyte_kobweb_silk_style_CssStyleVariant$stableprop_getter() << 3).w33(modifier_0._v));
+      var tmp_5 = toAttrs(toModifier(get_LinkStyle(), [variant_0._v], $composer_0, com_varabyte_kobweb_silk_style_CssStyle$stableprop_getter() | com_varabyte_kobweb_silk_style_CssStyleVariant$stableprop_getter() << 3).x37(modifier_0._v));
       var tmp_6 = openInternalLinksStrategy_0._v;
       var tmp_7 = openExternalLinksStrategy_0._v;
       var tmp_8 = updateHistoryMode_0._v;
@@ -329,13 +329,13 @@
       var $composer_1 = $composer_0;
       sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
       // Inline function 'androidx.compose.runtime.cache' call
-      var invalid = $composer_1.p13(dispatchReceiver);
+      var invalid = $composer_1.h18(dispatchReceiver);
       // Inline function 'kotlin.let' call
-      var it = $composer_1.n13();
+      var it = $composer_1.f18();
       var tmp_9;
-      if (invalid || it === Companion_getInstance().p12_1) {
+      if (invalid || it === Companion_getInstance().h17_1) {
         var value = ComposableLambda$invoke$ref(dispatchReceiver);
-        $composer_1.o13(value);
+        $composer_1.g18(value);
         tmp_9 = value;
       } else {
         tmp_9 = it;
@@ -345,59 +345,59 @@
       sourceInformationMarkerEnd($composer_1);
       Anchor(path, tmp_5, tmp_6, tmp_7, tmp_8, tmp0, $composer_0, 196608 | 14 & $dirty | 896 & $dirty >> 3 | 7168 & $dirty >> 3 | 57344 & $dirty >> 3, 0);
     } else {
-      $composer_0.h13();
+      $composer_0.z17();
     }
-    var tmp0_safe_receiver = $composer_0.d13();
+    var tmp0_safe_receiver = $composer_0.v17();
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.z1n(Link$lambda_0(path, modifier_0, variant_0, openInternalLinksStrategy_0, openExternalLinksStrategy_0, updateHistoryMode_0, ref_0, content, $changed, $default));
+      tmp0_safe_receiver.r1s(Link$lambda_0(path, modifier_0, variant_0, openInternalLinksStrategy_0, openExternalLinksStrategy_0, updateHistoryMode_0, ref_0, content, $changed, $default));
     }
   }
   function LinkStyle$lambda($this$CssStyle) {
     _init_properties_Link_kt__dm1ox2();
-    $this$CssStyle.c39(LinkStyle$lambda$lambda);
+    $this$CssStyle.d3d(LinkStyle$lambda$lambda);
     var tmp = get_link($this$CssStyle);
-    $this$CssStyle.f3b(tmp, LinkStyle$lambda$lambda_0);
+    $this$CssStyle.g3f(tmp, LinkStyle$lambda$lambda_0);
     var tmp_0 = get_visited($this$CssStyle);
-    $this$CssStyle.f3b(tmp_0, LinkStyle$lambda$lambda_1);
+    $this$CssStyle.g3f(tmp_0, LinkStyle$lambda$lambda_1);
     var tmp_1 = get_hover($this$CssStyle);
-    $this$CssStyle.f3b(tmp_1, LinkStyle$lambda$lambda_2);
+    $this$CssStyle.g3f(tmp_1, LinkStyle$lambda$lambda_2);
     return Unit_instance;
   }
   function LinkStyle$lambda$lambda() {
     _init_properties_Link_kt__dm1ox2();
-    return textDecorationLine(Companion_instance, Companion_instance_5.n2v());
+    return textDecorationLine(Companion_instance, Companion_instance_5.d30());
   }
   function LinkStyle$lambda$lambda_0() {
     _init_properties_Link_kt__dm1ox2();
-    return color(Companion_instance, LinkVars_getInstance().z3q().o2x());
+    return color(Companion_instance, LinkVars_getInstance().a3v().e32());
   }
   function LinkStyle$lambda$lambda_1() {
     _init_properties_Link_kt__dm1ox2();
-    return color(Companion_instance, LinkVars_getInstance().a3r().o2x());
+    return color(Companion_instance, LinkVars_getInstance().b3v().e32());
   }
   function LinkStyle$lambda$lambda_2() {
     _init_properties_Link_kt__dm1ox2();
-    return textDecorationLine(Companion_instance, Companion_instance_5.x2x());
+    return textDecorationLine(Companion_instance, Companion_instance_5.n32());
   }
   function UndecoratedLinkVariant$lambda($this$addVariant) {
     _init_properties_Link_kt__dm1ox2();
     var tmp = get_hover($this$addVariant);
-    $this$addVariant.f3b(tmp, UndecoratedLinkVariant$lambda$lambda);
+    $this$addVariant.g3f(tmp, UndecoratedLinkVariant$lambda$lambda);
     return Unit_instance;
   }
   function UndecoratedLinkVariant$lambda$lambda() {
     _init_properties_Link_kt__dm1ox2();
-    return textDecorationLine(Companion_instance, Companion_instance_5.n2v());
+    return textDecorationLine(Companion_instance, Companion_instance_5.d30());
   }
   function UncoloredLinkVariant$lambda($this$addVariant) {
     _init_properties_Link_kt__dm1ox2();
-    var colorModifier = color(Companion_instance, get_ColorVar().o2x());
+    var colorModifier = color(Companion_instance, get_ColorVar().e32());
     var tmp = get_link($this$addVariant);
-    $this$addVariant.f3b(tmp, UncoloredLinkVariant$lambda$lambda(colorModifier));
+    $this$addVariant.g3f(tmp, UncoloredLinkVariant$lambda$lambda(colorModifier));
     var tmp_0 = get_visited($this$addVariant);
-    $this$addVariant.f3b(tmp_0, UncoloredLinkVariant$lambda$lambda_0(colorModifier));
+    $this$addVariant.g3f(tmp_0, UncoloredLinkVariant$lambda$lambda_0(colorModifier));
     return Unit_instance;
   }
   function UncoloredLinkVariant$lambda$lambda($colorModifier) {
@@ -412,12 +412,12 @@
   }
   function AlwaysUnderlinedLinkVariant$lambda($this$addVariant) {
     _init_properties_Link_kt__dm1ox2();
-    $this$addVariant.c39(AlwaysUnderlinedLinkVariant$lambda$lambda);
+    $this$addVariant.d3d(AlwaysUnderlinedLinkVariant$lambda$lambda);
     return Unit_instance;
   }
   function AlwaysUnderlinedLinkVariant$lambda$lambda() {
     _init_properties_Link_kt__dm1ox2();
-    return textDecorationLine(Companion_instance, Companion_instance_5.x2x());
+    return textDecorationLine(Companion_instance, Companion_instance_5.n32());
   }
   function Link$lambda($ref, $content) {
     return function ($this$Anchor, $composer, $changed) {
@@ -429,7 +429,7 @@
   }
   function ComposableLambda$invoke$ref(p0) {
     return function (_this__u8e3s4, p0_0, p1) {
-      p0.a2a(_this__u8e3s4, p0_0, p1);
+      p0.q2e(_this__u8e3s4, p0_0, p1);
       return Unit_instance;
     };
   }
@@ -454,111 +454,111 @@
     }
   }
   function initSilkWidgetsKobweb(ctx) {
-    var mutableTheme = ctx.n37_1;
+    var mutableTheme = ctx.o3b_1;
     // Inline function 'kotlin.apply' call
-    var this_0 = mutableTheme.e38_1;
+    var this_0 = mutableTheme.f3c_1;
     // Inline function 'kotlin.apply' call
-    var this_1 = this_0.e3e_1;
-    get_link_0(this_1).e3p(Colors_instance.l35(), Colors_instance.z35());
+    var this_1 = this_0.f3i_1;
+    get_link_0(this_1).f3t(Colors_instance.m39(), Colors_instance.a3a());
     // Inline function 'kotlin.apply' call
-    var this_2 = this_0.f3e_1;
-    get_link_0(this_2).e3p(Colors_instance.o35(), Colors_instance.c36());
+    var this_2 = this_0.g3i_1;
+    get_link_0(this_2).f3t(Colors_instance.p39(), Colors_instance.d3a());
     // Inline function 'kotlin.collections.forEach' call
-    var _iterator__ex2g4s = get_entries().i();
-    while (_iterator__ex2g4s.j()) {
-      var element = _iterator__ex2g4s.k();
+    var _iterator__ex2g4s = get_entries().t();
+    while (_iterator__ex2g4s.u()) {
+      var element = _iterator__ex2g4s.v();
       var tmp = '.' + get_cssClass(element);
-      registerStyleBase(ctx.m37_1, tmp, initSilkWidgetsKobweb$lambda(element));
+      registerStyleBase(ctx.n3b_1, tmp, initSilkWidgetsKobweb$lambda(element));
     }
-    mutableTheme.g38('silk-image', get_ImageStyle());
-    mutableTheme.s3c('-fit-width', get_FitWidthImageVariant());
-    mutableTheme.g38('silk-link', get_LinkStyle());
-    mutableTheme.s3c('-uncolored', get_UncoloredLinkVariant());
-    mutableTheme.s3c('-undecorated', get_UndecoratedLinkVariant());
-    mutableTheme.s3c('-always-underlined', get_AlwaysUnderlinedLinkVariant());
-    mutableTheme.g38('silk-toc', get_TocStyle());
-    mutableTheme.s3c('-bordered', get_TocBorderedVariant());
+    mutableTheme.h3c('silk-image', get_ImageStyle());
+    mutableTheme.t3g('-fit-width', get_FitWidthImageVariant());
+    mutableTheme.h3c('silk-link', get_LinkStyle());
+    mutableTheme.t3g('-uncolored', get_UncoloredLinkVariant());
+    mutableTheme.t3g('-undecorated', get_UndecoratedLinkVariant());
+    mutableTheme.t3g('-always-underlined', get_AlwaysUnderlinedLinkVariant());
+    mutableTheme.h3c('silk-toc', get_TocStyle());
+    mutableTheme.t3g('-bordered', get_TocBorderedVariant());
   }
   function initSilkWidgetsKobweb$lambda($colorMode) {
     return function () {
       var palette = toPalette($colorMode);
-      return setVariable(setVariable(Companion_instance, LinkVars_getInstance().z3q(), get_link_1(palette).f3p()), LinkVars_getInstance().a3r(), get_link_1(palette).f3r());
+      return setVariable(setVariable(Companion_instance, LinkVars_getInstance().a3v(), get_link_1(palette).g3t()), LinkVars_getInstance().b3v(), get_link_1(palette).g3v());
     };
   }
   var com_varabyte_kobweb_silk_theme_colors_palette_SilkWidgetKobwebColorGroups_MutableLink$stable;
   var com_varabyte_kobweb_silk_theme_colors_palette_SilkWidgetKobwebColorGroups$stable;
   function SilkWidgetKobwebColorGroups$MutableLink$_get_default_$ref_q6ezpd() {
     return function (p0) {
-      return p0.f3p();
+      return p0.g3t();
     };
   }
   function SilkWidgetKobwebColorGroups$MutableLink$_set_default_$ref_ekavxv() {
     return function (p0, p1) {
-      p0.q3p(p1);
+      p0.r3t(p1);
       return Unit_instance;
     };
   }
   function SilkWidgetKobwebColorGroups$MutableLink$_get_default_$ref_q6ezpd_0() {
     return function (p0) {
-      return p0.f3p();
+      return p0.g3t();
     };
   }
   function SilkWidgetKobwebColorGroups$MutableLink$_set_default_$ref_ekavxv_0() {
     return function (p0, p1) {
-      p0.q3p(p1);
+      p0.r3t(p1);
       return Unit_instance;
     };
   }
   function SilkWidgetKobwebColorGroups$MutableLink$_get_visited_$ref_txpy16() {
     return function (p0) {
-      return p0.f3r();
+      return p0.g3v();
     };
   }
   function SilkWidgetKobwebColorGroups$MutableLink$_set_visited_$ref_aszxm2() {
     return function (p0, p1) {
-      p0.g3r(p1);
+      p0.h3v(p1);
       return Unit_instance;
     };
   }
   function SilkWidgetKobwebColorGroups$MutableLink$_get_visited_$ref_txpy16_0() {
     return function (p0) {
-      return p0.f3r();
+      return p0.g3v();
     };
   }
   function SilkWidgetKobwebColorGroups$MutableLink$_set_visited_$ref_aszxm2_0() {
     return function (p0, p1) {
-      p0.g3r(p1);
+      p0.h3v(p1);
       return Unit_instance;
     };
   }
   function MutableLink(palette) {
     ColorGroup.call(this, palette, 'link');
-    this.d3r_1 = this.q3e();
-    this.e3r_1 = this.q3e();
+    this.e3v_1 = this.r3i();
+    this.f3v_1 = this.r3i();
   }
-  protoOf(MutableLink).q3p = function (_set____db54di) {
+  protoOf(MutableLink).r3t = function (_set____db54di) {
     var tmp = KMutableProperty1;
     var tmp_0 = SilkWidgetKobwebColorGroups$MutableLink$_get_default_$ref_q6ezpd_0();
-    return this.d3r_1.n3e(this, getPropertyCallableRef('default', 1, tmp, tmp_0, SilkWidgetKobwebColorGroups$MutableLink$_set_default_$ref_ekavxv_0()), _set____db54di);
+    return this.e3v_1.o3i(this, getPropertyCallableRef('default', 1, tmp, tmp_0, SilkWidgetKobwebColorGroups$MutableLink$_set_default_$ref_ekavxv_0()), _set____db54di);
   };
-  protoOf(MutableLink).f3p = function () {
+  protoOf(MutableLink).g3t = function () {
     var tmp = KMutableProperty1;
     var tmp_0 = SilkWidgetKobwebColorGroups$MutableLink$_get_default_$ref_q6ezpd();
-    return this.d3r_1.u2x(this, getPropertyCallableRef('default', 1, tmp, tmp_0, SilkWidgetKobwebColorGroups$MutableLink$_set_default_$ref_ekavxv()));
+    return this.e3v_1.k32(this, getPropertyCallableRef('default', 1, tmp, tmp_0, SilkWidgetKobwebColorGroups$MutableLink$_set_default_$ref_ekavxv()));
   };
-  protoOf(MutableLink).g3r = function (_set____db54di) {
+  protoOf(MutableLink).h3v = function (_set____db54di) {
     var tmp = KMutableProperty1;
     var tmp_0 = SilkWidgetKobwebColorGroups$MutableLink$_get_visited_$ref_txpy16_0();
-    return this.e3r_1.n3e(this, getPropertyCallableRef('visited', 1, tmp, tmp_0, SilkWidgetKobwebColorGroups$MutableLink$_set_visited_$ref_aszxm2_0()), _set____db54di);
+    return this.f3v_1.o3i(this, getPropertyCallableRef('visited', 1, tmp, tmp_0, SilkWidgetKobwebColorGroups$MutableLink$_set_visited_$ref_aszxm2_0()), _set____db54di);
   };
-  protoOf(MutableLink).f3r = function () {
+  protoOf(MutableLink).g3v = function () {
     var tmp = KMutableProperty1;
     var tmp_0 = SilkWidgetKobwebColorGroups$MutableLink$_get_visited_$ref_txpy16();
-    return this.e3r_1.u2x(this, getPropertyCallableRef('visited', 1, tmp, tmp_0, SilkWidgetKobwebColorGroups$MutableLink$_set_visited_$ref_aszxm2()));
+    return this.f3v_1.k32(this, getPropertyCallableRef('visited', 1, tmp, tmp_0, SilkWidgetKobwebColorGroups$MutableLink$_set_visited_$ref_aszxm2()));
   };
-  protoOf(MutableLink).e3p = function (default_0, visited) {
-    this.q3p(default_0);
-    this.g3r(visited);
+  protoOf(MutableLink).f3t = function (default_0, visited) {
+    this.r3t(default_0);
+    this.h3v(visited);
   };
   function get_link_0(_this__u8e3s4) {
     _init_properties_SilkWidgetKobwebColorGroups_kt__t3jte2();

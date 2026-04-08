@@ -1,7 +1,7 @@
 {
-  "name": "app-test",
+  "name": "MineKot.org-test",
   "version": "1.0.0-SNAPSHOT",
-  "main": "app-test.js",
+  "main": "MineKot.org-test.js",
   "devDependencies": {
     "karma": "github:Kotlin/karma#6.4.5",
     "kotlin-web-helpers": "3.0.0",

@@ -24,40 +24,40 @@
 }(function (_, kotlin_kotlin, kotlin_androidx_compose_runtime_runtime, kotlin_com_varabyte_kobweb_kobweb_core, kotlin_com_varabyte_kobweb_kobweb_compose, kotlin_com_varabyte_kobweb_silk_foundation) {
   'use strict';
   //region block: imports
-  var Unit_instance = kotlin_kotlin.$_$.c2;
+  var Unit_instance = kotlin_kotlin.$_$.g4;
   var rememberComposableLambda = kotlin_androidx_compose_runtime_runtime.$_$.b;
-  var sourceInformationMarkerStart = kotlin_androidx_compose_runtime_runtime.$_$.u;
-  var Companion_getInstance = kotlin_androidx_compose_runtime_runtime.$_$.f1;
-  var THROW_CCE = kotlin_kotlin.$_$.sa;
-  var sourceInformationMarkerEnd = kotlin_androidx_compose_runtime_runtime.$_$.t;
+  var sourceInformationMarkerStart = kotlin_androidx_compose_runtime_runtime.$_$.v;
+  var Companion_getInstance = kotlin_androidx_compose_runtime_runtime.$_$.g1;
+  var THROW_CCE = kotlin_kotlin.$_$.ff;
+  var sourceInformationMarkerEnd = kotlin_androidx_compose_runtime_runtime.$_$.u;
   var KobwebApp = kotlin_com_varabyte_kobweb_kobweb_core.$_$.c;
   var KobwebComposeStyles = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c3;
   var SilkFoundationStyles = kotlin_com_varabyte_kobweb_silk_foundation.$_$.u1;
   var ColorModeAware = kotlin_com_varabyte_kobweb_silk_foundation.$_$.t1;
-  var updateChangedFlags = kotlin_androidx_compose_runtime_runtime.$_$.z;
+  var updateChangedFlags = kotlin_androidx_compose_runtime_runtime.$_$.a1;
   //endregion
   //region block: pre-declaration
   //endregion
   function SilkApp(content, $composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.c13(921272959);
+    $composer_0 = $composer_0.u17(921272959);
     var $dirty = $changed;
     if (($changed & 6) === 0)
-      $dirty = $dirty | ($composer_0.s13(content) ? 4 : 2);
-    if ($composer_0.u13(!(($dirty & 3) === 2), $dirty & 1)) {
+      $dirty = $dirty | ($composer_0.k18(content) ? 4 : 2);
+    if ($composer_0.m18(!(($dirty & 3) === 2), $dirty & 1)) {
       // Inline function 'kotlin.run' call
       var dispatchReceiver = rememberComposableLambda(696845695, true, SilkApp$lambda(content), $composer_0, 54);
       // Inline function 'androidx.compose.runtime.remember' call
       var $composer_1 = $composer_0;
       sourceInformationMarkerStart($composer_1, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
       // Inline function 'androidx.compose.runtime.cache' call
-      var invalid = $composer_1.p13(dispatchReceiver);
+      var invalid = $composer_1.h18(dispatchReceiver);
       // Inline function 'kotlin.let' call
-      var it = $composer_1.n13();
+      var it = $composer_1.f18();
       var tmp;
-      if (invalid || it === Companion_getInstance().p12_1) {
+      if (invalid || it === Companion_getInstance().h17_1) {
         var value = ComposableLambda$invoke$ref(dispatchReceiver);
-        $composer_1.o13(value);
+        $composer_1.g18(value);
         tmp = value;
       } else {
         tmp = it;
@@ -67,26 +67,26 @@
       sourceInformationMarkerEnd($composer_1);
       KobwebApp(tmp0, $composer_0, 6);
     } else {
-      $composer_0.h13();
+      $composer_0.z17();
     }
-    var tmp0_safe_receiver = $composer_0.d13();
+    var tmp0_safe_receiver = $composer_0.v17();
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.z1n(SilkApp$lambda_0(content, $changed));
+      tmp0_safe_receiver.r1s(SilkApp$lambda_0(content, $changed));
     }
   }
   function SilkApp$lambda($content) {
     return function ($composer, $changed) {
       var $composer_0 = $composer;
       var tmp;
-      if ($composer_0.u13(!(($changed & 3) === 2), $changed & 1)) {
+      if ($composer_0.m18(!(($changed & 3) === 2), $changed & 1)) {
         KobwebComposeStyles($composer_0, 0);
         SilkFoundationStyles(null, $composer_0, 0, 1);
         ColorModeAware(null, $composer_0, 0, 1);
         tmp = $content($composer_0, 0);
       } else {
-        $composer_0.h13();
+        $composer_0.z17();
         tmp = Unit_instance;
       }
       return Unit_instance;
@@ -94,7 +94,7 @@
   }
   function ComposableLambda$invoke$ref(p0) {
     return function (_this__u8e3s4, p0_0) {
-      p0.s1h(_this__u8e3s4, p0_0);
+      p0.k1m(_this__u8e3s4, p0_0);
       return Unit_instance;
     };
   }

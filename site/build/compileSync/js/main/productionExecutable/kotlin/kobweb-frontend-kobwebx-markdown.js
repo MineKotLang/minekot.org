@@ -12,21 +12,21 @@
 }(function (_, kotlin_kotlin) {
   'use strict';
   //region block: imports
-  var protoOf = kotlin_kotlin.$_$.y7;
-  var initMetadataForClass = kotlin_kotlin.$_$.i7;
-  var getKClass = kotlin_kotlin.$_$.h8;
+  var protoOf = kotlin_kotlin.$_$.ob;
+  var initMetadataForClass = kotlin_kotlin.$_$.pa;
+  var getKClass = kotlin_kotlin.$_$.cc;
   //endregion
   //region block: pre-declaration
   initMetadataForClass(MarkdownContext, 'MarkdownContext');
   //endregion
   var com_varabyte_kobwebx_markdown_MarkdownContext$stable;
   function MarkdownContext(path, frontMatter) {
-    this.o3f_1 = path;
-    this.p3f_1 = frontMatter;
+    this.p3j_1 = path;
+    this.q3j_1 = frontMatter;
   }
   function get_markdown(_this__u8e3s4) {
     // Inline function 'com.varabyte.kobweb.core.data.get' call
-    return _this__u8e3s4.p31_1.l31(getKClass(MarkdownContext));
+    return _this__u8e3s4.q35_1.m35(getKClass(MarkdownContext));
   }
   //region block: init
   com_varabyte_kobwebx_markdown_MarkdownContext$stable = 8;
