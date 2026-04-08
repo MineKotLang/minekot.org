@@ -15,5 +15,5 @@ kotlin-js-store
 # Kotlin ignores
 .kotlin
 
-# kobweb
-!.kobweb
+# build
+/build
