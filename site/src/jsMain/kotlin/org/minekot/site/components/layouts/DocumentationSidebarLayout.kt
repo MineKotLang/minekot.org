@@ -25,8 +25,8 @@ fun DocumentationSidebarLayout(content: @Composable () -> Unit) {
     val currentRoute = ctx.route.path
 
     LaunchedEffect(Unit) {
-        //val response = window.fetch("https://raw.githubusercontent.com/MineKotLang/static/main/sidebar.json").await()
-        val response = window.fetch("http://127.0.0.1:5500/sidebar.json").await()
+        val response = window.fetch("https://raw.githubusercontent.com/MineKotLang/static/main/sidebar.json").await()
+        //val response = window.fetch("http://127.0.0.1:5500/sidebar.json").await()
         if (response.ok) {
             sections = jsonFormat.decodeFromString(response.text().await())
         }
