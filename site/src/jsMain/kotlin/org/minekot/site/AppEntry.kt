@@ -59,7 +59,7 @@ private fun ensureShikiLoaded() {
         import { createHighlighter } from 'https://esm.sh/shiki@1.22.2'
         window.initShiki = async () => {
             return await createHighlighter({
-                themes: ['catppuccin-mocha'],
+                themes: ['catppuccin-mocha', 'catppuccin-latte'],
                 langs: ['kotlin', 'yaml', 'json', 'bash', 'java', 'markdown']
             })
         }

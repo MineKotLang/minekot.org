@@ -1,9 +1,11 @@
-﻿package org.minekot.site.components.sections
+package org.minekot.site.components.sections
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 import com.varabyte.kobweb.core.rememberPageContext
+import com.varabyte.kobweb.silk.components.icons.mdi.MdiDarkMode
+import com.varabyte.kobweb.silk.components.icons.mdi.MdiLightMode
 import com.varabyte.kobweb.silk.theme.colors.ColorMode
 import org.jetbrains.compose.web.dom.*
 
@@ -53,20 +55,21 @@ fun NavHeader(activePath: String) {
                 MainNavLink("/", "Home", activePath == "home")
                 MainNavLink(
                     "/docs/",
-                    "Docs",
-                    activePath == "docs",
-                )
-                MainNavLink(
-                    "/modules/",
-                    "Modules",
-                    activePath == "modules",
-                )
-                MainNavLink(
-                    "/scripts/",
-                    "Scripts",
-                    activePath == "scripts",
+                    "Documentation",
+                    activePath == "docs" || activePath == "documentation",
                 )
             }
+            Div(
+                attrs = {
+                    style {
+                        property("width", "1px")
+                        property("height", "24px")
+                        property("background-color", "var(--color-border)")
+                        property("margin", "0 16px")
+                    }
+                },
+            )
+
             Button(
                 attrs = {
                     classes("btn")
@@ -76,7 +79,7 @@ fun NavHeader(activePath: String) {
                     }
                 },
             ) {
-                Text(if (colorMode.isDark) "☀️" else "🌙")
+                if (colorMode.isDark) MdiLightMode() else MdiDarkMode()
             }
         }
     }
