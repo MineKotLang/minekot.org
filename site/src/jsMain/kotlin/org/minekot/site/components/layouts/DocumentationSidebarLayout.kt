@@ -11,6 +11,7 @@ import org.jetbrains.compose.web.attributes.InputType
 import org.jetbrains.compose.web.css.cssRem
 import org.jetbrains.compose.web.css.padding
 import org.jetbrains.compose.web.dom.*
+import org.minekot.site.constants.DOC_SIDEBAR_JSON_URL
 import org.minekot.site.data.SidebarEntry
 import org.minekot.site.data.SidebarSection
 import org.minekot.site.data.expandedDirectories
@@ -25,7 +26,8 @@ fun DocumentationSidebarLayout(content: @Composable () -> Unit) {
     val currentRoute = ctx.route.path
 
     LaunchedEffect(Unit) {
-        val response = window.fetch("https://raw.githubusercontent.com/MineKotLang/static/main/sidebar.json").await()
+        val response =
+            window.fetch(DOC_SIDEBAR_JSON_URL).await()
         //val response = window.fetch("http://127.0.0.1:5500/sidebar.json").await()
         if (response.ok) {
             sections = jsonFormat.decodeFromString(response.text().await())

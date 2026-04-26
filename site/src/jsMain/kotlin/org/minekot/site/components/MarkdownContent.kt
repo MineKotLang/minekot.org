@@ -8,6 +8,7 @@ import org.jetbrains.compose.web.css.cssRem
 import org.jetbrains.compose.web.css.padding
 import org.jetbrains.compose.web.dom.Div
 import org.jetbrains.compose.web.dom.Text
+import org.minekot.site.constants.DOC_URL
 import org.minekot.site.data.shikiHighlighter
 import org.minekot.site.util.MarkdownParser
 
@@ -49,11 +50,11 @@ fun MarkdownContent(
         }
 
         var response =
-            window.fetch("https://raw.githubusercontent.com/MineKotLang/static/main/$baseDir/$fetchPath").await()
+            window.fetch("$DOC_URL/$baseDir/$fetchPath").await()
 
         if (!response.ok && !path.endsWith("/") && !path.endsWith(".md")) {
             val fallbackResponse =
-                window.fetch("https://raw.githubusercontent.com/MineKotLang/static/main/$baseDir/$path/index.md")
+                window.fetch("$DOC_URL/$baseDir/$path/index.md")
                     .await()
             if (fallbackResponse.ok) {
                 response = fallbackResponse
