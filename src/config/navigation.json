@@ -1,0 +1,30 @@
+{
+  "primary": [
+    {
+      "path": "/",
+      "label-key": "nav-home"
+    },
+    {
+      "path": "/docs",
+      "label-key": "nav-docs"
+    },
+    {
+      "path": "/roadmap",
+      "label-key": "nav-roadmap"
+    },
+    {
+      "path": "/community",
+      "label-key": "nav-community"
+    },
+    {
+      "path": "/about",
+      "label-key": "nav-about"
+    }
+  ],
+  "secondary": [
+    {
+      "path": "/changelog",
+      "label-key": "nav-changelog"
+    }
+  ]
+}

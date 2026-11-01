@@ -1,0 +1,128 @@
+.footer
+{
+  display          : flex;
+  flex-direction   : column;
+  width            : 100%;
+  margin-top       : auto;
+  padding          : var(--spacing-xl) var(--spacing-md);
+  border-top       : 1px solid var(--t-surface0);
+  gap              : var(--spacing-xl);
+  background-color : var(--t-crust);
+}
+.footer__inner
+{
+  display   : grid;
+  width     : 100%;
+  max-width : var(--max-width);
+  margin    : 0 auto;
+  gap       : var(--spacing-xl);
+}
+.footer__brand
+{
+  display        : flex;
+  flex-direction : column;
+  gap            : var(--spacing-sm);
+}
+.footer__brand-link
+{
+  display     : flex;
+  align-items : center;
+  font-weight : 700;
+  font-size   : 1.1rem;
+  color       : var(--t-text);
+  gap         : var(--spacing-sm);
+}
+.footer__brand-link:hover
+{
+  color : var(--t-mauve);
+}
+.footer__logo
+{
+  width  : 1.75rem;
+  height : 1.75rem;
+}
+.footer__description
+{
+  font-size   : 0.9rem;
+  line-height : 1.6;
+  color       : var(--t-subtext0);
+}
+.footer__brand-note
+{
+  font-size : 0.8rem;
+  color     : var(--t-overlay1);
+}
+.footer__column
+{
+  display        : flex;
+  flex-direction : column;
+  gap            : var(--spacing-sm);
+}
+.footer__column-title
+{
+  font-size      : 0.78rem;
+  font-weight    : 700;
+  letter-spacing : 0.08em;
+  text-transform : uppercase;
+  color          : var(--t-subtext0);
+}
+.footer__links
+{
+  display        : flex;
+  flex-direction : column;
+  list-style     : none;
+  gap            : var(--spacing-xs);
+}
+.footer__link
+{
+  font-size  : 0.9rem;
+  color      : var(--t-overlay2);
+  transition : color 0.2s ease;
+}
+.footer__link:hover
+{
+  color : var(--t-mauve);
+}
+.footer__bottom
+{
+  display         : flex;
+  flex-wrap       : wrap;
+  justify-content : space-between;
+  width           : 100%;
+  max-width       : var(--max-width);
+  margin          : 0 auto;
+  padding-top     : var(--spacing-md);
+  border-top      : 1px solid var(--t-surface0);
+  font-size       : 0.8rem;
+  color           : var(--t-overlay1);
+  gap             : var(--spacing-sm);
+}
+@media (min-width : 640px)
+{
+  .footer
+  {
+    padding : var(--spacing-xxl) var(--spacing-lg);
+  }
+  .footer__inner
+  {
+    grid-template-columns : repeat(2, minmax(0, 1fr));
+  }
+  .footer__brand
+  {
+    grid-column : 1 / -1;
+    max-width   : 32rem;
+  }
+}
+@media (min-width : 960px)
+{
+  .footer__inner
+  {
+    grid-template-columns : 1.6fr repeat(3, minmax(0, 1fr));
+    gap                   : var(--spacing-xxl);
+  }
+  .footer__brand
+  {
+    grid-column : auto;
+    max-width   : 22rem;
+  }
+}

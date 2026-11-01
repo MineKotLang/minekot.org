@@ -1,0 +1,42 @@
+### OS ###
+.DS_Store
+Thumbs.db
+
+### IDE ###
+.idea/
+.vscode/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Node / Web ###
+node_modules/
+dist/
+coverage/
+.pnpm-store/
+*.log
+*.tsbuildinfo
+
+### Env ###
+.env
+.env.*
+!.env.example
+
+### Local Data ###
+/.local/
+/final/*
+CHANGES.md
+TODO.md
+skills-lock.json
+
+### AI Agents ###
+.junie/
+.gemini/
+.ai/
+.agents/
+.antigravitycli/
+
+### run ###
+run/
+run-*/

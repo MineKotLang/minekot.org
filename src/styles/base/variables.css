@@ -1,0 +1,163 @@
+:root
+{
+  /* Catppuccin Mocha Colors (Dark Theme) */
+  --ctp-rosewater           : #f5e0dc;
+  --ctp-flamingo            : #f2cdcd;
+  --ctp-pink                : #f5c2e7;
+  --ctp-mauve               : #cba6f7;
+  --ctp-red                 : #f38ba8;
+  --ctp-maroon              : #eba0ac;
+  --ctp-peach               : #fab387;
+  --ctp-yellow              : #f9e2af;
+  --ctp-green               : #a6e3a1;
+  --ctp-teal                : #94e2d5;
+  --ctp-sky                 : #89dceb;
+  --ctp-sapphire            : #74c7ec;
+  --ctp-blue                : #89b4fa;
+  --ctp-lavender            : #b4befe;
+  --ctp-text                : #cdd6f4;
+  --ctp-subtext1            : #bac2de;
+  --ctp-subtext0            : #a6adc8;
+  --ctp-overlay2            : #9399b2;
+  --ctp-overlay1            : #7f849c;
+  --ctp-overlay0            : #6c7086;
+  --ctp-surface2            : #585b70;
+  --ctp-surface1            : #45475a;
+  --ctp-surface0            : #313244;
+  --ctp-base                : #1b1b2a;
+  --ctp-mantle              : #181825;
+  --ctp-crust               : #11111b;
+  /* Catppuccin Latte Colors (Light Theme) */
+  --ctp-l-rosewater         : #dc8a78;
+  --ctp-l-flamingo          : #dd7878;
+  --ctp-l-pink              : #ea76cb;
+  --ctp-l-mauve             : #8839ef;
+  --ctp-l-red               : #d20f39;
+  --ctp-l-maroon            : #e64553;
+  --ctp-l-peach             : #fe640b;
+  --ctp-l-yellow            : #df8e1d;
+  --ctp-l-green             : #40a02b;
+  --ctp-l-teal              : #179299;
+  --ctp-l-sky               : #04a5e5;
+  --ctp-l-sapphire          : #209fb5;
+  --ctp-l-blue              : #1e66f5;
+  --ctp-l-lavender          : #7287fd;
+  --ctp-l-text              : #4c4f69;
+  --ctp-l-subtext1          : #5c5f77;
+  --ctp-l-subtext0          : #6c6f85;
+  --ctp-l-overlay2          : #7c7f93;
+  --ctp-l-overlay1          : #8c8fa1;
+  --ctp-l-overlay0          : #9ca0b0;
+  --ctp-l-surface2          : #acb0be;
+  --ctp-l-surface1          : #bcc0cc;
+  --ctp-l-surface0          : #ccd0da;
+  --ctp-l-base              : #eff1f5;
+  --ctp-l-mantle            : #e6e9ef;
+  --ctp-l-crust             : #dce0e8;
+  /* Theme-aware aliases (switched via [data-theme]) */
+  --t-rosewater             : var(--ctp-rosewater);
+  --t-flamingo              : var(--ctp-flamingo);
+  --t-pink                  : var(--ctp-pink);
+  --t-mauve                 : var(--ctp-mauve);
+  --t-red                   : var(--ctp-red);
+  --t-maroon                : var(--ctp-maroon);
+  --t-peach                 : var(--ctp-peach);
+  --t-yellow                : var(--ctp-yellow);
+  --t-green                 : var(--ctp-green);
+  --t-teal                  : var(--ctp-teal);
+  --t-sky                   : var(--ctp-sky);
+  --t-sapphire              : var(--ctp-sapphire);
+  --t-blue                  : var(--ctp-blue);
+  --t-lavender              : var(--ctp-lavender);
+  --t-text                  : var(--ctp-text);
+  --t-subtext1              : var(--ctp-subtext1);
+  --t-subtext0              : var(--ctp-subtext0);
+  --t-overlay2              : var(--ctp-overlay2);
+  --t-overlay1              : var(--ctp-overlay1);
+  --t-overlay0              : var(--ctp-overlay0);
+  --t-surface2              : var(--ctp-surface2);
+  --t-surface1              : var(--ctp-surface1);
+  --t-surface0              : var(--ctp-surface0);
+  --t-base                  : var(--ctp-base);
+  --t-mantle                : var(--ctp-mantle);
+  --t-crust                 : var(--ctp-crust);
+  /* Mascot */
+  --mascot-eye-color        : #000000;
+  --mascot-eye-shadow-color : rgba(0, 0, 0, 0.35);
+  --mascot-glint-color      : #ffffff;
+  /* Layout and Spacing */
+  --spacing-xxs             : 0.125rem;
+  --spacing-xs              : 0.25rem;
+  --spacing-sm              : 0.5rem;
+  --spacing-md              : 1rem;
+  --spacing-lg              : 1.5rem;
+  --spacing-xl              : 2rem;
+  --spacing-xxl             : 3rem;
+  --border-radius           : 8px;
+  --border-radius-lg        : 12px;
+  --transition-fast         : all 0.2s ease;
+  --max-width               : 1200px;
+}
+/* Light theme */
+[data-theme="light"]
+{
+  --t-rosewater : var(--ctp-l-rosewater);
+  --t-flamingo  : var(--ctp-l-flamingo);
+  --t-pink      : var(--ctp-l-pink);
+  --t-mauve     : var(--ctp-l-mauve);
+  --t-red       : var(--ctp-l-red);
+  --t-maroon    : var(--ctp-l-maroon);
+  --t-peach     : var(--ctp-l-peach);
+  --t-yellow    : var(--ctp-l-yellow);
+  --t-green     : var(--ctp-l-green);
+  --t-teal      : var(--ctp-l-teal);
+  --t-sky       : var(--ctp-l-sky);
+  --t-sapphire  : var(--ctp-l-sapphire);
+  --t-blue      : var(--ctp-l-blue);
+  --t-lavender  : var(--ctp-l-lavender);
+  --t-text      : var(--ctp-l-text);
+  --t-subtext1  : var(--ctp-l-subtext1);
+  --t-subtext0  : var(--ctp-l-subtext0);
+  --t-overlay2  : var(--ctp-l-overlay2);
+  --t-overlay1  : var(--ctp-l-overlay1);
+  --t-overlay0  : var(--ctp-l-overlay0);
+  --t-surface2  : var(--ctp-l-surface2);
+  --t-surface1  : var(--ctp-l-surface1);
+  --t-surface0  : var(--ctp-l-surface0);
+  --t-base      : var(--ctp-l-base);
+  --t-mantle    : var(--ctp-l-mantle);
+  --t-crust     : var(--ctp-l-crust);
+}
+/* Respect system preference if no explicit theme set */
+@media (prefers-color-scheme: light)
+{
+  :root:not([data-theme="dark"])
+  {
+    --t-rosewater : var(--ctp-l-rosewater);
+    --t-flamingo  : var(--ctp-l-flamingo);
+    --t-pink      : var(--ctp-l-pink);
+    --t-mauve     : var(--ctp-l-mauve);
+    --t-red       : var(--ctp-l-red);
+    --t-maroon    : var(--ctp-l-maroon);
+    --t-peach     : var(--ctp-l-peach);
+    --t-yellow    : var(--ctp-l-yellow);
+    --t-green     : var(--ctp-l-green);
+    --t-teal      : var(--ctp-l-teal);
+    --t-sky       : var(--ctp-l-sky);
+    --t-sapphire  : var(--ctp-l-sapphire);
+    --t-blue      : var(--ctp-l-blue);
+    --t-lavender  : var(--ctp-l-lavender);
+    --t-text      : var(--ctp-l-text);
+    --t-subtext1  : var(--ctp-l-subtext1);
+    --t-subtext0  : var(--ctp-l-subtext0);
+    --t-overlay2  : var(--ctp-l-overlay2);
+    --t-overlay1  : var(--ctp-l-overlay1);
+    --t-overlay0  : var(--ctp-l-overlay0);
+    --t-surface2  : var(--ctp-l-surface2);
+    --t-surface1  : var(--ctp-l-surface1);
+    --t-surface0  : var(--ctp-l-surface0);
+    --t-base      : var(--ctp-l-base);
+    --t-mantle    : var(--ctp-l-mantle);
+    --t-crust     : var(--ctp-l-crust);
+  }
+}

@@ -1,0 +1,144 @@
+.roadmap
+{
+  max-width : 800px;
+  margin    : 0 auto;
+}
+.roadmap__lead
+{
+  max-width   : 600px;
+  margin      : 0 auto;
+  font-size   : 1.1rem;
+  line-height : 1.6;
+  color       : var(--t-subtext0);
+  text-align  : center;
+}
+.roadmap__list
+{
+  position    : relative;
+  margin      : var(--spacing-xl) 0 0;
+  padding     : 0 0 0 var(--spacing-lg);
+  border-left : 2px solid var(--t-surface0);
+  list-style  : none;
+}
+.roadmap__item
+{
+  position       : relative;
+  padding-bottom : var(--spacing-xl);
+}
+.roadmap__item:last-child
+{
+  padding-bottom : 0;
+}
+.roadmap__marker
+{
+  position         : absolute;
+  top              : 0.35rem;
+  left             : calc(-1 * var(--spacing-lg) - 6px);
+  width            : 12px;
+  height           : 12px;
+  border           : 2px solid var(--t-surface2);
+  border-radius    : 50%;
+  background-color : var(--t-base);
+}
+.roadmap__item--completed .roadmap__marker
+{
+  border-color     : var(--t-green);
+  background-color : var(--t-green);
+}
+.roadmap__item--in-progress .roadmap__marker
+{
+  border-color     : var(--t-peach);
+  background-color : var(--t-peach);
+}
+.roadmap__item--planned .roadmap__marker
+{
+  border-color     : var(--t-blue);
+  background-color : var(--t-blue);
+}
+.roadmap__header
+{
+  display         : flex;
+  justify-content : space-between;
+  align-items     : center;
+  margin-bottom   : var(--spacing-xs);
+  gap             : var(--spacing-sm);
+}
+.roadmap__quarter
+{
+  font-family    : "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+  font-size      : 0.85rem;
+  color          : var(--t-overlay1);
+  letter-spacing : 0.04em;
+}
+.roadmap__badge
+{
+  padding        : 0.2rem 0.55rem;
+  border-radius  : 4px;
+  font-size      : 0.7rem;
+  font-weight    : 600;
+  letter-spacing : 0.08em;
+  text-transform : uppercase;
+}
+.roadmap__item--completed .roadmap__badge
+{
+  background-color : color-mix(in srgb, var(--t-green) 15%, transparent);
+  color            : var(--t-green);
+}
+.roadmap__item--in-progress .roadmap__badge
+{
+  background-color : color-mix(in srgb, var(--t-peach) 15%, transparent);
+  color            : var(--t-peach);
+}
+.roadmap__item--planned .roadmap__badge
+{
+  background-color : color-mix(in srgb, var(--t-blue) 15%, transparent);
+  color            : var(--t-blue);
+}
+.roadmap__title
+{
+  margin      : 0 0 var(--spacing-sm);
+  font-size   : 1.3rem;
+  font-weight : 700;
+  color       : var(--t-text);
+}
+.roadmap__desc
+{
+  margin      : 0 0 var(--spacing-md);
+  font-size   : 0.95rem;
+  line-height : 1.6;
+  color       : var(--t-subtext0);
+}
+.roadmap__tasks
+{
+  margin     : 0;
+  padding    : 0;
+  list-style : none;
+}
+.roadmap__task
+{
+  display       : flex;
+  align-items   : center;
+  margin-bottom : var(--spacing-xs);
+  font-size     : 0.9rem;
+  color         : var(--t-text);
+  gap           : var(--spacing-sm);
+}
+.roadmap__task:last-child
+{
+  margin-bottom : 0;
+}
+.roadmap__task--done
+{
+  color : var(--t-subtext0);
+}
+.roadmap__task-icon
+{
+  width      : 1rem;
+  font-size  : 0.75rem;
+  color      : var(--t-overlay1);
+  text-align : center;
+}
+.roadmap__task--done .roadmap__task-icon
+{
+  color : var(--t-green);
+}

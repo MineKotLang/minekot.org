@@ -1,0 +1,450 @@
+.simulator
+{
+  max-width : 1400px;
+  margin    : var(--spacing-xxl) auto;
+  padding   : 0 var(--spacing-md);
+}
+.simulator__heading
+{
+  margin-bottom : var(--spacing-md);
+  font-size     : 2.2rem;
+  text-align    : center;
+}
+.simulator__subtitle
+{
+  margin-bottom : var(--spacing-xl);
+  color         : var(--t-subtext1);
+  text-align    : center;
+}
+.simulator__note
+{
+  margin-top    : calc(-1 * var(--spacing-md));
+  margin-bottom : var(--spacing-lg);
+  font-size     : 0.8rem;
+  text-align    : center;
+  color         : var(--t-overlay0);
+}
+.simulator__container
+{
+  display        : flex;
+  flex-direction : column;
+  border         : 1px solid var(--t-surface0);
+  border-radius  : var(--border-radius-lg);
+  overflow       : hidden;
+  background     : var(--t-crust);
+}
+.simulator__editor,
+.simulator__console
+{
+  display        : flex;
+  flex           : 1;
+  flex-direction : column;
+  min-height     : 0;
+}
+.simulator__editor
+{
+  border-bottom : 1px solid var(--t-surface0);
+}
+.simulator__header
+{
+  display          : flex;
+  flex-direction   : column;
+  flex-shrink      : 0;
+  align-items      : flex-start;
+  gap              : var(--spacing-sm);
+  padding          : var(--spacing-sm) var(--spacing-md);
+  background-color : var(--t-mantle);
+  border-bottom    : 1px solid var(--t-surface0);
+}
+.simulator__header-group
+{
+  display     : flex;
+  flex-wrap   : wrap;
+  align-items : center;
+  gap         : var(--spacing-sm);
+}
+.simulator__header-title
+{
+  font-size   : 0.85rem;
+  font-weight : 600;
+  white-space : nowrap;
+  color       : var(--t-subtext0);
+}
+.simulator__btn
+{
+  padding          : var(--spacing-xs) var(--spacing-sm);
+  border           : none;
+  border-radius    : var(--border-radius);
+  font-size        : 0.8rem;
+  font-weight      : 600;
+  white-space      : nowrap;
+  color            : var(--t-subtext1);
+  background-color : var(--t-surface0);
+  cursor           : pointer;
+}
+.simulator__btn:hover
+{
+  color            : var(--t-text);
+  background-color : var(--t-surface1);
+}
+.simulator__btn--sm
+{
+  padding   : 2px 8px;
+  font-size : 0.7rem;
+}
+.simulator__btn--active
+{
+  color            : var(--t-crust);
+  background-color : var(--t-mauve);
+}
+.simulator__btn--active:hover
+{
+  color            : var(--t-crust);
+  background-color : var(--t-lavender);
+}
+.simulator__btn--copied
+{
+  color            : var(--t-crust);
+  background-color : var(--t-green);
+}
+.simulator__btn--copied:hover
+{
+  color            : var(--t-crust);
+  background-color : var(--t-green);
+}
+.simulator__content
+{
+  height           : 320px;
+  padding          : var(--spacing-md);
+  overflow-y       : auto;
+  font-family      : "JetBrains Mono", monospace;
+  font-size        : 0.9rem;
+  line-height      : 1.5;
+  background-color : var(--t-base);
+  color            : var(--t-text);
+}
+.simulator__content--editor
+{
+  position : relative;
+  padding  : 0;
+  overflow : hidden;
+}
+.simulator__editor-shell
+{
+  position : relative;
+  width    : 100%;
+  height   : 100%;
+}
+.simulator__highlight,
+.simulator__textarea
+{
+  position     : absolute;
+  inset        : 0;
+  width        : 100%;
+  height       : 100%;
+  margin       : 0;
+  padding      : var(--spacing-md);
+  padding-left : 54px;
+  border       : none;
+  font-family  : "JetBrains Mono", monospace;
+  font-size    : 0.9rem;
+  line-height  : 1.5;
+  tab-size     : 2;
+  white-space  : pre;
+  box-sizing   : border-box;
+}
+.simulator__highlight
+{
+  overflow         : hidden;
+  pointer-events   : none;
+  background-color : transparent;
+  color            : var(--t-text);
+}
+.simulator__textarea
+{
+  resize      : none;
+  outline     : none;
+  overflow    : auto;
+  background  : transparent;
+  color       : transparent;
+  caret-color : var(--t-text);
+}
+.simulator__textarea::selection
+{
+  background-color : color-mix(in srgb, var(--t-mauve) 30%, transparent);
+  color            : transparent;
+}
+.simulator__content pre,
+.simulator__content code
+{
+  margin           : 0;
+  padding          : 0;
+  background-color : transparent;
+  border           : none;
+}
+/* ===================================
+   Console layout and input
+   =================================== */
+.simulator__console
+{
+  height : 100%;
+}
+.simulator__console-input
+{
+  display          : flex;
+  flex-shrink      : 0;
+  align-items      : center;
+  gap              : var(--spacing-sm);
+  padding          : var(--spacing-sm) var(--spacing-md);
+  background-color : var(--t-mantle);
+  border-top       : 1px solid var(--t-surface0);
+}
+.simulator__console-input-field
+{
+  flex             : 1;
+  padding          : var(--spacing-xs) var(--spacing-sm);
+  border           : 1px solid var(--t-surface0);
+  border-radius    : 0;
+  font-family      : "JetBrains Mono", monospace;
+  font-size        : 0.85rem;
+  background-color : var(--t-base);
+  color            : var(--t-text);
+}
+.simulator__console-input-field::placeholder
+{
+  color : var(--t-overlay0);
+}
+.simulator__console-input-field:focus
+{
+  outline      : none;
+  border-color : var(--t-mauve);
+}
+/* ===================================
+   Split divider
+   =================================== */
+.simulator__divider
+{
+  display : none;
+}
+/* ===================================
+   Console filter chips
+   =================================== */
+.simulator__filter-chips
+{
+  display   : flex;
+  flex-wrap : wrap;
+  gap       : var(--spacing-xs);
+}
+.simulator__chip
+{
+  display          : inline-flex;
+  align-items      : center;
+  padding          : 2px 8px;
+  border           : 1px solid var(--t-surface0);
+  border-radius    : var(--border-radius);
+  font-size        : 0.7rem;
+  font-weight      : 600;
+  text-align       : center;
+  color            : var(--t-subtext1);
+  background-color : var(--t-surface0);
+  cursor           : pointer;
+}
+.simulator__chip:hover
+{
+  color            : var(--t-text);
+  background-color : var(--t-surface1);
+}
+.simulator__chip--active
+{
+  border-color     : var(--t-mauve);
+  color            : var(--t-crust);
+  background-color : var(--t-mauve);
+}
+/* ===================================
+   Editor line numbers
+   =================================== */
+.simulator__line-numbers
+{
+  position         : absolute;
+  top              : 0;
+  bottom           : 0;
+  left             : 0;
+  z-index          : 1;
+  width            : 46px;
+  padding-top      : var(--spacing-md);
+  padding-right    : var(--spacing-sm);
+  overflow         : hidden;
+  border-right     : 1px solid var(--t-surface0);
+  font-family      : "JetBrains Mono", monospace;
+  font-size        : 0.9rem;
+  line-height      : 1.5;
+  text-align       : right;
+  color            : var(--t-overlay0);
+  background-color : var(--t-mantle);
+  user-select      : none;
+  pointer-events   : none;
+  box-sizing       : border-box;
+}
+.simulator__line-number
+{
+  line-height : 1.5;
+}
+/* ===================================
+   Copy buttons
+   =================================== */
+.simulator__btn--copy
+{
+  padding          : var(--spacing-xs) var(--spacing-sm);
+  border           : 1px solid var(--t-surface0);
+  border-radius    : var(--border-radius);
+  font-size        : 0.75rem;
+  font-weight      : 600;
+  text-align       : center;
+  color            : var(--t-subtext1);
+  background-color : var(--t-surface0);
+  cursor           : pointer;
+}
+.simulator__btn--copy:hover
+{
+  color            : var(--t-text);
+  background-color : var(--t-surface1);
+}
+.log__copy
+{
+  margin-left      : var(--spacing-sm);
+  padding          : 1px 6px;
+  border           : 1px solid var(--t-surface0);
+  border-radius    : var(--border-radius);
+  font-size        : 0.65rem;
+  font-weight      : 600;
+  color            : var(--t-overlay0);
+  background-color : var(--t-base);
+  cursor           : pointer;
+  float            : right;
+}
+.log__copy:hover
+{
+  color            : var(--t-text);
+  background-color : var(--t-surface0);
+}
+/* ===================================
+   Log lines
+   =================================== */
+.log-line
+{
+  margin-bottom    : var(--spacing-xs);
+  padding          : var(--spacing-xs) var(--spacing-sm);
+  border-left      : 2px solid transparent;
+  white-space      : pre-wrap;
+  background-color : var(--t-base);
+  cursor           : default;
+}
+.log-line .log__copy
+{
+  opacity : 0;
+}
+.log-line:hover .log__copy
+{
+  opacity : 1;
+}
+.log-info
+{
+  border-left : 2px solid var(--t-blue);
+  color       : var(--t-blue);
+}
+.log-success
+{
+  border-left : 2px solid var(--t-green);
+  color       : var(--t-green);
+}
+.log-warning
+{
+  border-left : 2px solid var(--t-yellow);
+  color       : var(--t-yellow);
+}
+.log-error
+{
+  border-left : 2px solid var(--t-red);
+  color       : var(--t-red);
+}
+.log-text
+{
+  color : var(--t-text);
+}
+.log-time
+{
+  margin-right : var(--spacing-sm);
+  color        : var(--t-overlay0);
+}
+/* ===================================
+   Responsive
+   =================================== */
+@media (min-width: 768px)
+{
+  .simulator__header
+  {
+    flex-direction  : row;
+    align-items     : center;
+    justify-content : space-between;
+  }
+  .simulator__header-group--end
+  {
+    justify-content : flex-end;
+  }
+}
+@media (min-width: 992px)
+{
+  .simulator__container
+  {
+    flex-direction : row;
+    height         : 560px;
+  }
+  .simulator__editor
+  {
+    flex          : 0 0 var(--simulator-split, 50%);
+    min-width     : 0;
+    border-bottom : none;
+  }
+  .simulator__console
+  {
+    flex      : 1 1 0;
+    min-width : 0;
+  }
+  .simulator__divider
+  {
+    display          : block;
+    flex-shrink      : 0;
+    width            : 8px;
+    background-color : var(--t-mantle);
+    border-left      : 1px solid var(--t-surface0);
+    border-right     : 1px solid var(--t-surface0);
+    cursor           : col-resize;
+    touch-action     : none;
+    user-select      : none;
+  }
+  .simulator__divider:hover
+  {
+    background-color : var(--t-surface0);
+  }
+  .simulator__content
+  {
+    flex       : 1;
+    height     : auto;
+    min-height : 0;
+  }
+}
+@media (max-width: 640px)
+{
+  .simulator
+  {
+    margin : var(--spacing-xl) auto;
+  }
+  .simulator__heading
+  {
+    font-size : 1.7rem;
+  }
+  .simulator__subtitle
+  {
+    margin-bottom : var(--spacing-lg);
+  }
+}

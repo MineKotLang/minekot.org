@@ -1,0 +1,32 @@
+{
+  "lead": "community-lead",
+  "cards": [
+    {
+      "href": "https://github.com/MineKotLang/MineKot",
+      "icon": "fa-brands fa-github community-card__icon",
+      "name-key": "community-card-core-name",
+      "desc-key": "community-card-core-desc"
+    },
+    {
+      "href": "https://github.com/MineKotLang",
+      "icon": "fa-brands fa-github community-card__icon",
+      "name-key": "community-card-org-name",
+      "desc-key": "community-card-org-desc"
+    },
+    {
+      "href": "https://discord.minekot.org",
+      "icon": "fa-brands fa-discord community-card__icon",
+      "name-key": "community-card-discord-name",
+      "desc-key": "community-card-discord-desc"
+    }
+  ],
+  "contributors": {
+    "title-key": "community-contributors-title",
+    "count-label-key": "community-contributors-count",
+    "loading-key": "community-contributors-loading",
+    "error-key": "community-contributors-error",
+    "empty-key": "community-contributors-empty",
+    "view-all-key": "community-contributors-view-all"
+  },
+  "note": "community-note"
+}

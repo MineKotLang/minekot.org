@@ -1,0 +1,6 @@
+{
+  "changelog-url": "https://raw.githubusercontent.com/MineKotLang/MineKot/refs/heads/master/CHANGELOG.md",
+  "contributors-org-repos-url": "https://api.github.com/orgs/MineKotLang/repos?per_page=100",
+  "contributors-org-url": "https://github.com/MineKotLang",
+  "contributors-repo-url": "https://api.github.com/repos/MineKotLang/MineKot/contributors?per_page=100"
+}

@@ -1,0 +1,33 @@
+{
+  "colors": {
+    "aqua": "#55ffff",
+    "black": "#000000",
+    "blue": "#5555ff",
+    "dark_aqua": "#00aaaa",
+    "dark_blue": "#0000aa",
+    "dark_gray": "#555555",
+    "dark_green": "#00aa00",
+    "dark_purple": "#aa00aa",
+    "dark_red": "#aa0000",
+    "gold": "#ffaa00",
+    "gray": "#aaaaaa",
+    "green": "#55ff55",
+    "light_purple": "#ff55ff",
+    "red": "#ff5555",
+    "white": "#ffffff",
+    "yellow": "#ffff55"
+  },
+  "decorations": {
+    "bold": "bold",
+    "b": "bold",
+    "italic": "italic",
+    "em": "italic",
+    "i": "italic",
+    "obfuscated": "obfuscated",
+    "obf": "obfuscated",
+    "strikethrough": "strikethrough",
+    "st": "strikethrough",
+    "underlined": "underlined",
+    "u": "underlined"
+  }
+}

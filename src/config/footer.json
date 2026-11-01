@@ -1,0 +1,121 @@
+{
+  "brand": {
+    "href": "/",
+    "logo-url": "https://github.com/MineKotLang/static/raw/refs/heads/main/Assets/MineKot%20%5BFLAT,%20VECTORIZED%5D.svg",
+    "description-key": "footer-description",
+    "note-key": "footer-brand-note"
+  },
+  "columns": [
+    {
+      "title-key": "footer-column-project",
+      "links": [
+        {
+          "href": "https://github.com/MineKotLang/MineKot",
+          "label-key": "footer-link-core",
+          "external": true
+        },
+        {
+          "href": "https://github.com/MineKotLang/minekot.org",
+          "label-key": "footer-link-website",
+          "external": true
+        },
+        {
+          "href": "https://github.com/MineKotLang/static",
+          "label-key": "footer-link-static",
+          "external": true
+        },
+        {
+          "href": "https://github.com/MineKotLang/minekot-toolchain",
+          "label-key": "footer-link-toolchain",
+          "external": true
+        },
+        {
+          "href": "https://github.com/MineKotLang/minekot-inspections",
+          "label-key": "footer-link-inspections",
+          "external": true
+        },
+        {
+          "href": "https://github.com/MineKotLang/minekot-rules",
+          "label-key": "footer-link-rules",
+          "external": true
+        }
+      ]
+    },
+    {
+      "title-key": "footer-column-community",
+      "links": [
+        {
+          "href": "https://github.com/MineKotLang",
+          "label-key": "footer-link-organization",
+          "external": true
+        },
+        {
+          "href": "https://discord.minekot.org",
+          "label-key": "footer-link-discord",
+          "external": true
+        },
+        {
+          "href": "/community",
+          "label-key": "footer-link-community",
+          "external": false
+        },
+        {
+          "href": "/roadmap",
+          "label-key": "footer-link-roadmap",
+          "external": false
+        }
+      ]
+    },
+    {
+      "title-key": "footer-column-resources",
+      "links": [
+        {
+          "href": "/docs",
+          "label-key": "footer-docs",
+          "external": false
+        },
+        {
+          "href": "/changelog",
+          "label-key": "footer-link-changelog",
+          "external": false
+        },
+        {
+          "href": "https://github.com/MineKotLang/MineKot/issues",
+          "label-key": "footer-link-issues",
+          "external": true
+        },
+        {
+          "href": "https://github.com/MineKotLang/MineKot/releases",
+          "label-key": "footer-link-releases",
+          "external": true
+        },
+        {
+          "href": "https://github.com/MineKotLang/MineKot/blob/master/LICENSE",
+          "label-key": "footer-link-license",
+          "external": true
+        },
+        {
+          "href": "https://github.com/MineKotLang/MineKot/blob/master/NOTICE",
+          "label-key": "footer-link-notice",
+          "external": true
+        }
+      ]
+    }
+  ],
+  "credit": {
+    "prefix-key": "footer-credit-prefix",
+    "joiner-key": "footer-credit-joiner",
+    "authors": [
+      {
+        "name": "harmfulladvocado",
+        "url": "https://github.com/harmfulladvocado"
+      },
+      {
+        "name": "GuavaDealer",
+        "url": "https://github.com/GuavaDealer"
+      }
+    ],
+    "suffix-key": "footer-credit-suffix"
+  },
+  "note-key": "footer-note"
+}

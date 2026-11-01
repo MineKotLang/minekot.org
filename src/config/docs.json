@@ -1,0 +1,18 @@
+{
+  "base-url": "https://static.minekot.org/documentation",
+  "titles": {
+    "docs": "docs-title-guides",
+    "modules": "docs-title-modules",
+    "scripts": "docs-title-scripts"
+  },
+  "badges": {
+    "docs": "GUIDE",
+    "modules": "MODULE",
+    "scripts": "SCRIPT"
+  },
+  "icons": {
+    "docs": "fa-solid fa-file-lines",
+    "modules": "fa-solid fa-cubes",
+    "scripts": "fa-solid fa-code"
+  }
+}

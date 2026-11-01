@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://minekot.org/sitemap.xml
+
+# LLM overview: https://minekot.org/llms.txt

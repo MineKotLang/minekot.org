@@ -1,0 +1,104 @@
+{
+  "extra-keywords": [],
+  "extra-types": [
+    "String",
+    "Int",
+    "Double",
+    "Float",
+    "Long",
+    "Short",
+    "Byte",
+    "Char",
+    "Boolean",
+    "Any",
+    "Unit",
+    "Nothing",
+    "List",
+    "Map",
+    "Set",
+    "ArrayList",
+    "HashMap",
+    "HashSet",
+    "Player",
+    "CommandSender",
+    "ConsoleCommandSender",
+    "World",
+    "Location",
+    "ItemStack",
+    "Material",
+    "Block",
+    "Entity",
+    "MKPlayerJoinEvent",
+    "MKPlayerQuitEvent",
+    "MKBlockBreakEvent",
+    "MKPlayerChatEvent",
+    "MKServerListPingEvent",
+    "PlayerJoinEvent",
+    "PlayerQuitEvent",
+    "BlockBreakEvent",
+    "PlayerChatEvent",
+    "AsyncPlayerChatEvent",
+    "ServerListPingEvent",
+    "Event"
+  ],
+  "rules": [
+    {
+      "className": "type",
+      "begin": "(?<=\\b(class|interface|object)\\s+)[a-zA-Z_]\\w*"
+    },
+    {
+      "className": "title.function",
+      "begin": "\\b[a-zA-Z_]\\w*\\s*(?=\\()"
+    },
+    {
+      "className": "title.function",
+      "begin": "\\b[a-zA-Z_]\\w*\\s*(?=<)"
+    },
+    {
+      "className": "title.function",
+      "begin": "\\b[a-zA-Z_]\\w*\\s*(?=\\{)"
+    },
+    {
+      "begin": "<",
+      "end": ">",
+      "contains": [
+        {
+          "className": "type-parameter",
+          "begin": "\\b[A-Z]\\b"
+        },
+        {
+          "className": "type",
+          "begin": "\\b[A-Z]\\w*\\b"
+        }
+      ]
+    },
+    {
+      "className": "type",
+      "begin": "(?<=:\\s*)[A-Z]\\w*\\b"
+    },
+    {
+      "className": "parameter",
+      "begin": "(?<=\\(|,\\s*)[a-zA-Z_]\\w*\\b(?=\\s*:)"
+    },
+    {
+      "className": "parameter",
+      "begin": "\\b[a-zA-Z_]\\w*\\b(?=\\s*(,\\s*[a-zA-Z_]\\w*\\s*)*->)"
+    },
+    {
+      "className": "attr",
+      "begin": "\\b[a-zA-Z_]\\w*\\s*(?==)"
+    },
+    {
+      "className": "variable",
+      "begin": "(?<=\\.)[a-zA-Z_]\\w*\\b"
+    },
+    {
+      "className": "meta",
+      "begin": "@[a-zA-Z_]\\w*\\b"
+    },
+    {
+      "className": "operator",
+      "begin": "[+\\-*\\/%&|^~<>!=]=?|->|::"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+/*
+ * ==========================================================================
+ * Catppuccin Mocha Syntax Highlighting for Highlight.js
+ * ==========================================================================
+ */
+.hljs
+{
+  display          : block;
+  overflow-x       : auto;
+  padding          : var(--spacing-md);
+  background-color : transparent;
+  color            : var(--t-text);
+}
+/* Copy button for code blocks */
+pre
+{
+  position : relative;
+}
+.code-copy-btn
+{
+  position         : absolute;
+  top              : var(--spacing-sm);
+  right            : var(--spacing-sm);
+  display          : flex;
+  align-items      : center;
+  justify-content  : center;
+  width            : 2rem;
+  height           : 2rem;
+  border           : 1px solid var(--t-surface1);
+  border-radius    : var(--border-radius);
+  background-color : var(--t-surface0);
+  color            : var(--t-subtext0);
+  font-size        : 0.85rem;
+  opacity          : 0;
+  transition       : opacity var(--transition-fast), background-color var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
+  z-index          : 10;
+}
+pre:hover .code-copy-btn,
+.code-copy-btn:focus
+{
+  opacity : 1;
+}
+.code-copy-btn:hover
+{
+  background-color : var(--t-surface1);
+  border-color     : var(--t-mauve);
+  color            : var(--t-text);
+}
+.code-copy-btn.copied
+{
+  color        : var(--t-green);
+  border-color : var(--t-green);
+  opacity      : 1;
+}
+.code-copy-btn.failed
+{
+  color        : var(--t-red);
+  border-color : var(--t-red);
+  opacity      : 1;
+}
+@media (max-width: 768px)
+{
+  .code-copy-btn
+  {
+    opacity : 1;
+  }
+}
+.hljs-keyword,
+.hljs-selector-tag
+{
+  color       : var(--t-mauve);
+  font-weight : 600;
+}
+.hljs-meta,
+.hljs-meta .hljs-keyword
+{
+  color       : var(--t-pink);
+  font-weight : 600;
+}
+.hljs-string,
+.hljs-regexp,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition
+{
+  color : var(--t-green);
+}
+.hljs-comment,
+.hljs-quote
+{
+  color      : var(--t-overlay0);
+  font-style : italic;
+}
+.hljs-number,
+.hljs-link
+{
+  color : var(--t-peach);
+}
+.hljs-title,
+.hljs-section,
+.hljs-name
+{
+  color : var(--t-blue);
+}
+.hljs-type,
+.hljs-built_in,
+.hljs-class
+{
+  color : var(--t-yellow);
+}
+.hljs-attr,
+.hljs-attribute,
+.hljs-variable,
+.hljs-template-variable
+{
+  color : var(--t-lavender);
+}
+.hljs-punctuation
+{
+  color : var(--t-overlay2);
+}
+.hljs-literal
+{
+  color : var(--t-peach);
+}
+.hljs-params
+{
+  color : var(--t-text);
+}
+.hljs-operator
+{
+  color : var(--t-sky);
+}
+.hljs-parameter
+{
+  color : var(--t-maroon);
+}
+.hljs-type-parameter
+{
+  color : var(--t-flamingo);
+}

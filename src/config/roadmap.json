@@ -1,0 +1,89 @@
+{
+  "lead-key": "roadmap-lead",
+  "milestones": [
+    {
+      "id": "m1",
+      "quarter-key": "roadmap-m1-quarter",
+      "title-key": "roadmap-m1-title",
+      "status": "completed",
+      "description-key": "roadmap-m1-desc",
+      "tasks": [
+        {
+          "text-key": "roadmap-m1-task-1",
+          "done": true
+        },
+        {
+          "text-key": "roadmap-m1-task-2",
+          "done": true
+        },
+        {
+          "text-key": "roadmap-m1-task-3",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "quarter-key": "roadmap-m2-quarter",
+      "title-key": "roadmap-m2-title",
+      "status": "in-progress",
+      "description-key": "roadmap-m2-desc",
+      "tasks": [
+        {
+          "text-key": "roadmap-m2-task-1",
+          "done": true
+        },
+        {
+          "text-key": "roadmap-m2-task-2",
+          "done": false
+        },
+        {
+          "text-key": "roadmap-m2-task-3",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "quarter-key": "roadmap-m3-quarter",
+      "title-key": "roadmap-m3-title",
+      "status": "planned",
+      "description-key": "roadmap-m3-desc",
+      "tasks": [
+        {
+          "text-key": "roadmap-m3-task-1",
+          "done": false
+        },
+        {
+          "text-key": "roadmap-m3-task-2",
+          "done": false
+        },
+        {
+          "text-key": "roadmap-m3-task-3",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "quarter-key": "roadmap-m4-quarter",
+      "title-key": "roadmap-m4-title",
+      "status": "planned",
+      "description-key": "roadmap-m4-desc",
+      "tasks": [
+        {
+          "text-key": "roadmap-m4-task-1",
+          "done": false
+        },
+        {
+          "text-key": "roadmap-m4-task-2",
+          "done": false
+        },
+        {
+          "text-key": "roadmap-m4-task-3",
+          "done": false
+        }
+      ]
+    }
+  ]
+}

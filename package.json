@@ -1,0 +1,41 @@
+{
+  "name": "minekot.org",
+  "version": "1.0.0",
+  "description": "Official MineKot website",
+  "private": true,
+  "scripts": {
+    "build": "npx tsx src/build.ts",
+    "dev": "concurrently \"npx tsx src/build.ts --watch\" \"npx browser-sync start --config bs-config.js\"",
+    "test": "vitest run",
+    "serve": "npx http-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MineKotLang/minekot.org.git"
+  },
+  "author": "MineKot Web Development",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MineKotLang/minekot.org/issues"
+  },
+  "homepage": "https://github.com/MineKotLang/minekot.org#readme",
+  "devDependencies": {
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "browser-sync": "^3.0.4",
+    "concurrently": "^10.0.6",
+    "esbuild": "^0.28.2",
+    "happy-dom": "^20.11.2",
+    "http-server": "^14.1.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  },
+  "dependencies": {
+    "marked": "^18.0.9",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}

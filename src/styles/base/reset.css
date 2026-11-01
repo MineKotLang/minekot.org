@@ -1,0 +1,75 @@
+*
+{
+  margin     : 0;
+  padding    : 0;
+  box-sizing : border-box;
+}
+html,
+body
+{
+  width      : 100%;
+  min-height : 100%;
+}
+body
+{
+  background-color : var(--t-base);
+  color            : var(--t-text);
+  overflow-x       : clip;
+}
+a
+{
+  color           : var(--t-mauve);
+  text-decoration : none;
+  transition      : var(--transition-fast);
+}
+a:hover
+{
+  color : var(--t-lavender);
+}
+img
+{
+  max-width : 100%;
+  height    : auto;
+  display   : block;
+}
+button
+{
+  cursor     : pointer;
+  background : none;
+  border     : none;
+  font       : inherit;
+  color      : inherit;
+}
+.app
+{
+  display        : flex;
+  flex-direction : column;
+  min-height     : 100vh;
+}
+#main-content
+{
+  flex : 1 0 auto;
+}
+::-webkit-scrollbar
+{
+  width  : 10px;
+  height : 10px;
+}
+::-webkit-scrollbar-track
+{
+  background : var(--t-base);
+}
+::-webkit-scrollbar-thumb
+{
+  background    : var(--t-surface1);
+  border-radius : 5px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+  background : var(--t-surface2);
+}
+*
+{
+  scrollbar-width : thin;
+  scrollbar-color : var(--t-surface1) var(--t-base);
+}

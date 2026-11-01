@@ -1,0 +1,66 @@
+{
+  "features": [
+    {
+      "num": "01",
+      "icon": "fa-solid fa-cubes",
+      "title-key": "feature-adapters-title",
+      "desc-key": "feature-adapters-desc"
+    },
+    {
+      "num": "02",
+      "icon": "fa-solid fa-terminal",
+      "title-key": "feature-brigadier-title",
+      "desc-key": "feature-brigadier-desc"
+    },
+    {
+      "num": "03",
+      "icon": "fa-solid fa-fire-flame-curved",
+      "title-key": "feature-hotreload-title",
+      "desc-key": "feature-hotreload-desc"
+    },
+    {
+      "num": "04",
+      "icon": "fa-solid fa-shield-halved",
+      "title-key": "feature-isolation-title",
+      "desc-key": "feature-isolation-desc"
+    },
+    {
+      "num": "05",
+      "icon": "fa-solid fa-circle-question",
+      "title-key": "feature-capability-title",
+      "desc-key": "feature-capability-desc"
+    },
+    {
+      "num": "06",
+      "icon": "fa-solid fa-database",
+      "title-key": "feature-storage-title",
+      "desc-key": "feature-storage-desc"
+    }
+  ],
+  "platforms": [
+    {
+      "name": "Paper",
+      "logo": "/images/platform-logos/PaperMC.png",
+      "target": "1.21.8+",
+      "status-key": "platform-paper-status"
+    },
+    {
+      "name": "Fabric",
+      "logo": "/images/platform-logos/Fabric.png",
+      "target": "1.21.8+",
+      "status-key": "platform-fabric-status"
+    },
+    {
+      "name": "NeoForge",
+      "logo": "/images/platform-logos/neoforge.png",
+      "target": "1.21.8+",
+      "status-key": "platform-neoforge-status"
+    },
+    {
+      "name": "Velocity",
+      "logo": "/images/platform-logos/velocity.png",
+      "target": "3.4.0+",
+      "status-key": "platform-velocity-status"
+    }
+  ]
+}

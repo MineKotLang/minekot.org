@@ -1,0 +1,24 @@
+{
+  "lead": "about-lead",
+  "design-rules-heading": "about-design-rules-heading",
+  "design-rules": [
+    "about-design-rule-1",
+    "about-design-rule-2",
+    "about-design-rule-3",
+    "about-design-rule-4",
+    "about-design-rule-5",
+    "about-design-rule-6"
+  ],
+  "license-heading": "about-license-heading",
+  "license-lead": "about-license-lead",
+  "licenses": [
+    {
+      "href": "https://github.com/MineKotLang/MineKot/blob/master/LICENSE",
+      "label": "LICENSE"
+    },
+    {
+      "href": "https://github.com/MineKotLang/MineKot/blob/master/NOTICE",
+      "label": "NOTICE"
+    }
+  ]
+}

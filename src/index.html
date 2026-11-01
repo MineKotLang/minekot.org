@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MineKot - Kotlin Scripting Engine</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Hot-reloadable Kotlin scripting engine for Minecraft Paper, Fabric, NeoForge, and Velocity networks."
+      name="description"
+    />
+    <meta content="/llms.txt" name="ai-content" />
+    <meta content="/llms.txt" name="llms" />
+    <link href="/llms.txt" type="text/plain" rel="llms" />
+    <link
+      href="https://static.minekot.org/Assets/MineKot%20%5BFLAT%2C%20VECTORIZED%5D.svg"
+      type="image/svg+xml"
+      rel="icon"
+    />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" crossorigin rel="preconnect" />
+    <meta content="#89b4fa" name="theme-color" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.0/css/all.min.css" rel="stylesheet" />
+    <link href="/manifest.webmanifest" rel="manifest" />
+    <link href="/styles.css" rel="stylesheet" />
+    <link href="https://static.minekot.org" rel="dns-prefetch" />
+    <link href="https://static.minekot.org" crossorigin rel="preconnect" />
+    <link href="https://api.github.com" rel="dns-prefetch" />
+    <link href="https://raw.githubusercontent.com" rel="dns-prefetch" />
+    <script>
+      const storedTheme = localStorage.getItem("theme");
+      if (storedTheme === "light" || storedTheme === "dark") {
+        document.documentElement.dataset.theme = storedTheme;
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <main class="app-fallback">
+        <h1>MineKot</h1>
+        <p>Hot-reloadable Kotlin scripting engine for Minecraft Paper, Fabric, NeoForge, and Velocity networks.</p>
+        <p><a href="/llms.txt">LLM-friendly overview</a></p>
+        <ul>
+          <li><a href="/docs">Documentation</a></li>
+          <li><a href="/roadmap">Roadmap</a></li>
+          <li><a href="/changelog">Changelog</a></li>
+          <li><a href="/community">Community</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </main>
+    </noscript>
+    <div class="app" id="app"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/bash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/json.min.js"></script>
+    <script src="/index.js" type="module"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {})
+        })
+      }
+    </script>
+  </body>
+</html>

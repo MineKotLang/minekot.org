@@ -1,0 +1,16 @@
+{
+  "name": "MineKot",
+  "short_name": "MineKot",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e1e2e",
+  "theme_color": "#89b4fa",
+  "icons": [
+    {
+      "src": "/images/minekot-flat.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
