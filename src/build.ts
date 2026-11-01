@@ -1,6 +1,6 @@
-import * as fs from 'fs'
-
-import * as esbuild from 'esbuild'
+import * as fs from "fs"
+import * as path from "path"
+import * as esbuild from "esbuild"
 
 interface BuildConfig {
   entryPoint: string
@@ -40,32 +40,31 @@ interface GitHubTreeItem {
 }
 
 const BUILD_CONFIG: BuildConfig = {
-  entryPoint: 'src/index.tsx',
-  outfile: 'dist/index.js',
-  htmlSource: 'src/index.html',
-  htmlDest: 'dist/index.html',
-  fallbackDest: 'dist/404.html',
-  cssSource: 'src/styles/styles.css',
-  cssDest: 'dist/styles.css',
-  llmsSource: 'src/llms.txt',
-  llmsDest: 'dist/llms.txt',
-  robotsSource: 'src/robots.txt',
-  robotsDest: 'dist/robots.txt',
-  sitemapDest: 'dist/sitemap.xml',
-  siteUrl: 'https://minekot.org',
+  entryPoint: "src/index.tsx",
+  outfile: "dist/index.js",
+  htmlSource: "src/index.html",
+  htmlDest: "dist/index.html",
+  fallbackDest: "dist/404.html",
+  cssSource: "src/styles/styles.css",
+  cssDest: "dist/styles.css",
+  llmsSource: "src/llms.txt",
+  llmsDest: "dist/llms.txt",
+  robotsSource: "src/robots.txt",
+  robotsDest: "dist/robots.txt",
+  sitemapDest: "dist/sitemap.xml",
+  siteUrl: "https://minekot.org",
   minify: true,
   sourcemap: false,
 }
 
 const STATIC_ASSETS: StaticAsset[] = [
-  { source: BUILD_CONFIG.llmsSource, dest: BUILD_CONFIG.llmsDest },
-  { source: BUILD_CONFIG.robotsSource, dest: BUILD_CONFIG.robotsDest },
-  { source: 'src/sw.js', dest: 'dist/sw.js' },
-  { source: 'src/manifest.webmanifest', dest: 'dist/manifest.webmanifest' },
+  {source: BUILD_CONFIG.llmsSource, dest: BUILD_CONFIG.llmsDest},
+  {source: BUILD_CONFIG.robotsSource, dest: BUILD_CONFIG.robotsDest},
+  {source: "src/manifest.webmanifest", dest: "dist/manifest.webmanifest"},
 ]
 
 const buildLogPlugin = (name: string): esbuild.Plugin => ({
-  name: 'build-log-plugin',
+  name: "build-log-plugin",
   setup(build: esbuild.PluginBuild): void {
     build.onEnd((result) => {
       if (result.errors.length > 0) {
@@ -77,92 +76,123 @@ const buildLogPlugin = (name: string): esbuild.Plugin => ({
   },
 })
 
+function scanDistAssets(): string[] {
+  const urls: string[] = ["/"]
+
+  function scan(dir: string): void {
+    for (const entry of fs.readdirSync(dir, {withFileTypes: true})) {
+      const fullPath = path.join(dir, entry.name)
+      if (entry.isDirectory()) {
+        scan(fullPath)
+      } else {
+        const urlPath = "/" + path.relative("dist", fullPath).split(path.sep).join("/")
+        if (urlPath === "/sw.js") continue       // never self-cache
+        if (urlPath.endsWith(".map")) continue    // skip source maps
+        urls.push(urlPath)
+      }
+    }
+  }
+
+  scan("dist")
+  return urls
+}
+
+function writeServiceWorker(): void {
+  const template = fs.readFileSync("src/sw.js", "utf-8")
+  const assets = scanDistAssets()
+  const injected = `const STATIC_ASSETS = ${JSON.stringify(assets, null, 2)}`
+  const output = template.replace(/^const STATIC_ASSETS = \[].*$/m, injected)
+  fs.writeFileSync("dist/sw.js", output)
+}
+
 /**
  * Builds the site, watching for changes when --watch is passed.
  */
 async function build(): Promise<void> {
-  const isWatch: boolean = process.argv.includes('--watch')
+  const isWatch: boolean = process.argv.includes("--watch")
   const minify: boolean = isWatch ? false : BUILD_CONFIG.minify
   const sourcemap: boolean = isWatch ? true : BUILD_CONFIG.sourcemap
 
   try {
-    if (!fs.existsSync('dist')) {
-      fs.mkdirSync('dist', { recursive: true })
+    if (!fs.existsSync("dist")) {
+      fs.mkdirSync("dist", {recursive: true})
     }
 
     await copyAssets()
     const docUrlPaths: string[] = await copyDocRouteFallbacks()
     writeSitemap(docUrlPaths)
+    writeServiceWorker()
     verifyOutput()
 
     if (isWatch) {
-      console.log('Starting development watch mode...')
+      console.log("Starting development watch mode...")
 
       await (
-        await esbuild.context({
-          entryPoints: [BUILD_CONFIG.entryPoint],
-          bundle: true,
-          outfile: BUILD_CONFIG.outfile,
-          minify,
-          sourcemap,
-          format: 'esm',
-          platform: 'browser',
-          target: ['es2020'],
-          plugins: [buildLogPlugin('JS Bundle')],
-        })
+          await esbuild.context({
+            entryPoints: [BUILD_CONFIG.entryPoint],
+            bundle: true,
+            outfile: BUILD_CONFIG.outfile,
+            minify,
+            sourcemap,
+            format: "esm",
+            platform: "browser",
+            target: ["es2020"],
+            plugins: [buildLogPlugin("JS Bundle")],
+          })
       ).watch()
-      console.log('✓ JS watching enabled')
+      console.log("✓ JS watching enabled")
 
       await (
-        await esbuild.context({
-          entryPoints: [BUILD_CONFIG.cssSource],
-          bundle: true,
-          outfile: BUILD_CONFIG.cssDest,
-          minify,
-          sourcemap,
-          plugins: [buildLogPlugin('CSS Bundle')],
-        })
+          await esbuild.context({
+            entryPoints: [BUILD_CONFIG.cssSource],
+            bundle: true,
+            outfile: BUILD_CONFIG.cssDest,
+            minify,
+            sourcemap,
+            plugins: [buildLogPlugin("CSS Bundle")],
+          })
       ).watch()
-      console.log('✓ CSS watching enabled')
+      console.log("✓ CSS watching enabled")
 
       fs.watch(BUILD_CONFIG.htmlSource, (eventType: string) => {
-        if (eventType === 'change') {
+        if (eventType === "change") {
           try {
             copyHtml()
-            console.log('✓ HTML rebuilt')
+            console.log("✓ HTML rebuilt")
           } catch (e) {
-            console.error('✗ HTML copy failed:', e)
+            console.error("✗ HTML copy failed:", e)
           }
         }
       })
 
-      if (fs.existsSync('src/images')) {
-        fs.watch('src/images', { recursive: true }, () => {
+      if (fs.existsSync("src/images")) {
+        fs.watch("src/images", {recursive: true}, () => {
           try {
             copyImages()
-            console.log('✓ Images updated')
+            console.log("✓ Images updated")
           } catch (e) {
-            console.error('✗ Images copy failed:', e)
+            console.error("✗ Images copy failed:", e)
           }
         })
       }
 
       watchStaticAssets(STATIC_ASSETS)
+      writeServiceWorker()
 
-      console.log('Watching for changes...')
+      console.log("Watching for changes...")
     } else {
       await esbuild.build({
         entryPoints: [BUILD_CONFIG.entryPoint],
         bundle: true,
-        outdir: 'dist',
-        entryNames: '[name]',
+        outdir: "dist",
+        entryNames: "[name]",
         minify,
         sourcemap,
-        format: 'esm',
-        platform: 'browser',
-        target: ['es2020'],
+        format: "esm",
+        platform: "browser",
+        target: ["es2020"],
         splitting: true,
-        chunkNames: 'chunks/[name]-[hash]',
+        chunkNames: "chunks/[name]-[hash]",
       })
 
       await esbuild.build({
@@ -173,11 +203,11 @@ async function build(): Promise<void> {
         sourcemap,
       })
 
-      console.log('✓ Build complete')
+      console.log("✓ Build complete")
     }
   } catch (error: unknown) {
     const message: string = error instanceof Error ? error.message : String(error)
-    console.error('✗ Build failed:', message)
+    console.error("✗ Build failed:", message)
     process.exit(1)
   }
 }
@@ -187,13 +217,13 @@ async function build(): Promise<void> {
  * @returns Normalized route paths without a trailing slash.
  */
 function readRoutePaths(): string[] {
-  const routesRaw: string = fs.readFileSync('src/config/routes.json', 'utf-8')
+  const routesRaw: string = fs.readFileSync("src/config/routes.json", "utf-8")
   const routes: Record<string, unknown> = JSON.parse(routesRaw) as Record<string, unknown>
   const paths: string[] = []
 
   Object.values(routes).forEach((routePath: unknown) => {
-    if (typeof routePath === 'string' && routePath !== '' && routePath !== '/') {
-      paths.push(routePath.replace(/\/+$/, ''))
+    if (typeof routePath === "string" && routePath !== "" && routePath !== "/") {
+      paths.push(routePath.replace(/\/+$/, ""))
     }
   })
 
@@ -201,38 +231,38 @@ function readRoutePaths(): string[] {
 }
 
 function copyHtml(): void {
-  const htmlContent: string = fs.readFileSync(BUILD_CONFIG.htmlSource, 'utf-8')
+  const htmlContent: string = fs.readFileSync(BUILD_CONFIG.htmlSource, "utf-8")
 
   // Replace absolute paths with relative for the root index
   const rootHtml: string = htmlContent
-    .replace('href="/styles.css"', 'href="./styles.css"')
-    .replace('src="/index.js"', 'src="./index.js"')
+      .replace("href=\"/styles.css\"", "href=\"./styles.css\"")
+      .replace("src=\"/index.js\"", "src=\"./index.js\"")
 
   fs.writeFileSync(BUILD_CONFIG.htmlDest, rootHtml)
 
-  const notFoundHtml: string = fs.readFileSync('src/404.html', 'utf-8')
+  const notFoundHtml: string = fs.readFileSync("src/404.html", "utf-8")
   fs.writeFileSync(BUILD_CONFIG.fallbackDest, notFoundHtml)
 
   readRoutePaths().forEach((routePath: string) => {
     const dirPath: string = `dist${routePath}`
     if (!fs.existsSync(dirPath)) {
-      fs.mkdirSync(dirPath, { recursive: true })
+      fs.mkdirSync(dirPath, {recursive: true})
     }
 
-    const depth: number = routePath.split('/').filter(Boolean).length
-    const relativePrefix: string = '../'.repeat(depth)
+    const depth: number = routePath.split("/").filter(Boolean).length
+    const relativePrefix: string = "../".repeat(depth)
 
     const nestedHtml: string = htmlContent
-      .replace('href="/styles.css"', `href="${relativePrefix}styles.css"`)
-      .replace('src="/index.js"', `src="${relativePrefix}index.js"`)
+        .replace("href=\"/styles.css\"", `href="${relativePrefix}styles.css"`)
+        .replace("src=\"/index.js\"", `src="${relativePrefix}index.js"`)
 
     fs.writeFileSync(`${dirPath}/index.html`, nestedHtml)
   })
 }
 
 function copyImages(): void {
-  if (fs.existsSync('src/images')) {
-    fs.cpSync('src/images', 'dist/images', { recursive: true })
+  if (fs.existsSync("src/images")) {
+    fs.cpSync("src/images", "dist/images", {recursive: true})
   }
 }
 
@@ -264,7 +294,7 @@ function watchStaticAssets(assets: StaticAsset[]): void {
     }
 
     fs.watch(asset.source, (eventType: string) => {
-      if (eventType !== 'change') {
+      if (eventType !== "change") {
         return
       }
 
@@ -283,22 +313,22 @@ function watchStaticAssets(assets: StaticAsset[]): void {
  * @param extraPaths - Additional URL paths discovered from the docs tree.
  */
 function writeSitemap(extraPaths: string[]): void {
-  const allPaths: string[] = ['/', ...readRoutePaths(), ...extraPaths]
+  const allPaths: string[] = ["/", ...readRoutePaths(), ...extraPaths]
   const uniquePaths: string[] = [...new Set(allPaths)]
   const urls: string = uniquePaths
-    .map((routePath: string) => {
-      const normalized: string = routePath.startsWith('/') ? routePath : `/${routePath}`
-      return `  <url><loc>${BUILD_CONFIG.siteUrl}${normalized}</loc></url>`
-    })
-    .join('\n')
+      .map((routePath: string) => {
+        const normalized: string = routePath.startsWith("/") ? routePath : `/${routePath}`
+        return `  <url><loc>${BUILD_CONFIG.siteUrl}${normalized}</loc></url>`
+      })
+      .join("\n")
 
   const sitemap: string = [
-    '<?xml version="1.0" encoding="UTF-8"?>',
-    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+    "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">",
     urls,
-    '</urlset>',
-    '',
-  ].join('\n')
+    "</urlset>",
+    "",
+  ].join("\n")
 
   fs.writeFileSync(BUILD_CONFIG.sitemapDest, sitemap)
 }
@@ -313,8 +343,8 @@ function verifyOutput(): void {
     BUILD_CONFIG.llmsDest,
     BUILD_CONFIG.robotsDest,
     BUILD_CONFIG.sitemapDest,
-    'dist/sw.js',
-    'dist/manifest.webmanifest',
+    "dist/sw.js",
+    "dist/manifest.webmanifest",
   ]
 
   requiredOutputs.forEach((output: string) => {
@@ -325,67 +355,67 @@ function verifyOutput(): void {
 }
 
 async function copyDocRouteFallbacks(): Promise<string[]> {
-  const htmlContent: string = fs.readFileSync(BUILD_CONFIG.htmlSource, 'utf-8')
+  const htmlContent: string = fs.readFileSync(BUILD_CONFIG.htmlSource, "utf-8")
 
-    // every .md page in runtime docs tree; url matches DocsPage navigation
+  // every .md page in runtime docs tree; url matches DocsPage navigation
   let docPaths: string[] = []
   try {
-    const res: Response = await fetch('https://api.github.com/repos/MineKotLang/static/git/trees/main?recursive=1')
+    const res: Response = await fetch("https://api.github.com/repos/MineKotLang/static/git/trees/main?recursive=1")
     if (res.ok) {
       const tree: { tree: GitHubTreeItem[] } = (await res.json()) as { tree: GitHubTreeItem[] }
       docPaths = tree.tree
-        .filter(
-          (item: GitHubTreeItem) =>
-            item.type === 'blob' && item.path.startsWith('documentation/') && item.path.endsWith('.md'),
-        )
-        .map((item: GitHubTreeItem) => item.path.replace(/^documentation\//, '').replace(/\.md$/, ''))
+          .filter(
+              (item: GitHubTreeItem) =>
+                  item.type === "blob" && item.path.startsWith("documentation/") && item.path.endsWith(".md"),
+          )
+          .map((item: GitHubTreeItem) => item.path.replace(/^documentation\//, "").replace(/\.md$/, ""))
     }
   } catch {
     // tree unavailable; sidebar and routes.json fallbacks still apply
   }
 
-    // directory overviews are not files; sidebar indexPaths still need a url
+  // directory overviews are not files; sidebar indexPaths still need a url
   try {
     const res: Response = await fetch(
-      'https://raw.githubusercontent.com/MineKotLang/static/main/documentation/sidebar.json',
+        "https://raw.githubusercontent.com/MineKotLang/static/main/documentation/sidebar.json",
     )
     if (res.ok) {
       const sidebar: DocSidebarCategory[] = (await res.json()) as DocSidebarCategory[]
       sidebar.forEach((cat: DocSidebarCategory) => {
         cat.entries.forEach((entry: DocSidebarEntry) => {
-          docPaths.push(entry.path.replace(/^\/+/, ''))
+          docPaths.push(entry.path.replace(/^\/+/, ""))
           if (entry.indexPath) {
-            docPaths.push(entry.indexPath.replace(/^\/+/, ''))
+            docPaths.push(entry.indexPath.replace(/^\/+/, ""))
           }
         })
       })
     }
   } catch (error: unknown) {
-    console.warn('Sidebar paths unavailable, falling back to local list', error)
+    console.warn("Sidebar paths unavailable, falling back to local list", error)
   }
 
-    // index.md is a directory root
+  // index.md is a directory root
   // modules/ scripts files are served under /docs/<section>
   const docUrlPaths: string[] = [...new Set(docPaths)]
-    .filter((p: string) => p && p !== '')
-    .map((p: string) => (p.endsWith('/index') ? p.slice(0, -'/index'.length) : p))
-    .map((p: string) =>
-      p.startsWith('modules/') || p === 'modules' || p.startsWith('scripts/') || p === 'scripts' ? `docs/${p}` : p,
-    )
-    .map((p: string) => `/${p}`)
-    .filter((p: string) => p !== '/')
+      .filter((p: string) => p && p !== "")
+      .map((p: string) => (p.endsWith("/index") ? p.slice(0, -"/index".length) : p))
+      .map((p: string) =>
+          p.startsWith("modules/") || p === "modules" || p.startsWith("scripts/") || p === "scripts" ? `docs/${p}` : p,
+      )
+      .map((p: string) => `/${p}`)
+      .filter((p: string) => p !== "/")
 
   for (const routePath of docUrlPaths) {
-    const normalized: string = routePath.replace(/\/+$/, '')
+    const normalized: string = routePath.replace(/\/+$/, "")
     const dirPath: string = `dist${normalized}`
     if (!fs.existsSync(dirPath)) {
-      fs.mkdirSync(dirPath, { recursive: true })
+      fs.mkdirSync(dirPath, {recursive: true})
     }
-    const depth: number = normalized.split('/').filter(Boolean).length
-    const relativePrefix: string = '../'.repeat(depth)
+    const depth: number = normalized.split("/").filter(Boolean).length
+    const relativePrefix: string = "../".repeat(depth)
     const nestedHtml: string = htmlContent
-      .replace('href="/styles.css"', `href="${relativePrefix}styles.css"`)
-      .replace('src="/index.js"', `src="${relativePrefix}index.js"`)
+        .replace("href=\"/styles.css\"", `href="${relativePrefix}styles.css"`)
+        .replace("src=\"/index.js\"", `src="${relativePrefix}index.js"`)
     fs.writeFileSync(`${dirPath}/index.html`, nestedHtml)
   }
 
@@ -393,6 +423,6 @@ async function copyDocRouteFallbacks(): Promise<string[]> {
 }
 
 build().catch((err: unknown) => {
-  console.error('Build failed:', err)
+  console.error("Build failed:", err)
   process.exit(1)
 })
