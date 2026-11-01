@@ -58,6 +58,7 @@ const BUILD_CONFIG: BuildConfig = {
 }
 
 const STATIC_ASSETS: StaticAsset[] = [
+  {source: "CNAME", dest: "dist/CNAME"},
   {source: BUILD_CONFIG.llmsSource, dest: BUILD_CONFIG.llmsDest},
   {source: BUILD_CONFIG.robotsSource, dest: BUILD_CONFIG.robotsDest},
   {source: "src/manifest.webmanifest", dest: "dist/manifest.webmanifest"},
