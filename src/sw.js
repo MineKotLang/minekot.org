@@ -1,16 +1,5 @@
 const CACHE_NAME = 'minekot-v1'
-const STATIC_ASSETS = [
-  '/',
-  '/index.html',
-  '/styles.css',
-  '/index.js',
-  '/404.html',
-  '/llms.txt',
-  '/manifest.webmanifest',
-  '/robots.txt',
-  '/sitemap.xml',
-  '/images/minekot-flat.svg',
-]
+const STATIC_ASSETS = []
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
