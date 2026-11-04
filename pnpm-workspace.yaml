@@ -1,2 +1,7 @@
 allowBuilds:
   esbuild: true
+overrides:
+  follow-redirects: 1.16.2
+  minimatch: 11.0.1
+patchedDependencies:
+  resp-modifier@6.0.2: patches/resp-modifier@6.0.2.patch

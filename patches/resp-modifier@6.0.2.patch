@@ -1,0 +1,10 @@
+diff --git a/lib/utils.js b/lib/utils.js
+index ca40c0249b0bb9f262ce8005d8191551f5360a64..19edbf2595768efa10fbcfdcececf64b33c7e529 100644
+--- a/lib/utils.js
++++ b/lib/utils.js
+@@ -1,4 +1,4 @@
+-var minimatch = require("minimatch");
++var minimatch = require("minimatch").minimatch;
+ var utils     = exports;
+ 
+ utils.applyRules = function overwriteBody (rules, body, req, res) {
